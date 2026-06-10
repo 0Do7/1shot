@@ -28,7 +28,7 @@ identifier_name:
   min_length: 2
   allowed_symbols: ["_"]
   # Idiomatic geometry/loop names; everything else needs ≥2 characters.
-  excluded: [x, y, a, b, i, n, v, dx, dy]
+  excluded: [x, y, w, h, a, b, i, n, v, dx, dy]
 
 type_body_length:
   warning: 300

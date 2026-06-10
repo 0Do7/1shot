@@ -30,6 +30,7 @@ targets:
     platform: macOS
     sources:
       - OneShot/Sources
+      - OneShot/Resources
     dependencies:
       - package: OneShotCore
       - package: OneShotRender
@@ -52,6 +53,7 @@ targets:
         CODE_SIGN_STYLE: Automatic
         CODE_SIGN_IDENTITY: "-"
         GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         # Menu-bar app: no Dock icon, no main window (PRD E13).
         INFOPLIST_KEY_LSUIElement: YES
         INFOPLIST_KEY_NSPrincipalClass: NSApplication
