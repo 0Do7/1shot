@@ -5,7 +5,7 @@
 # cannot be granted from a script — that is the whole reason this runner exists).
 set -euo pipefail
 
-REPO_URL="${REPO_URL:-https://github.com/0Do7/screenshot}"
+REPO_URL="${REPO_URL:-https://github.com/0Do7/1shot}"
 RUNNER_DIR="${RUNNER_DIR:-$HOME/actions-runner}"
 
 echo "==> Xcode CLT + Homebrew toolchain"
