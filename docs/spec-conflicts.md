@@ -9,6 +9,12 @@ target". Resolved by adding `DarkroomInstruments` (os_signpost + performance-bud
 harness, task 1.5) as the 9th package — the harness needed a home importable by both
 app and tests, and it must not live in portable DarkroomCore (imports `os`).
 
+## 2026-06-09 · build guide §3 vs SwiftFormat · test naming
+Build guide says name tests `test_chip_neverStealsFocus`; SwiftFormat (law per §2)
+strips the redundant `test` prefix on swift-testing `@Test` functions. Resolution:
+scenario-based names keep the `<surface>_<scenario>` shape without the prefix
+(`chip_neverStealsFocus`). Formatter wins — it's the mechanically-enforced rule.
+
 ## 2026-06-09 · design D9 · "Core Image inpainting" does not exist
 D9 assumed CI ships an inpainting facility. Spike S1 census on macOS 26.3: 247
 CIFilters, zero inpaint/heal/reconstruct candidates. Resolution per S1 findings

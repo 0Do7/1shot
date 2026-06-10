@@ -13,7 +13,8 @@ let package = Package(
         ),
         .testTarget(
             name: "DarkroomCoreTests",
-            dependencies: ["DarkroomCore"]
+            dependencies: ["DarkroomCore"],
+            resources: [.copy("Fixtures")]
         ),
     ]
 )
