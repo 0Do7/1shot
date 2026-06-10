@@ -1,4 +1,4 @@
-# PRD — Project Darkroom (working codename)
+# PRD — 1shot (working codename)
 
 **A Mac-native screenshot tool: fast like Shottr, beautiful like CleanShot, honest pricing — and it remembers everything you've captured.**
 
@@ -11,7 +11,7 @@ Evidence base: `research/00-research-report.md` (cited as §) · Strategy: `docs
 
 Mac users who care about screenshots currently choose between two compromises: CleanShot X (polished, $29 + renewal friction + cloud upsell, 1-Mac license) and Shottr (fast, $12, dated UI, solo-dev fragility, no library). The community's own words define the gap: *"fast and sleek as CleanShot, library like Snagit"* (§9 #48) — and the reviewers' vocabulary has an unclaimed slot: **"fast like Shottr, beautiful like CleanShot, honest pricing"** (§5).
 
-Project Darkroom is a native Swift menu-bar app that wins the **post-capture 3 seconds** (the moment every reviewer narrates, §1.1) with a hybrid overlay→keyboard-first editor, takes the **scrolling-capture reliability crown** (the most-litigated comparison axis, §1.3), and opens the **largest unowned white space** — a local, OCR-searchable screenshot Library (§8.2) — under a pricing model that weaponizes every documented competitor wound (§6).
+1shot is a native Swift menu-bar app that wins the **post-capture 3 seconds** (the moment every reviewer narrates, §1.1) with a hybrid overlay→keyboard-first editor, takes the **scrolling-capture reliability crown** (the most-litigated comparison axis, §1.3), and opens the **largest unowned white space** — a local, OCR-searchable screenshot Library (§8.2) — under a pricing model that weaponizes every documented competitor wound (§6).
 
 **Local-first, no cloud, no accounts, no AI, no telemetry by default, no subscriptions.**
 
@@ -194,6 +194,6 @@ Paddle license keys: activate/deactivate self-serve, 3 seats, offline grace · 1
 ## 12. Open items
 
 1. Final price point (launch-time decision; corridor $19–29).
-2. Product name (naming sprint next — two tracks, domain-checked; codename "Darkroom" until then; bundle ID placeholder `com.sidequests.darkroom`).
+2. ~~Product name~~ RESOLVED 2026-06-09: **1shot** (bundle ID `com.sidequests.oneshot`, modules `OneShot*`, document extension `.1shot`).
 3. SCScreenshotManager re-auth spike result → may adjust permission UX spec.
 4. Setapp Marketplace rev-share inquiry (post-launch decision).

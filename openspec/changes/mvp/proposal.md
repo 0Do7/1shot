@@ -1,4 +1,4 @@
-# Proposal: MVP — Project Darkroom (Mac screenshot tool)
+# Proposal: MVP — 1shot (Mac screenshot tool)
 
 ## Why
 

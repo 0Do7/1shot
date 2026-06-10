@@ -1,6 +1,7 @@
-# XcodeGen manifest — `xcodegen generate` produces Darkroom.xcodeproj (not committed).
-# Bundle ID is the codename placeholder; final rename is task 14.6.
-name: Darkroom
+# XcodeGen manifest — `xcodegen generate` produces OneShot.xcodeproj (not committed).
+# Product name is "1shot"; code identifiers use the OneShot prefix because Swift
+# modules and bundle-ID segments can't lead with a digit (1Password precedent).
+name: OneShot
 options:
   bundleIdPrefix: com.sidequests
   deploymentTarget:
@@ -8,15 +9,15 @@ options:
   createIntermediateGroups: true
 
 packages:
-  DarkroomCore: { path: DarkroomKit/DarkroomCore }
-  DarkroomRender: { path: DarkroomKit/DarkroomRender }
-  DarkroomCapture: { path: DarkroomKit/DarkroomCapture }
-  DarkroomScroll: { path: DarkroomKit/DarkroomScroll }
-  DarkroomOCR: { path: DarkroomKit/DarkroomOCR }
-  DarkroomLibrary: { path: DarkroomKit/DarkroomLibrary }
-  DarkroomDestinations: { path: DarkroomKit/DarkroomDestinations }
-  DarkroomLicensing: { path: DarkroomKit/DarkroomLicensing }
-  DarkroomInstruments: { path: DarkroomKit/DarkroomInstruments }
+  OneShotCore: { path: OneShotKit/OneShotCore }
+  OneShotRender: { path: OneShotKit/OneShotRender }
+  OneShotCapture: { path: OneShotKit/OneShotCapture }
+  OneShotScroll: { path: OneShotKit/OneShotScroll }
+  OneShotOCR: { path: OneShotKit/OneShotOCR }
+  OneShotLibrary: { path: OneShotKit/OneShotLibrary }
+  OneShotDestinations: { path: OneShotKit/OneShotDestinations }
+  OneShotLicensing: { path: OneShotKit/OneShotLicensing }
+  OneShotInstruments: { path: OneShotKit/OneShotInstruments }
 
 settingGroups:
   swift6:
@@ -24,26 +25,27 @@ settingGroups:
     SWIFT_STRICT_CONCURRENCY: complete
 
 targets:
-  Darkroom:
+  OneShot:
     type: application
     platform: macOS
     sources:
-      - Darkroom/Sources
+      - OneShot/Sources
     dependencies:
-      - package: DarkroomCore
-      - package: DarkroomRender
-      - package: DarkroomCapture
-      - package: DarkroomScroll
-      - package: DarkroomOCR
-      - package: DarkroomLibrary
-      - package: DarkroomDestinations
-      - package: DarkroomLicensing
-      - package: DarkroomInstruments
+      - package: OneShotCore
+      - package: OneShotRender
+      - package: OneShotCapture
+      - package: OneShotScroll
+      - package: OneShotOCR
+      - package: OneShotLibrary
+      - package: OneShotDestinations
+      - package: OneShotLicensing
+      - package: OneShotInstruments
     settings:
       groups: [swift6]
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.sidequests.darkroom
-        PRODUCT_NAME: Darkroom
+        PRODUCT_BUNDLE_IDENTIFIER: com.sidequests.oneshot
+        PRODUCT_NAME: 1shot
+        PRODUCT_MODULE_NAME: OneShot
         MARKETING_VERSION: 0.1.0
         CURRENT_PROJECT_VERSION: 1
         ENABLE_HARDENED_RUNTIME: YES
@@ -54,38 +56,38 @@ targets:
         INFOPLIST_KEY_LSUIElement: YES
         INFOPLIST_KEY_NSPrincipalClass: NSApplication
 
-  DarkroomAppTests:
+  OneShotAppTests:
     type: bundle.unit-test
     platform: macOS
     sources:
-      - Darkroom/Tests
+      - OneShot/Tests
     dependencies:
-      - target: Darkroom
+      - target: OneShot
     settings:
       groups: [swift6]
       base:
-        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Darkroom.app/Contents/MacOS/Darkroom"
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/1shot.app/Contents/MacOS/1shot"
         BUNDLE_LOADER: "$(TEST_HOST)"
 
-  DarkroomUITests:
+  OneShotUITests:
     type: bundle.ui-testing
     platform: macOS
     sources:
-      - Darkroom/UITests
+      - OneShot/UITests
     dependencies:
-      - target: Darkroom
+      - target: OneShot
     settings:
       groups: [swift6]
 
 schemes:
-  Darkroom:
+  OneShot:
     build:
       targets:
-        Darkroom: all
+        OneShot: all
     run:
       config: Debug
     test:
       config: Debug
       targets:
-        - DarkroomAppTests
-        # DarkroomUITests runs only on the self-hosted runner (needs permissions).
+        - OneShotAppTests
+        # OneShotUITests runs only on the self-hosted runner (needs permissions).

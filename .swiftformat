@@ -8,4 +8,4 @@
 --self remove
 --importgrouping testable-bottom
 --header strip
---exclude **/.build, Darkroom.xcodeproj
+--exclude **/.build, OneShot.xcodeproj

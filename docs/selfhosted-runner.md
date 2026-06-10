@@ -14,8 +14,8 @@ deterministic (`.github/workflows/ci.yml`).
    XCUITest need a live GUI session, so the runner runs as a LaunchAgent, never
    a LaunchDaemon).
 3. Run `Scripts/setup-selfhosted-runner.sh` as that user, then follow its printed
-   registration steps. Use the runner label `darkroom-capture` — workflows target it
-   with `runs-on: [self-hosted, darkroom-capture]`.
+   registration steps. Use the runner label `oneshot-capture` — workflows target it
+   with `runs-on: [self-hosted, oneshot-capture]`.
 
 ## Permissions (manual, one-time — the point of this machine)
 
@@ -58,4 +58,4 @@ don't accumulate tribal knowledge on the machine.
 
 - [x] Setup script + restore docs
 - [ ] Physical machine provisioned and registered (owner action — needs hardware)
-- [ ] `selfhosted.yml` workflow targeting `darkroom-capture` (lands with task 7.8)
+- [ ] `selfhosted.yml` workflow targeting `oneshot-capture` (lands with task 7.8)

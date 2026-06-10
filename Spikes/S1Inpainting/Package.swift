@@ -1,5 +1,5 @@
 // swift-tools-version: 6.0
-// S1 spike (task 1.2) — NOT part of DarkroomKit; excluded from CI.
+// S1 spike (task 1.2) — NOT part of OneShotKit; excluded from CI.
 import PackageDescription
 
 let package = Package(

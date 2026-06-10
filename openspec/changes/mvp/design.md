@@ -1,4 +1,4 @@
-# Design — MVP (Project Darkroom)
+# Design — MVP (1shot)
 
 ## Context
 
@@ -25,35 +25,35 @@ SwiftUI for settings, onboarding, Library browser, editor inspector panels. AppK
 
 ### D2 — Package architecture: SPM workspace, layered, portability-linted
 ```
-DarkroomKit/ (SPM workspace)
-├─ DarkroomCore        # PORTABLE. Annotation document model, geometry, naming heuristics,
+OneShotKit/ (SPM workspace)
+├─ OneShotCore        # PORTABLE. Annotation document model, geometry, naming heuristics,
 │                      # library domain types, destination protocol, settings model.
 │                      # Imports: Foundation only. CI lint: no AppKit/SwiftUI/UIKit import.
-├─ DarkroomRender      # Rendering/export of annotation documents (Core Image/Core Graphics).
-├─ DarkroomCapture     # ScreenCaptureKit/SCScreenshotManager wrapper; capture-type enum
+├─ OneShotRender      # Rendering/export of annotation documents (Core Image/Core Graphics).
+├─ OneShotCapture     # ScreenCaptureKit/SCScreenshotManager wrapper; capture-type enum
 │                      # (.image now, .video reserved); display/window enumeration; permissions.
-├─ DarkroomScroll      # Scrolling-capture engine: scroll synthesis, frame acquisition,
-│                      # stitcher, seam model for restitch. Depends: DarkroomCapture, DarkroomRender.
-├─ DarkroomOCR         # Vision text/QR recognition; indent/linebreak post-processing.
-├─ DarkroomLibrary     # GRDB + FTS5 store, auto-import watcher, Spotlight donation,
-│                      # retention. Depends: DarkroomCore, DarkroomOCR.
-├─ DarkroomDestinations# Plugin implementations: clipboard, file, app hand-off, S3/custom.
-├─ DarkroomLicensing   # Paddle REST verification, signed local receipt, trial state.
-└─ Darkroom (app)      # AppKit/SwiftUI shells: chip, overlays, editor UI, Library UI,
+├─ OneShotScroll      # Scrolling-capture engine: scroll synthesis, frame acquisition,
+│                      # stitcher, seam model for restitch. Depends: OneShotCapture, OneShotRender.
+├─ OneShotOCR         # Vision text/QR recognition; indent/linebreak post-processing.
+├─ OneShotLibrary     # GRDB + FTS5 store, auto-import watcher, Spotlight donation,
+│                      # retention. Depends: OneShotCore, OneShotOCR.
+├─ OneShotDestinations# Plugin implementations: clipboard, file, app hand-off, S3/custom.
+├─ OneShotLicensing   # Paddle REST verification, signed local receipt, trial state.
+└─ OneShot (app)      # AppKit/SwiftUI shells: chip, overlays, editor UI, Library UI,
                        # onboarding, settings, menu bar, hotkeys, AppIntents, URL scheme.
 ```
 Each package = one agent lane. *Alternative:* monolithic app target — rejected: merge collisions, no portability enforcement.
 
 ### D3 — Annotation document: value-type scene graph, versioned, re-editable forever
-`AnnotationDocument` = Codable struct: base image reference + ordered `[Annotation]` (enum with associated values: arrow, text, counter, blur-region, …) + canvas extensions. Persisted as `.darkroom` bundle (base image + JSON + thumbnail) with explicit `schemaVersion` and forward-migration. Editor mutates the model; `DarkroomRender` rasterizes for export (flatten), redactions rendered destructively only at export. This satisfies re-editability (PRD E3), Library reopen, and gives Windows a documented file format instead of code. *Alternative:* Core Data/SwiftData object graph — rejected: poor portability story, harder undo (we use value snapshots).
+`AnnotationDocument` = Codable struct: base image reference + ordered `[Annotation]` (enum with associated values: arrow, text, counter, blur-region, …) + canvas extensions. Persisted as `.1shot` bundle (base image + JSON + thumbnail) with explicit `schemaVersion` and forward-migration. Editor mutates the model; `OneShotRender` rasterizes for export (flatten), redactions rendered destructively only at export. This satisfies re-editability (PRD E3), Library reopen, and gives Windows a documented file format instead of code. *Alternative:* Core Data/SwiftData object graph — rejected: poor portability story, harder undo (we use value snapshots).
 
 ### D4 — Persistence: GRDB + SQLite FTS5
-Library index = SQLite via GRDB: `captures` table (provenance, timestamps, media type + duration [nullable, video hook], metadata JSON column [nullable, AI hook]) + FTS5 virtual table over OCR text + name + tags. Files stay on disk (user-visible folder + `.darkroom` bundles); DB stores references — never hold images hostage inside an opaque store. *Alternatives:* SwiftData — too young, no FTS; Core Data — FTS via external index adds complexity; raw SQLite — GRDB gives migrations/observation cheaply. Schema documented in `specs/library/spec.md` as the portable contract.
+Library index = SQLite via GRDB: `captures` table (provenance, timestamps, media type + duration [nullable, video hook], metadata JSON column [nullable, AI hook]) + FTS5 virtual table over OCR text + name + tags. Files stay on disk (user-visible folder + `.1shot` bundles); DB stores references — never hold images hostage inside an opaque store. *Alternatives:* SwiftData — too young, no FTS; Core Data — FTS via external index adds complexity; raw SQLite — GRDB gives migrations/observation cheaply. Schema documented in `specs/library/spec.md` as the portable contract.
 
 ### D5 — Capture: SCScreenshotManager only; permission posture designed up front
 macOS 14+ floor removes all deprecated-API (`CGWindowListCreateImage`) liability. **Spike S0 (blocking, 1 day):** verify whether non-picker `SCScreenshotManager` triggers the Sequoia/Tahoe periodic re-auth (research §10.1) on 15.x and 26.x; permission-health UX adjusts on the result. Window capture composites alpha-preserving shadow (research: Shottr beats CleanShot here). Freeze-screen = fullscreen grab presented in an overlay window before region pick.
 
-### D6 — Global hotkeys: Carbon `RegisterEventHotKey` wrapper (no Accessibility permission needed); `CGEventTap` is never required for core capture. Accessibility is requested lazily, only by DarkroomScroll at first scrolling capture (PRD E5/E12).
+### D6 — Global hotkeys: Carbon `RegisterEventHotKey` wrapper (no Accessibility permission needed); `CGEventTap` is never required for core capture. Accessibility is requested lazily, only by OneShotScroll at first scrolling capture (PRD E5/E12).
 
 ### D7 — The chip: non-activating `NSPanel`, focus-respecting keyboard contract
 Chip panel never steals key focus from the user's app. Keyboard contract (Esc/Enter/⌘C) is armed for a configurable window (default 8s) after capture via a local+global event monitor that swallows only the contracted keys while the chip shows a subtle "keys live" affordance; clicking the chip or pressing Enter expands it in place into the editor window (which does take focus). Stacking = vertical accumulation, drag-out = `NSFilePromiseProvider` (file materialized on drop — preserves nothing-on-disk). *Alternative:* always-key floating window (Shottr preview) — rejected: steals focus, breaks "capture without leaving my app."
@@ -71,8 +71,8 @@ Activation: license key → Paddle API → signed receipt cached locally (3-seat
 ### D12 — Privacy & diagnostics: zero network calls except Paddle activation, Sparkle appcast, and opt-in S3 destination. No analytics SDK. Crash reporting = opt-in submission of MetricKit/`.ips` payloads via a "Send diagnostics" action (mailto/manual), not automatic.
 
 ### D13 — Testing strategy
-- DarkroomCore/Render: unit + snapshot tests (pointfree swift-snapshot-testing) — annotation render quality is a product feature ("annotations just look so damn good"), so goldens are reviewed assets.
-- DarkroomScroll: stitcher unit tests on recorded fixture frame sequences (deterministic, runs on CI without permissions) + the live failure suite on the self-hosted runner.
+- OneShotCore/Render: unit + snapshot tests (pointfree swift-snapshot-testing) — annotation render quality is a product feature ("annotations just look so damn good"), so goldens are reviewed assets.
+- OneShotScroll: stitcher unit tests on recorded fixture frame sequences (deterministic, runs on CI without permissions) + the live failure suite on the self-hosted runner.
 - Performance: XCTest `measure` + os_signpost budget assertions for hotkey→chip and search latency.
 - App flows: XCUITest for onboarding, capture→chip→editor→export, Library search.
 
@@ -91,7 +91,7 @@ Greenfield — none. Rollback = Sparkle channel pinning (users can stay on previ
 
 ## Open Questions
 
-1. **S0 spike result** (SCScreenshotManager re-auth behavior) → may reshape permission-health UX copy.
-2. **S1 spike result** (Core Image inpainting quality) → content-aware removal ships vs degrades to blur-fill.
-3. Final product name → bundle ID, appcast URL, cask name (placeholder `com.sidequests.darkroom`; rename task is isolated in M4).
+1. ~~**S0 spike result**~~ RESOLVED (`docs/spikes/s0-screencapture-reauth.md`): re-auth applies to non-picker capture; handled in UX (permission-health treats it as routine), not engineering.
+2. ~~**S1 spike result**~~ RESOLVED (`docs/spikes/s1-inpainting.md`): no CI built-in inpainting exists; MVP ships CI diffusion fill; patch-match deferred post-MVP.
+3. ~~Final product name~~ RESOLVED 2026-06-09: **1shot** (modules `OneShot*`, bundle ID `com.sidequests.oneshot`, extension `.1shot`); rename applied repo-wide, task 14.6 reduced to a release-time remnant sweep.
 4. Paddle Billing vs Paddle Classic API surface for license activations (resolve when account is created, M0).

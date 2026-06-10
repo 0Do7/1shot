@@ -1,7 +1,7 @@
 # SwiftLint — repo law (build guide §2)
 included:
-  - DarkroomKit
-  - Darkroom
+  - OneShotKit
+  - OneShot
 excluded:
   - "**/.build"
 

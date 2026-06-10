@@ -5,9 +5,9 @@ silently resolved. Format: date · where · what · resolution.
 
 ## 2026-06-09 · design D2 vs task 1.3 · package count
 Design D2's tree lists **8** packages + app; task 1.3 says "**9** packages + app
-target". Resolved by adding `DarkroomInstruments` (os_signpost + performance-budget
+target". Resolved by adding `OneShotInstruments` (os_signpost + performance-budget
 harness, task 1.5) as the 9th package — the harness needed a home importable by both
-app and tests, and it must not live in portable DarkroomCore (imports `os`).
+app and tests, and it must not live in portable OneShotCore (imports `os`).
 
 ## 2026-06-09 · build guide §3 vs SwiftFormat · test naming
 Build guide says name tests `test_chip_neverStealsFocus`; SwiftFormat (law per §2)

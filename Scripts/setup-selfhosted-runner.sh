@@ -34,7 +34,7 @@ cat <<'EOF'
 Next (manual, requires a registration token — expires after 1h):
   1. Get a token: repo Settings → Actions → Runners → New self-hosted runner
   2. cd ~/actions-runner && ./config.sh --url REPO_URL --token TOKEN \
-       --labels darkroom-capture --name darkroom-mac-1 --unattended
+       --labels oneshot-capture --name oneshot-mac-1 --unattended
   3. Install as a LaunchAgent (NOT a daemon — TCC permissions are per-GUI-session):
        ./svc.sh install && ./svc.sh start
   4. Verify TCC grants per docs/selfhosted-runner.md §Permissions, then run the

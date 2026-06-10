@@ -34,12 +34,12 @@ Date: 2026-06-09 · Method: /grill-me interview · Status: locked unless revisit
 | Launch path | Private beta (50–200 from r/macapps/X waitlist) → coordinated public paid launch (PH + r/macapps + comparison-SEO page) |
 | Trial expiry rule | 24h capture grace → capture disables; Library browse/search/re-edit/export work forever unlicensed |
 | Platform floor | macOS 14+ (ScreenCaptureKit/SCScreenshotManager only) |
-| Codename | "Project Darkroom" (`com.sidequests.darkroom` placeholder; rename is isolated task 14.6) |
+| Product name | **1shot** (decided 2026-06-09, supersedes codename "Project Darkroom"). Code identifiers use `OneShot` prefix, bundle ID `com.sidequests.oneshot` (digit can't lead a Swift module / bundle-ID segment — 1Password precedent); document extension `.1shot` |
 
 ## Pipeline
 1. ✅ Multi-agent research → `research/00-research-report.md`
 2. ✅ Feature add/cut + user flows → `docs/01-feature-strategy.md` (+ `docs/deferred/`)
 3. ✅ PRD → `docs/02-prd.md`
 4. ✅ OpenSpec build spec → `openspec/changes/mvp/` (proposal, design, 15 specs, tasks) + `docs/03-build-guide.md`
-5. ⬜ Naming sprint (two tracks, domain-checked) + landing page copy from VOC bank
-6. ⬜ Implementation (`/opsx:apply` on change "mvp")
+5. 🟡 Naming: **done — "1shot"** (rename applied repo-wide 2026-06-09); landing page copy from VOC bank still open
+6. 🟡 Implementation (`/opsx:apply` on change "mvp") — in progress since 2026-06-09 (Wave 0 done)
