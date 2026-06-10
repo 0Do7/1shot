@@ -1,0 +1,202 @@
+DATE: 2025-05-15T00:50:46Z | r/ObsidianMD | score:1 | u/mpfritz
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/msdc6d6/
+BODY: Yeah, I suspect it has to do more with my computer than the software. Just disappointed at the lack of support. It’s a great piece of software with many features beyond what the built in screen capture does. I’ll be replacing my MacBook this summer. Perhaps a clean install will solve the lag issue for me.
+=====
+DATE: 2025-05-14T23:45:52Z | r/ObsidianMD | score:1 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/msd0vod/
+BODY: I tested it using a keyboard shortcut for "capture area" and for me it's instant, too fast to even measure. FYI I didn't downvote your post LOL, that was someone else.
+=====
+DATE: 2025-05-14T22:59:10Z | r/ObsidianMD | score:1 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/mscss5g/
+BODY: Well, it’s obviously not happening for most of us or we wouldn’t use the program. It sucks that you experience that. I’ll test it from a keyboard shortcut later and see how long it takes on my machine.
+=====
+DATE: 2025-05-14T22:51:49Z | r/ObsidianMD | score:1 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/mscrh4b/
+BODY: It’s ok that you can’t afford a $30 program, it’s nothing to be ashamed of. There’s no need to engage in mental gymnastics and say stupid things like “don’t over complicate it”.
+=====
+DATE: 2025-05-14T22:08:10Z | r/ObsidianMD | score:2 | u/maraluke
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/mscjpr2/
+BODY: Try shottr
+=====
+DATE: 2025-05-14T20:39:13Z | r/ObsidianMD | score:0 | u/Due-Community-1774
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/msc2d8r/
+BODY: And… if your mac has the Touch Bar you can launch the screenshot from there using just one finger. Then just ctrl-c to copy it. Can not be any easier than that.
+=====
+DATE: 2025-05-14T19:56:16Z | r/ObsidianMD | score:2 | u/macfly888
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/msbtvw4/
+BODY: I use macs screenshot build in and one click on my mouse.... 30$, extra app, pain... Guys, dont overcomplicate it :))
+=====
+DATE: 2025-05-14T17:12:45Z | r/ObsidianMD | score:2 | u/Free-Rub-1583
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/msavsqs/
+BODY: One of the only apps I will happily pay for year after year
+=====
+DATE: 2025-05-14T16:15:14Z | r/ObsidianMD | score:2 | u/Arkus7
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/msajrqq/
+BODY: I use iScreenShot and it has ocr, but the redact feature is just by "pixelating" selected part of image, not based on text
+=====
+DATE: 2025-05-14T16:04:01Z | r/ObsidianMD | score:1 | u/GhostGhazi
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/msahfye/
+BODY: The only issue is that they don’t save as webp
+=====
+DATE: 2025-05-14T15:30:44Z | r/ObsidianMD | score:1 | u/n8mo
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/msaafvv/
+BODY: > shift+cmd+ctrl+4
+
+I remember loving my mac back in the day, but *MAN* I must've blocked out how difficult some of those keybinds were
+=====
+DATE: 2025-05-14T15:18:46Z | r/ObsidianMD | score:3 | u/stiky21
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/msa7xhj/
+BODY: I pair it with Clop.
+=====
+DATE: 2025-05-14T13:12:40Z | r/ObsidianMD | score:2 | u/djzidon
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms9jgxt/
+BODY: +1 for Shottr
+=====
+DATE: 2025-05-14T13:02:57Z | r/ObsidianMD | score:2 | u/djzidon
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms9htfn/
+BODY: You can redact in Preview.
+=====
+DATE: 2025-05-14T12:14:02Z | r/ObsidianMD | score:3 | u/Rubinum
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms99vyi/
+BODY: But the mentioned MacOS screenshot feature has OCR too. You can just press the mentioned keys do a screenshot and copy the text on the screenshot. Why should I install another software for the same purpose?
+=====
+DATE: 2025-05-14T12:11:09Z | r/ObsidianMD | score:3 | u/objective-steve
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms99fvf/
+BODY: I use these features all the time. Just as an example, when someone is screen sharing their browser, I use the OCR screenshot to copy and open the URL without having to ask them to share it.
+=====
+DATE: 2025-05-14T11:15:03Z | r/ObsidianMD | score:0 | u/mpfritz
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms91il0/
+BODY: Cleanshot is great except for the 10 second lag from keystroke invocation to actually getting cross-hairs. I’ve contacted the developer and he basically gaslit me by telling me it wasn’t happening. Other than that, it is a great product…
+=====
+DATE: 2025-05-14T10:29:28Z | r/ObsidianMD | score:3 | u/DevGin
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8vxm3/
+BODY: I just use CMD CTRL Shift 4 to make a screen shot without going to disk. Direct to clipboard. 
+
+Windows I set up Win + Shift + S to save to clipboard instead of disk in the settings. 
+=====
+DATE: 2025-05-14T08:21:55Z | r/ObsidianMD | score:2 | u/mastermog
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8jcn5/
+BODY: I’m sure you know, but Cleanshot has really great OCR support, so might save running two apps
+=====
+DATE: 2025-05-14T08:15:57Z | r/ObsidianMD | score:4 | u/Low_Amplitude_Worlds
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8isk1/
+BODY: Features, features, features. Built-in editor so you can edit screenshots with arrows, numbers, shapes, etc. before you save it, GIF and MP4 support with FFMPEG, with screen capture and area capture, full webpage screenshots, cloud upload functionality for screenshots, and more and more and more.
+
+Basically, snipping tool may be all you need, but it’s like a paring knife vs. a swiss-army knife.
+=====
+DATE: 2025-05-14T07:35:15Z | r/ObsidianMD | score:4 | u/sonct988
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8exbh/
+BODY: I am also using CleanShot. It is worth the money. Orc is very convenient
+=====
+DATE: 2025-05-14T07:30:17Z | r/ObsidianMD | score:8 | u/freefallfreddy
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8eges/
+BODY: I for one, am also a happy Cleanshot user and have been for the last 7-ish years.
+
+And yes you can do most of it with the built-in tools or open source variants but Cleanshot has a lot of niceties and just feels good to use.
+=====
+DATE: 2025-05-14T07:26:14Z | r/ObsidianMD | score:3 | u/Phillije
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8e2i4/
+BODY: Genuinely curious, what are the benefits of ShareX over the built in snipping tool with Win + Shift + S and then pasting straight into Obsidian?
+
+If ShareX is better then I'd love to use it!
+=====
+DATE: 2025-05-14T07:22:59Z | r/ObsidianMD | score:-9 | u/Rubinum
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8dr64/
+BODY: If you are that picky… well. I don’t see the usecase still.
+=====
+DATE: 2025-05-14T07:13:10Z | r/ObsidianMD | score:1 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8csm5/
+BODY: I already gave several examples in the original post, look at the website if you're interested in more.
+=====
+DATE: 2025-05-14T07:07:13Z | r/ObsidianMD | score:5 | u/Felyxorez
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8c7e6/
+BODY: So what can Cleanshot actually do more or better than the apple tool?
+=====
+DATE: 2025-05-14T07:05:40Z | r/ObsidianMD | score:3 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8c1ti/
+BODY: Ahm, I'm always fascinated how someone feels the need to basically lie to make some type of point. By all means, do show me how you do text OCR captures, scrolling window captures, videos captures, quick markups and annotations, using the built in screen capture. But as I already said in a response above, if all someone needs is just capturing an area of the screen, than the built-in OS function does that fine.
+=====
+DATE: 2025-05-14T06:56:18Z | r/ObsidianMD | score:11 | u/Rubinum
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8b43z/
+BODY: Ahm… command + shift + 4 isnt enough on mac? Try it out. Its fast, you can just copy without saving. There is absolutely no need for this tool.
+=====
+DATE: 2025-05-14T06:47:31Z | r/ObsidianMD | score:7 | u/Ornery_Seagull
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms8a7x0/
+BODY: Agreed, shift+cmd+ctrl+4 saves the screenshot straight to clipboard. 
+
+One thing you don’t get is scrolling screenshots which are nice but I really never need that. 
+=====
+DATE: 2025-05-14T05:48:09Z | r/ObsidianMD | score:1 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms840gy/
+BODY: Ah sorry about that, I can see where that would be confusing for anyone that hasn't actually used CleanShot LOL. The way that CleanShot works is that after you select the screenshot area, it pops up a thumbnail in the corner of the screen. When you hover over it, you have several options, one of which is click "copy".
+=====
+DATE: 2025-05-14T05:44:22Z | r/ObsidianMD | score:1 | u/AccurateSun
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms83liv/
+BODY: Ah right it wasn’t clear to me what you meant. I thought you said ‘Select “copy and paste into obsidian”’ as if that was some integration you’d set up 
+=====
+DATE: 2025-05-14T05:42:58Z | r/ObsidianMD | score:2 | u/GroggInTheCosmos
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms83fxy/
+BODY: They transitioned their maintenance plans to full subscriptions, so presently I pay $13/year to  receive all the updates
+
+You can define your folders, have clop automatically compress incoming ones, and then just copy past from that folder. Works fairly well
+=====
+DATE: 2025-05-14T05:36:21Z | r/ObsidianMD | score:1 | u/13D00
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms82pns/
+BODY: Paint
+=====
+DATE: 2025-05-14T05:34:20Z | r/ObsidianMD | score:1 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms82hky/
+BODY: I didn't say automatically, it's a 2-click process which I explained in my original post, as in my case i am inserting them into specific notes. 
+
+However you could set the CleanShot save location (in settings) to be an Obsidian folder if you just wanted it to dump every screenshot you save into Obsidian, and then you could organize them in Obsidian at your leisure.
+=====
+DATE: 2025-05-14T05:30:58Z | r/ObsidianMD | score:4 | u/HiIamInfi
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms82420/
+BODY: It’s so good. And I barely use 5% of the features
+=====
+DATE: 2025-05-14T05:27:54Z | r/ObsidianMD | score:2 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms81roj/
+BODY: Not quite free but for $8 text sniper works really well for OCR. It lives in the menu bar and I use it constantly. It's for text capture only though.  
+[https://textsniper.app/](https://textsniper.app/)
+=====
+DATE: 2025-05-14T05:24:54Z | r/ObsidianMD | score:-1 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms81fiq/
+BODY: If you mean the built-in screenshot capability of the Mac, that's very limited, just as one would expect a free OS program to be. But if it does what you need, by all means use it....
+=====
+DATE: 2025-05-14T05:24:39Z | r/ObsidianMD | score:1 | u/AccurateSun
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms81eif/
+BODY: I am a Cleanshot user but didn’t think to make it save automatically into obsidian, how are you doing that? Are you setting the export folder to be your vault? Or is there some other integration? Thanks 
+=====
+DATE: 2025-05-14T05:13:26Z | r/ObsidianMD | score:3 | u/berot3
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms803sf/
+BODY: Anyone knows a free screenshot tool that also can OCR and  redact text? (Remove text by painting it black) when it has OCR it’s easier to select the text to redact it.
+=====
+DATE: 2025-05-14T05:11:19Z | r/ObsidianMD | score:3 | u/ucrbuffalo
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms7zuqr/
+BODY: I use Fireshot for my browser, but Shottr for everything else. I LOVE Shottr.
+=====
+DATE: 2025-05-14T05:05:45Z | r/ObsidianMD | score:13 | u/zxc223
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms7z6y7/
+BODY: On Windows, ShareX is the go-to.
+=====
+DATE: 2025-05-14T04:58:12Z | r/ObsidianMD | score:4 | u/Felyxorez
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms7y9zp/
+BODY: What’s exactly the advantage compared to the original Mac app? It’s just a combination of keys and paste too
+=====
+DATE: 2025-05-14T04:51:35Z | r/ObsidianMD | score:1 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms7xgrt/
+BODY: I also use SnagIt, they serve two very different purposes for me. I personally find CleanShot must faster for capturing info into Obsidian, and I can also instantly clear the entire capture history. SnagIt is much more powerful if you want to permanently store info in the program itself, allows tagging, and has more powerful editing capabilities.
+
+Unless something changed very recently, SnagIt does not require a subscription, a perpetual license is available.
+=====
+DATE: 2025-05-14T04:31:27Z | r/ObsidianMD | score:2 | u/GroggInTheCosmos
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms7uwke/
+BODY: Cleanshot is good but Snagit is probably the best (although a subscription, which is a pity)
+=====
+DATE: 2025-05-14T04:19:04Z | r/ObsidianMD | score:20 | u/Squidhijak75
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/ms7t8ww/
+BODY: I personally use Flameshot, it lets you save to clipboard or to disk, among other things
+
+It's free too
+https://flameshot.org/
+=====

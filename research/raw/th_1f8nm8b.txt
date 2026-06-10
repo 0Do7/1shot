@@ -1,0 +1,36 @@
+DATE: 2024-09-05T07:17:26Z | r/macapps | score:1 | u/bojanradovic5
+URL: https://reddit.com/r/macapps/comments/1f8nm8b/does_shottr_have_a_way_to_add_backgrounds_to/lllevpi/
+BODY: Why’s that in your opinion?
+=====
+DATE: 2024-09-05T07:08:44Z | r/macapps | score:1 | u/Brief-Mongoose-6256
+URL: https://reddit.com/r/macapps/comments/1f8nm8b/does_shottr_have_a_way_to_add_backgrounds_to/llle46l/
+BODY: stay with Cleanshot. I paid for Shottr, but I’m not using it anymore
+=====
+DATE: 2024-09-04T08:18:27Z | r/macapps | score:1 | u/QenTox
+URL: https://reddit.com/r/macapps/comments/1f8nm8b/does_shottr_have_a_way_to_add_backgrounds_to/llfpwj4/
+BODY: [https://xnapper.com](https://xnapper.com) - you can try this one. You should be able to use it without buying, if you don't mind the watermark that will be included there.
+=====
+DATE: 2024-09-04T08:07:55Z | r/macapps | score:1 | u/QenTox
+URL: https://reddit.com/r/macapps/comments/1f8nm8b/does_shottr_have_a_way_to_add_backgrounds_to/llfp0id/
+BODY: Not in Shottr, at least I am not aware of this feature being available in Shottr.
+=====
+DATE: 2024-09-04T08:03:08Z | r/macapps | score:1 | u/bojanradovic5
+URL: https://reddit.com/r/macapps/comments/1f8nm8b/does_shottr_have_a_way_to_add_backgrounds_to/llfolrq/
+BODY: So is there any way to add backgrounds like with Cleanshot X?
+
+I might just be missing it.
+=====
+DATE: 2024-09-04T08:03:08Z | r/macapps | score:1 | u/bojanradovic5
+URL: https://reddit.com/r/macapps/comments/1f8nm8b/does_shottr_have_a_way_to_add_backgrounds_to/llfolrq/
+BODY: So is there any way to add backgrounds like with Cleanshot X?
+
+I might just be missing how to do it.
+=====
+DATE: 2024-09-04T08:02:14Z | r/macapps | score:1 | u/QenTox
+URL: https://reddit.com/r/macapps/comments/1f8nm8b/does_shottr_have_a_way_to_add_backgrounds_to/llfoj6o/
+BODY: To be honest, I don't think so you get any extra features if you decide to buy a license.
+
+[https://shottr.cc/kb/experimental](https://shottr.cc/kb/experimental)
+
+It says you get these experimental features, but I am unsure oif they are any right now.
+=====

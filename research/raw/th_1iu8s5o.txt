@@ -1,0 +1,489 @@
+DATE: 2025-02-26T17:54:39Z | r/macapps | score:1 | u/unamused443
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mex8790/
+BODY: I use Snipaste on both Windows and macOS (free tier is all I need): [https://www.snipaste.com/download.html](https://www.snipaste.com/download.html)
+=====
+DATE: 2025-02-24T23:38:15Z | r/macapps | score:1 | u/guihmds
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/melyzya/
+BODY: The apps that I use allow me to do that when I need it (Telegram, Whatsapp, Twitter, Bluesky, Power Point and my e-mail client). And I don't usually edit prints.
+=====
+DATE: 2025-02-23T22:05:58Z | r/macapps | score:1 | u/AdInfinite1760
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/meezhy4/
+BODY: +1
+=====
+DATE: 2025-02-23T18:27:32Z | r/macapps | score:1 | u/m221
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/medqx7k/
+BODY: Cleanshot X. The best.
+=====
+DATE: 2025-02-23T12:21:09Z | r/macapps | score:1 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mebws0w/
+BODY: Has anyone tried screen flow?
+
+Was listening to an macapp podcast and one of the speaker mentioned it. And it sound good.
+=====
+DATE: 2025-02-23T01:27:26Z | r/macapps | score:1 | u/CodingIran
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me9nfo0/
+BODY: CleanShot X
+=====
+DATE: 2025-02-22T18:14:02Z | r/macapps | score:1 | u/dutchhboii
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me7cb6d/
+BODY: Maccy + Default screenshot shortcut + change the preview time to 15seconds in terminal. All good for me.
+=====
+DATE: 2025-02-22T16:13:32Z | r/macapps | score:1 | u/footballisrugby
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me6mv4s/
+BODY: Flameshot , and it's free and open source.
+=====
+DATE: 2025-02-22T10:58:20Z | r/macapps | score:1 | u/emzy21234
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me59654/
+BODY: Correct. Hence my move to cleanshot x. But if editing is not required it is possible to paste the image in to any app.
+=====
+DATE: 2025-02-22T10:56:07Z | r/macapps | score:1 | u/jusatinn
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me58xki/
+BODY: But you cannot edit the picture and paste it straight away with the edits.
+=====
+DATE: 2025-02-22T10:55:24Z | r/macapps | score:1 | u/jusatinn
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me58uy8/
+BODY: And pasting directly without any extra key presses after editing it in preview? (Which already requires more presses than something like shottr.)
+=====
+DATE: 2025-02-22T02:25:38Z | r/macapps | score:1 | u/Karthicz
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me3hjg2/
+BODY: I actually use a shortcut that lives on my menu bar. I use that to copy straight to clipboard and paste it wherever I want.
+=====
+DATE: 2025-02-21T23:38:10Z | r/macapps | score:1 | u/chazwhiz
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me2wnmu/
+BODY: Same, but only because my employer pays for it.  I don’t think I would keep using it otherwise (especially now that they are full subscription).
+=====
+DATE: 2025-02-21T23:31:03Z | r/macapps | score:1 | u/chazwhiz
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me2vdbh/
+BODY: Sadly most people don’t know cmd-shift-5, only the “older” 3 and 4 options, and so don’t realize just how many options are available.
+=====
+DATE: 2025-02-21T23:28:22Z | r/macapps | score:1 | u/chazwhiz
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me2uvu6/
+BODY: You can, you just don’t know how.  
+
+The “old” keyboard shortcuts of cmd-shift-3 and 4 can both be modified into “direct to clipboard so you can just paste it” by adding ctrl.  
+
+The “new” command of cmd-shift-5 gives you all the options in simple menus. So choose clipboard for copy paste, or preview to annotate and do basic edits.
+=====
+DATE: 2025-02-21T23:24:43Z | r/macapps | score:1 | u/emzy21234
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me2u82c/
+BODY: You can paste straight away using the control key when taking the screenshot, this will go to clipboard instead of saving. However, this thread made me use clean shot x and I have no regrets.
+=====
+DATE: 2025-02-21T23:15:54Z | r/macapps | score:1 | u/rd_sjc
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me2sllc/
+BODY: Cleanshot via SetApp
+=====
+DATE: 2025-02-21T22:33:12Z | r/macapps | score:1 | u/jusatinn
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me2kcei/
+BODY: How do you live with the fact that you can’t just paste the image into any app, or edit it in any way?
+=====
+DATE: 2025-02-21T22:00:46Z | r/macapps | score:1 | u/luckman212
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me2dsow/
+BODY: if you like that you'll love Cmd+Ctrl+Q
+=====
+DATE: 2025-02-21T21:41:49Z | r/macapps | score:1 | u/jaysaccounts
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me29tkz/
+BODY: shottr + clop
+=====
+DATE: 2025-02-21T18:48:04Z | r/macapps | score:1 | u/MrDominus7
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me19kyd/
+BODY: I use shottr - bought it when the dev added the option because I wanted to support them. I used Cleanshot X before that and bought it when it first came out, but the eventual change to only having yearly updates rubbed me the wrong way since I had bought it before that was added. 
+
+I do think Cleanshot X is slightly better and has some additional features or does some features a little better (it’s better at scrolling screenshots than Shottr in my opinion). But shottr is more than sufficient for my needs and I’m happy with it.
+
+I think it depends what you want out of a screenshot app - if you use a lot of features and use them frequently then Cleanshot X could be worth it. But otherwise Shottr all the way.
+=====
+DATE: 2025-02-21T17:18:07Z | r/macapps | score:1 | u/Parvinhisprime
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me0q0rb/
+BODY: Used better touch tool and mapped native screenshot to cmd+shift+S (same was in windows so muscle memory) and mapped TRex (free) also for OCR Text.
+=====
+DATE: 2025-02-21T17:16:25Z | r/macapps | score:1 | u/nmbb101
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me0pnhk/
+BODY: Shottr
+=====
+DATE: 2025-02-21T16:17:49Z | r/macapps | score:1 | u/_Sascha_
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me0d0rr/
+BODY: Whether it's a screenshot, video, or GIF – being able to quickly snip something, highlight it, and then instantly have the link ready in the clipboard to share in a chat, in a game, or anywhere else is super handy. Especially when you want to explain something programming-related, point something out, or illustrate an issue.  
+
+I use CleanShot X on macOS, and I use it a lot. The feature that lets you instantly upload stuff and have the link ready to go is just incredibly convenient.  
+
+Of course, CleanShot X isn’t the only way to do this. If you have some technical knowledge and are willing to invest a bit of time, you can build something similar easily yourself. For example, with **Hazel** on macOS:  
+- Files that land in a specific folder could be automatically uploaded to a server via SFTP.  
+- A Python or PHP script could then handle the processing and provide the URL, which could then be sent back to the clipboard.  
+
+Still, having everything in one app is pretty convenient. But I’m always keeping an eye out – if another app comes along that’s even better and more user-friendly, I’d probably switch.
+=====
+DATE: 2025-02-21T16:03:57Z | r/macapps | score:1 | u/reluctant_return
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/me0a4a1/
+BODY: The built-in application and hotkeys work well enough for me. I rebound the selection screenshot to clipboard to Control-Command-S and that's it. I paste it where I want it. I'm not sure what other functionality I could possibly want from a screenshot app.
+=====
+DATE: 2025-02-21T14:42:12Z | r/macapps | score:1 | u/Cameront9
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdztg2y/
+BODY: I use cmd-shift-4
+=====
+DATE: 2025-02-21T14:11:15Z | r/macapps | score:1 | u/getElephantById
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdznp6x/
+BODY: My main use case for screenshots is taking a small picture of the screen and pasting it in another application, like Slack or Figma. So, I just remap cmd-shift-4 to take a screenshot of a chunk of the screen and copy it to the clipboard.
+=====
+DATE: 2025-02-21T13:41:04Z | r/macapps | score:1 | u/PaulMuadDib-Usul
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdzieky/
+BODY: Why not just use the default screenshot function. I use screenshots rather rarely, so the default app is fine for me. Anyway, I try not to bloat my system with apps that mimic behaviour which is alrwady there (althouh I acknowledge that third party apps do things often better than the default Mac functions).
+=====
+DATE: 2025-02-21T13:39:10Z | r/macapps | score:1 | u/ExpressionOne
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdzi35v/
+BODY: I had to use Skitch at a job and became really familiar with it, so I’ve stuck with it and never looked for others because before I’d been using the built in function. Now I’ve gotta try the recs in this thread, my interest is peaked
+=====
+DATE: 2025-02-21T13:17:43Z | r/macapps | score:1 | u/Rizzywow91
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdzekrq/
+BODY: screen recording to gif to worth the price alone
+=====
+DATE: 2025-02-21T13:05:03Z | r/macapps | score:1 | u/Jay11Man
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdzcka7/
+BODY: Ah i see what you mean. Yes I agree that would be annoying. It doesn’t bother me at all because I always chose only a portion of the screen to capture (CMD+Shift+4) if you know what I mean. Didn‘t even realize this problem exists
+=====
+DATE: 2025-02-21T12:49:37Z | r/macapps | score:1 | u/edgerob
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdza70e/
+BODY: Just installed it. Has some very nice stuff indeed. However, what I really like with the native, is that the area (size of screenshot) is stored from the previous. I see that Shottr does a "repeat" shot, but the area it's about to capture isn't visible. So, if I'm scrolling a doc, and I want to capture a portion of the screen with the same size every time it's not so easy. If it somehow highlighted the region, so I could line it up first, it would be great. do you get me?
+=====
+DATE: 2025-02-21T12:44:25Z | r/macapps | score:1 | u/Nick6540
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdz9fbp/
+BODY: I’m more of a cmd+shift+3 guy
+=====
+DATE: 2025-02-21T12:35:46Z | r/macapps | score:1 | u/drusca2
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdz86wn/
+BODY: I am surprised no one mentioned Flameshot, it's actually cross platform.
+=====
+DATE: 2025-02-21T12:09:22Z | r/macapps | score:1 | u/Kitchenwarestore777
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdz4kan/
+BODY: I purchased Cleanshot X during the last sale, but I decided to use Shottr, which I subsequently bought, as my main screenshot app.
+
+Cleanshot X has a few things that annoyed me:
+
+Only one year of support per purchase.
+
+Only one Mac can be used per purchase.
+
+The scrolling screenshot feature doesn’t save captured images if the scrolling is too long.
+
+It can’t capture pop-ups from some apps (like Vallum).
+
+These issues aren’t present in Shottr.  However, I use TextSniper because Shottr's OCR function can’t automatically recognize multiple languages. 
+
+I am highly satisfied with the combination of these apps.
+
+That said, Cleanshot X's video capture feature is great!
+=====
+DATE: 2025-02-21T11:34:12Z | r/macapps | score:1 | u/Kitchenwarestore777
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdz074g/
+BODY: I bought Cleanshot X during the last sale, but I ended up getting Shottr and using that as my main screenshot app instead.
+
+There were a few things about Cleanshot X that really annoyed me:
+
+You only get one year of support with a single purchase.
+
+You can only install it on one Mac at a time.
+
+The maximum height for scrolling screenshots isn’t adjustable. If the scrolling is too long, you can’t save the captured image.
+
+It can’t capture pop-ups from certain apps, like Vallum.
+
+Shottr doesn’t have these issues. However, I still use TextSniper because Shottr’s OCR function doesn’t automatically recognize multiple languages.
+=====
+DATE: 2025-02-21T11:15:16Z | r/macapps | score:1 | u/Jay11Man
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyy0wf/
+BODY: I‘m interested to know why someone would need cloud functionality for screenshots. What is your use case here?
+=====
+DATE: 2025-02-21T11:13:30Z | r/macapps | score:1 | u/Jay11Man
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyxtt9/
+BODY: I would say it depends on your use case and frequency. Only if you do it frequently like I do (like 20 screenshots per day), then I would say it makes sense. Then again Shottr pro is $12, in that case for me it‘s worth it
+=====
+DATE: 2025-02-21T10:58:52Z | r/macapps | score:1 | u/fifafu
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyw8d6/
+BODY: Same here. I'm usually using the standard macOS "Copy picture of selected area to clipboard" hotkey combined with BetterTouchTool's clipboard manager. That way I can edit/annotate it when needed via the clipboard manager.
+=====
+DATE: 2025-02-21T10:42:21Z | r/macapps | score:1 | u/_Sascha_
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyuh26/
+BODY: CleanShot X impresses not only with its brilliant interface and usability but also with its convenient cloud functionality.
+
+However, it seems that the development of the app has stalled, as there haven’t been any significant new features or improvements lately. This becomes particularly noticeable when similar apps shine with new functions that I actually expected from CleanShot X.
+
+All of these features have already been suggested, but is the developer even still motivated? Well, at least it seems there is currently no motivation or enthusiasm for the project.
+
+I still miss features like the ability to adjust GIFs afterward in terms of resolution, cropping, frame rate, and color count. A few more annotation tools, like a magnifying glass or something similar, would also be cool.
+
+However, a dream feature for the video editor would be the ability to automatically track and mask objects or faces in videos – without having to resort to more complex programs like DaVinci Pro, Adobe After Effects, or Premiere.
+
+Oh well, even if not much is happening at the moment, CleanShot X remains the best choice on Mac and is, thanks to the cloud, a great deal even with the recurring fee.
+=====
+DATE: 2025-02-21T10:38:30Z | r/macapps | score:1 | u/edgerob
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyu2oq/
+BODY: Yeah, native app is terrible in that sense. I often need to switch to Photoshop for more advanced stuff like you described. Are you telling me I can skip the PS step by using your recommended Screen-shot tool? - perhaps this could be a nice use case for me.
+=====
+DATE: 2025-02-21T10:33:38Z | r/macapps | score:1 | u/Pro_Cream
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdytkj7/
+BODY: iShot Pro. It does long screen shot.
+=====
+DATE: 2025-02-21T10:16:19Z | r/macapps | score:1 | u/Sliiated
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyrt60/
+BODY: underrated, the standard shortcuts are a little wonky but you either get used to them or change them.
+there’s also a window screenshot mode, which is pretty fancy it keeps the corners round and gives the window a backdrop it’s pretty dang cool.
+
+I also want to add that the quicktime player screen recording is pretty good, allowing you to choose input from your iphones mic or camera.
+=====
+DATE: 2025-02-21T10:14:33Z | r/macapps | score:1 | u/Jay11Man
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyrmnj/
+BODY: Yeah my job requires me to do lots of beautiful screenshots (with arrows, blurs etc) and I find the native screenshot app is not really capable of doing those things
+=====
+DATE: 2025-02-21T09:55:03Z | r/macapps | score:1 | u/bytesfortea
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdypnsn/
+BODY: Snagit
+=====
+DATE: 2025-02-21T09:46:02Z | r/macapps | score:1 | u/mczekanski
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyoqyf/
+BODY: Shottr ❤️
+=====
+DATE: 2025-02-21T09:28:16Z | r/macapps | score:1 | u/edgerob
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdymz5x/
+BODY: Understood. So I use ChatGPT more and more for the OCR but, but I guess that's only available on the payed tier....which is worth it imo. And annotation I again use the native preview tools.
+=====
+DATE: 2025-02-21T09:24:05Z | r/macapps | score:1 | u/Jay11Man
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdymk1o/
+BODY: For me personally I need to annotate and edit my screenshots as well which is cumbersome in the native app. Also the added function of OCR in Shottr is super handy for me as well
+=====
+DATE: 2025-02-21T08:47:11Z | r/macapps | score:1 | u/comueller
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyivru/
+BODY: \+1. tried many, Cleanshot X is the best.  
+It is part of SetApp - which makes is quite reasonable if you use a few of their other apps.
+=====
+DATE: 2025-02-21T08:43:34Z | r/macapps | score:1 | u/S3App
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyiiqx/
+BODY: Lightshot. Super simple app.
+=====
+DATE: 2025-02-21T08:29:31Z | r/macapps | score:1 | u/guihmds
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyh43h/
+BODY: To be REALLY honest the screenshot tool that I use more its the one inside my Firefox/Edge browsers, but that's just because I use both when working and its more easy to access.
+=====
+DATE: 2025-02-21T08:19:19Z | r/macapps | score:1 | u/Any_Sentence_177
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyg2z2/
+BODY: Cleanshot X the best!
+=====
+DATE: 2025-02-21T08:15:53Z | r/macapps | score:1 | u/MoneyMode6521
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyfq9n/
+BODY: Was wondering the same too.  I use it with no issues (native apps)
+=====
+DATE: 2025-02-21T08:04:32Z | r/macapps | score:1 | u/laurensent
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyejzd/
+BODY: Snipaste + Shottr ✅
+=====
+DATE: 2025-02-21T07:56:23Z | r/macapps | score:1 | u/edgerob
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdydp0t/
+BODY: Now I'm curious. What's wrong with the native app? Seems (to me) that it does everything you need in a screen shot too: selection, window, recording, timer. Sell it to me: what  extras do other apps bring to the table that I didn’t even realise I couldn’t live without? ;)
+=====
+DATE: 2025-02-21T07:38:29Z | r/macapps | score:1 | u/mastertape
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdybtki/
+BODY: Native app bc it remembers the last chosen location for saving and I can easily change between saving locations and if I need it only in clipboard. The utility also remembers custom chosen dimensions if necessary. I think no other 3rd party app even comes closer to these features and ease of use. 
+
+There is no real advantage of using any 3rd party tool to screenshot except for annotating which I do using Preview. 
+
+I would urge any new MacOS user to first take advantage of the native utilities and apps before venturing for 3rd party apps. I wasted some time with such reddit recommendations, but mostly have come back to whatever is available in the stock OS.
+=====
+DATE: 2025-02-21T07:24:22Z | r/macapps | score:1 | u/Huge-Strike-2473
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdyabgi/
+BODY: I used Shottr before I made the switch to CleanshotX! The main reason I decided to switch was the scrolling capture feature, which didn’t quite work for me in Shottr. Plus, I really appreciate the extra customization options that CleanshotX provides. Overall, it’s clear that CleanshotX offers a much more premium experience compared to Shottr, which is understandable since Shottr has a free version available too!
+=====
+DATE: 2025-02-21T07:16:45Z | r/macapps | score:1 | u/Ascr1pt
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdy9i0n/
+BODY: Cleanshot X it is. I use ishot before because it's free...
+=====
+DATE: 2025-02-21T06:38:41Z | r/macapps | score:1 | u/lament
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdy58m1/
+BODY: CMD+SHIFT+4
+=====
+DATE: 2025-02-21T06:32:30Z | r/macapps | score:1 | u/mutable_type
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdy4iox/
+BODY: Got Xnapper on Appsumo for $5, it does the job.
+=====
+DATE: 2025-02-21T05:51:55Z | r/macapps | score:1 | u/Bartyx
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdxziiy/
+BODY: Shottr
+=====
+DATE: 2025-02-21T05:43:49Z | r/macapps | score:1 | u/shailendronCooparan
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdxygi8/
+BODY: Shottr is Great.
+
+  
+Can consider onetime payment, Shottr will still do 90% of CleanshotX, and do it with style.
+=====
+DATE: 2025-02-21T05:34:13Z | r/macapps | score:1 | u/MajesticHippo94
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdxx5rt/
+BODY: I have Alfred and Obsidian. 
+I use an Alfred Workflow for screenshots. 
+1 short cut saves screenshots and another OCRs text. 
+Works a treat
+=====
+DATE: 2025-02-21T05:22:06Z | r/macapps | score:1 | u/AmazingExplorer698
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdxvhiq/
+BODY: Shottr Pro!
+
+Backdrop feature and uploads work just amazingly!
+Super simple and lightweight. Map custom keyboard keys to Shottr for super fast screenshots
+=====
+DATE: 2025-02-21T03:35:51Z | r/macapps | score:1 | u/ToNeG24
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdxelgl/
+BODY: I have cleanshot X, are there additional features Shottr has over it. 
+I wish cleanshot had symbols to add. Like a green check mark or a red x, wish we could upload stickers to save within that we use constantly. 
+Mouse pointers with a yellow yellow circle on the pointer would be another great option. Any screenshot apps have those features …??
+=====
+DATE: 2025-02-21T03:27:42Z | r/macapps | score:1 | u/Alternative-Way-8753
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdxd6vl/
+BODY: I had Snagit through work but I finally dropped it for Shottr and haven't looked back. I paid the license and am happily jamming with it.
+=====
+DATE: 2025-02-21T03:13:38Z | r/macapps | score:1 | u/MnightCrawl
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdxaohy/
+BODY: Shottr
+=====
+DATE: 2025-02-21T03:01:40Z | r/macapps | score:1 | u/rushcr4ft
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdx8jtx/
+BODY: OP go and check out Xnip. It’s free and does everything you want a basic screenshot app to do. I seriously can’t justify paying for an app to just take screenshots.
+=====
+DATE: 2025-02-21T02:59:24Z | r/macapps | score:1 | u/rushcr4ft
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdx85cf/
+BODY: Kinda sucks that I had to scroll so far to find this comment.
+
+Xnip has to be the most polished FREE screenshot app I’ve ever used. Their basic features just work without forcing you to get the premium version.
+=====
+DATE: 2025-02-21T02:58:02Z | r/macapps | score:1 | u/xiaoxxxxxxxxxx
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdx7wll/
+BODY: why people bother spend money on things that native os provide already? Screenshot or snippet saved to clipboard also available by default.
+=====
+DATE: 2025-02-21T02:55:14Z | r/macapps | score:1 | u/givebest
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdx7efs/
+BODY: I'm used to using Shottr, it's basically good for day to day work, but the author is a bit slow to update it.I'm used to using Shottr and it's basically good for everyday work. However, the author is a bit slow in updating, for example, when updating to macOS 15 beta and encountering problems, the author sent out a beta version, but it didn't solve the problem. In the end, I switched to other screenshot apps, which I wasn't used to, so I switched back to Shottr!
+=====
+DATE: 2025-02-21T02:10:18Z | r/macapps | score:1 | u/platynom
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwzbgv/
+BODY: Shottr
+=====
+DATE: 2025-02-21T01:54:23Z | r/macapps | score:1 | u/ResistSubstantial437
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwwegw/
+BODY: Cleanshot X. $29 price tag is well justified and you will realize this yourself once you pay. 
+=====
+DATE: 2025-02-21T01:42:33Z | r/macapps | score:1 | u/petes4141
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwu7a2/
+BODY: This
+=====
+DATE: 2025-02-21T00:51:51Z | r/macapps | score:1 | u/ProfessionalSolid692
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwl2r1/
+BODY: [CleanShot X](https://cleanshot.com/) is great!
+=====
+DATE: 2025-02-21T00:43:48Z | r/macapps | score:1 | u/Juscol
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwk5n7/
+BODY: Techsmith Capture. Company is not popular in this community, but the app works well, it’s free and easy to upload captures and vids
+=====
+DATE: 2025-02-21T00:26:28Z | r/macapps | score:1 | u/dbgrman
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwirfj/
+BODY: I used to use the skitch app. But cleanshot is the best now
+=====
+DATE: 2025-02-21T00:25:40Z | r/macapps | score:1 | u/dbgrman
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwio5b/
+BODY: I miss skitch. But cleanshot is the best now
+=====
+DATE: 2025-02-21T00:19:07Z | r/macapps | score:1 | u/Green_Creme1245
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwhg63/
+BODY: Shottr is great, i've bought it now to support the development\\
+=====
+DATE: 2025-02-21T00:17:30Z | r/macapps | score:1 | u/tcolling
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwh568/
+BODY: I use Shottr paid and it works well for me.
+=====
+DATE: 2025-02-21T00:02:24Z | r/macapps | score:1 | u/VisualizationExpo
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwebvv/
+BODY: Displays from jibapps
+=====
+DATE: 2025-02-20T23:57:37Z | r/macapps | score:1 | u/Koleckai
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdwdg0g/
+BODY: If I recall correctly, I didn't like the way it allowed me to label elements in the image. Cleanshot just worked better for me.
+=====
+DATE: 2025-02-20T23:31:39Z | r/macapps | score:1 | u/hahanbyul
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdw8mf9/
+BODY: Shottr. Adjustment feature is the best.
+=====
+DATE: 2025-02-20T23:27:05Z | r/macapps | score:1 | u/holamau
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdw7r2v/
+BODY: Default Mac for still screenshots. 
+
+For screencaps (motion) I use Capto.
+=====
+DATE: 2025-02-20T22:56:15Z | r/macapps | score:1 | u/schommertz
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdw1r82/
+BODY: I switched back to default MacOS for my annotations.
+
+`Command-Shift-4`, Shot, after that `Command-N` and you have the default MacOS features available. Other tools have of course more sophisticated annotations. When you go for CleanShot X - it's part of Setapp as well, best deal I'd say.
+=====
+DATE: 2025-02-20T22:45:13Z | r/macapps | score:1 | u/eduo
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvzihu/
+BODY: I use the built-in functionality. There's nothing that makes me feel wanting.
+
+I assume most of the difference for people is annotating? I don't almost do and the rare times I do I would normally use a full-blown editor anyway.
+=====
+DATE: 2025-02-20T22:41:45Z | r/macapps | score:1 | u/Secure_War_2947
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvyt0a/
+BODY: Shottr, bought a license a couple of years ago, use it every day and love it.
+=====
+DATE: 2025-02-20T22:22:07Z | r/macapps | score:1 | u/cmd_shift_o
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvusgb/
+BODY: Gonna have to agree. Having tried shottr, cleanshot x and a few others I just went back native. The extra features you can get with these apps are great, but if I just need a basic screenshot tool for 99/100 screenshots I take, why not just use the native
+=====
+DATE: 2025-02-20T22:18:36Z | r/macapps | score:1 | u/Laurent_Laurent
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvu2cv/
+BODY: CleanShotX is my favorite.
+- Fast. 
+- Easy to edit.
+- Easy to send screenshots on the cloud and put the share link in the clipboard.
+- history of screenshot
+=====
+DATE: 2025-02-20T22:10:18Z | r/macapps | score:1 | u/ratedcmk
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvsc2d/
+BODY: CleanShotX
+=====
+DATE: 2025-02-20T22:06:03Z | r/macapps | score:1 | u/ElBrenzo
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvrg1r/
+BODY: Snagit - been using it for years. It is almost perfect - I wish I could pick more destinations like Sharepoint folders to upload videos. Performance has improved greatly over the last two releases as well.
+=====
+DATE: 2025-02-20T21:58:52Z | r/macapps | score:1 | u/spasticpat
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvpxvu/
+BODY: Xnip
+=====
+DATE: 2025-02-20T21:49:26Z | r/macapps | score:1 | u/MichaelTheGeek
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvny79/
+BODY: No but for the price, it's a steal.
+=====
+DATE: 2025-02-20T21:48:39Z | r/macapps | score:1 | u/MichaelTheGeek
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvns98/
+BODY: Capto, Cleanshot, Shottr, Simple Screenshot, Screenfloat and Snagit.
+=====
+DATE: 2025-02-20T21:44:55Z | r/macapps | score:1 | u/MaxGaav
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvmzoz/
+BODY: Nope. But there's [Flameshot](https://flameshot.org/) (free) too.
+=====
+DATE: 2025-02-20T21:31:09Z | r/macapps | score:1 | u/ThunderLW89
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvk1l5/
+BODY: +1 screen recording from them is pretty good!
+=====
+DATE: 2025-02-20T21:20:42Z | r/macapps | score:1 | u/Jay11Man
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvhsr8/
+BODY: Never heard of this but looks solid. However I do lots of screenshots and need the ability to quickly annotate. At first glance Simple Screenshot doesn't do that?
+=====
+DATE: 2025-02-20T21:18:50Z | r/macapps | score:1 | u/Jay11Man
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvhe5i/
+BODY: What didn't work out for you with Shottr if I may ask?
+=====
+DATE: 2025-02-20T21:15:50Z | r/macapps | score:1 | u/sofly44
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvgr12/
+BODY: I have both Shottr and I grabbed Cleanshot X when it was on a pretty nice sale during Black Friday.
+
+Both are great but Cleanshot has just a bit more polish which I find nice to have. I still use Shottr at work because I don't want to pay for a second license.
+=====
+DATE: 2025-02-20T21:12:04Z | r/macapps | score:1 | u/1TheWolfKing
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/mdvfxz3/
+BODY: Shotrr paid and i love it
+=====

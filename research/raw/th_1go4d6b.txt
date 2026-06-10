@@ -1,0 +1,59 @@
+DATE: 2025-04-07T12:02:15Z | r/macapps | score:1 | u/Annual-Win-5358
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/mlulztx/
+BODY: [McScreenShot - Create Beautiful Mac-Style Screenshots](https://mcscreenshot.com/) saved my life
+=====
+DATE: 2025-04-07T12:01:45Z | r/macapps | score:1 | u/Annual-Win-5358
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/mlulxhq/
+BODY: came across this one which has been a bliss  
+[McScreenShot - Create Beautiful Mac-Style Screenshots](https://mcscreenshot.com/)
+=====
+DATE: 2024-11-13T12:40:57Z | r/macapps | score:1 | u/veap
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwwpdvt/
+BODY: Yes, Flameshot is a good alternative. It's my favourite screenshotter for Linux.
+=====
+DATE: 2024-11-12T20:37:21Z | r/macapps | score:1 | u/driversti
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwt1xni/
+BODY: Flameshot
+=====
+DATE: 2024-11-11T07:36:40Z | r/macapps | score:1 | u/MentionObjective7111
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwjrur0/
+BODY: I use this for years and love it: https://cleanshot.com
+=====
+DATE: 2024-11-11T07:35:50Z | r/macapps | score:1 | u/Magarcan
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwjrryy/
+BODY: I use free Teampaper
+=====
+DATE: 2024-11-11T03:24:05Z | r/macapps | score:1 | u/henry4711lp
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwiwtah/
+BODY: Greenshot always
+=====
+DATE: 2024-11-10T22:07:37Z | r/macapps | score:1 | u/Alternative-Way-8753
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwhen84/
+BODY: My enterprise company pays for us to have Snagit. It's a nice screenshot app.
+=====
+DATE: 2024-11-10T21:31:37Z | r/macapps | score:1 | u/paulschreiber
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwh7qcn/
+BODY: You can do this with the built-in screen shot features + Preview.app.
+=====
+DATE: 2024-11-10T19:38:45Z | r/macapps | score:1 | u/mentalow
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwgkuav/
+BODY: jfc.. glad i only used it for a few days. went monosnap-&gt;shottr-&gt;cleanshotx
+=====
+DATE: 2024-11-10T19:38:45Z | r/macapps | score:1 | u/mentalow
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwgkuav/
+BODY: jfc
+=====
+DATE: 2024-11-10T16:58:53Z | r/macapps | score:1 | u/monkeyballsoup
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwfowwn/
+BODY: probably this - upload feature, scroll down to Privacy Concerns: [https://shottr.cc/kb/upload/](https://shottr.cc/kb/upload/)
+=====
+DATE: 2024-11-10T16:35:24Z | r/macapps | score:1 | u/qning
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwfkdlz/
+BODY: Doesn’t Lulu solve this by blocking the traffic? If the app in question stops working you have your answer.
+
+I’m happy to be corrected.
+=====
+DATE: 2024-11-10T16:30:37Z | r/macapps | score:1 | u/raaamyaraaavan
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/lwfjgi2/
+BODY: Stick with the default app or consider changing company. Or better yet, ask your sysops for an approved software list instead of seeking advice from random Reddit users who may not know why this software is restricted in the first place.
+=====

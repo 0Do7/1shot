@@ -1,0 +1,12 @@
+DATE: 2024-04-13T15:35:41Z | r/macapps | score:1 | u/Ra1nb0wM0nk3y
+URL: https://reddit.com/r/macapps/comments/1c2rdoj/question_about_cleanshot_x_license/kze8kaj/
+BODY: You need to be either the host of that meeting or the host allowed participants to record the meeting.
+=====
+DATE: 2024-04-13T10:26:19Z | r/macapps | score:1 | u/fzwo
+URL: https://reddit.com/r/macapps/comments/1c2rdoj/question_about_cleanshot_x_license/kzd5hkr/
+BODY: Does Zoom not have its own recording feature?
+=====
+DATE: 2024-04-13T10:03:39Z | r/macapps | score:1 | u/Serdna379
+URL: https://reddit.com/r/macapps/comments/1c2rdoj/question_about_cleanshot_x_license/kzd3m0c/
+BODY: Yes, you can
+=====

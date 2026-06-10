@@ -1,0 +1,168 @@
+DATE: 2024-10-05T04:08:58Z | r/macapps | score:1 | u/Changingm1ndz
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/lqerbf1/
+BODY: I'm looking at cleanshot, does it capture system audio and mic audio when recording?
+=====
+DATE: 2024-03-13T23:17:53Z | r/macapps | score:1 | u/AnnyRS
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/kur69kn/
+BODY: Skitch, while focused more on images, offers basic video capture capabilities at a lower cost than Snagit. ScreenRec and Greenshot are additional, budget-friendly tools for Mac users.
+=====
+DATE: 2022-06-12T15:08:34Z | r/macapps | score:2 | u/Slitted
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/ic3eufm/
+BODY: Wow, TIL about the spacebar to toggle crosshairs/window, and the option modifier for the border/shadow.
+
+Very nice to know, thank you.
+=====
+DATE: 2022-05-20T04:34:26Z | r/macapps | score:1 | u/yauh
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/i9ah1yp/
+BODY: Does this help? https://dropshare.zendesk.com/hc/en-us/articles/360033453434-Enabling-Screen-Recording-Permission-on-macOS-Catalina-10-15-Big-Sur-11-Monterey-12-
+=====
+DATE: 2022-05-19T21:16:16Z | r/macapps | score:1 | u/TZBEATZ
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/i9914mx/
+BODY: I just downloaded dropshare, where does it give you the ability to screen record? Thank you
+
+TZ
+=====
+DATE: 2022-03-19T03:40:51Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/i18pn47/
+BODY: [removed]
+=====
+DATE: 2022-03-04T14:13:13Z | r/macapps | score:1 | u/RebeccaBaileys
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hzbgo0p/
+BODY: In case you're looking for a free tool to record scree, no one does it better than ScreenRec. Not only is it free, it doesn't come with any annoying ads or watermarks. You can also capture screentshots and make notes side by side.
+=====
+DATE: 2022-01-18T07:48:15Z | r/macapps | score:1 | u/artspraken
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/ht5hasi/
+BODY: http://shottr.cc
+=====
+DATE: 2022-01-15T23:24:18Z | r/macapps | score:1 | u/macman156
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hstvjgq/
+BODY: Oh cool I haven't heard of that before, I'll have to give it a try thanks
+=====
+DATE: 2022-01-15T18:39:18Z | r/macapps | score:4 | u/robbe_delarbre
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hssp2bt/
+BODY: &gt;our need, you w
+
+You could get the free trial for setapp and then try the app that way
+=====
+DATE: 2022-01-15T18:08:58Z | r/macapps | score:1 | u/mrbungle100
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsskch8/
+BODY: Xnip is pretty good and full featured -- similar to Cleanshot X but seems to be cheaper: https://apps.apple.com/us/app/xnip-screenshot-annotation/id1221250572?mt=12
+=====
+DATE: 2022-01-15T16:54:09Z | r/macapps | score:2 | u/luuk64
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hss8s9v/
+BODY: Maybe one of these? https://www.macmenubar.com/screen-recording-apps/
+=====
+DATE: 2022-01-15T15:31:29Z | r/macapps | score:1 | u/randybruder
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsrwh62/
+BODY: The last one, ⌘ + ⇧ + 5. That’ll open an overlay where you can pick to record the entire screen or a selection of the screen.
+=====
+DATE: 2022-01-15T15:27:06Z | r/macapps | score:1 | u/sludj5
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsrvuu5/
+BODY: I don't see an option for video recording. No shortcut for it?
+=====
+DATE: 2022-01-15T04:09:35Z | r/macapps | score:2 | u/skywalker4588
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsq2di2/
+BODY: They have a money back guarantee.
+=====
+DATE: 2022-01-15T02:53:21Z | r/macapps | score:1 | u/maalicious
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hspszsy/
+BODY: I can't see such option under quicktime. Where do I access the settings for screenrecording?
+=====
+DATE: 2022-01-15T02:52:54Z | r/macapps | score:2 | u/illogicAllergic
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hspsxs7/
+BODY: Another happy user of CleanShot here. Definitely recommend it.
+
+And as far trying it out is concerned - you can trial the SetApp subscription free for a week. This will give you a trial of a whole bunch of stuff including CleanShot!
+=====
+DATE: 2022-01-15T02:50:02Z | r/macapps | score:2 | u/NorthernYakko
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hspskqu/
+BODY: I believe Cleanshot has a 30 day money back guarantee if you’re not satisfied
+=====
+DATE: 2022-01-15T02:03:39Z | r/macapps | score:1 | u/Ambitendency_
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hspmky9/
+BODY: My brother, you should just get Setapp. It pays for itself.
+=====
+DATE: 2022-01-15T02:02:47Z | r/macapps | score:1 | u/Ambitendency_
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hspmgr1/
+BODY: Shottr is where it’s at 😉🤙 Rock on brother. Make sure to show the wonderful dev some love on https://twitter.com/Shottr_cc
+=====
+DATE: 2022-01-15T01:59:00Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsplz0p/
+BODY: [deleted]
+=====
+DATE: 2022-01-14T23:58:55Z | r/macapps | score:2 | u/flunkadelic
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsp607p/
+BODY: Yeah, it is odd that they don't provide trails, BUT I have contacted their support/customer service team multiple times about other things and they have been very responsive. My point is if you buy it and it doesn't fit your need, you wouldn't have issues getting a refund.
+=====
+DATE: 2022-01-14T23:57:45Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsp5uco/
+BODY: [removed]
+=====
+DATE: 2022-01-14T23:03:45Z | r/macapps | score:3 | u/gr8bhere
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsoy75v/
+BODY: I never thought a screenshot app would be my number one app, but cleanshot is. One feature I never thought id use all the time is cleanshot OCR snipping feature. Grab text anywhere, websites that don’t let you copy, images, whatever. 
+
+You can also record video snippets into gifs. The UI is very simple, not looking for a help manual to know how to do the features or learn weird keyboard shortcuts I’d never use.
+=====
+DATE: 2022-01-14T22:33:10Z | r/macapps | score:2 | u/randybruder
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsotr6e/
+BODY: Yes, you can select your microphone or any system audio input device to record along with the video.
+=====
+DATE: 2022-01-14T22:30:33Z | r/macapps | score:2 | u/sludj5
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsotdee/
+BODY: I am very seriously considering this, its a top choice for mac users, the only caviat is that the company does not offer trial to test out the app. I was looking on youtube, and the functionalities seem better than snagit. I am already sold.
+=====
+DATE: 2022-01-14T22:28:50Z | r/macapps | score:1 | u/sludj5
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsot4fo/
+BODY: does it do videos with audio? and whats the shortcut to it, i will quickly try it before jumping on to other recommendations.
+=====
+DATE: 2022-01-14T22:28:44Z | r/macapps | score:1 | u/sludj5
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsot3w0/
+BODY: does it do videos with audio?
+=====
+DATE: 2022-01-14T22:07:07Z | r/macapps | score:15 | u/randybruder
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsopwdr/
+BODY: And learning the keyboard shortcuts makes it near instantaneous, like you don't even have to open QuickTime to start a screen recording.
+
+|Keyboard shortcut|Purpose|
+:--|:--
+|⌘ + ⇧ + 3|Take a screenshot of the entire screen|
+|⌘ + ⇧ + ⌃ + 3|Take a screenshot of the entire screen and save directly to your clipboard|
+|⌘ + ⇧ + 4|Show crosshairs to select part of the screen to screenshot|
+|⌘ + ⇧ + ⌃ + 4|Show crosshairs to select part of the screen to screenshot, and save the screenshot directly to your clipboard|
+|⌘ + ⇧ + 4, then press space after crosshairs appear|Screenshot just a specific window|
+|⌘ + ⇧ + ⌃ + 4, then press space after crosshairs appear|Screenshot just a specific window, saving directly to clipboard|
+|⌘ + ⇧ + 4, then press space after crosshairs appear, and hold ⌥ while clicking on a window |Screenshot just a specific window, but don’t include the window’s shadow in the screenshot|
+|⌘ + ⇧ + ⌃ + 4, then press space after crosshairs appear, and hold ⌥ while clicking on a window |Screenshot just a specific window, but don’t include the window’s shadow in the screenshot, saving directly to clipboard|
+|⌘ + ⇧ + 5|Opens the Screenshot app, where you can take also take screen recordings (macOS Mojave or later)|
+=====
+DATE: 2022-01-14T21:32:41Z | r/macapps | score:3 | u/VisualisationExpo
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsokn73/
+BODY: I suggest looking at Kap by Sindre Sorhus:[https://getkap.co](https://getkap.co)
+
+The combination of throwing off images as well as videos can be done in the processing window after you're done recording, where you can save frames from your video from specific places in your beautiful recording if you just move your slider neck and neck and export as APNG from the dropdown menu.
+
+I don't use SnagIt and I rarely use anything else than the built-in screenshot tool that Apple provides with macOS Monterey.
+
+If I go really wild I would use Kap /  Gifski
+=====
+DATE: 2022-01-14T21:15:12Z | r/macapps | score:2 | u/Plumb_n_Plumber
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsohx6q/
+BODY: Came here to say that. I had snag-it back in the day (mostly windows then). But a recent look at what is now include with MacOS make me think that Snag it, as I knew it, would be redundant to that. Maybe some esoteric cross platform stuff? Idk
+=====
+DATE: 2022-01-14T21:10:11Z | r/macapps | score:10 | u/flunkadelic
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hsoh54z/
+BODY: I love Cleanshot. I use to be a user of Snagit on PC and after moving to Mac, CleanShot is my go-to. https://cleanshot.com/
+=====
+DATE: 2022-01-14T19:52:43Z | r/macapps | score:8 | u/genrand
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hso51r1/
+BODY: I use [https://shottr.cc/](https://shottr.cc/) for screen capturing, but I'm not sure if it handles videos the way that you need.
+=====
+DATE: 2022-01-14T19:39:27Z | r/macapps | score:19 | u/kmplngj
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hso2y5m/
+BODY: For free comes with macOS: QuickTime and Screenshot Shortcut
+=====
+DATE: 2022-01-14T19:26:54Z | r/macapps | score:3 | u/yauh
+URL: https://reddit.com/r/macapps/comments/s4090o/need_a_cheaper_alternative_to_snagit_for_mac/hso0zvr/
+BODY: I am a huge fan of dropshare. Although mainly for sharing it can record your screen and even generate gifs. https://dropshare.app
+=====

@@ -1,0 +1,477 @@
+DATE: 2025-03-05T13:38:21Z | r/macapps | score:1 | u/mangochutney63
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/mg575th/
+BODY: Hey - dunno if this is the right place but I cant get badgeify to consistently work. I use it for slack, whatsapp and telegram but sometimes it'll be one of the apps having an icon - sometimes its none, and some glorious days its all 3. 
+
+Love the app but this is kinda holding me back from paying for pro at the moment
+=====
+DATE: 2025-01-18T15:16:02Z | r/macapps | score:1 | u/XIMMENSEOLIx
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m7t8ysz/
+BODY: Confirmed to work for 25 season?  
+Are there any promo codes you happen to be dropping too? 😉
+=====
+DATE: 2025-01-17T16:13:00Z | r/macapps | score:1 | u/data_rock
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m7nc85h/
+BODY: https://preview.redd.it/qj78wmkhwkde1.png?width=1682&amp;format=png&amp;auto=webp&amp;s=17b174d766abb0c53822c544d1d0dc6c46e0f995
+=====
+DATE: 2025-01-17T16:12:42Z | r/macapps | score:1 | u/data_rock
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m7nc5ys/
+BODY: https://preview.redd.it/wwmxwpxdwkde1.png?width=1638&amp;format=png&amp;auto=webp&amp;s=a97f8454bd277eed96237f2c1c303ae075d832f7
+=====
+DATE: 2025-01-17T16:11:26Z | r/macapps | score:1 | u/data_rock
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m7nbwi8/
+BODY: [https://apps.apple.com/us/app/hidden-bar/id1452453066?mt=12](https://apps.apple.com/us/app/hidden-bar/id1452453066?mt=12)
+
+HiddenBar for Mac OS. Worth it
+
+https://preview.redd.it/mt2fxz16wkde1.png?width=1352&amp;format=png&amp;auto=webp&amp;s=aae0f3db6971c5537780bf9489c2e24eb9b847a6
+=====
+DATE: 2025-01-13T09:50:28Z | r/macapps | score:1 | u/Complex_Grass6312
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6wbm9c/
+BODY: Magnet
+=====
+DATE: 2025-01-13T08:22:46Z | r/macapps | score:1 | u/kinlen
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6w3p50/
+BODY: I have enjoyed this app so far. It’s really nice not having to worry about cleaning up after installs.
+=====
+DATE: 2025-01-12T16:27:56Z | r/macapps | score:1 | u/thomasfrank09
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6riwqw/
+BODY: No problem; I already had a little video on the dictated-text one, and I added details on my other macros yesterday: [https://thomasjfrank.com/my-macos-shortcut-macro-library-raycast-keyboard-maestro-and-more/#keyboard-maestro](https://thomasjfrank.com/my-macos-shortcut-macro-library-raycast-keyboard-maestro-and-more/#keyboard-maestro)
+=====
+DATE: 2025-01-12T10:15:02Z | r/macapps | score:1 | u/Feeling_Nose1780
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6q3bhk/
+BODY: Pasting my reply to this question due to it being asked repeatedly:
+
+Oh it does many little things for me.
+
+•	⁠I quite often accidentally quit an app in the past by pressing ⌘+Q instead of ⌘+W. Now I need to press Shift+⌘+Q to quit an app
+•	⁠Minimizing windows works weird on MacOS so I always tried to use Hide function. Now the minimized windows show when app is active (through ⌘+Tab for example)
+•	⁠I have it set to dim the hidden apps in the Dock. Much easier to see what is active
+•	⁠Windows’ ⌘+X/⌘+V for more intuitive (imo) cutting and pasting of files
+•	⁠Small but cool thing is automatic install of apps from DMG files (it installs the app and deletes the leftover DMG file)
+•	⁠Toggling menu bar Passwords window with a keyboard shortcut
+•	⁠I’m running a version of the app with Hyper key functionality so that replaced yet another app
+•	⁠For aesthetics the ability to add spacers in the Dock. I separate different categories of apps I use regularly with small and large spacers
+=====
+DATE: 2025-01-12T10:13:43Z | r/macapps | score:1 | u/Feeling_Nose1780
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6q375g/
+BODY: I replied with a list of things I use it for, to a different comment asking me that question in this thread ;)
+=====
+DATE: 2025-01-12T10:10:09Z | r/macapps | score:1 | u/Feeling_Nose1780
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6q2uza/
+BODY: Tried it and it was just not for me. Basically felt like using PowerToys on Windows. Raycast works so much better for me, and now I’m testing Monarch just so I have an alternative prepared when something bad happens to Raycast (wish them only the best, but they are VC backed after all and often that is not a good sign. Monarch is made by an indie developer who has been dedicated to developing it, and is on way to releasing v1.0 this year. Rooting for him as well.)
+=====
+DATE: 2025-01-12T10:04:26Z | r/macapps | score:1 | u/Feeling_Nose1780
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6q2bb2/
+BODY: Oh it does many little things for me. 
+- I quite often accidentally quit an app in the past by pressing ⌘+Q instead of ⌘+W. Now I need to press Shift+⌘+Q to quit an app
+- Minimizing windows works weird on MacOS so I always tried to use Hide function. Now the minimized windows show when app is active (through ⌘+Tab for example)
+- I have it set to dim the hidden apps in the Dock. Much easier to see what is active
+- Windows’ ⌘+X/⌘+V for more intuitive (imo) cutting and pasting of files
+- Small but cool thing is automatic install of apps from DMG files (it installs the app and deletes the leftover DMG file)
+- Toggling menu bar Passwords window with a keyboard shortcut 
+- I’m running a version of the app with Hyper key functionality so that replaced yet another app
+- For aesthetics the ability to add spacers in the Dock. I separate different categories of apps I use regularly with small and large spacers
+=====
+DATE: 2025-01-12T08:41:04Z | r/macapps | score:1 | u/discoveringnature12
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6pufoq/
+BODY: thanks. I bought Keyboard Maestro. Do you mind sharing
+
+1. the "clean up dictated text" macro and it's use?
+
+2. what other awesome Keyboard Maestro macros you use?
+=====
+DATE: 2025-01-12T08:41:04Z | r/macapps | score:1 | u/discoveringnature12
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6pufoq/
+BODY: thanks u/thomasfrank09. I bought Keyboard Maestro. Do you mind sharing
+
+1. the "clean up dictated text" macro and it's use?
+
+2. what other awesome Keyboard Maestro macros you use?
+=====
+DATE: 2025-01-11T22:45:28Z | r/macapps | score:1 | u/QenTox
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6nfu6k/
+BODY: No, it can not hide those icons.
+=====
+DATE: 2025-01-11T21:25:13Z | r/macapps | score:1 | u/slamingzone
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6n0qs5/
+BODY: if you're a Formula1 / MotoGP fan, give a shot to [GP Calendar](http://apps.apple.com/app/id1632951751)
+=====
+DATE: 2025-01-11T17:23:52Z | r/macapps | score:1 | u/dr2050
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6lqw62/
+BODY: Mission Control Plus under $10... amazing.
+=====
+DATE: 2025-01-11T16:51:17Z | r/macapps | score:1 | u/tagless1
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6lkmrw/
+BODY: I’ve been using PasteBot for a long time, I see a lot of other clipboard managers out there, maybe more feature rich, but it does what I need, and does it well.
+=====
+DATE: 2025-01-11T13:40:10Z | r/macapps | score:1 | u/ReturnoftheJ1zzEye
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6knygg/
+BODY: Xhamster app
+=====
+DATE: 2025-01-11T13:23:28Z | r/macapps | score:1 | u/don41382
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6klmj8/
+BODY: What about Motion Minute? Get's you moving right at your desk. Perfect if you have to site for 8 hours in front of you Mac and need some movement to release your back pain. 
+
+https://www.producthunt.com/products/motion-minute
+
+Disclaimer: I developed the app.
+=====
+DATE: 2025-01-11T10:59:19Z | r/macapps | score:1 | u/ReAndro
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6k5q2u/
+BODY: Romania
+=====
+DATE: 2025-01-11T10:43:34Z | r/macapps | score:1 | u/thecanonicalmg
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6k48yu/
+BODY: Hmm it might be a country thing. Where are you located?
+=====
+DATE: 2025-01-11T08:14:45Z | r/macapps | score:1 | u/ReAndro
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6jqkd0/
+BODY: "App not available", says AppStore.
+=====
+DATE: 2025-01-11T02:13:39Z | r/macapps | score:1 | u/a_brand_new_start
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6ifwhc/
+BODY: Diivy
+=====
+DATE: 2025-01-10T23:45:25Z | r/macapps | score:1 | u/ItsKxngz_
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6hpubz/
+BODY: [MediaMate](https://wouter01.github.io/MediaMate/)
+=====
+DATE: 2025-01-10T21:04:17Z | r/macapps | score:1 | u/Ehsan1238
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6gvcvh/
+BODY: Shiftappai.com, it’s only 5 dollars a month and the first month is free, but its waitlist for now
+=====
+DATE: 2025-01-10T18:17:13Z | r/macapps | score:1 | u/joshbranchaud
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6fwyrd/
+BODY: Never used it, but I wonder if bartender can do that.
+=====
+DATE: 2025-01-10T16:30:15Z | r/macapps | score:1 | u/jackmileswhite
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6fao4j/
+BODY: I think most of these are on SetApp
+=====
+DATE: 2025-01-10T11:29:10Z | r/macapps | score:1 | u/spacewalker6666
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6dxmlv/
+BODY: i used brave for youtube before, but the problem was, i only used brave for youtube and nothing else, so it used to just sit there taking up space. I decided to get Wipr since I use safari for almost everything, it’s fast, does not take up resources and just works. I deleted brave now so it was a nice investment.
+
+I also use Zen for development workflows, it’s a really good browser and has a lot of potential.
+=====
+DATE: 2025-01-10T11:29:10Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6dxmlv/
+BODY: [removed]
+=====
+DATE: 2025-01-10T11:25:12Z | r/macapps | score:1 | u/Intelligent-Rice9907
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6dx7d4/
+BODY: If you want to block YouTube videos use Firefox with Adblock works way better than any app and better than any Adblock config in chrome, don’t know why though. I have Zed browser which is a fork of Firefox and Firefox with the same Adblock config I use with arc and brave but they don’t work on arc and brave and it does work on Firefox
+=====
+DATE: 2025-01-10T11:18:40Z | r/macapps | score:1 | u/Intelligent-Rice9907
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6dwijc/
+BODY: Best Dynamic Island app made for MacBooks with notch. Works smoothly and the dev hears everything. Handles lots of stuff and more stuff coming. But right now is like a media mini player in your notch that works with browser, podcasts and Apple Music
+=====
+DATE: 2025-01-10T11:18:29Z | r/macapps | score:1 | u/eldritchtome
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6dwhst/
+BODY: I used to be a big fan, but one too many upgrade costs did me in. Now I use [Hidden Bar](https://apps.apple.com/us/app/hidden-bar/), which is free and does pretty much the same thing.
+=====
+DATE: 2025-01-10T11:14:10Z | r/macapps | score:1 | u/Intelligent-Rice9907
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6dw1n0/
+BODY: The alternative for this with much more power would be hammerspoon the only downfall is that you need programming knowledge and knowing lua which I believe it’s not a popular language
+=====
+DATE: 2025-01-10T09:29:26Z | r/macapps | score:1 | u/rrrromal
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6dlv8l/
+BODY: [Magnet, Window manager for Mac](https://magnet.crowdcafe.com)
+=====
+DATE: 2025-01-10T08:58:44Z | r/macapps | score:1 | u/Cody_Ur
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6dj11s/
+BODY: Also second this recommendation. By far the most optimal mouse app with TONS of functionality and customization.   
+  
+Plus, which is a huge deal, the team is super responsive
+=====
+DATE: 2025-01-10T08:36:23Z | r/macapps | score:1 | u/cac2573
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6dgxsb/
+BODY: Shitty website that plays audio without warning
+=====
+DATE: 2025-01-10T08:32:34Z | r/macapps | score:1 | u/spacebuffer
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6dgl0u/
+BODY: Thanks for that, Feeeed looks like the Read-it-later app I was looking for! Finally ❤️
+=====
+DATE: 2025-01-10T04:23:15Z | r/macapps | score:1 | u/spacewalker6666
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6cnx4q/
+BODY: omg yes i now have klack and typibara
+=====
+DATE: 2025-01-10T04:23:15Z | r/macapps | score:1 | u/spacewalker6666
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6cnx4q/
+BODY: omg yes i now have klack and typibara, good times 😆
+=====
+DATE: 2025-01-10T04:23:15Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6cnx4q/
+BODY: [removed]
+=====
+DATE: 2025-01-10T04:22:59Z | r/macapps | score:1 | u/BasenjiFart
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6cnvpq/
+BODY: I second this; it's my favourite purchase of 2024!
+=====
+DATE: 2025-01-10T04:13:16Z | r/macapps | score:1 | u/BasenjiFart
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6cmdmz/
+BODY: Neato!
+=====
+DATE: 2025-01-10T04:05:32Z | r/macapps | score:1 | u/MainFunctions
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6cl5xz/
+BODY: Did you just call me a diso-cunt?
+=====
+DATE: 2025-01-10T04:05:32Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6cl5xz/
+BODY: [deleted]
+=====
+DATE: 2025-01-10T03:10:31Z | r/macapps | score:1 | u/spacewalker6666
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6cc4ab/
+BODY: i got hazeover for completely free with github student developer pack, you can check it out
+=====
+DATE: 2025-01-10T03:10:31Z | r/macapps | score:2 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6cc4ab/
+BODY: [removed]
+=====
+DATE: 2025-01-10T02:12:32Z | r/macapps | score:1 | u/ur_mamas_krama
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6c24cv/
+BODY: Oh! How does Dato compare to Itsycal?
+=====
+DATE: 2025-01-10T00:50:16Z | r/macapps | score:1 | u/AdCommercial6575
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6bnflz/
+BODY: Textsniper for shure!!
+=====
+DATE: 2025-01-10T00:39:19Z | r/macapps | score:1 | u/tomc_23
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6blfdg/
+BODY: * HazeOver (~$5 with student discount)
+* AirBuddy (if you have AirPods, but also works for other devices)
+=====
+DATE: 2025-01-09T22:44:44Z | r/macapps | score:1 | u/Professional-Ad3320
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6b0p7v/
+BODY: I recommend StopTheMadness pro, it’s a browser extension which gives you way more control
+=====
+DATE: 2025-01-09T22:37:45Z | r/macapps | score:1 | u/cristobalion
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6azdcm/
+BODY: Im glad I helped!! I discovered for that exact reason. It took me some time to get the scrolling of the main wheel perfect, but after that it's a dream, the button convinations are insane! Enjoy
+=====
+DATE: 2025-01-09T22:17:58Z | r/macapps | score:1 | u/Maximum_Cry_5495
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6avjon/
+BODY: I second that. And the developer is so good. I had a feature request implemented in a couple of weeks. Bug reports answered back in couple of days.
+=====
+DATE: 2025-01-09T21:54:26Z | r/macapps | score:1 | u/rsmike
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6aqwjr/
+BODY: came back to say thank you mate - a ridiculously cheap 12Mb app completely replaces 1.5Gb of Logitech bloatware and does so much more!
+=====
+DATE: 2025-01-09T21:00:54Z | r/macapps | score:1 | u/HogynCymraeg
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6afz8e/
+BODY: What does it do? There's no explanation on the site or github
+=====
+DATE: 2025-01-09T20:53:41Z | r/macapps | score:1 | u/ahmetcigsar
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6aehfb/
+BODY: [Pasty](https://apps.apple.com/de/app/clipboard-manager-pasty/id1544620654?l=en-GB&amp;mt=12)  it's clipboard manager like Paste. Lifetime license is 19 usd.
+=====
+DATE: 2025-01-09T20:25:31Z | r/macapps | score:1 | u/thomasfrank09
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6a8pg3/
+BODY: That's great to hear. The Google Drive performance issues have been driving me nuts, so if it uses iCloud, I'm all for it.
+=====
+DATE: 2025-01-09T19:46:47Z | r/macapps | score:1 | u/age_of_bronze
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6a0rg4/
+BODY: At $25, this is slightly more than you $20 cutoff, but I bought [this package](https://apps.apple.com/us/app-bundle/essential-editors-bundle/id1441328810?mt=12) for JSON and CSV editing. I use them constantly, and the experience of viewing and editing both these file types with these tools is lightyears ahead of using a text editor. If you ever create or edit JSON or CSV, I can't recommend these apps more highly.
+=====
+DATE: 2025-01-09T19:40:07Z | r/macapps | score:1 | u/QenTox
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69ze5l/
+BODY: If you want this, there is also an iOS version of [News Explorer](https://apps.apple.com/app/id1032668306) available, that will sync all from the macOS version.
+=====
+DATE: 2025-01-09T19:34:20Z | r/macapps | score:1 | u/age_of_bronze
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69y71b/
+BODY: Of AnyBox? It doesn't affect Finder at all, since the syncing is all through iCloud, which is syncing already. I've had some intermittent issues with Google Drive, and OneDrive was so awful that it was unusable. But AnyBox sits on top of Apple's built-in system, so it works great!
+=====
+DATE: 2025-01-09T19:31:35Z | r/macapps | score:1 | u/ijuatcham
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69xmm2/
+BODY: welcome to the club!! i bought klack because of typibara 😂
+=====
+DATE: 2025-01-09T19:29:19Z | r/macapps | score:1 | u/spacewalker6666
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69x5m9/
+BODY: you know what, i’m buying it 😭
+=====
+DATE: 2025-01-09T19:29:19Z | r/macapps | score:3 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69x5m9/
+BODY: [removed]
+=====
+DATE: 2025-01-09T19:25:29Z | r/macapps | score:1 | u/MichaelTheGeek
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69wcqf/
+BODY: Textfridge ans News Explorer.
+=====
+DATE: 2025-01-09T18:45:34Z | r/macapps | score:1 | u/Nick337Games
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69o1my/
+BODY: Yoink is an OG
+=====
+DATE: 2025-01-09T18:45:08Z | r/macapps | score:1 | u/Nick337Games
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69nybp/
+BODY: If you want this but on mobile check out feeeed
+https://apps.apple.com/us/app/feeeed-rss-reader-and-more/id1600187490
+=====
+DATE: 2025-01-09T18:23:14Z | r/macapps | score:1 | u/Mike
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69jdu6/
+BODY: I have side notes and I love it and I just thought to myself that they should have an iPhone app. I looked at their site and they do! But I was disappointed to see that it costs $10 when I already paid for the Mac app. I hate when developers do that. I’m not paying 10 bucks to have it on my iPhone too.  They probably end up making more money if it was cross platform with one purchase.
+=====
+DATE: 2025-01-09T18:10:00Z | r/macapps | score:1 | u/thievingfour
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69gmmc/
+BODY: Thank you for the mention! Anyone can feel free to have a look at things Monarch can do either here in the [user manual](https://manual.monarchlauncher.com) or [here on the blog](https://blog.monarchlauncher.com)!
+=====
+DATE: 2025-01-09T18:08:40Z | r/macapps | score:1 | u/thievingfour
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69gcne/
+BODY: Thanks for the mention! Yes, there are student discounts for Monarch, we can't have our future leaders ill equipped to tackle problems on Mac!
+=====
+DATE: 2025-01-09T18:07:22Z | r/macapps | score:1 | u/thievingfour
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m69g328/
+BODY: Hey 👋 creator of Monarch here
+
+One of the main differences that will show itself more over as time goes on is that Monarch's UI is richer than with Alfred. For example, when you are [force quitting an app in Alfred](https://raw.githubusercontent.com/ngreenstein/alfred-process-killer/master/screenshot1.png), you get a list. In Monarch, [the same function](https://manual.monarchlauncher.com/kill-process#the-kill-process-view) shows you a lot of useful information, to the point where it can function as a mini Activity Monitor.
+
+The same goes for changing audio devices and other things. The UI is higher fidelity and of course, I will build on this more and more.
+
+There are a lot of big things planned for this year. One of which (fortunately or unfortunately) is the sunsetting of the Luna (lifetime) license so for those that may want to have lifetime free updates, you will have to get it before v1.0 releases (the price also increases with v1.0)
+
+Another difference is the flexibility: Example is with file search you can choose to have it with the prefix style like Alfred's or you can have files and folders show up directly in root search, and you can also navigate the entire file system directly within Monarch's UI.
+
+I spend a lot of time on the UX, so when doing things like using bookmarks in Monarch, you'll notice that if you trigger the same bookmark, Monarch knows not to open a new tab, but rather switch to the existing tab. And this can be greatly expanded upon with [Superlink
+=====
+DATE: 2025-01-09T17:25:12Z | r/macapps | score:1 | u/thomasfrank09
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m697ako/
+BODY: I do have one planned! Not yet sure if it'll be KM specific, but it'll feature heavily.
+=====
+DATE: 2025-01-09T17:24:49Z | r/macapps | score:1 | u/thomasfrank09
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m6977nj/
+BODY: If you have experience, how would you rate the speed and reliability in Finder? I find that Google Drive makes Finder really slow now – but apparently this is due to Apple making all 3rd-party cloud sync tools use some new API now. So I haven't gotten around to seeing if any other sync tools fare better.
+=====
+DATE: 2025-01-09T17:23:16Z | r/macapps | score:1 | u/thomasfrank09
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m696wci/
+BODY: I think so, yes. I recently wrote up a little pros and cons list [here](https://thomasjfrank.com/my-macos-shortcut-macro-library-raycast-keyboard-maestro-and-more/#macwhisper):
+
+macOS Dictation pros:
+
+* It’s included in macOS.
+* Transcription happens live. It’s not real-time, but you can see the text being entered as you’re speaking. MacWhisper requires you to let go of the dictation key before it will transcribe anything.
+
+MacWhisper Dictation pros:
+
+* It’s currently more accurate, and it handles grammar and punctuation better than macOS Dictation.
+* I like being able to hold down the right ⌘ key to trigger Dictation. Mac OS dictation requires either double tapping ⌘ or hitting the Microphone button (F5), which is more of a reach on my keyboard.
+
+I do wish it had the live/streaming transcription like Apple's does, but the better grammar makes it the clear winner, since I have to do far less manual editing.
+=====
+DATE: 2025-01-09T15:46:41Z | r/macapps | score:1 | u/TimelyPassenger
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m68n6u3/
+BODY: You can also checkout FreeTube as a YouTube alternative. It’s free and pretty great! Not for mobile though
+=====
+DATE: 2025-01-09T15:39:56Z | r/macapps | score:1 | u/Cue99
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m68luqb/
+BODY: I have tried KM before but never done anything of merit with it despite knowing how powerful it is.
+
+I know people who have and use both apps together though. In general though, the vibe I get is that BTT is worth it if you want to integrate different automations. Its support for apple scripts, shortcuts, and then a bunch of in app scripting makes it really easy to tie systems together.
+=====
+DATE: 2025-01-09T14:56:49Z | r/macapps | score:1 | u/vanlaren10
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m68dn7f/
+BODY: \- [Pastebot](https://tapbots.com/pastebot/)  
+\- [Rectangle Pro](https://rectangleapp.com/pro)  
+\- [Name Changer](https://lucas.io/namechanger/)
+=====
+DATE: 2025-01-09T14:55:45Z | r/macapps | score:1 | u/Parvinhisprime
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m68dg3h/
+BODY: BTT (BetterTouchTool)
+=====
+DATE: 2025-01-09T14:55:18Z | r/macapps | score:1 | u/ijuatcham
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m68dd86/
+BODY: Very cute tho i wouldnt say you *need need* it - [Typibara](https://www.typibara.com/) (from the [dev](https://www.reddit.com/r/macapps/comments/1fpubqk/my_macos_app_typibara_a_simple_work_buddy_that/?share_id=OlraQsriZq0grciLVfanq&amp;utm_medium=ios_app&amp;utm_name=ioscss&amp;utm_source=share&amp;utm_term=1)). Its honestly so cute and idk, maybe the fun will wear off, maybe it won't but i dont regret a single penny haha!
+=====
+DATE: 2025-01-09T14:53:58Z | r/macapps | score:1 | u/manologft
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m68d4bt/
+BODY: Do you have keyboard maestro? If yes, does BTT have a similar functionality, like would it be worth getting if i already have a use KM?
+=====
+DATE: 2025-01-09T14:49:38Z | r/macapps | score:1 | u/manologft
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m68cbnj/
+BODY: You really don’t have to remember all at once because you’re usually adding one every certain amount of weeks, so by the time you’ve created another the first one has become muscle memory and you don’t really have to think about it at that point. 
+
+Also, if you have many macros under the same key combination, you can just use that and a list of all of them pop up, which you can just activate individually by pressing another letter (based on the name of the macro, usually the first one of the name).
+=====
+DATE: 2025-01-09T14:47:40Z | r/macapps | score:1 | u/ijuatcham
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m68byoj/
+BODY: yes to swish! its so underrated, i ditched rectangle for swish and when Sequoia introduced windows tiling, i turned that off because swish is unbeatable 😂
+=====
+DATE: 2025-01-09T14:36:17Z | r/macapps | score:1 | u/Cue99
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m689ya8/
+BODY: I just got a streamdeck last month and u
+Sing it with BTT has been amazing. Combined with Moom I feel very powerful with doing set ups for different workflows.
+=====
+DATE: 2025-01-09T14:32:14Z | r/macapps | score:2 | u/Paarkhi
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m68991k/
+BODY: [Supercharge ](https://sindresorhus.com/supercharge)
+=====
+DATE: 2025-01-09T14:10:29Z | r/macapps | score:1 | u/JohnLockeNJ
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m685j3x/
+BODY: [Bartender](https://www.macbartender.com). If you are into discovering great Mac app and applets, you’ll soon find your menu bar completely cluttered. Bartender lets you take full control to show just what you need, even setting some icons to be temporarily visible at times.
+=====
+DATE: 2025-01-09T14:05:00Z | r/macapps | score:1 | u/yolowagon
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m684m5j/
+BODY: Better display pro is free, just delete and reinstall the app from github and 14day trial will start again :)
+=====
+DATE: 2025-01-09T13:26:32Z | r/macapps | score:1 | u/ChanceNeedleworker39
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67ygl4/
+BODY: For me it is Screenflick
+=====
+DATE: 2025-01-09T13:07:18Z | r/macapps | score:1 | u/LegoExecute
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67vkrz/
+BODY: BetterTouchTool: my Mac wouldn’t be half as smoothly to use without it. I think it’s 10$ for 2 years (after that you get to use it with the last update) or 20$ for a lifetime license. It’s by the creator of BetterDisplay which you seem to be already enjoying. ☺️
+=====
+DATE: 2025-01-09T13:01:13Z | r/macapps | score:2 | u/MichaelTheGeek
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67up92/
+BODY: PopClip and iCollection are good.
+=====
+DATE: 2025-01-09T12:59:43Z | r/macapps | score:2 | u/MichaelTheGeek
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67uhm4/
+BODY: Forgot about this one.
+=====
+DATE: 2025-01-09T12:36:25Z | r/macapps | score:1 | u/RenegadeUK
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67rb2x/
+BODY: Welcome :)
+=====
+DATE: 2025-01-09T12:29:59Z | r/macapps | score:1 | u/Robby_Bortles
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67qhcm/
+BODY: Hieroglyphics, let me be Pacific
+=====
+DATE: 2025-01-09T12:17:39Z | r/macapps | score:1 | u/satori_joy
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67ox5h/
+BODY: PasteNow I'll recommend: [https://pastenow.app](https://pastenow.app)
+
+ A powerful native clipboard tool for macOS, smoothy and one purchase.
+=====
+DATE: 2025-01-09T12:17:39Z | r/macapps | score:3 | u/satori_joy
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67ox5h/
+BODY: PasteNow I'll recommend: [https://pastenow.app](https://pastenow.app)
+=====
+DATE: 2025-01-09T11:42:47Z | r/macapps | score:1 | u/wasabah
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67ksul/
+BODY: Is MacWhisper better than Apple’s dictation feature?
+=====
+DATE: 2025-01-09T11:39:01Z | r/macapps | score:1 | u/ggbloom
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67kdon/
+BODY: One tab extension i find very useful and simple, can collapse all tags into a group of bookmarks (helpful if you have so many that your browser lags or if you’re parking a specific bunch of research) or right click send specific ones and move them around. chrome has in built a similar feature now i’m pretty sure. i use raindrop.io as my bookmarks manager and reading list now with the browser extension for better categorising / tagging abilities. there’s a lot of other tab organising apps in the chrome store but haven’t tried most . In chrome settings u can also set to restore tabs on restart
+=====
+DATE: 2025-01-09T10:30:20Z | r/macapps | score:1 | u/HermannSorgel
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67ddp9/
+BODY: [Piezzo](https://rogueamoeba.com/piezo/) saved me a lot of times, recording calls
+=====
+DATE: 2025-01-09T09:52:55Z | r/macapps | score:0 | u/ArimaJain
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m679w0n/
+BODY: [FunKey－Mechanical Keyboard App](https://apps.apple.com/us/app/funkey-mechanical-keyboard-app/id6469420677)
+=====
+DATE: 2025-01-09T09:43:59Z | r/macapps | score:2 | u/unairf
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67923y/
+BODY: I'm surprised I haven't seen [Monarch](https://www.monarchlauncher.com/) mentioned. For $20 you get a great app and lifetime updates. The developer is very active and is working on new cool features.
+=====
+DATE: 2025-01-09T09:43:59Z | r/macapps | score:3 | u/unairf
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m67923y/
+BODY: I'm surprised I haven't seen Monarch[Monarch](https://www.monarchlauncher.com/) mentioned. For $20 you get a great app and lifetime updates. The developer is very active and is working on new cool features.
+=====
+DATE: 2025-01-09T09:28:43Z | r/macapps | score:2 | u/SnooSongs4413
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/m677o42/
+BODY: https://preview.redd.it/1m0pnqzwsxbe1.png?width=200&amp;format=png&amp;auto=webp&amp;s=6f6eb66c96f87b26d6fa7b8985eca772211cccf7
+
+[Stempel](https://apps.apple.com/in/app/stempel-create-new-files/id1638437641?mt=12) to create new files directly from Finder
+=====

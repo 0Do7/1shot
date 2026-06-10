@@ -1,0 +1,102 @@
+DATE: 2025-05-10T21:31:15Z | r/macapps | score:1 | u/sevorghikes
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mrnhbai/
+BODY: Beyond worth it
+=====
+DATE: 2025-03-17T17:14:19Z | r/macapps | score:1 | u/Cataracts
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/miaggsm/
+BODY: I don't have a subscription to SetApp, but I have purchased and would recommend the following apps I use daily:
+
+* Bartender
+* CleanShotX
+* Downie
+* Permute
+* PopClip
+* iStat Menus
+* Swish
+* BusyCal
+* BusyContacts
+=====
+DATE: 2025-03-13T00:14:51Z | r/macapps | score:1 | u/BartWritesBooks
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mhhcq41/
+BODY: Anyone know if you can use Ulysses on more than one computer without upgrading the membership? I can also get the education discount for $60, but I need Ulysses on two computers. I currently use Ulysses directly with an education discount for $22 per year.
+=====
+DATE: 2025-03-12T21:45:11Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mhgjr19/
+BODY: ## BetterTouchTool
+
+[BetterTouchTool](https://folivora.ai/) allows you to customize various input devices like trackpads, mice, and keyboards. It offers a wide range of gesture definitions for the Magic Mouse, Macbook Trackpad and Magic Trackpad, and allows users to trigger keyboard shortcuts, system actions or custom scripts. Additionally, the app also features window management and a clipboard manager. My favorite actions include one click trackpad action to launch a Google search and launching the [Raycast](https://www.raycast.com/) emoji picker and clipboard manager. ($22 for a lifetime license when purchased without SetApp)
+
+## MindNode
+
+[MindNode](https://www.mindnode.com/) is a powerful tool designed for creating mind maps and visualizing ideas on your Mac. It has customizable layouts, themes, and easy-to-use drawing tools. I’ve been using it for over 10 years and took advantage of the SetApp version to avoid having to pay an upgrade fee. (Yearly subscription $19.99 when purchased without SetApp)
+
+## 24 Hour Wallpaper
+
+The [24 Hour Wallpaper](https://www.jetsoncreative.com/24hourwallpaper) app for Mac provides high-quality, time-synchronized wallpapers that adapt to match local daylight conditions. The wallpapers change throughout the day, mirroring natural or city scenes suited to the time. I like it more than the Bing wallpaper app I previously used. (One-time purchase price is $9.99 without Setapp)
+
+## CloudMounter
+
+[CloudMounter](https://cloudmounter.net/) connects
+=====
+DATE: 2025-03-12T19:39:55Z | r/macapps | score:1 | u/Feeling_Nose1780
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mhfty38/
+BODY: Could never justify it tbh.
+I looked through each of the apps offered there and all of the ones I found useful I either already had a lifetime license for or would cost me less than a year of Setapp to purchase lifetime license individually.
+=====
+DATE: 2025-03-12T19:29:19Z | r/macapps | score:1 | u/btRiLLa
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mhfrqmj/
+BODY: I started with SetApp and then ended up just purchasing life time licenses for the apps I liked.
+
+I didn't want to be bound to another subscription service.
+=====
+DATE: 2025-03-12T18:04:57Z | r/macapps | score:1 | u/tcolling
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mhfa12z/
+BODY: That is the way I prefer, tool.
+=====
+DATE: 2025-03-12T17:15:24Z | r/macapps | score:1 | u/gettingthere52
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mhezjoz/
+BODY: Tbh, I looked through set app, and bought every one that had a lifetime purchase. I’d rather do that and own the software then lose it if I don’t want to pay for a subscription anymore
+=====
+DATE: 2025-03-12T17:09:38Z | r/macapps | score:1 | u/NeonTrapperKeeper
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mheycml/
+BODY: I use Spark, Noteplan, Headway, QuitNow, ClearVPN, Focused Work, and Spellar AI. Well worth the price to get all of those.
+=====
+DATE: 2025-03-12T15:44:49Z | r/macapps | score:1 | u/laptopllama
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mhegnlx/
+BODY: Some of my faves:
+
+* Soulver: a powerful “notebook” style calculator, somewhat along the lines of the the new calculation features in Apple Notes.
+* Path Finder: a Finder replacement with a ton of bonus features: pane-splitting, drop-stacks, panels, special toolbars, plugins, folder-synchronization, batch file-processing, file-filters, and handy space-usage-visualization-pie-charts you can drill down through.
+* MindNode: my favorite of the "mind mapping" tools. 
+* Yoink: makes drag-and-drop so much less frustrating for me, and more powerful. It might seem like it adds more steps than necessary to drag and drop operations, but see my clip [here](https://laptopllama.me/top-20-apps/#yoink) of how fast it can be, since it lives in the corner of the screen, a prime place for high speed mouse-cursor-slamming.
+* Supercharge: has a bazillion nice little tweaks and tools to change how macOS works.
+* BusyCal: not for everyone, but if you live heavily in calendars, the giant featureset can be really nice. I've also found it nicer for timeblocking than the dedicated timeblocking tools. 
+* Downie: a nice video downloader. 
+* Permute: a nice video convertor. 
+* NotePlan: I'm not currently using this (currently playing around with a loose collection of more specialized tools), but it's great software that's worth a look. It's centered around a kind of "day notes" type system for tasks, journalling, etc.
+=====
+DATE: 2025-03-12T15:16:03Z | r/macapps | score:1 | u/sivwuk
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mheatgz/
+BODY: I have been using it for a few years. There are a few apps that I use everyday like craft so I think it’s worth it for me.  If price gets to be an issue I am sure I can find an alternatives.
+
+I made a YouTube video about it.
+
+10 Mac Apps That Make SetApp worth having!
+https://youtu.be/iMS36aLrg00
+=====
+DATE: 2025-03-12T14:13:05Z | r/macapps | score:1 | u/AmazingVanish
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mhdyu57/
+BODY: What types of things do you do and want our of applications. Without that context it’s hard to give you an answer. 
+
+I’ve been a subscriber since Setapp since it began with the exception of last year. I decided to trim my subscriptions. After a year I finally resubscribed. I get far too much value out of it. TablePlus alone makes the subscription dirt cheap to me. 
+
+I use a LOT of the apps though. YMMV.
+=====
+DATE: 2025-03-12T13:02:21Z | r/macapps | score:1 | u/timmy_o
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mhdm6s5/
+BODY: I’ve been paying for it for years - when I started it was a no brainer - there were a couple of things included I already paid for elsewhere or would have happily paid for - but as the price has gone up I should probably re look at it.
+=====
+DATE: 2025-03-12T12:50:21Z | r/macapps | score:1 | u/Dense-Sheepherder450
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/mhdk9jh/
+BODY: I believe that we have enough subscription services in our lives already and I prefer owning my software whenever possible so there’s no way I am subscribing to Setapp.
+=====

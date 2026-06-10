@@ -1,0 +1,690 @@
+DATE: 2025-05-14T13:29:30Z | r/Accor | score:1 | u/AmazingExplorer698
+URL: https://reddit.com/r/Accor/comments/1kmf6yi/can_anyone_having_all_plus_voyageur_card_check/
+TITLE: Can anyone having ALL PLUS Voyageur Card check pricing please?
+BODY: Hi there,
+
+  
+Can someone check pricing with ALL PLUS Voyageur Card? for these hotels please.
+
+Want to purchase membership but see how much discount is available first  
+If anyone can check these pricing after you choose Rooms (on second page) please share.
+
+  
+**June 2 - June 12 - see pricing that I'm seeing right now with screenshots, thanks in advance!**
+
+1. **Fairmont Dubai** (screenshot: [https://shottr.cc/s/W6lw/SCR-20250514-nrhp.png](https://shottr.cc/s/W6lw/SCR-20250514-nrhp.png) )  
+3825.90 AED
+
+  
+2. **Pullman Dubai Creek City Centre** ( [https://shottr.cc/s/WDaE/SCR-20250514-nsop.png](https://shottr.cc/s/WDaE/SCR-20250514-nsop.png)  )  
+2631.98 AED
+
+  
+3. **Novotel Bur Dubai** ( [https://shottr.cc/s/WV9o/SCR-20250514-ntlp.png](https://shottr.cc/s/WV9o/SCR-20250514-ntlp.png) )  
+2174.25 AED
+
+  
+4. **Mövenpick Hotel &amp; Apartments Bur Dubai** ( [https://shottr.cc/s/WI83/SCR-20250514-nucp.png](https://shottr.cc/s/WI83/SCR-20250514-nucp.png) )  
+2465.64 AED
+
+  
+Aim is to get best pricing while also getting additional nights and discounts as part of ALL PLUS VOYAGER
+
+  
+Thanks!
+=====
+DATE: 2025-05-08T10:47:22Z | r/MacOS | score:1 | u/Worried-Network3946
+URL: https://reddit.com/r/MacOS/comments/1khn1de/looking_for_a_sharexlike_workflow_on_mac/
+TITLE: Looking for a ShareX-like workflow on Mac – Screenshot/Video → OneDrive for Business → Shorten with POLR
+BODY: Hey folks,
+
+I'm looking for a way to replicate a ShareX workflow on macOS.
+
+**Here’s what I want to achieve:**
+
+1. Take a screenshot or screen recording
+2. Edit the file (crop, highlight)
+3. Automatically upload it to **OneDrive for Business**
+4. Automatically shorten the URL using **POLR** (self-hosted URL shortener)
+
+I know there are ShareX alternatives on Mac like CleanShot X, Shottr, and Monosnap, but I'm specifically asking if this exact workflow can be done using these **specific services**, either through built-in features, automation, or scripting.
+
+Anyone here set something like this up? Any ideas on how to achieve this with Automator, Shortcuts, or other tools?
+
+Thanks in advance!
+=====
+DATE: 2025-05-06T02:14:16Z | r/Anki | score:1 | u/rockytau
+URL: https://reddit.com/r/Anki/comments/1kftk6i/using_shottr_and_anki_at_the_same_time_closes/
+TITLE: Using Shottr and Anki at the same time closes both windows
+BODY: Does anyone else use Shottr and Anki? If I close the Shottr window for some reason the Anki window closes too and it's infuriating
+=====
+DATE: 2025-05-05T05:30:44Z | r/MacOS | score:0 | u/Particular_Maybe5486
+URL: https://reddit.com/r/MacOS/comments/1kf42jc/what_mac_apps_would_you_pay_double_for/
+TITLE: What Mac apps would you pay DOUBLE for?
+BODY: So I know we're all about those free apps and one-time purchases on this sub (and trust me, I love saving money too), but I wanted to shoutout the apps that have been so valuable to me that I’d want to pay. Here are the apps that have helped me so much that I'd honestly pay double what they currently charge.
+WillowVoice
+I've tried literally every dictation app out there (including all the free ones everyone recommends here), but WillowVoice is just built different. The latency is like half a second which is insane, and the accuracy is the best I’ve seen. It’s mac native and super clean.
+I'll happily pay for something that actually works instead of editing dictations every few seconds. It's saved me hours of typing and made me way more productive. Speed and accuracy are worth every penny.
+Shottr
+This screenshot tool is so lightweight but does SO much more than the built-in Mac one. The backdrop feature that adds those gradient backgrounds to code screenshots is amazing. Perfect for when I'm sharing snippets with friends or posting on GitHub. It's also crazy fast and never lags my system.
+The fact that this app is basically free is insane to me. I'd literally throw money at the developer.
+1Password
+Manages all my passwords, 2FA, credit cards, passkeys, software licenses... literally everything. The family plan lets me share certain logins with my parents and keep everything else private.
+Given how much sensitive info I have stored in here, I'd honestly pay double. Security is w
+=====
+DATE: 2025-05-05T04:54:29Z | r/ProductivityApps | score:24 | u/Grouchy_Ice3335
+URL: https://reddit.com/r/ProductivityApps/comments/1kf3i6m/what_apps_would_you_pay_double_for/
+TITLE: What apps would you pay DOUBLE for ?
+BODY: So I know we're all about those free apps and one-time purchases on this sub (and trust me, I love saving money too), but I wanted to shoutout the apps that have been so valuable to me that I’d want to pay. Here are the apps that have helped me so much that I'd honestly pay double what they currently charge.
+
+WillowVoice                                                                                                           I've tried literally every dictation app out there (including all the free ones everyone recommends here), but WillowVoice is just built different. The latency is like half a second which is insane, and the accuracy is the best I’ve seen. It’s mac native and super clean.
+
+I'll happily pay for something that actually works instead of editing dictations every few seconds. It's saved me hours of typing and made me way more productive. Speed and accuracy are worth every penny.
+
+Shottr                                                                                                              This screenshot tool is so lightweight but does SO much more than the built-in Mac one. The backdrop feature that adds those gradient backgrounds to code screenshots is amazing. Perfect for when I'm sharing snippets with friends or posting on GitHub. It's also crazy fast and never lags my system.
+
+The fact that this app is basically free is insane to me. I'd literally throw money at the developer.
+
+1Password                                                                 
+=====
+DATE: 2025-05-05T04:54:29Z | r/ProductivityApps | score:34 | u/Grouchy_Ice3335
+URL: https://reddit.com/r/ProductivityApps/comments/1kf3i6m/what_apps_would_you_pay_double_for/
+TITLE: What apps would you pay DOUBLE for ?
+BODY: 
+So I know we're all about those free apps and one-time purchases on this sub (and trust me, I love saving money too), but I wanted to shoutout the apps that have been so valuable to me that I’d want to pay. Here are the apps that have helped me so much that I'd honestly pay double what they currently charge.
+
+WillowVoice
+I've tried literally every dictation app out there (including all the free ones everyone recommends here), but WillowVoice is just built different. The latency is like half a second which is insane, and the accuracy is the best I’ve seen. It’s mac native and super clean.
+
+I'll happily pay for something that actually works instead of editing dictations every few seconds. It's saved me hours of typing and made me way more productive. Speed and accuracy are worth every penny.
+
+Shottr
+This screenshot tool is so lightweight but does SO much more than the built-in Mac one. The backdrop feature that adds those gradient backgrounds to code screenshots is amazing. Perfect for when I'm sharing snippets with friends or posting on GitHub. It's also crazy fast and never lags my system.
+
+The fact that this app is basically free is insane to me. I'd literally throw money at the developer.
+
+1Password
+Manages all my passwords, 2FA, credit cards, passkeys, software licenses... literally everything. The family plan lets me share certain logins with my parents and keep everything else private.
+
+Given how much sensitive info I have stored in here, I'd honestly pay double. Securi
+=====
+DATE: 2025-05-05T04:41:17Z | r/ProductivityApps | score:3 | u/Grouchy_Ice3335
+URL: https://reddit.com/r/ProductivityApps/comments/1kf3awf/what_apps_would_you_pay_double_for/
+TITLE: What apps would you pay DOUBLE for ?
+BODY: So I know we're all about those free apps and one-time purchases on this sub (and trust me, I love saving money too), but I wanted to shoutout the apps that have been so valuable to me that I’d want to pay. Here are the apps that have helped me so much that I'd honestly pay double what they currently charge.
+
+WillowVoice
+I've tried literally every dictation app out there (including all the free ones everyone recommends here), but WillowVoice is just built different. The latency is like half a second which is insane, and the accuracy is the best I’ve seen. It’s mac native and super clean.
+
+I'll happily pay for something that actually works instead of editing dictations every few seconds. It's saved me hours of typing and made me way more productive. Speed and accuracy are worth every penny.
+
+Shottr
+This screenshot tool is so lightweight but does SO much more than the built-in Mac one. The backdrop feature that adds those gradient backgrounds to code screenshots is amazing. Perfect for when I'm sharing snippets with friends or posting on GitHub. It's also crazy fast and never lags my system.
+
+The fact that this app is basically free is insane to me. I'd literally throw money at the developer.
+
+1Password
+Manages all my passwords, 2FA, credit cards, passkeys, software licenses... literally everything. The family plan lets me share certain logins with my parents and keep everything else private.
+
+Given how much sensitive info I have stored in here, I'd honestly pay double. Securit
+=====
+DATE: 2025-05-05T04:32:24Z | r/ProductivityApps | score:1 | u/Grouchy_Ice3335
+URL: https://reddit.com/r/ProductivityApps/comments/1kf35x6/what_apps_would_you_pay_double_for/
+TITLE: What apps would you pay DOUBLE for ?
+BODY: So I know we're all about those free apps and one-time purchases on this sub (and trust me, I love saving money too), but I wanted to shoutout the apps that have been so valuable to me that I’d want to pay. Here are the apps that have helped me so much that I'd honestly pay double what they currently charge.
+
+WillowVoice
+I've tried literally every dictation app out there (including all the free ones everyone recommends here), but WillowVoice is just built different. The latency is like half a second which is insane, and the accuracy is the best I’ve seen. It’s mac native and super clean.
+
+I'll happily pay for something that actually works instead of editing dictations every few seconds. It's saved me hours of typing and made me way more productive. Speed and accuracy are worth every penny.
+
+Shottr
+This screenshot tool is so lightweight but does SO much more than the built-in Mac one. The backdrop feature that adds those gradient backgrounds to code screenshots is amazing. Perfect for when I'm sharing snippets with friends or posting on GitHub. It's also crazy fast and never lags my system.
+
+The fact that this app is basically free is insane to me. I'd literally throw money at the developer.
+
+1Password
+Manages all my passwords, 2FA, credit cards, passkeys, software licenses... literally everything. The family plan lets me share certain logins with my parents and keep everything else private.
+
+Given how much sensitive info I have stored in here, I'd honestly pay double. Securit
+=====
+DATE: 2025-05-05T04:09:44Z | r/ProductivityApps | score:1 | u/Grouchy_Ice3335
+URL: https://reddit.com/r/ProductivityApps/comments/1kf2spp/what_apps_would_you_pay_double_for/
+TITLE: What apps would you pay DOUBLE for?
+BODY: So I know we're all about those free apps and one-time purchases on this sub (and trust me, I love saving money too), but I wanted to shoutout the apps that have been so valuable to me that I’d want to pay. Here are the apps that have helped me so much that I'd honestly pay double what they currently charge.
+WillowVoice
+I've tried literally every dictation app out there (including all the free ones everyone recommends here), but WillowVoice is just built different. The latency is like half a second which is insane, and the accuracy is the best I’ve seen. It’s mac native and super clean.
+I'll happily pay for something that actually works instead of editing dictations every few seconds. It's saved me hours of typing and made me way more productive. Speed and accuracy are worth every penny.
+Shottr
+This screenshot tool is so lightweight but does SO much more than the built-in Mac one. The backdrop feature that adds those gradient backgrounds to code screenshots is amazing. Perfect for when I'm sharing snippets with friends or posting on GitHub. It's also crazy fast and never lags my system.
+The fact that this app is basically free is insane to me. I'd literally throw money at the developer.
+1Password
+Manages all my passwords, 2FA, credit cards, passkeys, software licenses... literally everything. The family plan lets me share certain logins with my parents and keep everything else private.
+Given how much sensitive info I have stored in here, I'd honestly pay double. Security is w
+=====
+DATE: 2025-05-05T04:06:57Z | r/apps | score:1 | u/Krishna_8105
+URL: https://reddit.com/r/apps/comments/1kf2r1n/what_apps_would_you_pay_double_for/
+TITLE: What apps would you pay DOUBLE for?
+BODY: So I know we're all about those free apps and one-time purchases on this sub (and trust me, I love saving money too), but I wanted to shoutout the apps that have been so valuable to me that I’d want to pay. Here are the apps that have helped me so much that I'd honestly pay double what they currently charge.
+
+WillowVoice                
+I've tried literally every dictation app out there (including all the free ones everyone recommends here), but WillowVoice is just built different. The latency is like half a second which is insane, and the accuracy is the best I’ve seen. It’s mac native and super clean.
+
+I'll happily pay for something that actually works instead of editing dictations every few seconds. It's saved me hours of typing and made me way more productive. Speed and accuracy are worth every penny.
+
+Shottr                          
+This screenshot tool is so lightweight but does SO much more than the built-in Mac one. The backdrop feature that adds those gradient backgrounds to code screenshots is amazing. Perfect for when I'm sharing snippets with friends or posting on GitHub. It's also crazy fast and never lags my system.
+
+The fact that this app is basically free is insane to me. I'd literally throw money at the developer.
+
+1Password                         
+Manages all my passwords, 2FA, credit cards,
+passkeys, software licenses... literally everything. The family plan lets me share certain logins with my parents and keep everything else private.
+
+Rectangle     
+=====
+DATE: 2025-05-05T04:06:57Z | r/apps | score:1 | u/Krishna_8105
+URL: https://reddit.com/r/apps/comments/1kf2r1n/what_apps_would_you_pay_double_for/
+TITLE: What apps would you pay DOUBLE for?
+BODY: So I know we're all about those free apps and one-time purchases on this sub (and trust me, I love saving money too), but I wanted to shoutout the apps that have been so valuable to me that I’d want to pay. Here are the apps that have helped me so much that I'd honestly pay double what they currently charge.
+
+WillowVoice
+I've tried literally every dictation app out there (including all the free ones everyone recommends here), but WillowVoice is just built different. The latency is like half a second which is insane, and the accuracy is the best I’ve seen. It’s mac native and super clean.
+
+I'll happily pay for something that actually works instead of editing dictations every few seconds. It's saved me hours of typing and made me way more productive. Speed and accuracy are worth every penny.
+
+Shottr
+This screenshot tool is so lightweight but does SO much more than the built-in Mac one. The backdrop feature that adds those gradient backgrounds to code screenshots is amazing. Perfect for when I'm sharing snippets with friends or posting on GitHub. It's also crazy fast and never lags my system.
+
+The fact that this app is basically free is insane to me. I'd literally throw money at the developer.
+
+1Password
+Manages all my passwords, 2FA, credit cards,
+passkeys, software licenses... literally everything. The family plan lets me share certain logins with my parents and keep everything else private.
+
+Rectangle
+Coming from Windows, I was struggling with Mac window management. Rect
+=====
+DATE: 2025-05-02T21:35:56Z | r/macapps | score:1 | u/anonymous_2600
+URL: https://reddit.com/r/macapps/comments/1kdcjl3/is_there_anything_better_than_shottr_after_3/
+TITLE: is there anything better than shottr? after 3 months could we get any new answers?
+BODY: 
+=====
+DATE: 2025-04-28T02:33:40Z | r/u_Sea_Strawberry_11 | score:1 | u/Sea_Strawberry_11
+URL: https://reddit.com/r/u_Sea_Strawberry_11/comments/1k9l4b6/omg_the_shottr_app_is_so_useful_my_first_snip/
+TITLE: OMG the Shottr app is so useful! My first snip
+BODY: https://preview.redd.it/aw7xohmamhxe1.png?width=1576&amp;format=png&amp;auto=webp&amp;s=426162461ab1a3ec728e880392e921bdd0ff4fa7
+
+
+=====
+DATE: 2025-04-27T18:10:18Z | r/macapps | score:59 | u/Strict-Vegetable6252
+URL: https://reddit.com/r/macapps/comments/1k9af1c/my_list_of_apps_id_pay_double_for/
+TITLE: My list of apps I’d pay DOUBLE for
+BODY: So I know we're all about those free apps and one-time purchases on this sub (and trust me, I love saving money too), but I wanted to shoutout the apps that have been so valuable to me that I’d want to pay. Here are the apps that have helped me so much that I'd honestly pay double what they currently charge.
+
+
+WillowVoice
+
+I've tried literally every dictation app out there (including all the free ones everyone recommends here), but WillowVoice is just built different. The latency is like half a second which is insane, and the accuracy is the best I’ve seen. It’s mac native and super clean.
+
+
+I'll happily pay for something that actually works instead of editing dictations every few seconds. It's saved me hours of typing and made me way more productive. Speed and accuracy are worth every penny
+
+
+
+Shottr
+
+This screenshot tool is so lightweight but does SO much more than the built-in Mac one. The backdrop feature that adds those gradient backgrounds to code screenshots is amazing. Perfect for when I'm sharing snippets with friends or posting on GitHub. It's also crazy fast and never lags my system.
+
+
+The fact that this app is basically free is insane to me. I'd literally throw money at the developer
+
+1Password
+
+Manages all my passwords, 2FA, credit cards, passkeys, software licenses... literally everything. The family plan lets me share certain logins with my parents and keep everything else private.
+
+
+Given how much sensitive info I have stored in here, I'd honestly pay double. 
+=====
+DATE: 2025-04-25T03:57:06Z | r/macapps | score:1 | u/Krbmtl
+URL: https://reddit.com/r/macapps/comments/1k7bsch/getting_a_new_mac_for_work_provided_by_the/
+TITLE: Getting a new mac for work (provided by the company). Are any of these apps a security risk to instal on my company computer?
+BODY: Hi all,
+
+First time getting a mac over a windows.... Looking to install some apps for productivity/ease of use... Here are the apps i'm looking to install.
+
+*  Rectangle
+* Raycast
+* Maccy
+* Shottr
+* Ice
+* Numi
+
+  
+Curious if anyone has had pervious experience and any of these apps i should avoid on a corporate laptop. 
+
+Thanks in advance!
+
+
+=====
+DATE: 2025-04-21T02:47:28Z | r/macbookair | score:1 | u/Thelush2000
+URL: https://reddit.com/r/macbookair/comments/1k43af8/new_macbook_air_arriving_in_a_few_days_heres_my/
+TITLE: New Macbook Air arriving in a few days, here's my to do list
+BODY: I should receive a new Macbook Air within the next week, and the wait due to living in Taiwan has given me time to do two things:
+
+1. Buy Sky Blue instead of Midnight
+
+2. Read/watch a lot about useful apps and things to do after initial setup. Here's my list of things to do/install, it is in no particular order.
+
+* Main settings incl. right click, finder path, language inputs, dock settings...
+* Chrome
+* Raycast
+* Wins
+* IINA
+* Bitwarden
+* Command X
+* Alt Tab
+* Shottr
+* MacMouseFix/Better Mouse/Scroll Reverser
+* Maccy
+* Flipclock
+* AppCleaner
+* Amphetamine
+* Alcove
+* Umbra
+* Only Switch
+* Menu Bar Calendar
+* Ice Menu Bar
+* Better Display
+* WhatsApp
+* Line
+* Office
+* Canva
+* Onedrive
+* Google drive
+* Spotify
+* Netflix
+* Disney+
+* Apple TV
+* Prime
+* Notebook LM
+* Gmail
+* Maps
+* Calendar
+* Apple photos - upload after Onedrive downloads
+* Keep
+* Malwarebytes
+
+Is there anything obvious that I have forgotten? Switching from Win10 due to EoL and I can't stand the constant adverts in Windows. Even the bloody built-in weather app has adverts and it constantly 'suggests' that I night want to install/buy Xbox Pass or other faffery
+=====
+DATE: 2025-04-16T02:57:43Z | r/kitchenremodel | score:1 | u/fontofile
+URL: https://reddit.com/r/kitchenremodel/comments/1k0aco0/help_with_my_remodeling_in_berlin_altbau_with_a/
+TITLE: Help with my remodeling in Berlin Altbau with a weird layout
+BODY: Hello,
+
+I moved into this apartment around 2 years ago and I and my former roommate built a kitchen in the most frugal way. However, after two years I am really tired of this kitchen and it really needs a proper update. I am also in a position to spend an acceptable amount of money. ca. 3000 euro (The apartment is rented and I don't want to splurge on it). The whole kitchen shape is weird in a way that none of the ready-made furniture fits.
+
+As you can see in the plan..The side which has Gas and water connection is divided into 3 parts and corner where the window is there is a heater beneath that which can not be covered. On the other side, there is no gas connection and it is not allowed to transfer. The kitchen is big enough for Berlin standards but I am not sure what can be done here. I have attached a handmade floor plan and some photos of the current setup.
+
+Would anybody help me with what can be done here? I would really appreciate it. I don't mind buying custom things from Ikea or online and setting them up myself.
+
+Thanks :)
+
+Current setup
+
+https://shottr.cc/s/WEgs/SCR-20230703-t38.jpeg
+https://shottr.cc/s/WAis/SCR-20230703-t3u.jpeg
+https://shottr.cc/s/WtLG/SCR-20230703-t45.jpeg
+
+Floor plan https://shottr.cc/s/WZjP/SCR-20230703-sro.png
+=====
+DATE: 2025-04-11T09:35:37Z | r/macapps | score:0 | u/TheCameraDuck
+URL: https://reddit.com/r/macapps/comments/1jwlubd/shottr_editing_saved_files/
+TITLE: Shottr - editing saved files
+BODY: Does anyone know how to re-edit annotations on Shottr? For example, we were using it to draw annotations on a map and then needed to re-open the file and move these around but they were burnt in? Perhaps this isn't the way this software works.
+=====
+DATE: 2025-04-05T13:55:24Z | r/macbookair | score:1 | u/Immediate_Channel393
+URL: https://reddit.com/r/macbookair/comments/1js3zqw/my_first_macbook/
+TITLE: My first MacBook!
+BODY: I know there are a ton of posts, but I just had to share. Got the 13" M4 with 24gb ram and 1tb ssd in sky blue! Huge upgrade from my $500 hp laptop that was just terrible. I've got one question though. I added 3 gmail accounts to Apple Mail yesterday and Activity Monitor is saying Mail is using 21% CPU and 803 energy. Why is it so high? I never turned on AI. I've also installed FCP, Shottr, free version of Al Dente, Arc, and Raycast which is quickly becoming a new favorite! If y'all could share any other tips or cool apps I should try, let me know! I've been lurking this subreddit for a few months now and am so excited to officially be a macbook air owner!
+
+
+=====
+DATE: 2025-04-01T15:05:28Z | r/macapps | score:1 | u/veerasu
+URL: https://reddit.com/r/macapps/comments/1joxuu7/shottr_does_anyone_know_how_to_get_rid_of_dotted/
+TITLE: Shottr - Does anyone know how to get rid of dotted line when capturing shot on Figma
+BODY: Hi,
+
+I have been a very satisfied user of Shottr (and fortunately I still am).
+
+However there is an annoying issue with the version 18.X released a couple of month ago.
+
+I use Shottr to capture part of images on Figma and since the version 18, Shottr has not captured the frozen screen, but a couple of milliseconds after the screen is unfrozen which will activate the dotted line around an object on Figma.
+
+[This annoying dotted line](https://preview.redd.it/uim0omqqn8se1.png?width=114&amp;format=png&amp;auto=webp&amp;s=962557b2448d48594082cab732464a76af2ec2e4)
+
+Does anyone know how to fix this issue? I do not want to use MacOS native screen capturing tool because it's not as good as Shottr in adding annotation and ease of use.
+
+Thanks in advance
+=====
+DATE: 2025-04-01T15:02:21Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1joxryw/shottr_anyone_know_how_to_get_rid/
+TITLE: Shottr - Anyone know how to get rid
+BODY: [deleted]
+=====
+DATE: 2025-03-25T01:27:03Z | r/mac | score:1 | u/Crying-Crab12
+URL: https://reddit.com/r/mac/comments/1jj7wqf/annoying_control_center_popup/
+TITLE: Annoying Control Center Popup
+BODY: Recently I downloaded Shottr for easier screenshotting on my mac and every time I take a screenshot, this annoying popup from control center keeps appearing. It's driving me crazy and I can't find anywhere how to get rid of it. Someone please help me get rid of this I don't know where it came from and it blocks me from screenshotting anything on the top right area of my screen. Thanks 
+
+https://preview.redd.it/5nfdvgs6nqqe1.png?width=546&amp;format=png&amp;auto=webp&amp;s=79a10ddbc28bd2c0f704fd050d516fb0d0baf6e2
+
+
+=====
+DATE: 2025-03-18T17:12:05Z | r/macapps | score:464 | u/Miniponki
+URL: https://reddit.com/r/macapps/comments/1jea4ua/my_list_of_macos_apps_because_people_love_these/
+TITLE: My list of MacOS apps, because people love these lists. Super extended director's cut editon.
+BODY: People really seem to love these lists so here I go. The super extended, directors cut edition of **everything** I installed on my mac. Maybe someone has other ideas on how to get rid of a few, or better alternatives? Especially the Notes is still a hot topic, since I hate subscriptions with a passion, but have not found anything similar that meets my requirements.
+
+# General
+
+* [AltTab](https://github.com/lwouis/alt-tab-macos) (**Free, open source**): I guess almost everyone uses this? Almost perfect window switcher. If [Contexts](https://contexts.co/) would still get updates I would use it, but the “Titles” Appearance option is great here, too. Only thing bothering me is that titles scale to the monitor width with no way to change it? Maybe I will fork it and fix it for myself.
+* [Applite](https://aerolite.dev/applite) (**Free, open source**): Homebrew Gui. Will maybe switch to [Cork](https://corkmac.app/) (*paid*, **open source)**, I just tested it once, but went back to Applite. Works great so far for me.
+* [Alcove](https://tryalcove.com/) (*Paid*): I tried multiple Notch-Apps, and with multiple I mean almost all of them. Alcove is perfect. Looks like a native macos app, updates always add nice additions without bloating it, and my biggest problem (Alcove getting stuck behind the menu bar) was fixed in the last version. Just love it.
+* [Shareful](https://apps.apple.com/de/app/shareful/id1522267256?l=en-GB&mt=12) (**Free**): Simply adds a few very nice options to the share
+=====
+DATE: 2025-03-17T07:23:10Z | r/gtd | score:1 | u/mfdspeech
+URL: https://reddit.com/r/gtd/comments/1jd71a1/review_underrated_mac_apps_that_made_me_way_more/
+TITLE: Review: Underrated Mac apps that made me way more productive
+BODY: Hey r/gtd, as an Apple geek who’s tested way too many apps, I’ve been scouring r/macapps and r/productivity for fresh finds. These tools for Mac keep popping up, and they’re too good not to share. Here’s my review of 10 underrated Mac apps: 
+
+**Typing &amp; Dictation**
+
+* [Willow Voice](https://willowvoice.com/): AI-powered dictation tool that auto-formats text and cuts filler words. Most delightful user experience and fastest latency out of all dictation tools I’ve tried. Accuracy is unbelievably good.
+
+**Productivity Booster**
+
+* [Monarch](https://blog.monarchlauncher.com/monarch-is-now-in-private-beta-7ddad6195739): Think Raycast or Alfred but with app launching, file search, notes, and clipboard tools in one sleek package. I’ve used all the big launchers, and while it’s still a bit buggy, its rapid updates and all-in-one vibe have me hooked.
+* [Klack](https://tryklack.com/): Adds satisfying mechanical click sounds to every keystroke, which sounds gimmicky, but I love it. I’ve messed with sound-tweaking apps before, and this one’s my fav because of its minimalist charm.
+* [Granola](https://www.granola.ai/): An AI notetaker that takes my chaotic meeting ramblings and spits out clean, sharp summaries. I’ve tested tons of note apps, and Granola’s edge is how it nails context. It’s way better than the clunky transcriptions I’m used to.
+
+**Screenshot &amp; Media Saviors**
+
+* [TextSniper](https://textsniper.app/): Instant OCR that extracts text (even from QR codes) from images. 
+=====
+DATE: 2025-03-13T09:53:50Z | r/apple | score:85 | u/vishalnegal
+URL: https://reddit.com/r/apple/comments/1ja8d8j/review_underrated_mac_apps_that_made_me_way_more/
+TITLE: Review: Underrated Mac apps that made me way more productive
+BODY: Hey, r/Apple, as an Apple geek who’s tested too many apps, I’ve been scouring r/macapps and r/productivity for fresh finds. These tools for Mac keep popping up, and they’re too good not to share. Here’s my review of 10 underrated Mac apps: 
+
+**Typing & Dictation**
+
+* [Willow Voice](https://willowvoice.com/): An AI-powered dictation tool that auto-formats text and cuts filler words. It has the most delightful user experience and the fastest latency out of all the dictation tools I’ve tried. The accuracy is unbelievably good.
+
+**Productivity Booster**
+
+* [Monarch](https://blog.monarchlauncher.com/monarch-is-now-in-private-beta-7ddad6195739): Think Raycast or Alfred but with app launching, file search, notes, and clipboard tools in one sleek package. I’ve used all the big launchers, and while it’s still a bit buggy, its rapid updates and all-in-one vibe have me hooked.
+* [Klack](https://tryklack.com/): It adds satisfying mechanical click sounds to every keystroke, which sounds gimmicky, but I love it. I’ve messed with sound-tweaking apps before, and this one’s my fav because of its minimalist charm.
+* [Granola](https://www.granola.ai/): An AI notetaker that takes my chaotic meeting ramblings and spits out clean, sharp summaries. I’ve tested tons of note apps, and Granola’s edge is how it nails context. It’s way better than the clunky transcriptions I’m used to.
+
+**Screenshot & Media Saviors**
+
+* [TextSniper](https://textsniper.app/): Instant OCR that extracts text (even from QR 
+=====
+DATE: 2025-03-10T19:41:53Z | r/macapps | score:1 | u/Top-Eye-267
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/
+TITLE: Screenshot quality: Shottr vs Clean Shot X
+BODY: I am currently using Shottr which I like overall but when I need to use a high quality screenshot, it seems like it doesn't do the job as well as the Mac in-house tool did? (I may be wrong here)
+
+I'm not sure if this is an issue with dpi but apparently this can't be changed.
+
+To my question: would Clean Shot X enable me to get higher quality screenshots than Shottr, or would I get pretty much the same result?
+=====
+DATE: 2025-03-10T16:33:28Z | r/macapps | score:0 | u/gwobetwotter
+URL: https://reddit.com/r/macapps/comments/1j82tx3/shottr_app_is_it_possible_to_airdrop_directly/
+TITLE: Shottr App: Is it possible to Air-Drop directly from Shottr?
+BODY: Is it possible to AirDrop directly from Shottr? I can AirDrop a screenshot once I've saved it (by opening in Preview or other app, or by right-clicking on the file name in Finder), but I can't see a "Share" icon in the Shottr window.
+
+(Also, I know it's not "Air-Drop", but for some reason, when I try to include "AirDrop" in the title of this post, Reddit tells me "You may not have 'airdrop' in your title." 🧐)
+=====
+DATE: 2025-03-01T03:15:10Z | r/macapps | score:1 | u/punkhop
+URL: https://reddit.com/r/macapps/comments/1j0pyab/can_apple_mail_change_color_with_a_keystroke/
+TITLE: Can Apple Mail change color with a keystroke?
+BODY: Postbox has a great feature where I can hit a number key and color a message so I can quickly see which messages in my inbox need to be replied to/contain important information/etc.
+
+Here's how Postbox does it:
+https://shottr.cc/s/U4jQ/SCR-20250228-rocp.png
+
+**Is there a way I can do this in Apple Mail?** 
+
+• I know I can Flag, but that doesn't change the color of the row text.
+
+• I can go to Format -&gt; Show Colors and manually choose a color, but that's slow and inexact. It also changes the background color, not the text color, but if that's the closest I can get, that's fine.
+
+I'd love to be able to hit a key (ideally a number, like 1 or 2) and change the color (ideally the text, but background is fine). 
+
+Anyone know how to do this? Thanks.
+=====
+DATE: 2025-02-27T04:16:07Z | r/macapps | score:1 | u/datguywind
+URL: https://reddit.com/r/macapps/comments/1iz7avc/shottr_cannot_capture_white_fff/
+TITLE: Shottr cannot capture white #fff
+BODY: [removed]
+=====
+DATE: 2025-02-27T04:16:07Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1iz7avc/shottr_cannot_capture_white_fff/
+TITLE: Shottr cannot capture white #fff
+BODY: [removed]
+=====
+DATE: 2025-02-25T03:38:22Z | r/raycastapp | score:1 | u/tommythepeakyblinder
+URL: https://reddit.com/r/raycastapp/comments/1ixlnfn/annoying_friction_in_shottr_ocr_workflow/
+TITLE: Annoying friction in shottr OCR workflow
+BODY: 
+=====
+DATE: 2025-02-24T05:35:12Z | r/macapps | score:1 | u/purezen
+URL: https://reddit.com/r/macapps/comments/1iwus16/how_can_i_capture_text_from_a_screen_via_ocr_for/
+TITLE: How can I capture text from a screen via OCR for non-English scripts ?
+BODY: I have been using Shottr and OwlOCR for capturing text from screen.
+
+However, both of them don't support the other language I need - Hindi / हिन्दी.
+
+How can I screen capture Hindi text?
+=====
+DATE: 2025-02-20T20:41:17Z | r/macapps | score:1 | u/Jay11Man
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/
+TITLE: What screenshot app do you use?
+BODY: I'm currently using Shottr free tier. I'm enjoying it so far but I want to see what other people are using. Heard Cleanshot X is the best out there, but I couldn't justify the $29 price tag for lifetime with one year of updates. I'm curious about what you guys are using.
+=====
+DATE: 2025-02-20T12:48:14Z | r/macapps | score:1 | u/robahearts
+URL: https://reddit.com/r/macapps/comments/1itxpc4/shottr_and_tooltips/
+TITLE: Shottr and tooltips
+BODY: I’m using macOS Sequoia 15.3.1, and I’ve noticed that when I take a screenshot of anythng with a tooltip, the tooltip doesn’t appear in the screenshot? Anyone else having this issue?
+=====
+DATE: 2025-02-14T14:27:56Z | r/macapps | score:1 | u/BartWritesBooks
+URL: https://reddit.com/r/macapps/comments/1ipbr0j/shottr_and_screenfloat/
+TITLE: Shottr and ScreenFloat
+BODY: I already own ScreenFloat ... is there anything that Shottr does that ScreenFloat doesn't do? Is it worth owning both?
+=====
+DATE: 2025-02-13T04:28:45Z | r/macapps | score:1 | u/Smooth-Scholar7608
+URL: https://reddit.com/r/macapps/comments/1iob1vr/shottr_what_is_this_supposed_to_mean/
+TITLE: Shottr - what is this supposed to mean?
+BODY: 
+=====
+DATE: 2025-02-12T21:04:04Z | r/macapps | score:1 | u/Moshi2211
+URL: https://reddit.com/r/macapps/comments/1io1pgg/apps_for_writersproductivity/
+TITLE: Apps for writers/productivity
+BODY: Hi, can you recommend any apps for writers, preferably free ones-Apple ecosystem please? Thnks!! 
+
+I already have:
+
+Notion 
+Obsidian
+ChatGPT
+Raycast
+Pastepal (another better than this one?)
+Amphetamine
+Pieoneer
+Magnet
+Goodnotes
+MarkMark
+AltTab 
+Shottr (another better than this one?)
+Notchnook
+
+
+
+=====
+DATE: 2025-02-08T04:20:28Z | r/cantax | score:1 | u/__compactsupport__
+URL: https://reddit.com/r/cantax/comments/1ikeuvj/employer_is_possibly_not_witholding_enough_tax/
+TITLE: Employer is possibly not witholding enough tax
+BODY: I submitted a T1213 to the CRA late 2024 in which I promised to deposit $25, 000 to my RRSP in 2025. I received my letter of authority in January 2025.  
+
+I make $317, 500 a year as a software engineer in Ontario. This means my marginal tax rate is ~53% [according to EY](https://www.eytaxcalculators.com/en/2025-personal-tax-calculator.html).  My understanding is that the letter of authority reduces my income tax so that I get the sum I would have received as a tax refund in 2026 spread over the 24 pay periods in 2025.
+
+Back of the napkin, that means I should get 25, 000 x 0.53 /24 = $552 and change more every paycheque.
+
+I've double checked this by also comparing payable taxes (using this calculator https://www.wealthsimple.com/en-ca/tool/tax-calculator/ontario) with and without a $25, 000 RRSP contribution.  [The difference in total tax is about $500 over the 24 pay periods](https://shottr.cc/s/1cZL/SCR-20250207-xej.png)
+
+My employer is presently paying me $1100 more every pay -- so that's too much.
+
+I would appreciate if someone could:
+
+A) confirm my understanding of how the letter of authority reduces my taxable income.
+
+B) confirm the $1100 is probably too much
+=====
+DATE: 2025-02-04T02:33:04Z | r/macapps | score:68 | u/hatetobethatguyxd
+URL: https://reddit.com/r/macapps/comments/1ih7d0u/how_many_paid_mac_apps_do_you_own/
+TITLE: how many paid mac apps do you own?
+BODY: i own about 17 apps as follows:
+
+- Better touch tool
+- Alfred
+- Swish
+- Mac Mouse Fix
+- iStat Menus
+- CleanClip
+- Protego
+- Wipr2
+- Clop
+- Better Display
+- PopClip
+- Klack
+- Subscriptions 
+- Shottr
+- DaisyDisk
+- Dropover
+- Typibara
+
+i’m a nerd when it comes to this 😭
+
+i was wondering if this is a lot or if this is normal, because to me 17 seems like a lot now that i think about it
+=====
+DATE: 2025-01-31T09:24:29Z | r/macapps | score:1 | u/bitdoze
+URL: https://reddit.com/r/macapps/comments/1ieb0vg/does_anyone_knows_some_free_cool_mac_apps/
+TITLE: Does anyone knows some free cool  Mac apps?
+BODY: What are some of the free cool mac apps are you using? I am using for instance the below 4 ones and I find them very nice:
+
+[https://itsalin.com/appInfo/?id=pearcleaner](https://itsalin.com/appInfo/?id=pearcleaner)
+
+[https://shottr.cc/](https://shottr.cc/)
+
+[https://lihaoyun6.github.io/quickrecorder/](https://lihaoyun6.github.io/quickrecorder/)
+
+[https://icemenubar.app/](https://icemenubar.app/)
+
+  
+Does anyone uses some other cool free apps, it can be from any category . I am also paying for apps like screen studio, better display,  xnapper, magnet and a few others. But I was wandering if there are some that are cool and free also.
+=====
+DATE: 2025-01-27T03:39:42Z | r/macapps | score:1 | u/DogZealousideal5717
+URL: https://reddit.com/r/macapps/comments/1iaysxg/is_there_anything_better_than_shottr/
+TITLE: is there anything better than shottr
+BODY: I have been using it for a while now and just live how good it is
+
+just wondering if it can get any better
+=====
+DATE: 2025-01-22T05:41:37Z | r/macapps | score:6 | u/Dantnad
+URL: https://reddit.com/r/macapps/comments/1i748b1/rate_my_mac_apps_setup/
+TITLE: Rate my mac apps setup
+BODY: I've seen lots of people lately asking for apps for mac in several categories. In many years I've been trying to optimize my workflow as much as possible and for that I've gotten my hands into some apps that I believe are the best at what they do. Would love to know your opinions on them and if you happen to know any better alternatives.
+
+  
+**Utilities and maintenance**
+
+\- [DaisyDisk](https://daisydiskapp.com/) \- I'm starting off with this one, since I discovered it a few years back I fell in love with it, It allows you to see your files in a graph and easily know what's taking up space, and prevents you from deleting important files. A must have installed in my opinion.  
+\- [AppCleaner](https://freemacsoft.net/appcleaner/) \- Many of you may already have installed this one, but for those who don't it basically allows you to completely uninstall apps from your mac, including files that usually stay there taking up stace.  
+\- [Shottr](https://shottr.cc/) \- A pretty good one time purchase screenshot tool, I use it a lot, however after I bought it I saw there was [Cleanshot X](https://cleanshot.com/), I'm still not sure Shottr was the smartest choice over Cleanshot, but pretty good nonetheless.  
+\- [Keka](https://www.keka.io/en/) \- A compression utility, allows you to compress and uncompress files in several formats, free, pretty good, you just install it and forget it  
+\- [Permute 3](https://software.charliemonroe.net/permute/) \- A converter app that can convert and c
+=====
+DATE: 2025-01-20T17:39:15Z | r/macapps | score:161 | u/Real-Platypus-4706
+URL: https://reddit.com/r/macapps/comments/1i5vvy7/best_mac_apps_to_download/
+TITLE: Best Mac Apps to Download 
+BODY: Ive gathered a bunch of useful apps to download on mac for beginners
+
+* [AltTab](https://alt-tab-macos.netlify.app/):  When you click Command + Tab, it shows a preview of the currently active window.
+* [Alfred](https://www.alfredapp.com/): Spotlight search on steroids...
+* [Shottr](https://shottr.cc/): This app is great for taking screenshots and editing them. Its most useful feature is the OCR feature, which allows you to extract text from images.
+* [Notion Calendar](https://www.notion.com/product/calendar): This is one of the best calendar apps available for Mac.
+* [Notion:](https://www.notion.com/) This is one of the best note-taking platforms available for Mac. It offers a variety of features, including text formatting, cross-note linking, and collaboration tools.
+* [Plain Text Editor](https://apps.apple.com/us/app/plain-text-editor/id1572202501?mt=12): Simple text editor without any nonsense
+* [Rectangle](https://rectangleapp.com/): This app helps you stay organized by allowing you to manage multiple windows simultaneously.
+* [Dropover](https://dropoverapp.com/): This app makes it easier to move files around in the Finder. It’s a paid app, but the free version is still usable.
+* [AlDente](https://apphousekitchen.com/): This app limits the battery life of your Mac to 80% to prolong its battery health.
+* [Maccy](https://maccy.app/): Clipboard manager for Mac
+* [Command X](https://apps.apple.com/us/app/command-x/id6448461551?mt=12): Lets you use "Command + X" to cut files i
+=====
+DATE: 2025-01-08T17:19:24Z | r/macapps | score:1 | u/spacewalker6666
+URL: https://reddit.com/r/macapps/comments/1hwpg6w/best_one_time_purchase_apps_to_buy_under_20/
+TITLE: best one time purchase apps to buy under $20
+BODY: hey guys! its my birthday coming up and I am planning to gift myself a new Mac app this time and my budget is $20. I would like that to be a one-time payment app as opposed to a subscription based app. Do you guys have any recommendations?
+
+Here are some apps I already own:
+
+\- Better Display  
+\- Klack  
+\- Daisy Disk  
+\- Alfred  
+\- Clop  
+\- PopClip  
+\- Shottr  
+\- Dropover
+
+Thanks!
+=====
+DATE: 2025-01-07T12:49:11Z | r/macapps | score:1 | u/lady3jane
+URL: https://reddit.com/r/macapps/comments/1hvqp5d/shottr_keyboard_shortcuts_for_delayed_screenshot/
+TITLE: Shottr - keyboard shortcuts for delayed screenshot and resize image (not zoom)? 
+BODY: Hey peeps
+
+I've searched around and this seems to be the place people talk about Shottr, so hope it's ok to ask here. :-) 
+
+I've used Skitch for years (did not have it connected to Evernote). But I work in Support and have a need to resize screenshots before pasting them in a ticket. Our stupid ticket platform does not let you resize images in it. 
+
+Skitch has way too many clicks to resize - click on crop, then toggle to resize, then drag the size bar, than click apply.   
+  
+Shottr is pretty quick - click on Image Size, 50%s, resize. It only one step less but they're all clicks instead of a drag to resize, so it's faster. 
+
+I also need to take delayed screenshots quite often - eg, a hover menu. Is there a keyboard shortcut for the delay? I can only access it via the menu bar. 
+
+TLDR
+
+Keyboard shortcuts for Resize Image and Delayed Screenshot 
+=====
+DATE: 2025-01-06T22:16:02Z | r/macapps | score:1 | u/north_st-hot-weather
+URL: https://reddit.com/r/macapps/comments/1hvbk2r/annotation_tool_for_video/
+TITLE: Annotation tool for video
+BODY: Hi, 
+
+Sometimes a friend of mine or family member asks me to help them doing something on their computer/phone. And sometimes just writing is not enough. I'd like to record short videos with arrows, circles and numbers to guide them step by step.
+
+
+
+I know CleanShot X is a good screen recorder, but based on the videos I watched on Youtube, it doesn't have tools to edit a video like it has for screenshots. I might be wrong, though.
+
+
+
+I'd like to know if y'all could recommend me something like Shottr but for video. Something that does one thing and does it very well. A tool I could use to edit short videos explaining things.  Any ideas?
+
+  
+
+=====

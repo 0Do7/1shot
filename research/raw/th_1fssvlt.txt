@@ -1,0 +1,234 @@
+DATE: 2024-10-05T10:49:01Z | r/macapps | score:1 | u/xkumropotash
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lqfrcm7/
+BODY: Looks good!
+=====
+DATE: 2024-10-02T21:56:21Z | r/macapps | score:1 | u/Golden_Antt
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lq1nu7f/
+BODY: Yeah, a whole 12mb in the background 45mb when in use
+=====
+DATE: 2024-10-02T21:45:04Z | r/macapps | score:1 | u/Golden_Antt
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lq1lui3/
+BODY: For me, the UI is updated but the functionality doesn't work. Nothing happens for either the Backdrop or Custom color button. Same with the "K" shortcut.
+
+I downloaded again and replaced the application – still nothing.
+=====
+DATE: 2024-10-01T16:24:56Z | r/macapps | score:1 | u/jfernandogt
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpu0ahg/
+BODY: I couldn't wait for Raycast support, so I created this PR based on the Alfred workflow to add it
+
+[https://github.com/raycast/extensions/pull/14750](https://github.com/raycast/extensions/pull/14750)
+=====
+DATE: 2024-10-01T15:30:44Z | r/macapps | score:1 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lptqd2x/
+BODY: A year ago!
+
+I shall not say further least I incur the wrath of them loyalist.
+=====
+DATE: 2024-10-01T14:10:21Z | r/macapps | score:1 | u/gkavek
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lptbyag/
+BODY: the website has a section for requesting features. I did post "rotate feature" about a year ago.    
+The development of the app has reduced considerably in the past year. I hope they add the feature sometime.
+=====
+DATE: 2024-10-01T13:09:17Z | r/macapps | score:1 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpt204d/
+BODY: I am just stating the facts, albeit bluntly and some of you come at me with "gnashing teeth and sharpen spears.
+
+"Wow. Just wow.
+
+Shall not compete with loyalist.
+=====
+DATE: 2024-10-01T12:41:44Z | r/macapps | score:1 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpsxw5b/
+BODY: I apologies for being blunt.
+=====
+DATE: 2024-10-01T12:35:19Z | r/macapps | score:1 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpswzi7/
+BODY: Yes. I am aware.
+
+Just curious, why no Rotate.
+=====
+DATE: 2024-10-01T12:33:45Z | r/macapps | score:1 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpswrlp/
+BODY: Yes. However, the flow is to add text to the screenshot after it has been rotated.
+
+And yes, I can screenshot first, save. Reopen in preview then markup.
+
+So why I need Shottr again?
+=====
+DATE: 2024-10-01T10:33:35Z | r/macapps | score:1 | u/reDzikpr0
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpsiceo/
+BODY: write to the developer it is unlikely to be a problem to add this feature
+=====
+DATE: 2024-10-01T04:01:45Z | r/macapps | score:1 | u/boxcreate
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lprhde5/
+BODY: Love the Alfred implementation!
+=====
+DATE: 2024-10-01T01:57:53Z | r/macapps | score:1 | u/johnmcboston
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpqz0sl/
+BODY: App question while we're here.   Is it normal that the thumbnail is so tiny while the editor version is big enough to read?
+=====
+DATE: 2024-10-01T01:01:56Z | r/macapps | score:1 | u/0x080
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpqq1bo/
+BODY: You can even rotate an image right in finder preview window lmao
+=====
+DATE: 2024-09-30T22:18:47Z | r/macapps | score:1 | u/geoken
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lppz9pk/
+BODY: I updated it because I got an email this morning about the update. In the email, it’s says you can use the link to manually update now - or wait a few days and it will auto update.
+=====
+DATE: 2024-09-30T19:54:20Z | r/macapps | score:1 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpp95f1/
+BODY: I would like the developer to make the UI feel more minimalistic and similar to Apple’s UI. The main competitor CleanShot made just this, but this one has potential to be even better, if it had such a UI, though it’s more about the taste.
+=====
+DATE: 2024-09-30T19:21:36Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpp2slq/
+BODY: Thanks. That makes a lot more sense than "because I need to".
+=====
+DATE: 2024-09-30T19:10:33Z | r/macapps | score:1 | u/Decaf_GT
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpp0o2b/
+BODY: You know you can just open the screenshot in your preferred viewer and rotate it there, right? 
+
+Rotation is an image editing and image preview function, not a screenshot and screenshot annotation function.
+=====
+DATE: 2024-09-30T19:09:07Z | r/macapps | score:1 | u/Decaf_GT
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpp0e5k/
+BODY: Lovely addition to a great tool. I use CleanShot X now but I bought Shottr to support the dev, great work :)
+=====
+DATE: 2024-09-30T18:40:33Z | r/macapps | score:1 | u/gkavek
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpouyd7/
+BODY: I use the web or desktop version of apps like whatsapp and signal. Often I get sent images or mobile device screenshots that were taken in landscape mode and I need to point something out on them. In these cases I usually screenshot them and use markup to point what is required. In these cases, rotate would be very useful. It would avoid the need to have to ask them to resend in portrait.
+=====
+DATE: 2024-09-30T16:42:39Z | r/macapps | score:1 | u/mikepictor
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpo8mcn/
+BODY: it says the extension is "coming soon", this version just adds support for it.
+=====
+DATE: 2024-09-30T16:18:25Z | r/macapps | score:1 | u/raaamyaraaavan
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpo44mh/
+BODY: Use the deep link from shottr doc to create app links in raycast. No extension required.
+=====
+DATE: 2024-09-30T15:47:23Z | r/macapps | score:1 | u/dokte
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnyevw/
+BODY: I can't find the Raycast extension it mentions, can you?
+=====
+DATE: 2024-09-30T15:47:13Z | r/macapps | score:1 | u/chromatophoreskin
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnydun/
+BODY: Shottr is on homebrew. The update isn't there yet but it should be soon.
+=====
+DATE: 2024-09-30T14:51:52Z | r/macapps | score:1 | u/mikepictor
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnodcu/
+BODY: OMG Raycast support, that has some promise
+=====
+DATE: 2024-09-30T14:51:28Z | r/macapps | score:1 | u/mikepictor
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnoaou/
+BODY: I am not sure I have ever used a screenshot tool with a rotate option. Don't act like this is a bog standard tool anyone might expect. You can send the creator a feature request.
+=====
+DATE: 2024-09-30T14:49:51Z | r/macapps | score:1 | u/mikepictor
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpno085/
+BODY: Such a good app. So worth the very very tiny license fee they charge.
+=====
+DATE: 2024-09-30T14:29:02Z | r/macapps | score:1 | u/ramysami4
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnkc9u/
+BODY: I wonder if the new version uses more ram
+=====
+DATE: 2024-09-30T14:20:49Z | r/macapps | score:1 | u/sherril8
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnixlu/
+BODY: In the email the dev sent out they said the prompt to update will roll out over several days but you can download it manually from the website.
+=====
+DATE: 2024-09-30T13:42:18Z | r/macapps | score:1 | u/scottjl
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnckff/
+BODY: Thanks. I used to use that but it would hang on me a lot so I gave up. Maybe I’ll give it another try.
+=====
+DATE: 2024-09-30T13:38:27Z | r/macapps | score:1 | u/QenTox
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnbyib/
+BODY: I use the [Latest](https://max.codes/latest/) app daily, so I learned about the update there, but I was still trying to figure out how to update Shottr.
+=====
+DATE: 2024-09-30T13:36:04Z | r/macapps | score:1 | u/nezia
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnblzk/
+BODY: Is there now a way to clear the old screenshot from the editor window after some time has passed?
+=====
+DATE: 2024-09-30T13:32:27Z | r/macapps | score:1 | u/scottjl
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnb2kh/
+BODY: i agree. at least notify me there's a new version available. if i didn't happen to stumble on this post i wouldn't have known!
+=====
+DATE: 2024-09-30T13:28:47Z | r/macapps | score:1 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpnaiih/
+BODY: It was. 
+
+One of the universe mysteries.
+=====
+DATE: 2024-09-30T13:25:59Z | r/macapps | score:1 | u/No-Caregiver8049
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpna30j/
+BODY: Sorry your gasts were flabbered.  Must have been awful.
+=====
+DATE: 2024-09-30T13:20:46Z | r/macapps | score:1 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpn9amd/
+BODY: Cause I needed to. One day I did a screenshot with Shottr then need to rotate the image, looked high, look low and could not find it. 
+
+Asked in Reddit and was told Shottr do not have Rotate. 
+
+I was flabbergasted.
+=====
+DATE: 2024-09-30T13:15:59Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpn8kbn/
+BODY: Not the dev but curious as to why you want to rotate a screenshot.
+=====
+DATE: 2024-09-30T13:14:20Z | r/macapps | score:1 | u/Adventurous-Row-2291
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpn8bdh/
+BODY: Great App - looking forward to updating - thank you
+=====
+DATE: 2024-09-30T13:12:03Z | r/macapps | score:1 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpn7z22/
+BODY: No Rotate function?
+
+Seriously?
+=====
+DATE: 2024-09-30T13:12:03Z | r/macapps | score:-4 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpn7z22/
+BODY: No Rotate function?
+=====
+DATE: 2024-09-30T12:57:44Z | r/macapps | score:1 | u/gsbansal10
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpn5vgp/
+BODY: There's a setting to do just that. I have it enabled. Its something like "after taking screenshot:" copy to clipboard or ooen editor....
+=====
+DATE: 2024-09-30T12:38:56Z | r/macapps | score:1 | u/givebest
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpn37lk/
+BODY: I've been using it for a while now, and with the new features, it's getting better and better!
+=====
+DATE: 2024-09-30T12:00:55Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpmy9i8/
+BODY: I'm not the dev. You'll need to reach out to him through the web site.
+=====
+DATE: 2024-09-30T11:57:34Z | r/macapps | score:1 | u/Ariochar
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpmxufi/
+BODY: Seems really nice! I’ll give it a try. 
+Quick question, what did you used to do the presentation video on your website?
+=====
+DATE: 2024-09-30T11:56:47Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpmxqxd/
+BODY: [deleted]
+=====
+DATE: 2024-09-30T11:56:47Z | r/macapps | score:1 | u/Tralalouti
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpmxqxd/
+BODY: Love the app so far, thank you :)
+
+Was wondering how to set up different shortcuts to :
+
+- take a screenshot + copy clipboard without opening the editor
+
+- take a screenshot + open the editor
+
+Thank you.
+=====
+DATE: 2024-09-30T11:22:26Z | r/macapps | score:1 | u/QenTox
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpmtosh/
+BODY: There was no update for a long time, so I forgot what way Shottr needs to be updated, thanks for confirming!
+
+Such a popular app could really implement some sort of auto-update IMO.
+=====
+DATE: 2024-09-30T11:19:55Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpmtekl/
+BODY: I just went to the website and downloaded the new version. https://shottr.cc/
+=====
+DATE: 2024-09-30T11:18:54Z | r/macapps | score:1 | u/QenTox
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/lpmtaix/
+BODY: How do you update it? Only manually or am I missing the obvious option somewhere hidden?
+=====

@@ -1,0 +1,42 @@
+DATE: 2025-05-05T06:19:26Z | r/MacOS | score:1 | u/079C
+URL: https://reddit.com/r/MacOS/comments/1kf42jc/what_mac_apps_would_you_pay_double_for/mqnyzrv/
+BODY: Podcast from fifteen years ago.
+=====
+DATE: 2025-05-05T05:51:09Z | r/MacOS | score:0 | u/Human-Equivalent-154
+URL: https://reddit.com/r/MacOS/comments/1kf42jc/what_mac_apps_would_you_pay_double_for/mqnw4ct/
+BODY: Also the privacy policy is stupid it mentions if you opt out:
+
+> We do not collect any dictated text, audio, or screen content in this mode.
+
+so by default it collect all dictated text and audio. also when you opt out it becomes local same as apples dictiation so no need for the app
+=====
+DATE: 2025-05-05T05:51:09Z | r/MacOS | score:0 | u/[deleted]
+URL: https://reddit.com/r/MacOS/comments/1kf42jc/what_mac_apps_would_you_pay_double_for/mqnw4ct/
+BODY: [deleted]
+=====
+DATE: 2025-05-05T05:47:23Z | r/MacOS | score:1 | u/Bobbybino
+URL: https://reddit.com/r/MacOS/comments/1kf42jc/what_mac_apps_would_you_pay_double_for/mqnvq16/
+BODY: Pages, Numbers, Keynote, GarageBand.
+=====
+DATE: 2025-05-05T05:46:32Z | r/MacOS | score:2 | u/Human-Equivalent-154
+URL: https://reddit.com/r/MacOS/comments/1kf42jc/what_mac_apps_would_you_pay_double_for/mqnvmo8/
+BODY: it also collects all dictated text and audio
+=====
+DATE: 2025-05-05T05:41:39Z | r/MacOS | score:3 | u/lolsbot360gpt
+URL: https://reddit.com/r/MacOS/comments/1kf42jc/what_mac_apps_would_you_pay_double_for/mqnv40e/
+BODY: Fr. I was on the 'top 9 apps' post a few minutes ago. 
+
+Everything else seems to be a cover for willow voice to make the post seem mre genuine.
+=====
+DATE: 2025-05-05T05:40:12Z | r/MacOS | score:10 | u/thatcouldbearranged
+URL: https://reddit.com/r/MacOS/comments/1kf42jc/what_mac_apps_would_you_pay_double_for/mqnuyjh/
+BODY: This is the 3rd post I’ve seen in the last 5 minutes hawking WillowVoice… this is clearly spam. I will 100% actively avoid this bullshit now.
+=====
+DATE: 2025-05-05T05:40:12Z | r/MacOS | score:10 | u/thatcouldbearranged
+URL: https://reddit.com/r/MacOS/comments/1kf42jc/what_mac_apps_would_you_pay_double_for/mqnuyjh/
+BODY: This is the 3rd post I’ve seen hawking WillowVoice… this is clearly spam. I will 100% actively avoid this bullshit now.
+=====
+DATE: 2025-05-05T05:37:33Z | r/MacOS | score:2 | u/ItsNa8o543
+URL: https://reddit.com/r/MacOS/comments/1kf42jc/what_mac_apps_would_you_pay_double_for/mqnuogv/
+BODY: SoundSource— being able to utilize the keyboard volume keys while I’m plugged into my audio interface is worth it alone for me aside from the fact that it’s probably the best way to manage audio levels and I/O on macOS (at least based on my experience). Can throw your own Audio Unit plugins on each app as well which has… some use cases
+=====

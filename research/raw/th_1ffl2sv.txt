@@ -1,0 +1,69 @@
+DATE: 2024-09-13T21:31:07Z | r/macapps | score:1 | u/MrMegira
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmzrhfg/
+BODY: I am using Cleanshot X, a little pricy but worth imo
+If you are a student, you can get 30% discount
+=====
+DATE: 2024-09-13T20:57:13Z | r/macapps | score:1 | u/fscheps
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmzllwp/
+BODY: I use Snagit (paid) since years and its everything I ever wanted. But I am always looking at other options too. So will have a look at Folge too 😉
+=====
+DATE: 2024-09-13T09:48:55Z | r/macapps | score:1 | u/micangaroo
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmwk5js/
+BODY: what a great suggestion this is! it is the exact tool i actually need. thanks man!
+=====
+DATE: 2024-09-13T09:11:09Z | r/macapps | score:1 | u/Cask-UK
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmwgxch/
+BODY: Not sure anything exists with all these features. Shottr is my go to but for your use case, the built in macOS screenshot tool will replicate the consistent area size.
+=====
+DATE: 2024-09-13T08:38:09Z | r/macapps | score:1 | u/pirateszombies
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmwe5vc/
+BODY: I have tried various screenshot apps, but [CleanshotX](https://cleanshot.com/) is still the most complete and suitable for me, maybe you should study it more deeply
+=====
+DATE: 2024-09-13T07:06:26Z | r/macapps | score:1 | u/GroundCaffeine
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmw6css/
+BODY: Have a look at [Folge](https://folge.me) something I use all the time for creating training guides.
+=====
+DATE: 2024-09-13T07:05:59Z | r/macapps | score:1 | u/tarunmsetty
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmw6bdw/
+BODY: Shottr. Been using it for a long time and I love it
+=====
+DATE: 2024-09-13T07:04:31Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmw66uh/
+BODY: [deleted]
+=====
+DATE: 2024-09-13T07:04:31Z | r/macapps | score:1 | u/GroundCaffeine
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmw66uh/
+BODY: Have a look at Shottr. [Shottr](https://shottr.cc)Absolutely amazing app 👍
+=====
+DATE: 2024-09-13T06:51:15Z | r/macapps | score:1 | u/Danver
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmw4zjn/
+BODY: Try to use [snipaste](https://docs.snipaste.com/getting-started). Its free
+=====
+DATE: 2024-09-13T06:32:29Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmw396a/
+BODY: [removed]
+=====
+DATE: 2024-09-13T05:50:24Z | r/macapps | score:1 | u/EspaaValorum
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmvz8to/
+BODY: Built-in screenshot tool does that.
+=====
+DATE: 2024-09-13T05:30:12Z | r/macapps | score:1 | u/micangaroo
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmvx73b/
+BODY: haven't actually mentioned that I tried it myself for cleanshot. I've watched videos on it and non of them mentioned All in One function at all. For videos that showcased the area capturing, it was shown as what I mentioned. But thanks for letting me know!
+=====
+DATE: 2024-09-13T04:44:10Z | r/macapps | score:1 | u/dotvhs
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmvs8qo/
+BODY: In CleanShot X, if you open the menubar menu, you can find "Capture Previous Area" option there, you can assign a shortcut for it if you want to do it faster and I think that's a better solution than workflow you described.
+=====
+DATE: 2024-09-13T04:26:50Z | r/macapps | score:1 | u/weirdasianfaces
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmvq7ue/
+BODY: I know you said you tried it but FWIW CleanShot does exactly what you're asking for. If you use the "All in One" option you can drag and make adjustments to the capture area. You can then use "Capture Previous Area" to take another screenshot of the same area immediately.
+=====
+DATE: 2024-09-13T04:06:27Z | r/macapps | score:1 | u/huy_cf
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmvnq1a/
+BODY: if you just need take screenshot, without annotation, without fake window and padding. You could do what you describe by default screenshot capture of Apple. Cmd+Shift+5, that's area is hold there.
+=====
+DATE: 2024-09-13T03:38:14Z | r/macapps | score:1 | u/Capleo
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/lmvk755/
+BODY: I really like shotter and it does everything I need it to do. What it can’t, I drop into a Keynote template to make more edits.
+=====

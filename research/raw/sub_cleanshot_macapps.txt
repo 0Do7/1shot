@@ -1,0 +1,1492 @@
+DATE: 2025-05-06T01:05:57Z | r/macapps | score:1 | u/Kin_KC
+URL: https://reddit.com/r/macapps/comments/1kfs80b/list_of_apps_that_i_found_useful_after_6_months/
+TITLE: List of apps that I found useful after 6 months of returning to Mac OS
+BODY: Hello everyone! This is my very first post in Reddit, plus I am not a native English speaker, hopefully you will not find this post too hard / boring to read!
+
+It has been around 6 months since using the M4 Pro Mac mini and revisiting Mac OS after a 5-year hiatus. The last Apple computer that I own was the MBP 15” 2016 whose monitor was dead on 2020 probably due to the FlexGate issue. Back then I didn’t have many apps installed, just some of the very basics like Fantastical and Things 3. Revisiting the Mac OS after 5 years and joining this community exposes me to a lot of latest and interesting apps. As I feel like I have alredy catched up with all the tools I need for my workflow and have been using most of them adequately, I want to share my comments on some of them and hopefully you will find this post useful. Here we go!
+
+[AdGuard](https://adguard.com/en/welcome.html) (Paid): As the name implies, a pretty famous Ad blocker. As I use Microsoft Edge as my default browser, many great recommendations here which only work on Safari (e.g., [Wipr 2](https://apps.apple.com/hk/app/wipr-2/id1662217862?l=en-GB)) do not really suit my need. As an universal adblocker, I think it not only facilates web browsing experience but also makes reading in RSS reader (I use [News Explorer](https://betamagic.nl/products/newsexplorer.html)) more flexible: Without it, reading an article in its original website view will be full of ads. I purchased it on stacksocial, which seems to offer the best d
+=====
+DATE: 2025-04-26T15:13:21Z | r/macapps | score:1 | u/TheMagicianGamerTMG
+URL: https://reddit.com/r/macapps/comments/1k8f7mw/any_ocr_app_suggestions/
+TITLE: Any OCR app suggestions
+BODY: Hello! I am wondering if anyone knew any good OCR apps similar to SuperWhisper/MacWhisper for audio. I know Cleanshot X and TextSniper have a OCR capabilities for on screen text, but I am looking for something a little more robust. I plan on OCR-ing large PDFs, handwriting, and other media.
+=====
+DATE: 2025-04-21T18:24:20Z | r/macapps | score:1 | u/PierreMouchan
+URL: https://reddit.com/r/macapps/comments/1k4kn72/my_essential_mac_apps_what_are_yours/
+TITLE: My "essential" mac apps. What are yours?
+BODY: Essential means something different for everyone, but I honestly can't work without these, as they are huge time-savers each day:
+
+*   **Raycast:** A productivity tool and launcher for quick access to tools, AI, and automations. (replacement of Spotlight)
+    
+*   **Cleanshot X:** A screen capture tool with annotation and sharing capabilities.
+    
+*   **Bartender:** An app to organize your menu bar by hiding items and providing quick access.
+    
+*   **KeyboardCleanTool:** A tool that blocks keyboard input to clean your Macbook keyboard.
+    
+*   **Coconut Battery:** A macOS app that displays diagnostic information about your Mac's battery. (keep your battery plug as much as you can!!)
+    
+*   **Zen Browser:** A web browser focused on speed, security, and privacy.
+    
+*   **Heynds:** An AI-powered writing assistant that 10x my day on all writing and thinking tasks.
+    
+*   **Figma:** A collaborative web application for interface design and brainstorming.
+    
+*   **1Password:** A password manager that securely stores and manages account credentials.
+=====
+DATE: 2025-04-12T16:33:01Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/
+TITLE: Screenshot Curiosity
+BODY: I see a lot of people on Reddit saying they use screenshot apps, and some even posting apps like Cleanshot or something in their “most used apps” list. I’m just wondering why people feel the need to use screenshots so much?
+
+I have been using Macs since the late 80s and the number of times I’ve had to screenshot something (and especially mark it up thereafter) is a handful. This is coming from someone that did web design and development from the late 90s through 2019. 
+
+Just wondering what people’s use cases are for taking that many screenshots and marking them up? And why do you need specific apps to do it rather than just Mac OS X’s built-in screenshot app?
+=====
+DATE: 2025-04-08T22:54:51Z | r/macapps | score:1 | u/chrisBhappy
+URL: https://reddit.com/r/macapps/comments/1jur1n1/what_cleanshot_x_features_do_you_actually_use/
+TITLE: What CleanShot X features do you actually use?
+BODY: Hey everyone. CleanShot X is $29 one time or $10/month. I’m curious, what are the features you actually use the most? I’m thinking of building a cheaper alternative with just the core stuff. Thanks.
+=====
+DATE: 2025-04-07T16:36:45Z | r/macapps | score:1 | u/prosamik
+URL: https://reddit.com/r/macapps/comments/1jtpoow/i_have_made_an_opensource_alternative_to/
+TITLE: I have made an open-source alternative to Jumpshare and CleanShot X
+BODY: [removed]
+=====
+DATE: 2025-04-07T16:36:45Z | r/macapps | score:53 | u/prosamik
+URL: https://reddit.com/r/macapps/comments/1jtpoow/i_have_made_an_opensource_alternative_to/
+TITLE: I have made an open-source alternative to Jumpshare and CleanShot X
+BODY: My name is Samik
+
+and I made an open-source alternative to Jumpshare and CleanShot X. You can use cmd+shift+7 as shortcut and it has no limitation, everything is saved in your local file system.
+
+which works with the native UI of the MacOS.
+
+It is in the prototype stage and it solves a very basic challenge that is adding background in form of gradient, solid colour or image. You can also drag and drop the image.
+
+You can search in YouTube with this sentence- "Open-Source Alternative to CleanShot X and Jumpshare for MacOS" and here is the [link](https://www.youtube.com/watch?v=oOLXdRLYA24) for the video. 
+
+It is not signed by any certification, so you need to give explicit permission to record screen. You can find the .dmg file in this GitHub [repo](https://github.com/proSamik/freescreenshot).
+
+I welcome all the critics to help me build this app together. What features should be added next, and I'll keep this open-source always, so I am looking for collaborations either in terms of feedback, development or mentorship.
+
+
+
+I have tried different apps and all come with a limitation like pricing, screenshot limit or cloud storage. So, the intention is to provide a freescreenshot tool which extends tools like flameshot for further editing all in the native macOS.
+=====
+DATE: 2025-04-04T15:25:47Z | r/macapps | score:1 | u/tomdegnan
+URL: https://reddit.com/r/macapps/comments/1jrelxg/cleanshot_x_app_size/
+TITLE: Cleanshot X app size
+BODY: Is Cleanshot X supposed to take up so much storage? it's just a screenshot app🤔 
+
+https://preview.redd.it/x8f4r4i56use1.png?width=790&amp;format=png&amp;auto=webp&amp;s=65dbd21decab2542471bcb14bf43e4ffd0972a61
+
+
+=====
+DATE: 2025-04-03T22:11:54Z | r/macapps | score:1 | u/venice--beach
+URL: https://reddit.com/r/macapps/comments/1jqvvb1/my_essential_mac_apps_what_are_yours/
+TITLE: My "essential" mac apps. What are yours?
+BODY: Essential means something different for everyone, but here are mine
+
+- **Alcove**: Notch-App that functions like native MacOS software
+
+- **AlDente**: Battery Charging app. Allows you to limit your MacBook from charging above a certain percentage
+
+- **Alfred**: Spotlight search
+
+- **AppCleaner**: AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps.
+
+
+- **Bartender 5**: Menu bar rearranger, can hide icons
+
+- **BetterTouchTool**: Utility belt of automating actions off of just about any trigger.
+
+- **Cleanshot X**: Screenshot/recording app I've used by far, including scrolling capture, grabbing audio, and good annotations.
+
+- **IINA**: Media file player
+
+- **KeyboardCleanTool**: Can disable keyboard while you clean it
+
+- **Mac Mouse Fix**: Gives your mouse/touchbar more settings
+
+- **MacUpdater**: Searches for and automatically updates outdated mac apps
+
+- **The Unarchiver**: uncachiver tool
+=====
+DATE: 2025-03-19T23:17:41Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1jfauh2/tips_and_tricks_for_setapp/
+TITLE: Tips and Tricks for Setapp
+BODY: I put together all the reviews I've written of the software that's part of Setapp in case anyone is wondering what the best apps on the service happen to be. I also have a few tips for getting the most for your money.
+
+1) One tip I can offer is to [get your own API key from Open.AI](https://www.reddit.com/r/ChatGPT/comments/174loi4/using_api_keys_what_you_need_to_know_faq_for/) for use with AI apps like Typing Mind or Elephas. It is much cheaper. In a year of constantly using my API with multiple apps, I've spent $15.
+
+2)  I tried the iOS add-on and didn't get that much from it. I do have the add-on to run the apps on a second machine though. It doesn't add that much and it comes in handy.
+
+3) If you have any apps from Setapp that you have already purchased, consider using the Setapp version while you have a subscription since it adds to the money that the developer make. It's just a nice thing to do. Brett Terpstra [wrote a script and an automator workflow](https://brettterpstra.com/2019/04/22/so-you-got-setapp-dot-dot-dot-make-the-most-of-it/) that will tell you if any of the apps on your computer are also on Setapp.
+
+Setapp is an app subscription service ($9.99 a month) owned by the Ukrainian company Macpaw. It has approximately 1 million subscribers, which is a good testament to its usefulness. Here are some of the things I've learned in a year and half of being a customer.
+
+Unfortunately, Macpaw is a frequent target of Russian trolls because of the ongoing war between th
+=====
+DATE: 2025-03-19T19:50:56Z | r/macapps | score:1 | u/nickccal
+URL: https://reddit.com/r/macapps/comments/1jf5zzv/apps_i_find_myself_installing_on_new_macs/
+TITLE: Apps I find myself installing on new Macs
+BODY: On every new Mac I set up, these are the apps I find myself installing. Please tell me if you see something that could be removed from my workflow because other apps have a similar function built in. These are all very talented developers who have put a lot of work into designing these apps, so I listed their website instead of the Mac App Store so you can decide where to install from and check out what else they have. Not listed in any order.
+
+1Password: [https://1password.com/](https://1password.com/)   
+Proton VPN: [https://protonvpn.com/download](https://protonvpn.com/download)  
+Little Snitch: [https://www.obdev.at/products/littlesnitch/index.html](https://www.obdev.at/products/littlesnitch/index.html)  
+1 Blocker: [https://1blocker.com](https://1blocker.com)  
+Snippety: [https://snippety.app/](https://snippety.app/)  
+Caffeinated: [https://caffeinated.app/](https://caffeinated.app/)  
+FridayGPT: [https://www.fridaygpt.app/](https://www.fridaygpt.app/)  
+Steer: [https://steerapp.ai/](https://steerapp.ai/)  
+Barbee: [https://macmenubar.com/barbee/](https://macmenubar.com/barbee/)  
+Collections: [https://collectionsdb.com/](https://collectionsdb.com/)  
+Scratchpad: [https://sindresorhus.com/scratchpad](https://sindresorhus.com/scratchpad)  
+PastePal: [https://onmyway133.com/pastepal/](https://onmyway133.com/pastepal/)  
+Dato: [https://sindresorhus.com/dato](https://sindresorhus.com/dato)  
+Things 3: [https://culturedcode.com/things/](https://culturedcode.com/things/)  
+Alc
+=====
+DATE: 2025-03-19T19:49:42Z | r/macapps | score:1 | u/nickccal
+URL: https://reddit.com/r/macapps/comments/1jf5yuw/apps_i_find_myself_installing_on_new_machines/
+TITLE: Apps I find myself installing on new machines
+BODY: On every new Mac I set up, these are the apps I find myself installing. Please tell me if you see something that could be removed from my workflow because other apps have a similar function built in. These are all very talented developers who have put a lot of work into designing these apps, so I listed their website instead of the Mac App Store so you can decide where to install from and check out what else they have. Not listed in any order. 1Password: [https://1password.com/](https://1password.com/) Proton VPN: [https://protonvpn.com/download](https://protonvpn.com/download) Little Snitch: [https://www.obdev.at/products/littlesnitch/index.html](https://www.obdev.at/products/littlesnitch/index.html) 1 Blocker: [https://1blocker.com](https://1blocker.com) Snippety: [https://snippety.app/](https://snippety.app/) Caffeinated: [https://caffeinated.app/](https://caffeinated.app/) FridayGPT: [https://www.fridaygpt.app/](https://www.fridaygpt.app/) Steer: [https://steerapp.ai/](https://steerapp.ai/) Barbee: [https://macmenubar.com/barbee/](https://macmenubar.com/barbee/) Collections: [https://collectionsdb.com/](https://collectionsdb.com/) Scratchpad: [https://sindresorhus.com/scratchpad](https://sindresorhus.com/scratchpad) PastePal: [https://onmyway133.com/pastepal/](https://onmyway133.com/pastepal/) Dato: [https://sindresorhus.com/dato](https://sindresorhus.com/dato) Things 3: [https://culturedcode.com/things/](https://culturedcode.com/things/) Alcove: [https://tryalcove.com/](
+=====
+DATE: 2025-03-18T16:21:29Z | r/macapps | score:1 | u/linkarzu
+URL: https://reddit.com/r/macapps/comments/1je8wfz/macos_apps_i_use_in_2025_as_a_power_user_36_min/
+TITLE: MacOS Apps I use in 2025 as a Power User  (36 min video)
+BODY: https://preview.redd.it/en34tbtk4hpe1.png?width=1280&amp;format=png&amp;auto=webp&amp;s=7a92f881d38ea8b7296ddbc9ba5651a9eb00e9b4
+
+  
+Here's the list of apps that I got from the video timeline  
+  
+00:00 - disclaimer  
+00:10 - ghostty  
+00:43 - kitty  
+01:05 - neovim  
+01:38 - skitty-notes  
+02:10 - math calculations  
+02:56 - yabai  
+03:57 - karabiner-elements  
+05:32 - BetterTouchTool  
+06:58 - Setapp  
+07:54 - Zen  
+08:55 - 1password  
+09:27 - cleanshot x  
+13:03 - forklift  
+13:54 - Paste  
+14:49 - yoink  
+16:21 - aldente  
+17:53 - raycast  
+18:58 - davinci resolve  
+19:12 - recut  
+19:48 - keycastr  
+20:04 - klack  
+20:40 - raindrop  
+21:49 - homerow  
+22:29 - mouseless  
+23:34 - betterdisplay  
+24:28 - permute  
+25:52 - hand mirror  
+26:13 - openin  
+27:26 - elmedia player  
+27:42 - neovide  
+28:47 - pdf search  
+29:20 - in your face  
+30:08 - bartender  
+30:42 - pulltube  
+31:14 - mission control plus  
+31:47 - gemini duplicates  
+32:23 - cleanmymac  
+33:06 - steermouse  
+33:44 - boom 3d  
+34:19 - clearvpn
+
+The video can be found here  
+[https://youtu.be/-4Yuf-ogaLk](https://youtu.be/-4Yuf-ogaLk)
+=====
+DATE: 2025-03-12T12:44:14Z | r/macapps | score:1 | u/0xCUBE
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/
+TITLE: Best apps on Setapp?
+BODY: Debating whether the setapp subscription is worthwhile. Some apps I'm liking are Ulysses, Canary Mail, Craft, and Cleanshot X. With the student discount, it would be about $60/year. 
+
+But there are 250+ apps on Setapp, so there must be some hidden gems. Which apps make Setapp worthwhile for you?
+=====
+DATE: 2025-03-07T07:25:56Z | r/macapps | score:2 | u/Cheap_Occasion_8850
+URL: https://reddit.com/r/macapps/comments/1j5i0iz/why_do_screen_recordings_take_up_so_much_space/
+TITLE: Why do screen recordings take up so much space?
+BODY: I wanted to test out the Cleanshot X screen recorder so I basically record a youtube video for 4 minutes and it came out to be 2,1GB. Is this normal? Is there something I can do to minimize it? Thank you all in advance. 
+=====
+DATE: 2025-03-04T05:19:57Z | r/macapps | score:1 | u/Latter_Pen2421
+URL: https://reddit.com/r/macapps/comments/1j33khz/screen_recoder_one_thats_not_laggy/
+TITLE: Screen Recoder - One that's not laggy?
+BODY: What's the best non-laggy screen recording software? I find CleanShot X lags a lot. I've found screen studio very response, but looking for a few other options to explore
+=====
+DATE: 2025-03-01T16:52:45Z | r/macapps | score:1 | u/Visual-Square-4416
+URL: https://reddit.com/r/macapps/comments/1j13wen/as_of_march_2025_here_are_the_ai_chatbot_apps/
+TITLE: As of March 2025, here are the AI chatbot apps that can add your current screen or windows as additional context
+BODY: First of all, keep in mind that there's a big privacy concern regarding the ability to read your computer's screen. Usually, you need to "opt-in" or enable the feature explicitly.
+
+⚠️  It's your responsibility to trust the app or not.
+
+I'm a Mac user who likes to learn efficiency tricks on macOS. I'm not a developer of these apps or promoting them.
+There’s a major advantage: you don’t need to copy and paste, and you can chat more freely and comfortably because the AI apps understand the context.
+One of my needs when completing tasks on my computer is to use my cursor to point at something on the screen and ask AI to assist me or explain the content I don't understand.
+I've categorized them into four types: macOS accessibility API, Selected text, Web Browser and Screenshot OCR. I personally like the "accessibility API" approach.
+
+macOS accessibility API
+
+I believe AI apps that utilize accessibility APIs are more accurate because they can actually read the text on your app windows. But many hours of looking up, these apps are rare. Also, there's another drawback: macOS won't notify you or show an indication each time the app reads your content.
+
+
+1. the official ChatGPT app.
+The feature is called "Work with Apps." Currently, it only works with a few apps, rendering the feature not very helpful. I hope OpenAI will add more apps.
+
+ChatGPT app also supports screenshot.
+
+2. Blue
+You can bring your own OpenAI API key. It's actually not bad. You can add multiple "windows" to the chat
+=====
+DATE: 2025-03-01T16:01:42Z | r/macapps | score:1 | u/Visual-Square-4416
+URL: https://reddit.com/r/macapps/comments/1j12pjd/as_of_march_2025_here_are_the_ai_chatbot_apps/
+TITLE: As of March 2025, here are the AI chatbot apps that can read your screen or add your current screen as additional context
+BODY: First of all, keep in mind that there's a big privacy concern regarding the app that reads your screen. Usually, you need to "opt-in" to these features explicitly.
+
+I'm a Mac user who likes to learn efficiency tricks on macOS. I'm not a developer of these apps or promoting them.
+
+There’s a major advantage: you don’t need to copy and paste, and you can chat more freely and comfortably because the AI apps understand the context.
+
+  
+One of my needs when completing tasks on my computer is to use my cursor to point at something on the screen and ask AI to assist me or explain the content I don't understand.
+
+I've categorized them into four types: macOS accessibility API, Selected text, Web Browser and Screenshot OCR. I personally like the "accessibility API" approach.
+
+
+
+# macOS accessibility API
+
+I believe AI apps that utilize accessibility APIs are more accurate because they can actually read the text on your app windows. But many hours of looking up, these apps are rare. Also, there's another drawback: macOS won't notify you or show an indication each time the app reads your content.
+
+1. the official ChatGPT app. The feature is called "Work with Apps." Currently, it only works with a few apps, rendering the feature not very helpful. I hope OpenAI will add more apps.
+
+https://preview.redd.it/o0shsbb983me1.png?width=2000&format=png&auto=webp&s=12dc3921f1ac12289077011c04de11947292e2e6
+
+
+
+ChatGPT app also supports screenshot.  
+
+
+2. Blue: [https://meetblue.ai/](https://meetblue.ai
+=====
+DATE: 2025-02-27T23:48:19Z | r/macapps | score:1 | u/Cranberry-Can
+URL: https://reddit.com/r/macapps/comments/1izu4lu/cleanshot_x_opens_original_image_rather_than/
+TITLE: Cleanshot X opens "original" image rather than latest edit
+BODY: Hello. I love using Cleanshot X for doing basic edits to images, including resizing or adding annotations etc. The problem is, when I re-open an image after I have done any edits to it, it shows me the original rather than the actual modified version when I open the image in Cleanshot X. If I look at that file in another application, it sees the correctly updated version of that image. It's as if Cleanshot X is "caching" the old version. I would have to rename the file, then when I open it in Cleanshot X it sees the correct updated version of the image. So, somehow, Cleanshot X is caching the state of the image tied to the filename. 
+
+  
+Any suggestions? I couldn't see any settings on this caching (and I wouldn't actually expect this to be a setting/feature, as it's very unintuitive).
+
+  
+Thanks!
+=====
+DATE: 2025-02-23T00:40:01Z | r/macapps | score:36 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1ivxn6t/everyday_apps_for_gsd/
+TITLE: Everyday Apps for GSD
+BODY: This is the actual list of apps that I used to get stuff done. I never thought of myself as any kind of productivity guru, but using these apps allowed me to work a full-time IT support job and complete an average of 20 blog posts a week, including testing and reviewing over 300 apps. These aren't always the coolest or the most powerful or the best bargains, not necessarily. They just are the workhorses that allow me to do what I need to do. I'm not saying they are the best for everyone. If you do a lot over email, you need something more specialized. I don't do much with spreadsheets or presentations, so I'm not even listing those.
+
+Most (not all) of the links here describe my use cases or what I like about the app and why I use it. All links contain download info.
+
+* 📨 Mail Client: [Kiwi for Gmail](https://www.kiwiforgmail.com/)
+* 📜 Writing: [Obsidian](https://amerpie.lol/2024/12/28/obsidian-plugins-for-writers.html)
+* 📝 Temporary Notes: [Drafts](https://amerpie.lol/2025/01/19/122427.html) and [Scratchpad](https://appaddict.app/post/scratchpad-floating-notes-but-better)
+* 📆 Calendar: [Fantastical](https://flexibits.com/fantastical?cjevent=c9729c1bac8211ee804115a60a82b82c) legacy features, not paid
+* 📖 RSS: [Inoreader](https://appaddict.app/post/inoreader-rss-gets-new-features)
+* 🌐 Browser: [Vivaldi](https://apps.louplummer.lol/post/a-day-with-vivaldi-browser) on macOS and iOS
+* 🔖 Bookmarks: [Raindrop.io](https://appaddict.app/post/battle-of-the-bookmark-managers)
+* 📑 Read I
+=====
+DATE: 2025-02-22T06:38:44Z | r/macapps | score:1 | u/9f8bfdc424e815f9e703
+URL: https://reddit.com/r/macapps/comments/1ivcmw8/cleanshot_x_takes_so_much_memory_resource/
+TITLE: CleanShot X takes so much Memory resource
+BODY: [removed]
+=====
+DATE: 2025-02-20T20:41:17Z | r/macapps | score:1 | u/Jay11Man
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/
+TITLE: What screenshot app do you use?
+BODY: I'm currently using Shottr free tier. I'm enjoying it so far but I want to see what other people are using. Heard Cleanshot X is the best out there, but I couldn't justify the $29 price tag for lifetime with one year of updates. I'm curious about what you guys are using.
+=====
+DATE: 2025-02-18T19:17:15Z | r/macapps | score:1 | u/laptopllama
+URL: https://reddit.com/r/macapps/comments/1iskyso/top_20_lists_of_mac_apps_surprisingly_useful_to/
+TITLE: Top 20 lists of Mac apps: surprisingly useful to see other people's lists
+BODY: I've loved people posting their Top 20 Mac Apps lists, because twenty seems like a magic number. It's enough that the lists start to include the more obscure, specialized tools that you never hear about because they get no marketing.
+
+Some Top 20's I've enjoyed so far:
+
+* u/amerpie's (everyone here is probably familiar with his nice app reviews on the subreddit): [I Picked My Top 20 Apps](https://linkage.lol/my-top-20-apps/)
+* Kanat Akylson (a dev): [Top 20 MacOs Apps for your Productivity](https://akylson.com/top-20-macos-apps-for-your-productivity-2aaade40f473) (requires a Medium subscription though)
+* Bakari Chavanu, a Mac-writer-extraordinaire, is currently working on his list (presumably will be posted to his [Mac Automation Tips](https://macautomationtips.com/) site, and I'll comment with it when it's up).
+* Not a true top 20, but yesterday's "[20 apps that haven’t been mentioned here AFAIK](https://www.reddit.com/r/macapps/comments/1irz71c/20_apps_that_havent_been_mentioned_here_afaik/)" thread had a ton of new-to-me obscure apps.
+
+And then here's my Top 20 as a dev (my expanded list is [here](https://laptopllama.me/top-20-apps/) with screenshots/video-clips/bad-jokes):
+
+* [One Thing](https://sindresorhus.com/one-thing) **(free)**: put a current focus for your time right up in your menu bar where you can't not-see-it.
+* [Yoink](https://eternalstorms.at/yoink/mac/): stop wanting to punch your own face every time you drag and drop.
+* [Day Progress](https://sindresorhus.c
+=====
+DATE: 2025-02-12T18:27:43Z | r/macapps | score:1 | u/bread-it
+URL: https://reddit.com/r/macapps/comments/1inxvml/cleanshot_vs_freeform/
+TITLE: Cleanshot vs Freeform
+BODY: There are countless "Cleanshot vs XXXX" threads.
+
+But it looks like no one anywhere ever compared Cleanshot and Freeform. While Freeform isn't  a screeshot app, its editing tools are very similar. I'm wondering if anyone's gone deep with both and has a favorite?
+=====
+DATE: 2025-02-11T13:14:30Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1imyaaq/applite_updated_with_new_features/
+TITLE: Applite Updated with New Features
+BODY: Installing software using the package manager, Homebrew, makes it much easier to update than downloading installation files manually. It isn't necessarily difficult to find the commands to download apps, but it does require a certain amount of searching around. The free and open-source utility, Applite, provides an App Store like interface for Homebrew, allowing you to browse what is available through a GUI. Anything you download through Applite can also be updated through the same interface.
+
+When you install [Applite](https://aerolite.dev/applite), it will offer to install Homebrew . If you don't have it installed already, you'll want to do that. Otherwise, just choose the option to use your currently installed version, which will be detected.
+
+Every application in the [Homebrew Catalog](https://brew.sh/) is available through [Applite](https://aerolite.dev/applite). When you launch an app downloaded with Applite, the built-in Mac security apps, Gatekeeper and Xprotect will examine it to make sure it is safe to run. Most of the apps in the Homebrew catalog are notarized, but not all of them are sandboxed, meaning that some may run with elevated privileges. Be careful when downloading applications that few others have downloaded. Not all apps available through Homebrew are FOSS. Some are trialware of commercial products.
+
+The following categories of apps are available along with info on some of the apps I have tested:
+
+* Browsers like [Edge](https://amerpie.lol/2024/01/09/mic
+=====
+DATE: 2025-01-31T06:40:41Z | r/macapps | score:1 | u/justonpoint
+URL: https://reddit.com/r/macapps/comments/1ie8vmi/app_constantly_crashes_for_me_and_i_cant_identify/
+TITLE: App constantly crashes for me and I can't identify why — Hoping someone can help me find out.
+BODY: Hey all, I'm pretty desperate and have been searching for answers to no avail, really hoping someone can help me figure out the reason.
+
+I'm using Flow by Wispr, a Speech-To-Text app that transcribes what I say in real-time when I press the Fn button. Recently, each time I use Flow or if I open the app without using it for awhile, the app closes (i.e., quits entirely) several minutes after.
+
+When I tried to do a screen recording to show the Flow team, interestingly the Flow app doesn't close. :/ 
+
+Initially I thought it was an app issue, and raised it to the team, but apparently I'm the only person with this issue, so I'm wondering now if it's related to one of the other apps I have, or a certain configuration in my Mac that's causing a conflict.
+
+These are the apps I have:
+
+* AltTab.
+* Anki.
+* AutoRaise.
+* Bananotate.
+* Cardhop.
+* CleanShot X.
+* Leader Key.
+* Elephas.
+* Fantastical.
+* Flow.
+* Ice.
+* iStat Menus 7.
+* Jagex / Old School RuneScape.
+* Logi Options+.
+* Loom.
+* MacWhisper.
+* Microsoft Office.
+* Raycast.
+* Visual Studio Code.
+
+Has anyone experienced similar issues with other apps, or know how I can trace the source of this issue? Would really appreciate the help!
+=====
+DATE: 2025-01-30T13:38:00Z | r/macapps | score:1 | u/AnKingMed
+URL: https://reddit.com/r/macapps/comments/1idn4l9/my_favorite_apps_what_do_you_think/
+TITLE: My favorite apps - what do you think?
+BODY: I am a resident physician working 60+ hours a week most weeks while also trying to run three businesses and be a good father/husband. Over the years I've found many favorites and I wanted to share and get feedback. I love productivity apps and I'm always open to new ideas.
+
+**Things3** \- I've tried all the todo apps and this is by far my favorite. My only complaints are no collaboration, no attachments, and no availability on windows (I only care because my work is windows). I've tried all the others and just couldn't stick with them and always came back to Things3. Todoist is probably the best competitor, but just looks awful compared to Things and the keyboard shortcuts and workflow and klunky.
+
+**Keyboard maestro** \- probably one of my all-time favorite apps. I think everyone needs it, they just don't know it yet. I use it to adjust windows when plugging or unplugging external monitors, phrase expander, formatting things, custom shortcuts within certain apps, clipboard manager, formatting text, and more. Basically if I'm repeating the action more than a few times, I try and make a macro for it
+
+**Alfred** \- This is a close second to keyboard maestro. I use it to trigger KM macros, find 2 factor codes in my messages, calculate things, phrase expander, search chrome bookmarks, trigger tons of different apps (cleanshot x, bitwarden, etc), open github repositories, adjust microphone and volume, search apple notes, and integrate with Things3.
+
+**Bitwarden** \- amazing passwo
+=====
+DATE: 2025-01-28T17:35:46Z | r/macapps | score:3 | u/Loose_Ad9349
+URL: https://reddit.com/r/macapps/comments/1ic74qv/screen_recording_app_mac_software_to_record/
+TITLE: Screen Recording App Mac : Software to Record Videos with Optional Camera Overlay (Easily Removable in Post-Editing)
+BODY: Hi everyone,
+
+I’ve been using CleanShot X for recording lectures and YouTube videos, and it’s been great in terms of quality and performance. However, I have a different need now:
+
+1. **Requirement**: I want to record videos with my camera overlay, but keep the camera feed optional — meaning I should be able to:
+   * Remove the camera feed in post-editing if needed.
+   * Or export two versions of the video: one with the camera on, and one with it off.
+2. **Current Tool Tried**: I tried Wondershare DemoCreator, but the performance and output quality didn’t meet my expectations.
+3. **Ideal Features**:
+   * High-quality video recording with camera overlay.
+   * Ability to remove the camera feed or export separate versions (camera on/off) easily.
+   * Price should be in the same range as CleanShot X (affordable).
+
+**Looking for recommendations**: If anyone knows of any software that can do this well (and at a reasonable price), I would appreciate your suggestions!
+
+Thanks in advance!
+=====
+DATE: 2025-01-22T05:41:37Z | r/macapps | score:6 | u/Dantnad
+URL: https://reddit.com/r/macapps/comments/1i748b1/rate_my_mac_apps_setup/
+TITLE: Rate my mac apps setup
+BODY: I've seen lots of people lately asking for apps for mac in several categories. In many years I've been trying to optimize my workflow as much as possible and for that I've gotten my hands into some apps that I believe are the best at what they do. Would love to know your opinions on them and if you happen to know any better alternatives.
+
+  
+**Utilities and maintenance**
+
+\- [DaisyDisk](https://daisydiskapp.com/) \- I'm starting off with this one, since I discovered it a few years back I fell in love with it, It allows you to see your files in a graph and easily know what's taking up space, and prevents you from deleting important files. A must have installed in my opinion.  
+\- [AppCleaner](https://freemacsoft.net/appcleaner/) \- Many of you may already have installed this one, but for those who don't it basically allows you to completely uninstall apps from your mac, including files that usually stay there taking up stace.  
+\- [Shottr](https://shottr.cc/) \- A pretty good one time purchase screenshot tool, I use it a lot, however after I bought it I saw there was [Cleanshot X](https://cleanshot.com/), I'm still not sure Shottr was the smartest choice over Cleanshot, but pretty good nonetheless.  
+\- [Keka](https://www.keka.io/en/) \- A compression utility, allows you to compress and uncompress files in several formats, free, pretty good, you just install it and forget it  
+\- [Permute 3](https://software.charliemonroe.net/permute/) \- A converter app that can convert and c
+=====
+DATE: 2025-01-15T19:31:06Z | r/macapps | score:1 | u/Intelligent-Rice9907
+URL: https://reddit.com/r/macapps/comments/1i25m11/is_there_an_app_that_delays_login_apps/
+TITLE: Is there an app that delays login apps?
+BODY: Hello Everyone!! I'm looking an app that can help me delay the apps that open as soon as I start a session? For example: I have hammerspoon, rectangle, oversight, blockblock, lulu, openin, fivenotes, cleanshot x, alfred5, aldente all opening at startup but would like to let the OS start as quickly as possible and then periodically open one by one after the previous has finished opening then open the next one but only when Im already able to use the mac
+=====
+DATE: 2025-01-06T22:16:02Z | r/macapps | score:1 | u/north_st-hot-weather
+URL: https://reddit.com/r/macapps/comments/1hvbk2r/annotation_tool_for_video/
+TITLE: Annotation tool for video
+BODY: Hi, 
+
+Sometimes a friend of mine or family member asks me to help them doing something on their computer/phone. And sometimes just writing is not enough. I'd like to record short videos with arrows, circles and numbers to guide them step by step.
+
+
+
+I know CleanShot X is a good screen recorder, but based on the videos I watched on Youtube, it doesn't have tools to edit a video like it has for screenshots. I might be wrong, though.
+
+
+
+I'd like to know if y'all could recommend me something like Shottr but for video. Something that does one thing and does it very well. A tool I could use to edit short videos explaining things.  Any ideas?
+
+  
+
+=====
+DATE: 2025-01-04T14:25:47Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1htffo2/putting_mac_apps_to_work_image_management/
+TITLE: Putting Mac Apps to Work - Image Management Workflow for Writers
+BODY: In blogging and in creating instructional documents at work, I go through plenty of screenshots, stock photography and open-source images from the web. In the course of crafting a single blog post, I might use four or five apps.
+
+For screenshots, I use [CleanShotX](https://apps.louplummer.lol/post/cleanshot-x) which I call from a keyboard shortcut or the menu bar. It also does annotation. The files are saved to my default screenshot folder that lives on a cloud drive so that I can readily access it from all my computers and devices.
+
+When the file is saved, it activates [Clop](https://apps.louplummer.lol/post/clop-copy-big-paste-small-send-fast) which optimizes the file size automatically. The optimized file is handed off to [Dropover](https://apps.louplummer.lol/post/dropover-best-in-class) and then an [Apple Shortcut](https://www.icloud.com/shortcuts/5fb38973fcb64f89be4185276f3c654a) (download link) runs that moves the file to another cloud folder, called "Optimized" and which also opens a [Dropover](https://apps.louplummer.lol/post/dropover-best-in-class) shelf so that I can drag the file into place if my current working situation calls for it. [Dropover](https://apps.louplummer.lol/post/dropover-best-in-class) also lets me rename the file, convert to another format and resize the file. I can even open the file in [ImageOptim](https://apps.louplummer.lol/post/imageoptim-free-and-open-source-utility-to-reduce-file-sizes) right from the shelf if I want to reduce the file siz
+=====
+DATE: 2025-01-02T21:46:32Z | r/macapps | score:1 | u/jmwdba
+URL: https://reddit.com/r/macapps/comments/1hs5fm6/cleanshot_struggle/
+TITLE: CleanShot Struggle
+BODY: I am struggling to adapt to CleanShot X. To be transparent, I have always used Snagit by TechSmith. I think I am trying to translate the Snagit approach to Cleanshot and that is a big "No No." I just want to capture screenshots and be able to access them locally, the only option I see is to send them to the cloud then I can download them to my computer from the cloud. Am I missing something?
+=====
+DATE: 2024-12-24T02:08:40Z | r/macapps | score:1 | u/marcos987
+URL: https://reddit.com/r/macapps/comments/1hl3cmh/which_tool_merge_snagit_and_cleanshot_fast_and/
+TITLE: Which tool? Merge Snagit and Cleanshot - fast and sleek as Cleanshot, library like Snagit?
+BODY: I come to this again...
+
+**Cleanshot** is fast, it's the fastest I have seen. That's why I use it all the time. The features are also good, efficient to use, convenient. The upload to cloud storage is also fast.
+
+But the history sucks. I just had to take 4 screenshots and merge them, it's a pain, what I did was to take the screenshots again with Snagit. The history is also not reliable, as I am not counting the days
+
+**Snagit** is a bit oldschool, it's slow. If I have to wait half a second that is just too slow. The features are good but not so convenient, e.g. way too often I had to change the thickness of the line and other things. But it comes with a library, I can easily see the last 20 screenshots, the library and navigation is fast and that one sucks with Cleanshot.
+
+In day to day use, Cleanshot wins, and still I am not entirely happy with it.
+
+Is there a Cleanshot with better library? 
+
+Is there a Snagit that is simply faster?
+=====
+DATE: 2024-12-12T07:20:10Z | r/macapps | score:1 | u/Super_Necessary8572
+URL: https://reddit.com/r/macapps/comments/1hcfrbf/cleanshot_window_area_is_incorrect/
+TITLE: Cleanshot window area is incorrect?
+BODY: https://preview.redd.it/k4g8wcs6cd6e1.png?width=3524&amp;format=png&amp;auto=webp&amp;s=0cfebbeeffb827100b59f05fdf4912a8d47d44cd
+
+When I select window screenshot,   can see the wallpaper around Discord is also captured in the screenshot. Is this a bug?
+=====
+DATE: 2024-12-05T12:58:59Z | r/macapps | score:44 | u/horlorh
+URL: https://reddit.com/r/macapps/comments/1h78lm5/shottr_extension_in_raycast/
+TITLE: Shottr extension in Raycast
+BODY: Just found out that the Shottr extension is live in the Raycast store. Shottr is a screenshotting tool similar to Cleanshot X but cheaper (or free). It was announced to be released a few months ago but I never saw any announcement when it was finally released. Thought to share with Raycast + Shottr users!
+
+Edit: Here’s a [link](https://www.raycast.com/fernando_barrios/shottr) to the extension on the Raycast store. 
+=====
+DATE: 2024-12-04T13:55:05Z | r/macapps | score:463 | u/Ascr1pt
+URL: https://reddit.com/r/macapps/comments/1h6gjip/i_almost_cant_live_without_these_apps/
+TITLE: I (almost) can't live without these apps.
+BODY: These are my login stuffs that I use and enjoy very often every day.
+
+Please share yours if possible?
+
+https://preview.redd.it/4509037fst4e1.png?width=2354&format=png&auto=webp&s=218089fb94716e1ed3443a0ecc5f13d6497fe8e9
+
+I also make a list with chatgpt for these apps:
+
+[**Almighty**](https://indiegoodies.com/almighty)
+
+Over 50 cool Mac tweaks and extra utilities to supercharge your Mac experience.
+
+
+
+[**Dato**](https://sindresorhus.com/dato)
+
+Menu bar calendar and world clocks, plus fullscreen meeting notifications.
+
+
+
+[**HazeOver**](https://hazeover.com)
+
+Dim windows that are not focused to provide a distraction-free working environment.
+
+
+
+[**Klack**](https://tryklack.com)
+
+Satisfying sound with every keystroke.
+
+
+
+[**Menuwhere**](https://manytricks.com/menuwhere)
+
+Access your MenuBar everywhere.
+
+
+
+[**Mihomo Party**](https://github.com/mihomo-party-org/mihomo-party)
+
+A proxy app.
+
+
+
+[**PopClip**](https://www.popclip.app)
+
+Instant text popup actions.
+
+
+
+[**Yoink**](https://eternalstorms.at/yoink/mac/)
+
+Simplify and improve drag-and-drop on your Mac to speed up your daily workflow.
+
+
+
+[**Amphetamine**](https://apps.apple.com/cn/app/amphetamine/id937984704?mt=12)
+
+Free app that keeps your Mac awake while working.
+
+
+
+[**CleanShot X**](https://cleanshot.com)
+
+Capture your Mac’s screen like a pro.
+
+
+
+[**Displaperture**](https://manytricks.com/displaperture/)
+
+Rounds your display corners.
+
+
+
+[**HyperSwitch**](https://bahoom.com/hyperswitch)
+
+Yet another keyboard window switcher f
+=====
+DATE: 2024-12-02T21:28:39Z | r/macapps | score:1 | u/Latter_Pen2421
+URL: https://reddit.com/r/macapps/comments/1h56c5b/snagit/
+TITLE: SnagIt
+BODY: I just assumed that all screen shot programs were pretty similar and no really need for two. I use cleanshot X and don't plan on switch but SnagIt is unbelievable for options. Are there any other programs that come close this program in terms of annotation options?
+=====
+DATE: 2024-12-02T14:19:09Z | r/macapps | score:1 | u/nikmanG
+URL: https://reddit.com/r/macapps/comments/1h4vz85/how_many_licenses_should_i_have_for_cleanshot_x/
+TITLE: How many licenses should I have for Cleanshot X
+BODY: So because they have 1 license = 1 machine (instead of usual 1 user and x machines) do I need to have 2 licenses if I have a mac mini and a mac air? Or is having one fine as long as I transfer over the license whenever I use it on the respective device?
+=====
+DATE: 2024-11-30T01:41:49Z | r/macapps | score:5 | u/TheTwelveYearOld
+URL: https://reddit.com/r/macapps/comments/1h31jtx/has_anyone_else_gotten_spammed_with_appsumo/
+TITLE: Has anyone else gotten spammed with AppSumo emails despite unsubscribing?
+BODY: AppSumo has done a lot of promotion on r/macapps, and I got the deal of CleanShot X for free which I've been using daily. I've been getting bombarded with emails for Black Friday despite unsubscribing multiple times. It feels like a red flag, guess I'm just gonna block them.
+=====
+DATE: 2024-11-30T01:41:49Z | r/macapps | score:7 | u/TheTwelveYearOld
+URL: https://reddit.com/r/macapps/comments/1h31jtx/has_anyone_else_gotten_spammed_with_appsumo/
+TITLE: Has anyone else gotten spammed with AppSumo emails despite unsubscribing?
+BODY: AppSumo has done a lot of promotion on r/macapps, and I took their deal to get CleanShot X for free which I've been using daily. This week I've been getting bombarded by emails for Black Friday despite having gone to the unsubscribe page multiple times. Guess I'm just gonna block them.
+=====
+DATE: 2024-11-29T18:01:54Z | r/macapps | score:15 | u/iSapozhnik
+URL: https://reddit.com/r/macapps/comments/1h2roxp/lasso_window_manager_45_off_until_0212/
+TITLE: Lasso window manager 45% off until 02.12
+BODY: There have been a lot of great deals this year. I personally went with Cleanshot. But Black Friday 2024 is not over yet. With the code **BLACKFRIDAY24** you can get 45% off for Single and Personal licenses. And it's a lifetime purchase! [https://www.thelasso.app/pricing](https://www.thelasso.app/pricing)
+=====
+DATE: 2024-11-29T18:01:54Z | r/macapps | score:18 | u/iSapozhnik
+URL: https://reddit.com/r/macapps/comments/1h2roxp/lasso_window_manager_45_off_until_0212/
+TITLE: Lasso window manager 45% off until 02.12
+BODY: There have been a lot of great deals this year. I personally went with Cleanshot. But Black Friday 2024 is not over yet. With the code **BLACKFRIDAY24** you can get 45% off for Single and Personal licenses. And it's a lifetime purchase! [https://thelasso.app/prices](https://thelasso.app/prices)
+=====
+DATE: 2024-11-28T17:30:30Z | r/macapps | score:1 | u/i3li11
+URL: https://reddit.com/r/macapps/comments/1h214ap/macos_cleanshot_x_2900_1450/
+TITLE: [macOS] [CleanShot X] [$29.00 → $14.50]
+BODY: 
+=====
+DATE: 2024-11-28T17:30:30Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1h214ap/macos_cleanshot_x_2900_1450/
+TITLE: [macOS] [CleanShot X] [$29.00 → $14.50]
+BODY: [deleted]
+=====
+DATE: 2024-11-28T17:22:18Z | r/macapps | score:1 | u/i3li11
+URL: https://reddit.com/r/macapps/comments/1h20xpo/macos_cleanshot_x_2900_2030/
+TITLE: [macOS] [CleanShot X] [$29.00 → $20.30]
+BODY: 
+=====
+DATE: 2024-11-28T17:22:18Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1h20xpo/macos_cleanshot_x_2900_2030/
+TITLE: [macOS] [CleanShot X] [$29.00 → $20.30]
+BODY: [deleted]
+=====
+DATE: 2024-11-28T15:44:15Z | r/macapps | score:1 | u/krokodilce
+URL: https://reddit.com/r/macapps/comments/1h1yq9m/what_apps_did_you_buy_this_bfcm/
+TITLE: What apps did you buy this BFCM?
+BODY: So far, I've got:
+
+\- Bartender  
+\- Daisydisk  
+\- BetterTouchTool  
+\- Cleanshot X
+
+Was hoping to get the Alfred discount, but seems like there won't be.
+
+Which ones did you get?
+=====
+DATE: 2024-11-28T05:37:39Z | r/macapps | score:1 | u/Ryeones
+URL: https://reddit.com/r/macapps/comments/1h1oyuz/shottr_and_kap_or_cleanshot_x/
+TITLE: shottr and kap or cleanshot x?
+BODY: [removed]
+=====
+DATE: 2024-11-28T05:37:39Z | r/macapps | score:8 | u/Ryeones
+URL: https://reddit.com/r/macapps/comments/1h1oyuz/shottr_and_kap_or_cleanshot_x/
+TITLE: shottr and kap or cleanshot x?
+BODY: hi everyone, i've been eyeing cleanshot x for the longest of times, but have always been hesitant to purchase because although it has a 'one time' license, it technically isn't as to get the subsequently years upgrade, you would then need to pay and additional price.
+
+at the moment, i use a combination of shottr and kap to substitute for cleanshot x
+
+what i use in shottr: 1. scrolling capture 2. targetted screenshots (with annotations at times) 3. full window screenshots ( rare occasions)
+
+what i use kap for: 1. screen recording to gif (i keep my design or creative inspiration in my notion database)
+
+however, now with the black friday sale happening, i was thinking if i should just bite the bullet and pay for it, was wondering what are yall folks suggestions? are there any glaring features of cleanshot x that i may have missed out? for those that own the one time licence, is it worth it? thankyou and hope you have a good day!
+=====
+DATE: 2024-11-28T05:30:57Z | r/macapps | score:1 | u/Ryeones
+URL: https://reddit.com/r/macapps/comments/1h1ouzp/cleanshot_x_or_a_combination_of_shottr_kap/
+TITLE: cleanshot x or a combination of shottr + kap
+BODY: [removed]
+=====
+DATE: 2024-11-28T04:50:20Z | r/macapps | score:1 | u/beyondbase
+URL: https://reddit.com/r/macapps/comments/1h1o6l2/50_off_cleanshot_x_daisydisk_bartender_5_etc/
+TITLE: 50% off Cleanshot X, DaisyDisk, Bartender 5, etc...
+BODY: Hope ya'll held off on Cleanshot X for this sweeter deal:
+
+ [https://unclutterapp.com/bundle/?coupon=DD-BLACKFRIDAY-2024&amp;s=web](https://unclutterapp.com/bundle/?coupon=DD-BLACKFRIDAY-2024&amp;s=web)
+=====
+DATE: 2024-11-28T02:37:07Z | r/macapps | score:1 | u/Spiritual_Show
+URL: https://reddit.com/r/macapps/comments/1h1ludt/black_friday_app_deals_that_i_am_looking_out_for/
+TITLE: Black Friday App Deals that I am looking out for
+BODY: This thread is constantly been updated so save or bookmark!
+
+[Cleanshot X](https://cleanshot.com/pricing) 30% off 20.3 (earlier $29)
+
+[Better Touch Tool ](https://folivora.ai/buy)25% off on standard BetterTouchTool licenses, 33% on lifetime licenses
+
+
+=====
+DATE: 2024-11-25T07:12:12Z | r/macapps | score:1 | u/Valvesoft
+URL: https://reddit.com/r/macapps/comments/1gzd8aa/cleanshot_x_unable_to_selfstart/
+TITLE: CleanShot X Unable to self-start
+BODY: On my computer, CleanShot X is the only software that cannot launch automatically at startup. Why is that? I tried using AI to identify possible causes, deleted all leftover files, and reinstalled the software, but the issue persists. The problem is that the “Launch at Startup” option in CleanShot X’s settings always resets to default after I restart the computer. None of my other programs have this issue, and I have a lot of software set to launch at startup without any problems: 
+
+https://preview.redd.it/oorcapsjzz2e1.png?width=2960&amp;format=png&amp;auto=webp&amp;s=c4f14189369ae664f33c200f2bfa639869fba74b
+
+
+=====
+DATE: 2024-11-19T20:59:35Z | r/macapps | score:0 | u/tjkcc
+URL: https://reddit.com/r/macapps/comments/1gv7spf/alright_all_ya_cleanshot_x_lovers_how_do_you/
+TITLE: Alright all ya Cleanshot X lovers, how do you capture alt text with area capture?
+BODY: 
+=====
+DATE: 2024-11-13T14:30:15Z | r/macapps | score:1 | u/that_90s_guy
+URL: https://reddit.com/r/macapps/comments/1gqe50e/are_there_any_easy_to_use_apps_to_record_meetings/
+TITLE: Are there any easy to use apps to record meetings audio (merge system audio + microphone) for transcription use? Thanks!
+BODY: The most common recommendation I've seen seems to be Rogue Amoeba's Loopback + Audio Hijack but the setup seems needlessly complex/overkill for my use case.
+
+Piezo looks amazing, but it only records a single source at a time and I need both microphone + system audio to be recorded at the same time.
+
+I'm looking to use this app to record meetings audio for transcription + AI summarization with MacWhisper. But until I find a simpler/easy to use alternative, I'm just defaulting to relying on Cleanshot X's screen recording by selecting a tiny area of the screen (for the smallest file size) as that allows me to mix Microphone/System audio and alter the individual volume of microphone/system audio post-recording.
+
+  
+Thanks everyone
+=====
+DATE: 2024-11-10T16:24:32Z | r/macapps | score:1 | u/haoliu350
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/
+TITLE: Any Shottr alternative? Shottr got banned at my company machine
+BODY: Recently my company just put this app to unapproved app list, not sure if its due privacy concern. Does Shottr send any data to any server over internet, like CleanShot cloud feature?
+
+Any alternative to this app? 
+
+All I need is an app can take screenshot with keyboard shortcut, then do simple annotation, and copy to clipboard.
+=====
+DATE: 2024-10-28T16:04:45Z | r/macapps | score:3 | u/SortMyself
+URL: https://reddit.com/r/macapps/comments/1ge5soi/annotation_and_quick_edit_tool_for_videos/
+TITLE: Annotation and quick edit tool for videos? 
+BODY: I'm basically looking for Cleanshot for videos. I want to trim videos quickly. Bonus points if it can annotate. 
+
+Does it exist? 
+=====
+DATE: 2024-10-28T14:44:18Z | r/macapps | score:1 | u/Fishsticks66
+URL: https://reddit.com/r/macapps/comments/1ge3spr/brand_new_to_mac_after_many_years_of_windows/
+TITLE: Brand new to Mac after many years of windows, looking for some guidance
+BODY: Hi guys, I know you get a lot of these posts so I hope mine will at easy have some fresh questions, I’ve spent all day yesterday reading old posts on this sub.
+
+I have an iPhone, and I’m really enjoying how widgets from some apps carry over. What are some of your favourite app widgets?
+
+I’m currently using mostly free apps, and would be interested in knowing what are some less powerful apps that are free, but have a better pod version, so that I can upgrade incrementally?
+
+
+# What I’ve got currently:
+
+- Shottr, over cleanshot x
+- Al dente (basic) over batfi.
+- Obsidian for notes 
+- Raycast for launching
+- IINA over elmedia
+- Mac mouse fix 3
+- Alt tab, to emulate windows alt tabbing
+- Apple reminders - over things3 or todoist
+
+#### Things I haven’t found a better app for
+
+- Apple calendar 
+- Outlook
+- Safari
+- VScode for .net and python
+- Basic weather widget
+- **And probably lots of apps I never knew I needed or wanted!**
+=====
+DATE: 2024-10-26T04:02:58Z | r/macapps | score:1 | u/WaYyTempest
+URL: https://reddit.com/r/macapps/comments/1gccpa7/screenshot_tool/
+TITLE: Screenshot Tool
+BODY: I’m looking for a screenshot app. I tried CleanShot X, but I’m not interested in paying for screenshots. Do you have any free alternatives?
+=====
+DATE: 2024-10-24T12:26:53Z | r/macapps | score:1 | u/minirings
+URL: https://reddit.com/r/macapps/comments/1gb1emx/my_minimal_app_list_8/
+TITLE: My minimal app list - 8
+BODY: When I formatted my MacBook, I installed all the apps I could think of, but some of them were missing. 
+
+I recommend some of my favourite apps that I use and love.
+
+​
+
+[Bear](https://apps.apple.com/kr/app/%EB%B2%A0%EC%96%B4-%EC%9E%91%EB%AC%B8-%EB%B0%8F-markdown-%ED%8E%B8%EC%A7%91%EC%9E%90/id1091189122?mt=12) \- I've tried Apple Notes, and I've tried a lot of different things, but Bear is the best for me.
+
+[Things](https://apps.apple.com/kr/app/things-3/id904280696?mt=12) \- pretty, simple, easy to use and works well with Bear.
+
+[Paste](https://apps.apple.com/kr/app/paste-endless-clipboard/id967805235) \- There are many free clipboard apps out there, but this one is the best looking and most reliable, so I ended up using it exclusively.
+
+[ScanTexter](https://apps.apple.com/kr/app/scantexter-ocr-ai-%EB%B2%88%EC%97%AD-%EB%B0%8F-pdf%EC%8A%A4%EC%BA%94/id1635954549) \- There are many times when I want to translate and read it immediately, so I can easily see it whenever I want, and I also use it a lot to just capture and copy the content.
+
+[DayMoney](https://apps.apple.com/kr/app/%EB%8D%B0%EC%9D%B4%EB%A8%B8%EB%8B%88-%EA%B0%80%EA%B3%84%EB%B6%80-%EC%9D%BC%EA%B8%B0/id6443419421) \- I share it with my wife, so it's easy to keep track of our finances. I used to use Dayone for diary, but at some point, it seemed to be more media-centric, so I don't use it anymore, and I only post a few short sentences of text and a few good photos from time to time. I just manage my media in the default 
+=====
+DATE: 2024-10-17T14:43:25Z | r/macapps | score:1 | u/HDRNA
+URL: https://reddit.com/r/macapps/comments/1g5simr/problems_with_cleanshot_x/
+TITLE: Problems with CleanShot X
+BODY: I recently recorded a video that I really need on CleanShot X. Unfortunately, I forgot to drag the video into my downloads so it didn't permanently save on my computer. I tried checking my capture history but I learned that it was automatically set on "Delete after 1 day." I've tried using Disk Drill (with the full disk access scan), but it just gives me a few .mp4.pfl files that I can't do anything with and that can't be the full size of those videos. Time machine is not an option. How can I save these recordings? (If it helps in any way, I dragged these files into DaVinci Resolve.)
+=====
+DATE: 2024-10-14T20:02:18Z | r/macapps | score:202 | u/BB-773
+URL: https://reddit.com/r/macapps/comments/1g3p8yd/clean_nativelike_and_userful_mac_apps/
+TITLE: Clean, Native-like, and Userful Mac Apps
+BODY: https://preview.redd.it/tmuml3z63sud1.jpg?width=3600&format=pjpg&auto=webp&s=fde938243eb14a92cd1187f5a52b7bbc72ba43c6
+
+I keep discovering new apps thanks to this community over the past year, and these are the ones that ended up staying on my Macbook Pro (Apple Silicon). They're all very useful, look clean, and feel native to MacOS imo. I think the paid ones are worth it, at least for me as daily drivers.
+
+My apps:
+
+* [**1Password**](https://1password.com/) (Subscription, $5/month for Families Plan) - My preferred password manager. Works great on MacOS, can't live without it. The only subscription I have on this list. I like its UI and features over other password managers.
+* [**AltTab**](https://alt-tab-macos.netlify.app/) (Free) - Windows-like window switcher
+* [**Amphetamine**](https://apps.apple.com/us/app/amphetamine/id937984704) (Free) - Keeps my Mac awake when I need to. Clean, minimal interface.
+* [**BatFi**](https://micropixels.software/apps/batfi) (One-time payment, $10) - Used AlDente before but prefer this one. Cheaper than AlDente's subscription, menu bar app looks cleaner imo, feels native, and has the features I need. Don't really need all of AlDente's bells and whistles.
+* [**Clop**](https://lowtechguys.com/clop/) (One-time payment, $15) - Optimizes everything I need. Photos, videos, PDFs, etc. Hover zone is cool to drag items into that need optimizing. Makes sending videos and photos a breeze with the reduced file sizes.
+* [**Command X**](https://sindresorhus
+=====
+DATE: 2024-10-13T16:30:49Z | r/macapps | score:1 | u/untitled112
+URL: https://reddit.com/r/macapps/comments/1g2tlr7/what_are_the_apps_you_cant_live_without_and_give/
+TITLE: What are the apps you can't live without and give me some suggestions.
+BODY: **I am currently using:**
+
+* **Alfred**
+* **Aldente Pro**
+* **Bartender 5**
+* **Rectangle**
+* **Vivid (When needed)**
+* **Cleanshot X**
+* **Setapp**
+* **Mac Fan Control**
+
+***I am open to any suggestions!***
+=====
+DATE: 2024-10-12T03:19:15Z | r/macapps | score:1 | u/ComfortablePost3664
+URL: https://reddit.com/r/macapps/comments/1g1r99c/what_is_the_best_free_alternative_app_to/
+TITLE: What is the best free alternative app to Cleanshot x for video recording the screen (maybe with audio or without audio)?
+BODY: I need to find this. I don't want to pay for this. Thanks.
+=====
+DATE: 2024-10-07T22:59:07Z | r/macapps | score:1 | u/QuanDev
+URL: https://reddit.com/r/macapps/comments/1fyl8vg/cleanshot_x_how_to_combine_screenshots_sidebyside/
+TITLE: CleanShot X: How to combine screenshots side-by-side?
+BODY: I just purchased the app, loving everything about it, except when I added another screenshot to my existing one.
+
+Whether I used the "Add screenshot" icon to take another screenshot, or take another screenshot first, then drag and drop onto the existing one, they always stacked on top of each other.
+
+How do I make them stay side-by-side?
+
+Thank you.
+=====
+DATE: 2024-10-06T12:57:13Z | r/macapps | score:1 | u/Dorindon
+URL: https://reddit.com/r/macapps/comments/1fxfvs3/very_disappointed_in_cleanshot_markupannotation/
+TITLE: Very disappointed in Cleanshot Markup/Annotation Tools: a basic feature is missing. Is there something I misunderstand ?
+BODY: Hello, 
+
+I usually use snagit to annotate images, and purchased Cleanshot based on the many rave reviews. 
+
+My problem / irritation is quite basic. When I annotate an image, I usually use red for arrows, yellow for highlight, etc In snagit for example (and many other similar apps), I define the default color (among other parameters) for each tool.   
+
+With Cleanshot, if I understand correctly, I can for example create an arrow in red. If I subsequently want to highlight text in yellow (my preferred highlight color), I have to click on the highlighter tool AND CHANGE THE COLOR TO YELLOW, because of the inability to set default colors for each tool.   
+
+I find that this significantly slows down the whole annotation process and defeats the purpose of having so many other sophisticated features.
+
+Am I missing something ?
+
+thanks in advance for your time and help
+=====
+DATE: 2024-10-05T23:31:46Z | r/macapps | score:1 | u/mathewharwich
+URL: https://reddit.com/r/macapps/comments/1fx3bf2/looking_for_an_elegant_solution_to_stitch_photos/
+TITLE: Looking for an elegant solution to stitch photos for special purpose
+BODY: So my reason is a little particular, but I make trumpet videos on YouTube. Many times I like to have the sheet music scrolling horizontally across the screen as one long line. Unfortunately modern notation programs aren't built to do this. I can adjust the page margins to fit shorter pieces onto one line but this is messy and comes with limitations. Currently my solution is to export as a normal page (with several lines of music) and then throw it into photoshop and cut it up and put back together as one long line. But this itself takes more time than I would like it to and even photoshop can have some limitations when it comes to how wide vs tall something can be I believe. 
+
+I've looked into a few photo stitching programs but they all seem heavily focused on building panoramic images rather than manually piecing images together quickly in this way. I am interested in the possibility of cleanshot x as I see you can piece together screenshots, but I'm not sure if this is going to have the ability to do this for as many as it will require and as long (wide) the images will be.
+
+Is there perhaps a good marquee building type of software that can handles images? or a good photo stitching app that I overlooked?
+
+
+=====
+DATE: 2024-09-30T11:02:56Z | r/macapps | score:1 | u/Final-Recover7237
+URL: https://reddit.com/r/macapps/comments/1fsst5u/cleanshot_x_audio_only_recording/
+TITLE: CleanShot X audio only recording
+BODY: Hello, I purchased CleanShot X awhile ago and I'm liking the screenshot and screen capture features. However, there are times that I need to record audio only. Is there an option in CleanShot X for this? Thanks!
+=====
+DATE: 2024-09-30T07:25:53Z | r/macapps | score:1 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1fspwli/whats_the_best_ocr_app/
+TITLE: What’s the best OCR app? 
+BODY: Hello! I’ve tried quite a lot of OCR apps, but was wondering which one is the best. The one I liked is TextSniper, but I heard Shottr and CleanShot X also have it. 
+
+So, what’s your personal choice for OCR?
+=====
+DATE: 2024-09-29T14:36:44Z | r/macapps | score:1 | u/sardoa11
+URL: https://reddit.com/r/macapps/comments/1fs5scu/cleanshot_x_bug_anyone_experienced_this_bug_which/
+TITLE: [CleanShot X Bug?] Anyone experienced this bug which won't allow you to capture windows and knows a solution?
+BODY: 
+=====
+DATE: 2024-09-29T14:35:45Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1fs5rmm/cleanshot_x_bug_anyone_know_how_to_fix_this_weird/
+TITLE: [CleanShot X Bug] Anyone know how to fix this weird bug which won't allow me to capture windows?
+BODY: [removed]
+=====
+DATE: 2024-09-29T14:35:45Z | r/macapps | score:1 | u/sardoa11
+URL: https://reddit.com/r/macapps/comments/1fs5rmm/cleanshot_x_bug_anyone_know_how_to_fix_this_weird/
+TITLE: [CleanShot X Bug] Anyone know how to fix this weird bug which won't allow me to capture windows?
+BODY: 
+=====
+DATE: 2024-09-25T21:10:53Z | r/macapps | score:2 | u/JellyBean_Collector
+URL: https://reddit.com/r/macapps/comments/1fpffyz/why_doesnt_screen_capture_tool_trigger_the_screen/
+TITLE: Why doesn’t screen capture tool trigger the screen share indicator on Mac?
+BODY: I’m curious why my screen capture tool, Cleanshot X, doesn’t trigger the purple screen share indicator, but Bartender causes it to pop up all the time (which is pretty annoying). Any idea why?
+=====
+DATE: 2024-09-20T01:56:47Z | r/macapps | score:0 | u/Bull_Investor
+URL: https://reddit.com/r/macapps/comments/1fl14r3/does_the_cleanshot_x_app_seriously_not_have_a/
+TITLE: Does the Cleanshot X app seriously not have a return button?
+BODY: Does the Cleanshot X app seriously not have a return button or am I missing something? 
+=====
+DATE: 2024-09-18T15:37:33Z | r/macapps | score:451 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1fjvu82/list_of_macos_utilities_which_feel_native/
+TITLE: List of MacOS utilities, which feel native
+BODY: **List of modern and clean looking MacOS utilities, which feel native**
+
+*Pricing*
+
+free - fully free, mostly open source
+
+freemium - have a long free trial or a free version
+
+paid - are only paid, some could include a short trial
+
+*List*
+
+[Swish](https://highlyopinionated.co/swish/)(paid) - window snapping on steroids with Magic Mouse or trackpad gestures.
+
+[Sleeve](https://replay.software/sleeve)(paid) - ultimate widget for music from Apple Music and Spotify.
+
+[Dato](https://sindresorhus.com/dato)(freemium) - the most advanced menu bar calendar with full screen notifications.
+
+[DropOver](https://dropoverapp.com/)(freemium) - drag and drop on steroids.
+
+[BananaBin](https://bananabin.app/)(paid) - a reminder to empty your trash.
+
+[CleanShot X](https://cleanshot.com/)(paid) - the most advanced screenshot app.
+
+[Clop](https://lowtechguys.com/clop/)(freemium) - the fastest and easiest to use optimization tool.
+
+[BoringNotch](https://theboring.name/)(free) - not so boring notch.
+
+[IINA](https://iina.io/)(free) - the best modern media player.
+
+[MissionControl Plus](https://www.fadel.io/missioncontrolplus)(paid) - brings control back to Mission Control.
+
+[Color Picker](https://sindresorhus.com/system-color-picker)(free) - the familiar color picker supercharged.
+
+[Maccy](https://maccy.app/)(free) - the most lightweight clipboard history.
+
+[TextSniper](https://textsniper.app)(paid) - a lightweight OCR with QR codes support as well.
+
+[HazeOver](https://hazeover.com/)(freemium) - dims 
+=====
+DATE: 2024-09-18T15:37:33Z | r/macapps | score:369 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1fjvu82/list_of_macos_utilities_which_feel_native/
+TITLE: List of MacOS utilities, which feel native
+BODY: **List of modern and clean looking MacOS utilities, which feel native**
+
+  
+*Pricing*
+
+free - fully free, mostly open source
+
+freemium - have a long free trial or a free version
+
+paid - are only paid, some could include a short trial
+
+  
+*List*
+
+  
+1. [Swish](https://highlyopinionated.co/swish/)(paid) - window snapping on steroids with Magic Mouse or trackpad gestures.
+
+2. [Sleeve](https://replay.software/sleeve)(paid) - ultimate widget for music from Apple Music and Spotify. 
+
+3. [Dato](https://sindresorhus.com/dato)(freemium) - the most advanced menu bar calendar with full screen notifications. 
+
+4. [DropOver](https://dropoverapp.com/)(freemium) - drag and drop on steroids. 
+
+5. [BananaBin](https://bananabin.app/)(paid) - a reminder to empty your trash. 
+
+6. [CleanShot X](https://cleanshot.com/)(paid) - the most advanced screenshot app. 
+
+7. [Clop](https://lowtechguys.com/clop/)(freemium) - the fastest and easiest to use optimization tool. 
+
+8. [BoringNotch](https://theboring.name/)(free) - not so boring notch. 
+
+  
+All of the apps I’ve tried myself and these feel like a native feature of MacOS with awesome modern UI. Those, which impressed me the most are Dato, DropOver and BoringNotch. 
+
+If you have some to add, would be nice to hear. 
+=====
+DATE: 2024-09-13T03:20:34Z | r/macapps | score:1 | u/micangaroo
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/
+TITLE: Screenshot app suggestion
+BODY: Hi, I'm looking around for a good screenshot app. I've read the posts that suggest the best are Shottr (Free) and Cleanshot X (Paid).
+
+For context, I am taking multiple screenshots for training guide purposes for a Webapp. I require features for consistent screenshots rather than dragging the rectangle area every single time, and ending up with inconsistent screenshots. 
+
+And because it is a webapp, I can't actually do a window snapshot because the browser controls and other elements that are not required will be captured too.
+
+So specifically, I need a screenshot app that allows me to
+
+1. Select an Area
+2. Hold it there for me to make adjustments
+3. Snap the screenshot and remember the area
+4. Re-snap the same previous selected area continuously.
+
+While they are both great apps, they're unusable for me because once you select the area, the screenshot is immediately captured.
+
+Appreciate the suggestions. Free or Paid are both fine.
+
+Thank you!
+
+
+
+
+
+
+=====
+DATE: 2024-09-04T07:52:48Z | r/macapps | score:1 | u/bojanradovic5
+URL: https://reddit.com/r/macapps/comments/1f8nm8b/does_shottr_have_a_way_to_add_backgrounds_to/
+TITLE: Does Shottr have a way to add backgrounds to screenshots?
+BODY: Currently using Cleanshot X and the one feature I really like is the ability to add backgrounds to screenshots. I downloaded the free tier of Shottr to trial it and can't seem to find any options for that.
+
+Is this is a paid feature? If so is it the first or 2nd tier?
+
+Thanks!
+=====
+DATE: 2024-08-31T07:31:02Z | r/macapps | score:1 | u/Balduini
+URL: https://reddit.com/r/macapps/comments/1f5hraj/screen_recording_software_with_possibility_to/
+TITLE: Screen recording software with possibility to record specific window/app
+BODY: Hello dear community, I am looking for a software that allows me to record a specific window or application. I want to record for example chrome in the background while i use safari or excel in front.
+
+Snagit, Cleanshot, Kap dont have this feature to capture a specific window/app.
+
+Does such software exist on Mac, maybe OBS?
+=====
+DATE: 2024-08-30T11:14:35Z | r/macapps | score:1 | u/giuliomagnifico
+URL: https://reddit.com/r/macapps/comments/1f4snat/unused_app_licenses_what_to_do_with_them/
+TITLE: Unused app licenses? What to do with them?
+BODY: Hi, it’s a weird question, and I hope it’s allowed, but I have a lot of unused app licenses.
+
+For example, I bought and used Shottr, then I got CleanShot X and now I'm using that on my Macs, so I don't need Shottr anymore. What can I do with the license for Shottr? (Same for BetterTouchTool, Bartender, Clop, Rectangle, Dropshare and lots more). 
+
+Is there a place or website where I can sell it at a lower price or something similar? It's a waste of money for me, and maybe someone else would want the app and buy it at a lower “used” price.
+
+Thanks. 
+=====
+DATE: 2024-08-29T08:26:40Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1f3xa67/whats_in_your_menu_bar/
+TITLE: What's In Your Menu Bar?
+BODY: [My Menu Bar](https://preview.redd.it/nspvdutpckld1.jpg?width=2084&amp;format=pjpg&amp;auto=webp&amp;s=d246296419bdde542dda1a7d4c69af5bf57510b2)
+
+What is in your menu bar?
+
+At Macworld 2014, Mac Developer Brett Terpstra turned heads when he revealed what he had running in his menu bar while sharing his screen. In all, he had 42 menu bar icons and people were amazed because he was on a MacBook Air with 8GB of RAM. Brett is considered a Mad Scientist. Aside from his day job at Oracle he's made a ton of apps over the years including NV-Alt, NV-Ultra and Marked. He proved to folks that Macs can handle a lot of background processes and still work just fine. That's been my philosophy too, so I have never really limited myself on startup items unless I noticed problems. Today I checked to see what I've got in my menu bar and lo and behold, I have crossed the Terpstra Threshold. What's in your menu bar? (Some links are to reviews with download, pricing and alternative app info).
+
+# Visible
+
+1. Menu Bar Manager - [Bartender](https://www.macbartender.com/)
+2. [Dato](https://sindresorhus.com/dato)
+3. [Default Folder X](https://apps.louplummer.lol/post/default-folder-x-an-og-app-for-mac-power-users)
+4. [Shortcuts](https://apps.louplummer.lol/post/enhance-apple-shortcuts-with-these-apps)
+5. [Dropzone 4](https://apps.louplummer.lol/post/dropzone-4-a-little-pricey-but-versatile)
+6. [RewriteBar](https://rewritebar.com/)
+7. [Keyboard Maestro](https://amerpie.lol/2024/05/01/my-top-keyboard.htm
+=====
+DATE: 2024-08-12T16:51:19Z | r/macapps | score:1 | u/Duffelastic
+URL: https://reddit.com/r/macapps/comments/1eqitq4/cleanshot_x_randomly_popping_up_previous/
+TITLE: Cleanshot X randomly popping up previous screenshots?
+BODY: Not sure if this is a Sequoia issue or not, but I just started using CSX (via SetApp).
+
+Intermittently, and without any specific trigger that I can replicate, my mouse will just stop responding to clicks and then CSX will pop up a recent (but not necessarily the most recent) screenshot.
+
+I'm not hitting anything on my keyboard, nowhere near the taskbar, etc. 
+
+Does anyone know what could be causing this and how to fix?
+=====
+DATE: 2024-08-12T07:12:04Z | r/macapps | score:1 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1eq7an9/my_must_have_macos_utilities/
+TITLE: My must have MacOS utilities
+BODY: \*\*Modern MacOS Utilities List with nice UI and useful features\*\*
+
+  
+
+
+\*\*Price list\*\*
+
+
+
+\*Free\* - fully free(sometimes with pro features)
+
+
+
+\*Freemium\* - can be used for free with optional pro plan or include free trial
+
+
+
+\*Paid\* - can be used properly, only If you buy them  
+
+
+
+\*\*Must have apps for daily use\*\*
+
+
+
+1. \[Ice\](https://github.com/jordanbaird/Ice)(\*free\*) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+
+
+
+2. \[Raycast\](https://www.raycast.com)(\*free\*) - Spotlight on steroids, windows manager, clipboard manager. Similar apps: Spotlight, Alfred
+
+
+
+3. \[PopClip\](https://www.popclip.app)(\*freemiuml\*) -  Instant text actions. Similar apps: None
+
+
+
+4. \[BoringNotch\]([https://github.com/iamharshdev/TheBoringNotch](https://github.com/iamharshdev/TheBoringNotch))(\*free\*) - Dynamic island for MacOS. Similar apps: DynamicLakePro, NotchNook, NotchDrop
+
+
+
+5. \[Shottr\]([https://shottr.cc/](https://shottr.cc/))(\*freemium\*) -  Insane screenshot tool, OCR, and color picker. Similar apps: CleanShot X
+
+
+
+6. \[Clop\]([https://lowtechguys.com/clop](https://lowtechguys.com/clop))(\*freemium\*) -  File optimizer and converter. Similar apps: Permute
+
+
+
+\*\*Great apps for their use cases\*\*
+
+
+
+1. \[PearCleaner\](https://github.com/alienator88/Pearcleaner)(\*free\*) - App uninstaller and cleaner. Similar apps: App Cleaner
+
+
+
+2. \[IINA\](https://iina.io)(\*free\*) - Media player with more supported formats. Similar apps: QuickTime
+=====
+DATE: 2024-08-12T07:12:04Z | r/macapps | score:385 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1eq7an9/my_must_have_macos_utilities/
+TITLE: My must have MacOS utilities
+BODY: ***Modern MacOS Utilities List with nice UI and useful features***
+
+*Price list*
+
+**Free** - fully free
+
+**Freemium** - can be used for free with optional pro plan or include free trial
+
+**Paid** - can be used properly, only If you buy them  
+
+*Must have apps for daily use*
+
+1. [Ice](https://github.com/jordanbaird/Ice)(**free**) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+2. [Raycast](https://www.raycast.com)(**free**) - Spotlight on steroids, windows manager, clipboard manager. Similar apps: Spotlight, Alfred
+3. [PopClip](https://www.popclip.app)(**freemium**) -  Instant text actions. Similar apps: None
+4. [BoringNotch](https://github.com/iamharshdev/TheBoringNotch)(**free**) - Dynamic island for MacOS. Similar apps: DynamicLakePro, NotchNook, NotchDrop
+5. [Shottr](https://shottr.cc/)(**freemium**) -  Insane screenshot tool, OCR, and color picker. Similar apps: CleanShot X
+6. [Clop](https://lowtechguys.com/clop)(**freemium**) -  File optimizer and converter. Similar apps: Permute
+
+*Great apps for their use cases*
+
+1. [PearCleaner](https://github.com/alienator88/Pearcleaner)(**free**) - App uninstaller and cleaner. Similar apps: App Cleaner
+2. [IINA](https://iina.io)(**free**) - Media player with more supported formats. Similar apps: QuickTime Player, Elmedia Player
+3. [Diffusion Bee](https://diffusionbee.com)(**free**) - AI Image editor with upscayling and generating. Similar apps: Upscayl
+4. [Homebrew](https://brew.sh)(**free**) - Package Mana
+=====
+DATE: 2024-07-26T19:59:36Z | r/macapps | score:1 | u/total_cornerstone
+URL: https://reddit.com/r/macapps/comments/1ecxepl/what_are_the_best_free_mac_apps_to_capture_a/
+TITLE: What are the best free Mac apps to capture a picture of the whole screen or part of the screen, or capture a video of the screen (a part of the screen or the whole screen)?
+BODY: I currently have [CleanShot X](https://cleanshot.com/) and [Capto](https://www.globaldelight.com/capto/). I'm looking for free alternatives. 
+
+It could be nice if I can add arrows and text, and maybe rectangles. With the same app or another app just for this.
+
+Thanks.
+=====
+DATE: 2024-07-15T18:33:31Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1e42brd/if_i_was_limited_to_vanilla_macos_plus_20_apps/
+TITLE: If I was Limited to Vanilla macOS plus 20 Apps, These Would be My Choices
+BODY: I'm rather proud of having more than 400 apps installed on my Mac. According to [Lingon X,](https://apps.louplummer.lol/post/lingon-x-finds-all-the-junk) I have 102 apps either as login items or running in the background as helper apps.  But if all this goodness evaporated suddenly and i was forced to run vanilla Mac OS plus twenty apps to get my work done, which out of all the ones that own would I choose? Answering this requires some tough choices. may of these apps I have been using for more than a decade, although a few have been adopted in the past year.
+
+1. [Obsidian](https://amerpie.lol/2024/06/09/my-favorite-things.html) - an extensible note taking app
+2. [Clean Shot X](https://apps.louplummer.lol/post/cleanshot-x) - the best screen shot utility
+3. [Raycast](https://amerpie.lol/2024/04/25/my-favorite-raycast.html) - an app launcher that handles much more
+4. [Keyboard Maestro](https://amerpie.lol/2024/05/01/my-top-keyboard.html) - the ultimate Mac automation tool
+5. [Microsoft Edge](https://amerpie.lol/2024/01/09/microsoft-edge-really.html) - my choice for web browsing for reasons
+6. [PopClip](https://apps.louplummer.lol/post/popclip-a-must-have-productivity-app) - a text selection utility
+7. [TextExpander](https://apps.louplummer.lol/post/lots-of-choices-for-text-expansion) - a snippets app
+8. [Drafts](https://amerpie.lol/2024/05/09/use-cases-for.html) - a text automation app
+9. [Day One](https://apps.louplummer.lol/post/day-one-is-popular-for-a-reason) - the preemine
+=====
+DATE: 2024-07-07T07:39:56Z | r/macapps | score:406 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1dxb1bm/my_favourite_macos_utilities/
+TITLE: My Favourite MacOS Utilities
+BODY: **Modern MacOS Utilities List with nice UI and useful features**
+
+
+**Price list**
+
+*Free* - fully free(sometimes with pro features)
+
+*Free trial* - can be used for free, but with some limitations after the period or popups to buy
+
+*Paid* - can be used properly, only If you buy them  
+
+**Must have apps for daily use**
+
+1. [Ice](https://github.com/jordanbaird/Ice)(*free*) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+
+2. [Loop](https://github.com/MrKai77/Loop)(*free*) - Smooth window management with keyboard shortcuts. Similar apps: Swish, Rectangle, Magnet, Moom
+
+3. [Raycast](https://www.raycast.com)(*free*) - Spotlight on steroids. Similar apps: Spotlight, Alfred
+
+4. [PopClip](https://www.popclip.app)(*free trial*) -  Instant text actions. Similar apps: None
+
+5. [DropOver](https://dropoverapp.com)(*free trial*) - Drag &amp; drop on steroids. Similar apps: DropZone, Yoink
+
+6. [HazeOver](https://hazeover.com)(*paid*) - Distraction free background dimmer. Similar apps: None
+
+**Great apps for their use cases**
+
+1. [PearCleaner](https://github.com/alienator88/Pearcleaner)(*free*) - App uninstaller and cleaner. Similar apps: App Cleaner
+
+2. [IIna](https://iina.io)(*free*) - Media player with more supported formats. Similar apps: QuickTime Player, Elmedia Player
+
+3. [Diffusion Bee](https://diffusionbee.com)(*free*) - AI Image editor with upscayling and generating. Similar apps: Upscayl
+
+4. [Homebrew](https://brew.sh)(*free*) - Package Manager, which help
+=====
+DATE: 2024-07-07T07:39:56Z | r/macapps | score:373 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1dxb1bm/my_favourite_macos_utilities/
+TITLE: My Favourite MacOS Utilities
+BODY: **Modern MacOS Utilities List with nice UI and useful features**
+
+
+**Price list**
+
+*Free* - fully free(sometimes with pro features)
+
+*Free trial* - can be used for free, but with some limitations after the period or popups to buy
+
+*Paid* - can be used properly, only If you buy them  
+
+**Must have apps for daily use**
+
+1. [Ice](https://github.com/jordanbaird/Ice)(*free*) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+
+2. [Loop](https://github.com/MrKai77/Loop)(*free*) - Smooth window management with keyboard shortcuts. Similar apps: Swish, Rectangle, Magnet, Moom
+
+3. [Raycast](https://www.raycast.com)(*free*) - Spotlight on steroids. Similar apps: Spotlight, Alfred
+
+4. [PopClip](https://www.popclip.app)(*free trial*) -  Instant text actions. Similar apps: None
+
+5. [DropOver](https://dropoverapp.com)(*free trial*) - Drag & drop on steroids. Similar apps: DropZone, Yoink
+
+6. [HazeOver](https://hazeover.com)(*paid*) - Distraction free background dimmer. Similar apps: None
+
+**Great apps for their use cases**
+
+1. [PearCleaner](https://github.com/alienator88/Pearcleaner)(*free*) - App uninstaller and cleaner. Similar apps: App Cleaner, CleanMyMac X
+
+2. [IIna](https://iina.io)(*free*) - Media player with more supported formats. Similar apps: QuickTime Player, Elmedia Player
+
+3. [Diffusion Bee](https://diffusionbee.com)(*free*) - AI Image editor with upscayling and generating. Similar apps: Upscayl
+
+4. [Homebrew](https://brew.sh)(*free*) - Package Manager, 
+=====
+DATE: 2024-06-29T15:48:49Z | r/macapps | score:1 | u/thievingfour
+URL: https://reddit.com/r/macapps/comments/1dre5vy/33_off_monarch_v066_released_instant_send/
+TITLE: 33% off: Monarch v0.6.6 released: Instant Send (LaunchBar) + Superlinks. No subscription.
+BODY: [Monarch Instant Send version 1](https://preview.redd.it/d8kjyi1q7j9d1.png?width=1724&amp;format=png&amp;auto=webp&amp;s=bfcdaf75047d960a1a821aca6d98a97da0b4d4a7)
+
+Hey everyone! I've said for a while now that one of the goals of Monarch is to combine the best functionality of the best launchers. And one of the things people ask for a lot is LaunchBar's Instant Send / Universal Actions from Alfred. This update delivers on that!
+
+For those new to Monarch, you can think of it as a launcher to make everything easier and more intuitive on your Mac by providing as polished a user experience as possible. Just some highlights:
+
+* Really thorough Clipboard History, allowing you to filter by application, search by link metadata &amp; webpage titles, multi-select, etc. (unlimited clipboard history, of course).
+* Fully keyboard driven Audio Controller with "Set Audio Device" command, also allowing you to save output + input device combinations as audio presets. Perfect for use during zoom calls.
+* Floating Notes-style mode that lets you take notes with simple markdown. Comes up seamlessly, even over fullscreen. (⌘+dot by default)
+* Link to anything with [Superlinks](https://manual.monarchlauncher.com/superlinks), *significantly* more powerful than Quicklinks in Raycast allowing you to have fallback links, match checks, reorder parameters, custom icons, auto triggers etc.
+* Custom themes + in-app theme editor.
+* Zero telemetry, zero data collection, zero email marketing, 100% user-support
+=====
+DATE: 2024-06-26T16:16:59Z | r/macapps | score:1 | u/rainmedwn
+URL: https://reddit.com/r/macapps/comments/1dp2ltq/can_i_use_cleanshot_x_to_record_gaming/
+TITLE: Can I use CleanShot X to record gaming sessions/gameplays?
+BODY: I've seen that in this subreddit a lot of people are CleanShot X fans and that's so nice, people usually use it for work and code development, but I just wanted a screen recording method that was high quality and CleanShot seems nice but I never saw anyone talk about using it to record gameplays... Is it any good?
+=====
+DATE: 2024-06-26T16:16:59Z | r/macapps | score:1 | u/rainmedwn
+URL: https://reddit.com/r/macapps/comments/1dp2ltq/can_i_use_cleanshot_x_to_record_gaming/
+TITLE: Can I use CleanShot X to record gaming sessions/gameplays?
+BODY: I've seen that in this subreddit a lot of people are CleanShot X fans and that's so nice, people usually use it for work and code development, but I just wanted a screen recording method that was high quality and CleanShot seems nice but I never saw anyone talk about using it to record gameplays... Is it any good?
+
+PS: I've tried 1001 Record and it records games nice and easy (recorded HLSource, HL2 and Doom 3 BFG Edition in 2K@60FPS and actually NO lag or less FPS recording), so I'm just comparing my options to buy one of them.
+=====
+DATE: 2024-06-15T07:45:49Z | r/macapps | score:1 | u/PropaneFitness
+URL: https://reddit.com/r/macapps/comments/1dgcs5x/you_can_probably_replace_more_apps_than_you_think/
+TITLE: You can probably replace more apps than you think with Alfred:
+BODY: I see many people trying to gain certain Mac functionalities with yet another applet in this subreddit. Many people don't realise that most of these functions **already exist** in Alfred, either as a native feature, or you can easily build as a workflow without any coding knowledge.
+
+Security/bloat-wise you're better off having as few apps that do as many things as possible. 
+
+A standalone app might do it better if you have a full-fledged use-case / need a specialist tool. e.g. you're a window-management-pervert and you need something with all the bells and whistles. But for basic use cases, Alfred probably has you covered.
+
+**A few examples that come to mind that I've seen standalone apps for, which Alfred handles in one:**
+
+- Better file manager and folder explorer 
+
+- Open individual mac settings 
+
+- Launch apps with Hotkeys
+
+- App switcher
+
+- The fastest bookmark manager 
+
+- Clipboard history
+
+- Window manager
+
+- Dictionary
+
+- Password manager command line
+
+- Password generator
+
+- Spotify/Music mini controller
+
+- Open IINA in URL
+
+- Open next meeting
+
+- Download media from URL
+
+- Website/google/amazon search
+
+- Search apple notes / calendar
+
+- Workspace switcher
+
+- Menu bar search
+
+- Reddit mini-browser
+
+- Quick rename
+
+- Quick timer
+
+- Quick tweet
+
+- GPT bar
+
+- Bluetooth/wifi toggle
+
+- Homekit controller
+
+- Shortcut launcher
+
+- Gif search
+
+- Emoji search
+
+- Quick airdrop
+
+- Move with replace
+
+- Reduce image size
+
+https://preview.redd.it/nlc5p4otuo6d1.png?width=1144&amp;f
+=====
+DATE: 2024-06-11T10:55:03Z | r/macapps | score:1 | u/D_Empire412
+URL: https://reddit.com/r/macapps/comments/1ddb96s/macos_sequoia_app_compatibility_megathread/
+TITLE: macOS Sequoia App Compatibility Megathread
+BODY: I just updated to macOS Sequoia! Here are all the apps I regularly use on macOS and whether they work well.
+
+* Finder - Works the same as Sonoma
+* Safari - Works the same as Sonoma
+* Mail - Works the same as Sonoma
+* Messages - Works well. Nice new tapbacks.
+* Maps - Works well and supports new features.
+* Google Earth Pro - Works the same as Sonoma
+* Photos - Works well with new features
+* Pixelmator Pro - Works the same as Sonoma
+* FaceTime - Works well
+* Zoom - Works well
+* Notes - Works well with new features. Math notes is a bit finicky though.
+* Preview - Works fine
+* Pages, Numbers, and Keynotes - Work the same as Sonoma
+* Xcode - Works fine but got a circular reference error when using the MarkdownUI package to compile GeminAI. Found another Markdown package and it works well.
+* Eclipse - Works the same as Sonmoa
+* Terminal - Works the same as Sonoma
+* Coderunner - Works the same as Sonoma
+* CleanMyMac - Works the same as Sonoma
+* MacBot - Works the same as Sonoma
+* GeminAI - Works the same as Sonoma
+* Official ChatGPT app - Works the same as Sonoma (if not a bit better)
+* AlDente - Works the same as Sonoma
+* One Switch - Works the same as Sonoma
+* CleanShot - Works the same as Sonoma but every time after restart and you try to use it, there is an alert asking you if you want to continue allowing it to record your screen. It is not a big deal though. Hopefully it gets fixed soon.
+* TextSniper - Works the same as Sonoma except for that hideous alert. Thankfully, it onl
+=====
+DATE: 2024-06-04T15:45:58Z | r/macapps | score:1 | u/anoninternetguy
+URL: https://reddit.com/r/macapps/comments/1d80esl/snagitcamtasia_going_subscriptiononly_model/
+TITLE: Snagit/Camtasia going subscription-only model
+BODY: As though there weren’t enough reasons to hate snagit (mostly its buggy, laggy performance and dated looks), they’re driving the final nail in the coffin by going subscription only. I guarantee you no matter how much this CEO is smiling in her announcement, this is not good news for customers.
+
+I cannot encourage people strongly enough to consider Xnapper or Cleanshot X in favor of snagit.
+
+If you’re going to pay for a subscription, do yourself a favor and just get Setapp. Snagit isn’t worth paying for once, much less recurring charges.
+=====
+DATE: 2024-05-15T08:52:33Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1csg4y3/cleanshot_x_47_released_with_new_features/
+TITLE: CleanShot X 4.7 Released With New Features
+BODY: CleanShot X has over 50 features, including [several new ones in the just released version, 4.7](https://apps.louplummer.lol/post/cleanshot-x)
+- Ability to resize screen shots
+- Cursor automatically resizes to match text found in the image
+- 10 new background gradients wallpapers, as well as custom wallpapers
+- Saved presets for screenshots
+- Autoformats text when entered on a screenshot
+- Hide desktop now hides widgets too
+- Pinned screenshots can be toggled visible and hidden
+
+There are a lot of options for screenshot utilities on the Mac, from the built in ability to capture images that's built in to the OS, to the full featured freemium app [Shottr](https://shottr.cc/) by indie developer Electric Endeavors for still images to even more powerful still and video capture products like [SnagIt](https://www.techsmith.com/screen-capture.html) by TechSmith. The product I personally use, [CleanShot X](https://cleanshot.com/) hits the sweet spot in the middle. It may be over kill if you just need to screenshot memes for social media, but if you are a blogger, need screenshots for work documents or deal with tech support regularly, you should take advantage of the 30-day money back guarantee and try it out.  
+
+[See full review for more features](https://apps.louplummer.lol/post/cleanshot-x)
+[CleanShot X web site](https://cleanshot.com/)
+
+CleanShot X is $29 for the current version with one year of updates and 1GB of cloud storage. It is also available as part of SetApp.
+
+
+=====
+DATE: 2024-04-26T12:20:42Z | r/macapps | score:1 | u/aaronag
+URL: https://reddit.com/r/macapps/comments/1cdjyjf/hack_my_app_stack/
+TITLE: Hack My App Stack
+BODY: I moved to Mac last year from Windows, and haphazardly added utility and productivity apps. Here's what I've got, in no particular order; anything you'd add or change?
+
+* Alfred
+* Keyboard Maestro
+* BetterTouchTool
+* QSpace
+* CleanShot X
+* Hazel
+* 1Password
+* MindMac
+* Hyperspace
+* Superkey
+* PDF Gear
+* Pure Paste
+* Dropover
+* KeyCue
+* Bartender
+* Downie
+* Permutate  
+
+
+&amp;#x200B;
+=====
+DATE: 2024-04-18T08:41:58Z | r/macapps | score:1 | u/Dry_Zucchini_3921
+URL: https://reddit.com/r/macapps/comments/1c6yf7p/cleanshot_x_wont_stop_sharing_my_screen/
+TITLE: CleanShot X won't stop sharing my screen.
+BODY: So there has been multiple times when i'm finish using CleanShot X and i quit the app (not just close it, but quit it). And the Purple ''you are sharing your screen'' icon on the menu bar won't go away no matter what i do.   
+•No matter if i quit the app  
+•No matter if i put the mac on sleep and comeback  
+•No matter if i click the ''stop sharing screen'' button on the Purple sharing screen icon  
+•No matter if i open the app again and quit it again  
+•No matter if i remove the access to my screen in settings to the app  
+The only thing that will make it go away is restarting the mac.  
+Honestly, it makes me panic a bit because from what i understand, that icon will simply &amp; only appear when your screen is actually being shared, and with the app quitted but the icon still there, makes me worriedly wonder where my screen is being shared or to whom.  
+
+
+Do you guys have experienced this too? Is it normal? Should i worry? Does this has an explanation?   
+(Im running the latest version 4.6.2)
+=====
+DATE: 2024-04-16T00:09:24Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1c51zuc/open_at_login_the_balancing_act_every_app_you_run/
+TITLE: Open at Login - The Balancing Act: Every App You Run Has the Potential To Slow Your Computer Down But Some Stuff You Just Can't Live Without
+BODY: There are a few things that people in the Windows world get that we don't. Windows has a built-in clipboard manager. It has Windows management tools. We can have those things; we just have to find an app to do them for us. Most often those apps are installed so that they run when you log in to your computer. I'm going to list the tools I want available to me when I'm on my laptop. Every single program in the list runs as a login item on my Mac. Undoubtably, some people are going to be SMDH. Well, IDGAF. This is what it takes for me to have the experience I want. I've been using a Mac for a minute (I'm a retired Mac sysadmin from the public school system) and if an app has any kind of notoriety, I've probably tried it. Some of these apps are available on SetApp, if that's something you're interested in. Unfortunately for me, I bought a bunch of them before Setapp ever existed, so I don't get to realize a savings on them.
+
+So, as Leeroy Jenkins immortally exclaimed, let's do this. [Get More Info Here](https://amerpie.lol/2024/04/15/open-at-login.html)
+
+1. [AlDente Pro](https://apphousekitchen.com/) - battery management (SetApp)
+2. [App Tamer](https://www.stclairsoft.com/AppTamer/) - CPU monitor and governor (SetApp)
+3. [Backup Status](https://backupstatus.app/) - monitors TimeMachine backups
+4. [Bartender 5](https://www.macbartender.com/) - menu bar management (SetApp)
+5. [Better Display](https://github.com/waydabber/BetterDisplay) - extra controls for built in and external dis
+=====
+DATE: 2024-04-13T02:36:06Z | r/macapps | score:1 | u/imfean
+URL: https://reddit.com/r/macapps/comments/1c2rdoj/question_about_cleanshot_x_license/
+TITLE: Question about Cleanshot x license
+BODY: if I get Cleanshot X with a single seat, can I switch the license between my desktop and laptop quickly? Occasionally, I need to record Zoom meetings on my desktop. It's not a big deal as I can use OBS, but it would be great if I can do it with Cleanshot X. Thanks!
+=====

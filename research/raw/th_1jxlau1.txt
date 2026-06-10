@@ -1,0 +1,197 @@
+DATE: 2025-04-23T10:29:05Z | r/macapps | score:1 | u/space-hex
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mol2nt2/
+BODY: As a casual user I take loads of screenshots for bits of information for immediate/short term use, bits of reference image to use later for designing, random screenshots, snippets of gaming screenshots, and things along those lines. 
+
+Cleanshot X accumulates them all nicely in app without cluttering my Pictures folder that the macOS one does, which is great (amongst all the ton of other things it lets you quickly do to pictures). I don't waste time manually going through and deleting hundreds of useless screenshots, as now I just save the ones I want, and let the others delete themselves in the Cleanshot X app after 30 days.
+=====
+DATE: 2025-04-14T22:22:10Z | r/macapps | score:1 | u/jagerrish
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mn4zrwc/
+BODY: Because “a picture is worth a thousand words”
+=====
+DATE: 2025-04-13T16:18:18Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmx0296/
+BODY: The dropdown is an interesting use case. Thanks.
+=====
+DATE: 2025-04-13T13:17:06Z | r/macapps | score:1 | u/NotRenton
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmw2zpp/
+BODY: Working with computers + people = the need to explain things with little arrows or even videos a hell of a lot of the time.
+=====
+DATE: 2025-04-13T12:17:19Z | r/macapps | score:1 | u/YopBuilder
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmvuk6f/
+BODY: Sharing an entire webpage is… super rare.
+
+Sharing parts is super common.
+=====
+DATE: 2025-04-13T06:38:44Z | r/macapps | score:1 | u/bg3245
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmuwlmq/
+BODY: You can annotate screenshots directly in the Preview, no need for dedicated apps.
+=====
+DATE: 2025-04-13T03:51:25Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmuda2q/
+BODY: Your coworkers are way better than mine if they don’t want to bother you and respect your time.
+=====
+DATE: 2025-04-13T00:28:00Z | r/macapps | score:1 | u/clipsracer
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmtjrcz/
+BODY: Plain screenshots don’t tell the user where to look, in what order, or why, so of course the recipient has follow-up questions. That’s exactly what these tools are there to fix.
+=====
+DATE: 2025-04-12T23:37:17Z | r/macapps | score:1 | u/Black-PizzaClaw676
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmtbtxt/
+BODY: I definitely fall into the category of people who use screenshot apps daily. I share things constantly with screenshots – it's often just faster than describing something. Plus, let's be honest, I find my friends and colleagues rarely open links or download PDFs I send; an image gets looked at almost instantly. So screenshots have become my default sharing method with most of the people I know.
+
+While the built-in tool is fine, I also didn't really get the need for a dedicated app and couldn’t understand why someone would pay €30 for one. That changed when I actually tried CleanshotX. For me, the key features that make the difference and justify the cost are:  
+• Scrolling Capture;  
+• Screen Recording: Especially useful with the option to show keystrokes for tutorials;  
+• Floating Screenshots: This is the big one for me. When working with the Adobe Suite, I constantly need visual references – especially for things like color matching, palette inspiration, or maintaining style consistency across projects and pictures. Being able to pin a screenshot so it floats above my work window saves me so much time compared to constantly switching windows. It keeps me right in my workflow (the same benefit applies to floating notes, actually).
+
+So, for me, I guess it's a combination of audience preference and specific workflow enhancements like floating references that the built-in tool simply doesn't offer.
+=====
+DATE: 2025-04-12T22:04:31Z | r/macapps | score:1 | u/sharp-calculation
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmswvf0/
+BODY: I like your screenshot!  :)
+=====
+DATE: 2025-04-12T21:32:45Z | r/macapps | score:1 | u/Ok_Maybe184
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmsrfuf/
+BODY: Things DO work that way where I work.
+=====
+DATE: 2025-04-12T21:16:12Z | r/macapps | score:1 | u/Stipes_Blue_Makeup
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmsolyu/
+BODY: If I’m taking a screenshot of a threads post or from Bluesky, I’m not terribly concerned with that. If they don’t like it, they haven’t told me. If it’s a Reddit post, I’ll share the whole link.
+=====
+DATE: 2025-04-12T20:47:00Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmsjfjd/
+BODY: That's how the internet is nowadays LOL. Oh well. I guess I will stop responding on here. I was just curious why people are so vehement about using screenshot tools, when I've been able to work just fine for 30+ years without one. Not that I don't ever take screenshots, as I said in my original post, but it seems that there are better ways to communicate, especially if you are in the same room with someone (which, admittedly, isn't that often anymore).
+
+As someone that has been in IT in the past, even if you send someone a screenshot, they still have questions, because people don't read, and they don't know where to look for settings, etc. They would rather just be shown or have someone do it for them and then get back to work. Also, in my experience, it has been quicker to do that than trying to mockup screenshots of a bunch of settings windows. But whatever. :)
+=====
+DATE: 2025-04-12T20:40:11Z | r/macapps | score:1 | u/sharp-calculation
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmsi7fh/
+BODY: That's mostly a poor strategy.  It removes the ability for the receiver to read anything other than the part of the screen you have "shotted".  No links, no context, no reading other articles.  Also screen shot resolution is dicey.  Sometimes it's good enough for text, sometimes it's not.  Links are generally superior for written content.
+=====
+DATE: 2025-04-12T20:36:32Z | r/macapps | score:1 | u/sharp-calculation
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmshjm5/
+BODY:  So weird that this person keeps getting downvoted for honest questions and observations.
+=====
+DATE: 2025-04-12T20:29:09Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmsg7ep/
+BODY: Pretty much anything where someone has a question, in my experience. If someone is requesting help from an IT department, it's typically because they need help right now. Also, from my experience, other people do NOT care if the IT team is busy doing other things or not. LOL
+
+But I understand what you're saying. Things SHOULD work that way. But PEOPLE do not work that way. Everybody wants things done right now in today's world.
+=====
+DATE: 2025-04-12T20:04:01Z | r/macapps | score:1 | u/theLightSlide
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmsboyl/
+BODY: I screenshot things to share, to document, to save as design or copy reference, with the original source / design / context. 
+
+The free tools aren’t as good.
+
+It’s that simple.
+=====
+DATE: 2025-04-12T19:53:33Z | r/macapps | score:1 | u/Laurent_Laurent
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mms9t4y/
+BODY: I do a lot of screenshots to report bugs, to make documentation, to illustrate in mail
+=====
+DATE: 2025-04-12T19:18:28Z | r/macapps | score:1 | u/Ok_Maybe184
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mms3hmb/
+BODY: No, definitely not faster. First, we work mostly remote and you are expecting that someone is going to drop what they are doing to meet for screen sharing? That’s not only inefficient, but a great way to waste someone’s time vs. just dropping a screenshot into a chat window on Teams. 
+
+Think about it: how long do a couple key presses and pasting into a program take vs. scheduling time to meet up with someone to screen share?
+
+One takes seconds, another takes minutes and may not be possible for hours.
+=====
+DATE: 2025-04-12T18:54:38Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrz95e/
+BODY: Sounds like a lot of people in here are screenshotting things on the web. Is there a reason you use a paid app over a free browser plugin that can scroll a whole webpage and screenshot it?
+=====
+DATE: 2025-04-12T18:51:47Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmryqfi/
+BODY: Makes sense. Although, I don’t know if we need more social media posts out there LOL
+=====
+DATE: 2025-04-12T18:38:33Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrwbq8/
+BODY: Time is certainly valuable. But, if you’re working on say, a website, with a team, why not just walk over to someone’s desk and talk to them? Or screenshare with them? That would be way faster than marking up an image, wouldn’t it?
+=====
+DATE: 2025-04-12T18:25:37Z | r/macapps | score:1 | u/Koleckai
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrtxy9/
+BODY: Sometimes it is easier to provide support with a couple images rather than typing things out. I use Cleanshot because I find it easier to annotate my images.
+=====
+DATE: 2025-04-12T17:52:59Z | r/macapps | score:1 | u/BruiserBaracus
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrnrq5/
+BODY: Some people work in Customer Support and need to provide information to external customers that are writing in with support requests.
+
+Being able to annotate a screenshot means you can highlight and/or point out the specific bits of the image you want them to pay attention to.
+=====
+DATE: 2025-04-12T17:44:23Z | r/macapps | score:1 | u/Ok_Maybe184
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrm374/
+BODY: Time is money, and that would take much more time. My time is valuable. Is yours not?
+=====
+DATE: 2025-04-12T17:41:56Z | r/macapps | score:1 | u/SirCake3614
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrllvo/
+BODY: A few things:
+
+1. I screenshot social media posts to repost them. They remain even if the original gets deleted. It's also the only way to share them across platforms - sharing Truth Social posts on X, for example.
+
+2. In my work, I often need to compare information between accounts. So screenshotting one account to compare to another account side-by-side
+
+3. Sharing information between friends. Sometimes, sending a link doesn't cut it.
+
+4. I play at making graphics. I use screenshots of quotes and images to enhance my work.
+=====
+DATE: 2025-04-12T17:32:50Z | r/macapps | score:1 | u/actadgplus
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrjtai/
+BODY: Besides the typical use case of screenshotting for documentation purposes, another common example is to do OCR on image to retrieve text when an app or website doesn’t easily allow.  Another example, let’s say I want to grab the values from a drop down, you really can’t unless you want to type it out yourself or grab it from the code / browser developer mode.  You can screenshot the dropdown (scrolling dropdown also possible).
+=====
+DATE: 2025-04-12T17:32:26Z | r/macapps | score:1 | u/pg988
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrjqf7/
+BODY: It’s not just the ability to take screenshots but how quickly you can annotate that matters for me. 
+
+Furthermore with Shottr I also use their scrolling capture, add to capture, and OCR features quite often.
+=====
+DATE: 2025-04-12T17:23:11Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrhwad/
+BODY: So you work on an IT team with all Macs? That’s actually really interesting. Every place I’ve worked it has been the opposite. The IT people (and most of the rest of the company) were on Windows machines and struggled when trying to work with people that had Macs.
+
+The only place I experienced that was different was back in the late 90s when I worked at a design company that had 26 graphic designers and I was the one that had to do all the IT stuff for them. I miss those days, because I actually didn’t have to do much - except for fix the daisy chained ethernet. Ha.
+=====
+DATE: 2025-04-12T17:17:50Z | r/macapps | score:1 | u/brandonhull
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrgt96/
+BODY: It's simply not faster to print something to PDF, open a PDF editor app, mark it up, and then send the PDF as an attachment to someone than it is to use almost any screenshot app these days. And I say that as someone whose career included working for a PDF automation/workflow software provider in my recent past. 
+
+People have to explain all kinds of things in modern work world. Data in a table, text in a document, a design element, a presentation slide...and screenshots are often the tool of choice to do that. Or at least they are over saving to PDF and marking the PDF up.
+=====
+DATE: 2025-04-12T17:13:21Z | r/macapps | score:1 | u/Stipes_Blue_Makeup
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrfwao/
+BODY: If I see something I want to share, I screenshot it and send it at as an image instead of a link because what if the person doesn’t have an account? Or they don’t want to leave the app they’re in?
+
+It’s super quick and easy, and I get to keep a reference, as well, as part of the message history.
+=====
+DATE: 2025-04-12T16:58:35Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrcxwa/
+BODY: By “explains something” what do you mean? Explains what? Are you doing web design or something else?
+=====
+DATE: 2025-04-12T16:56:28Z | r/macapps | score:1 | u/mnosz
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrcivr/
+BODY: No, I don’t do actually end user support. My team and I are the escalation team so we build documentation for the tier 1/2 techs to work directly with end users if they require it.
+=====
+DATE: 2025-04-12T16:56:28Z | r/macapps | score:4 | u/mnosz
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrcivr/
+BODY: No, I don’t do actual end user support. My team and I are the escalation team so we build documentation for the tier 1/2 techs to work directly with end users if they require it.
+=====
+DATE: 2025-04-12T16:55:18Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmrcapz/
+BODY: Why not use live screen sharing instead? Wouldn’t that be quicker than typing back and forth with someone and attaching images in Microsoft Teams?
+=====
+DATE: 2025-04-12T16:43:36Z | r/macapps | score:1 | u/Ok_Maybe184
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmra0in/
+BODY: I take at least 15 screenshots a day. Nothing explains something better than an actual image of it.
+=====
+DATE: 2025-04-12T16:42:56Z | r/macapps | score:1 | u/Albertkinng
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmr9vwl/
+BODY: Simple, if you don’t feel the need to have a screenshot app is fine, you’re not in the market for those apps. The same with people that never used a terminal, or a user that never feel the need of a Finder alternative.
+=====
+DATE: 2025-04-12T16:39:46Z | r/macapps | score:1 | u/supergplus
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmr99x2/
+BODY: Same! I’m taking screenshots to share with end users all day long.
+=====
+DATE: 2025-04-12T16:37:02Z | r/macapps | score:1 | u/mnosz
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/mmr8qzb/
+BODY: My life is screenshots... I work in IT and sharing info quickly via teams with my team is important. These tools also allow you to do some really cool edits to the screenshots when building How To documents for our users. I probably take 15+ screenshots most work days.
+=====

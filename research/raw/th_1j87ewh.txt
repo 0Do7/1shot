@@ -1,0 +1,76 @@
+DATE: 2025-03-12T15:07:45Z | r/macapps | score:1 | u/ivanzorkic
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mhe95y5/
+BODY: I also use Clean Shot X, love the app and JPG screenshot quality looks good. You also have the PNG option, but I found no reason to use it.
+=====
+DATE: 2025-03-11T11:31:20Z | r/macapps | score:1 | u/MichaelTheGeek
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh6p8rm/
+BODY: I use a like both.
+=====
+DATE: 2025-03-11T08:10:50Z | r/macapps | score:1 | u/zippyzebu9
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh64nqr/
+BODY: For transparent Shottr does better. CleanShotx can't accurately produce shadow.
+=====
+DATE: 2025-03-11T06:11:58Z | r/macapps | score:1 | u/sevlonbhoi1
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh5t8rt/
+BODY: I use xnip and haven't had issues with screenshot quality
+=====
+DATE: 2025-03-11T02:15:26Z | r/macapps | score:1 | u/Astronom_Paris
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh4wx0m/
+BODY:  Try the Free iShot :
+
+[https://www.better365.cn/ishot.html](https://www.better365.cn/ishot.html)  
+
+
+Not tested but user of iCopy, great free clipboard manager from the same team :
+
+  
+[https://www.better365.cn/icopy.html](https://www.better365.cn/icopy.html)
+=====
+DATE: 2025-03-10T20:22:53Z | r/macapps | score:1 | u/Top-Eye-267
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh30sv9/
+BODY: hi, I don't - it's unchecked
+=====
+DATE: 2025-03-10T20:22:38Z | r/macapps | score:1 | u/fzwo
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh30r1g/
+BODY: Much more helpful comment than mine! I would additionally also not set it to Auto PNG/JPG.
+=====
+DATE: 2025-03-10T20:20:04Z | r/macapps | score:1 | u/horlorh
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh307p4/
+BODY: do you perhaps have this ticked?
+
+https://preview.redd.it/f57wi2wv7xne1.png?width=1264&amp;format=png&amp;auto=webp&amp;s=a7d66567bd58768f473b01eb936aba4a3f2c76a8
+=====
+DATE: 2025-03-10T20:13:32Z | r/macapps | score:1 | u/Top-Eye-267
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh2yult/
+BODY: many thanks for your help, will try that!
+=====
+DATE: 2025-03-10T20:13:01Z | r/macapps | score:2 | u/fzwo
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh2yqme/
+BODY: No idea, I don’t use shottr. But you can make a screenshot with the built-in tool and one with shottr, and then cmd+I them both in Finder. It’ll show you the pixel dimensions. 
+=====
+DATE: 2025-03-10T20:10:29Z | r/macapps | score:1 | u/Top-Eye-267
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh2y7w1/
+BODY: is there a setting to check this?
+=====
+DATE: 2025-03-10T20:09:11Z | r/macapps | score:1 | u/fzwo
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh2xy61/
+BODY: Since PNG does not have lossy compression with a variable quality/size tradeoff like JPG does, the only thing that can realistically cause this is a lower resolution. Is it maybe not saving screenshots at 2x/Retina?
+=====
+DATE: 2025-03-10T20:07:10Z | r/macapps | score:1 | u/Top-Eye-267
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh2xjft/
+BODY: yup - they're between 200kb and 300kb with Shottr (in PNG) yet I think they were more like a couple of MBs with the built-in tool
+=====
+DATE: 2025-03-10T20:03:12Z | r/macapps | score:1 | u/fzwo
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh2wq8p/
+BODY: That’s strange. And smaller file size certainly seems very strange, as one would usually use PNG for the screenshots.
+=====
+DATE: 2025-03-10T19:58:23Z | r/macapps | score:1 | u/Top-Eye-267
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh2vqm9/
+BODY: thanks. I'm by no means an expert but I noticed that the screenshots seem less sharp than the ones I used to get from the built-in Mac tool. Also, the file size is MUCH smaller - and there's no setting to change resolution/dpi/quality in Shottr
+=====
+DATE: 2025-03-10T19:56:24Z | r/macapps | score:1 | u/fzwo
+URL: https://reddit.com/r/macapps/comments/1j87ewh/screenshot_quality_shottr_vs_clean_shot_x/mh2vbsv/
+BODY: I would be surprised if shottr somehow got worse-quality screenshots than the built-in tool. In what way?
+
+Anyway, I use CleanShot X daily, and quality is perfect (as is the built-in tool‘s).
+=====

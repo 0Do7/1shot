@@ -1,0 +1,24 @@
+DATE: 2024-09-20T07:48:02Z | r/macapps | score:1 | u/deixhah
+URL: https://reddit.com/r/macapps/comments/1fl14r3/does_the_cleanshot_x_app_seriously_not_have_a/lo0osz8/
+BODY: What do you mean with undo? Just do a new screenshot
+=====
+DATE: 2024-09-20T03:37:17Z | r/macapps | score:2 | u/darkingz
+URL: https://reddit.com/r/macapps/comments/1fl14r3/does_the_cleanshot_x_app_seriously_not_have_a/lnzz06w/
+BODY: So they do save some snap shot history (I don’t remember the default) that you can see by going to the menu bar option. But if you mean in the editor, just control-z as long as it’s open. I don’t know what is and is not available after you close the window.
+=====
+DATE: 2024-09-20T03:37:17Z | r/macapps | score:2 | u/darkingz
+URL: https://reddit.com/r/macapps/comments/1fl14r3/does_the_cleanshot_x_app_seriously_not_have_a/lnzz06w/
+BODY: So they do retrieve some history (I don’t remember the default) that you can see by going to the menu bar option. But if you mean in the editor, just control-z as long as it’s open. I don’t know what is and is not available after you close the window.
+=====
+DATE: 2024-09-20T02:41:55Z | r/macapps | score:3 | u/Depth_Special
+URL: https://reddit.com/r/macapps/comments/1fl14r3/does_the_cleanshot_x_app_seriously_not_have_a/lnzrewi/
+BODY: cmd z
+=====
+DATE: 2024-09-20T02:24:47Z | r/macapps | score:3 | u/Bull_Investor
+URL: https://reddit.com/r/macapps/comments/1fl14r3/does_the_cleanshot_x_app_seriously_not_have_a/lnzov35/
+BODY: Sorry meant undo. 🫣
+=====
+DATE: 2024-09-20T02:19:20Z | r/macapps | score:5 | u/darkingz
+URL: https://reddit.com/r/macapps/comments/1fl14r3/does_the_cleanshot_x_app_seriously_not_have_a/lnzo1v9/
+BODY: What do you mean by return button?
+=====

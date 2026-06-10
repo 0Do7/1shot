@@ -1,0 +1,323 @@
+NAME: Xnip - Screenshot & Annotation
+VERSION: 2.3.4 2025-09-30T15:51:48Z
+FIRST RELEASE: 2017-12-23T05:56:32Z
+PRICE: Free
+RATING: 0 COUNT: 0
+MIN OS: 13.5
+SIZE: 7 MB
+RELEASE NOTES: Bug fixes and minor optimizations
+DESCRIPTION:
+Handy screenshot App for macOS.
+
+Xnip has rich image annotation tools. Easy to use.
+
+## Scrolling Capture 
+It helps you to capture a full-page screenshot even if the content not showing on the current screen.
+You can use scrolling capture to capture your source code, article, chat history, etc.
+
+## Window Capturing.
+Window capturing with the shadow effect. Furthermore, you can select multiple windows and capture all of them together.
+
+## Color Picker Tool
+Pick the color of any pixel on the screen and make pixel-perfect capture.
+
+## Physical Unit
+Measure objects by the screen with the physical unit size indicator of selection.
+
+## Pin Images
+Pin screenshot or any image on your screen.
+
+## Privacy Protection and Security
+Xnip is a fully local app with no network access permission, so there’s no need to worry about privacy leaks.
+
+
+More information:http://www.xnipapp.com
+
+Subscribe Xnip Pro to remove the watermark in the screenshot and gain access to all features in the future update. The subscription will be auto-renew. You can stop auto-renew 1 day before the end of the current period.
+
+------------------------------
+Privacy Policy: http://www.xnipapp.com/privacy
+Terms of Use: http://www.xnipapp.com/terms
+================================================================================
+NAME: Longshot - Screenshot & OCR
+VERSION: 1.5.3 2026-06-06T20:45:47Z
+FIRST RELEASE: 2023-06-28T07:00:00Z
+PRICE: Free
+RATING: 0 COUNT: 0
+MIN OS: 12.0
+SIZE: 6 MB
+RELEASE NOTES: - Added saving for fixed-size settings in area screenshot capture
+- Fixed an issue where copied screenshot images in JPG format could become too large in certain cases
+- Improved stability and fixed some issues
+DESCRIPTION:
+### Annotation and Color Picking
+Conveniently annotate the screen, a great helper for communicating with colleagues, simple and easy to use.
+
+- Drawing tools, shapes, ovals, lines, arrows, text, marker pen, freehand drawing.
+- Annotation and measurement, mosaic, blur, annotation notes, measure pixel distances, color picking, rich functions.
+- Step annotation, clear expression of ideas, customizable number content
+- Convenient operations, shortcuts, undo, save, open, copy to clipboard, easy and simple.
+
+### Scrolling Capture
+Optimized image stitching algorithm makes scrolling capture adaptable to various environments, easily capture conversation context scrolling up and down.
+
+- Vertical/horizontal/360 degrees, support vertical, horizontal, panoramic scrolling capture, scroll any direction to capture.
+- Non-solid color background/non-scrolling areas, capture area can include non-scrolling objects with non-solid color background, good scrolling capture screenshot stitching.
+- Dynamically adjust scrolling direction/area, can change scrolling direction and readjust capture area after completion for restitching during scrolling.
+- Entire window scrolling capture, hold Option to capture entire scrolling window screenshot, automatic edge area handling.
+
+### OCR Text Recognition
+Offline OCR algorithm with emphasis on privacy protection. Quickly extract text from images, videos, documents or anywhere.
+
+- Select screen area, recognize text, copy to clipboard, paste to notes, editors, messages etc.
+- Support QR and barcode recognition, quickly open corresponding links.
+- Support text-to-speech playback of recognized text.
+
+### Screen Element Measurement
+Quickly measure any content on screen, automatically recognize distances and element sizes.
+
+- Measure distance, automatically recognize distance between elements or objects on screen, annotate distance.
+- Measure element, just select approximate element area, can automatically snap to element and annotate size.
+- Support distance and element edge color tolerance adjustment for more precise localization.
+
+### Image Pinning
+Turn images, text from anywhere into desktop pins for convenient comparison.
+
+- Clipboard pinning, pin images, text, HTML etc. from clipboard to desktop.
+- Double-click pinned image, double-click pinned image or open pinned image on desktop to view.
+- Pinned image scrolling, scroll pinned image, double-click to close or minimize, support flipping and mirroring etc image operations.
+
+### Screen Recording
+Quickly record steps, one click to record full screen, selected area or window for easy sharing.
+
+- Support full-screen, region and window recording, application recording.
+- Support system sound, microphone recording, frame rate settings etc.
+
+### Window Capture
+Select window to highlight subject, make capture area better convey intent.
+
+- Intelligent window recognition, automatically highlight window mouse is in.
+- Multiple window combinations, hold Shift to select multiple windows for co
+================================================================================
+NAME: iShot-ScreenShot Recording OCR
+VERSION: 2.6.7 2026-03-21T06:26:19Z
+FIRST RELEASE: 2019-11-06T08:00:00Z
+PRICE: Free
+RATING: 0 COUNT: 0
+MIN OS: 10.13
+SIZE: 46 MB
+RELEASE NOTES: [1 is better than 10, all excellent] Screenshot, long screenshot/scrolling screenshot, screenshot with shell, sticker, screen recording, audio recording, OCR text recognition, screenshot translation, annotation, color picking, ten excellent functions in one.
+ 1. Fix known bugs.
+
+Thank you for your enthusiastic and positive feedback. You are welcome to give feedback on the official website user support page, click the App Store "Support" button, and submit the problem on the official website. There will be a dedicated person to track and handle it one by one. Thank you.
+QQ communication group: 
+DESCRIPTION:
+[Native support for Apple M series and Intel chips]
+
+******Screenshot/Long Screenshot/Shell Screenshot/Texture/Annotation/Color Picking/Screen Recording/Recording/OCR/Screenshot Translation Ten in one
+******One is equivalent to ten, everything is excellent
+
+iShot is an excellent, full-featured area screenshot, window screenshot, multi-window screenshot, long screenshot, shell screenshot, time-lapse screenshot, quick annotation, texture, color picking, screen recording, audio recording, OCR, screenshot translation tool on Mac .
+
+1. Screenshots
+①: Area screenshot, window screenshot
+Supports frame selection screenshots, intelligent recognition window screenshots, and custom screenshot shortcuts.
+
+②Multi-window screenshot
+Press the screenshot shortcut key, then Shift, and click on multiple windows to take screenshots of multiple windows.
+
+③: Delay full screen screenshot
+Delay full-screen screenshots, support countdown sound playback, and use to capture windows that are not easy to select.
+
+④: Take a screenshot of the last screenshot area
+Use the shortcut keys to quickly take a screenshot of the area where the last frame was selected.
+
+⑤: Screenshot window under cursor
+Use the shortcut key to directly capture the window under the current mouse without activating the window.
+
+⑥ Screenshot rounded corners and shadow effects
+
+⑦ Screenshot to open quickly
+After completing the screenshot, you can double-click Option to open the picture with a custom App, so that your screenshot and editing can be seamlessly connected.
+
+⑧Save/Storage
+● Support saving to clipboard and local
+● Support saving to the clipboard and saving to the local
+● Support single save as, custom save name and format
+● Support HD and SD image quality
+● Support jpg, png, tiff screenshot saving formats
+● Support output color standard pictures
+
+2.long screenshots, scrolling screenshots
+● Select the scrolling screenshot area, then press the “S” shortcut key and slide the screenshot area upwards to start taking a long screenshot. The length of the long screenshot is unlimited.
+● Support automatic scrolling of long screenshots.
+
+3.with shell screenshot
+After taking a full screen screenshot, match your picture with a beautiful Mac shell mockup, high-end and elegant.
+
+4.stickers
+● After the frame selection area is supported, click the map button to map;
+● The sticker library will store the record of the sticker. 
+● After supporting the texture, right-click, mark and modify the texture image.
+
+5. Quick Marking
+①Marking function:
+Rectangle, circle, horizontal line, arrow, brush, mosaic, text mark, serial number label, local highlight;
+
+②Quickly adjust dimension and transparency
+
+③ Rich annotation styles
+Arrows, mosaics and other annotation tools provide a variety of styles to choose from, making your annotations colorful.
+
+6. Color picking function
+● When you press the screenshot shortcut key, the magnifying glass will display the color name under the current cursor, press R, G to copy the RGB and HEX
+================================================================================
+NAME: ScreenFloat—Pro Screen Capture
+VERSION: 2.3.7 2026-04-27T05:57:14Z
+FIRST RELEASE: 2011-03-13T17:25:22Z
+PRICE: $17.99
+RATING: 0 COUNT: 0
+MIN OS: 12.3
+SIZE: 20 MB
+RELEASE NOTES: ScreenFloat v2.3.7 (2026.04.17) contains the following improvements and bug fixes:
+
+= IMPROVEMENTS =
+- After exporting, the export folder is no longer auto-revealed in Finder
+- Copying shots (in all different file formats) is now streamlined, as it provides both a file and the data copied for maximum compatibility
+- Improves copying during capture by holding down the control key (^), in that these copies are now directly paste-able in Finder
+- In the Shots Browser, the Quick-Drag-Popover now properly supports Sharing and “open with” with multiple selected Shots
+- When cropping and zooming in b
+DESCRIPTION:
+ScreenFloat 2 is your powerful screen capture hub.
+From capturing screenshots and recordings over editing, annotating, redacting and running data-detection on them to storing, organizing and syncing them, ScreenFloat is your all-in-one screen capture tool.
+
+“Game-changer for managing screenshots” - Man.Osman
+“Outstanding app. Buy this and use it for a week and you will love it” - Chuck's Review
+
+
+= CAPTURE =
+
+Capture screenshots, timed screenshots and screen recordings with a keyboard shortcut, the menu bar icon, or a widget.
+Create Shots from content on your clipboard, or import from your iPhone or iPad.
+Effortlessly recapture shots without having to painstakingly reframe the capture area.
+
+“Accountant's Friend! Worth every penny!” - Savyasaci
+
+
+= FLOAT =
+
+By default, shots you capture float above all apps so you can reference their contents, or use them as a reminder.
+Data-detection allows for quick copying, opening and even quicksmart-redacting of links, emails, phone numbers, addresses and QR codes
+Option-right-click to pick colors
+Run powerful, custom workflows with Double-Click Actions
+
+“An animator's best friend!” - rengland77
+
+
+= EDIT =
+
+Crop, "fold", rotate, resize, trim and "de-retinize" shots
+Annotate screenshots non-destructively
+Trim and cut recordings, with microphone and system audio editable separately
+
+“2 Gems: The app itself and User Support” - A Bostonian Visual Thinker
+
+
+= SHARE =
+
+Easily share shots to other apps via drag and drop, copy-paste or export from floating shots, or the Shots Browser
+Share larger shots as a link via iCloud, ImageKit or Cloudinary
+When dragging from a floating shot, adjust the format, quality, and other options on-the-fly
+
+“One of my most used Apps” - paradox2222
+
+
+= STORE =
+
+ScreenFloat's Shots Browser keeps a library of your captures, where you can name, tag, rate, favorite and organize them.
+Collect Shots in folders
+Use Smart Folders to intelligently collect Shots by certain criteria, including whether they contain faces, or certain text, or which device you captured them on
+Extensive search functionality (with Spotlight indexing)
+Sync everything over iCloud
+
+“Its Essential - what else is there to write” - JR123§123§12
+
+
+= INTEGRATE =
+
+Automate capturing your screen, importing, and managing your floating shots using Siri Shortcuts
+Use widgets to get access to ScreenFloat's capture functionality, as well as shots, picked colors, tags, folders, and more
+Run your own Siri Shortcuts and Apple Scripts on your shots
+
+“I've used many similar apps over the years, and this is the best” - nodisorder
+
+
+*** And so much more. ScreenFloat 2: More than just screenshots. ***
+
+
+
+= System Requirements =
+
+- macOS 12 Monterey or newer (some features require macOS 13 Ventura or newer)
+- An iCloud account if you wish to sync your library over iCloud
+
+
+= What the Press Says =
+
+“One of the most comprehensive screenshot apps that there are” - Elaine Giles, MacBites After Hours
+“Sometimes I'll cover an app that I just have
+================================================================================
+NAME: Capto:Screen Capture& Recorder
+VERSION: 2.1.4 2026-01-06T05:25:08Z
+FIRST RELEASE: 2016-04-27T08:08:04Z
+PRICE: Free
+RATING: 0 COUNT: 0
+MIN OS: 10.14
+SIZE: 40 MB
+RELEASE NOTES: - Optimized for macOS 26.
+- Minor defect fixes.
+DESCRIPTION:
+Capto is a new screen capture, screen recording and editing app suite that’s perfect for creating informative and compelling captures.
+
+Instantly record a video of your screen or take a screenshot, edit it and share at the press of a button. The app has a broad range of image and video editing tools as well as an easily navigable folder-based organizer for your screen captures. You can also setup instant sharing to all popular platforms like YouTube, Dropbox, Tumblr, FTP/SFTP servers and more by signing into them just once inside Capto. 
+
+Your imagination combined with rich onscreen content can be effectively used for designing Professional Tutorials, Vlogs, Educational Lessons, Design Concepts and more.
+
+Fullscreen and Selection Capture | Webpage Capture
+
+You have the choice of taking fullscreen image captures or select portions with Capto’s flexible screenshot options. For saving a webpage with one click, use your own supported browser.
+
+Fullscreen and Region Recording |Timed Recording 
+
+Record your entire screen or select portions in full HD at 60 FPS along with clear audio. Capto also has a video capture feature for your iOS device. You may also set up a timed recording that records for a predetermined amount of time.
+
+Video Recording | Tutorial Video Making
+
+Make your tutorial videos more interactive. Record your own video while the screen recording continues in parallel. Get to choose from either the system camera or an external recording device for desired input. Resize the video as per your need and re-position it across the screen to make the tutorial more effective. 
+
+Video Editing | Annotations
+
+Capto’s powerful video editing suite gives you all the tools necessary to Cut, Join, Trim or Crop videos. In addition, you can add annotations to make your captured videos much more professional and detailed.
+
+Audio Recording & Editing | Individual Track Control
+
+Record crystal clear audio from either the system or the microphone and get better control over the output. Use the individual track control to adjust the inputs from the system and the mic separately and bring the best out of the audio. 
+
+Image Editing | Annotations
+
+Capto has a fully featured image editor to enhance and create informative images. Highlight, Annotate, correct, or adjust the properties of your captured screenshot and make them stand out.
+
+Smart Collection Folder | File information 
+
+Capto comes with an easy file manager for easy storage and retrieval of screen captures and recordings. Every screenshot and video you take is sorted into smartly labeled folders that can also be customized.
+
+Online Platform Sharing | Server Sharing 
+
+Instantly share or upload screenshots and screen recordings to your favorite services like Facebook, Tumblr, Dropbox, Evernote, YouTube and more directly with a single click. Capto also supports FTP/SFTP server uploads.
+
+Please follow Capto on social media for news, updates and tips.
+
+Twitter - @CaptoForMac
+Facebook - CaptoForMac
+YouTube - www
+================================================================================

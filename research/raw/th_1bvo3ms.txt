@@ -1,0 +1,247 @@
+DATE: 2024-10-18T15:30:36Z | r/macapps | score:1 | u/murkomarko
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/lsjh52h/
+BODY: why both?
+=====
+DATE: 2024-07-30T07:58:24Z | r/macapps | score:1 | u/veap
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/lfm97a7/
+BODY: Agreed. I was gonna buy it, but then I don't like that I have to flesh out another $20 every year to keep it up-to-date.
+=====
+DATE: 2024-07-30T07:45:29Z | r/macapps | score:1 | u/veap
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/lfm82d2/
+BODY: Flameshot is my pick on Linux, but on Mac it still must be run through rosetta on apple silicon, which makes it less appealing.
+=====
+DATE: 2024-07-23T10:01:46Z | r/macapps | score:1 | u/[deleted]
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/leircwc/
+BODY: [removed]
+=====
+DATE: 2024-05-15T17:44:17Z | r/macapps | score:1 | u/RenegadeUK
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/l46rm1a/
+BODY: Check this out also:
+
+[https://www.reddit.com/r/macapps/comments/1bvjcbi/longshot\_screenshot\_ocr\_text\_sniper\_113\_released/](https://www.reddit.com/r/macapps/comments/1bvjcbi/longshot_screenshot_ocr_text_sniper_113_released/)
+=====
+DATE: 2024-04-12T16:03:12Z | r/macapps | score:1 | u/MichaelTheGeek
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/kz921y9/
+BODY: Capto is great.
+=====
+DATE: 2024-04-10T01:28:43Z | r/macapps | score:1 | u/AndyLee_8
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/kyuyacm/
+BODY: Before I shifted to CleanShot X, LightShot was my go-to option, it's simply and free. 
+
+As for CleanShot, I recently put together [a post](https://thesweetbits.com/cleanshot-review-mac-screenshot-creators/) from a content creator's perspective, which might be helpful for you. 
+
+While I haven't tried ScreenFloat 2 myself, I'm interested to hear what others think :)
+=====
+DATE: 2024-04-07T09:36:06Z | r/macapps | score:1 | u/No-Penalty6689
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/kyg4we2/
+BODY: Hi. Here's a good article on your question. It's about how and what to wipe TV screens with. I hope that was helpful.
+
+https://ecocleanprosolutions.com/tpost/cnpcy9xio1-how-effectively-remove-dust
+=====
+DATE: 2024-04-05T18:48:53Z | r/macapps | score:1 | u/vaff
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky7ms75/
+BODY: Im not sure what you mean by copy pasting an annotated screenshot
+=====
+DATE: 2024-04-05T17:07:05Z | r/macapps | score:1 | u/Wide-Supermarket3828
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky74hjq/
+BODY: If it’s anything for business annotating , saving , sharing screenshots , movies then cleanshot. I tried some free Mac ones, but they never worked as expected.
+=====
+DATE: 2024-04-05T15:53:08Z | r/macapps | score:1 | u/vurto
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky6r0tq/
+BODY: The editor that Cleanshot shows after a screengrab, is there a way to have it go away automatically if I don't need it? (Sometimes I do still.)
+=====
+DATE: 2024-04-05T14:14:13Z | r/macapps | score:1 | u/synomonc
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky69egq/
+BODY: With shotr for instance you can annotate directly in the window that pops up. And it has shortcuts for annotation which preview lacks. If you try the two different approaches you will notice that copy pasting an annotated screenshot takes a fraction of the time, it takes to do the same task natively in osx.
+=====
+DATE: 2024-04-05T14:10:09Z | r/macapps | score:1 | u/thenitai
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky68pzc/
+BODY: People kinda dislike Snagit because it’s apparently “anti-Mac” (whatever that means). 
+
+I use Snagit for years. Never had an issue. Their editor is great. As a fact has turned into a complete image and video editing tools. I don’t have any issues with the performance either. Price is one-time $65 and if you want annual $13 for updates. 
+
+I also got Cleanshot X. Paid for it as well. But honestly I don’t like it. It also open an editor after a screenshot but I find it clunky and unintuitive. 
+
+One of the biggest issues for me is that cleanshot doesn’t have a library. Snagit on the other hand stores it at a location of choice (iCloud for me) so I can share screenshots between all my devices.
+=====
+DATE: 2024-04-05T12:27:48Z | r/macapps | score:1 | u/vaff
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky5t8f2/
+BODY: I'm not sure I get it still. What defines better annotating ?
+=====
+DATE: 2024-04-05T11:53:12Z | r/macapps | score:1 | u/SpiritOfTheVoid
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky5osgy/
+BODY: Cleanshot is good, but the license sucks.  To use on a different machine, the license must be transferred.  I bought a copy for work so this makes it awkward to use on work and personal laptop.
+=====
+DATE: 2024-04-05T11:06:31Z | r/macapps | score:1 | u/synomonc
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky5jfk2/
+BODY: I use it for a faster/better way of annotating them.
+=====
+DATE: 2024-04-05T10:42:12Z | r/macapps | score:1 | u/positive_vibes8039
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky5gy1z/
+BODY: cleanshot x anytime
+=====
+DATE: 2024-04-05T07:23:47Z | r/macapps | score:1 | u/Groooooovy
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky503p5/
+BODY: Love Snagit since years. Has everything I need. Cool Library with all my clips just one mouse click away. Nice editor.
+=====
+DATE: 2024-04-05T07:17:41Z | r/macapps | score:1 | u/iancona
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky4zko9/
+BODY: I love Shottr is the most complete. but it didn't blur text automatically so I use it together with a [blur tool ](http://blurdata.app)
+=====
+DATE: 2024-04-05T06:02:21Z | r/macapps | score:1 | u/vaff
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky4swxe/
+BODY: Why do you even need an app for screenshots, its beyond me
+=====
+DATE: 2024-04-05T04:18:02Z | r/macapps | score:1 | u/heartlandsg
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky4hxel/
+BODY: I believe shottr does not have video. Clean shot has video and also sound recording for your own mic and audio out (sound from the computer).
+=====
+DATE: 2024-04-05T03:50:40Z | r/macapps | score:1 | u/lastdojo
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky4enm9/
+BODY: Shottr is a very good screen shot taker. Has a lot of useful tools for creating annotations (arrows, text, blurs, shapes, etc.) You should also give Flameshot a try. It's open source, cross-platform and full of features. I am starting to use it more than Shottr now.
+=====
+DATE: 2024-04-05T02:52:30Z | r/macapps | score:1 | u/mdjjj74
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky472wz/
+BODY: cleanshot is part of setapp. Cleanshot indeed
+=====
+DATE: 2024-04-05T01:24:08Z | r/macapps | score:1 | u/coolnull
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky3u57q/
+BODY: OK.
+=====
+DATE: 2024-04-05T01:03:45Z | r/macapps | score:1 | u/Dramatic_Law_4239
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky3r3d5/
+BODY: I used to use shottr but switched to CleanShot X. I am happy with that decision. I do on occasion use SnagIt but only a few times a year.
+
+You might also want to look into xnip as it’s pretty full featured and free.
+=====
+DATE: 2024-04-05T00:53:02Z | r/macapps | score:1 | u/808s-n-KRounds
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky3pgh5/
+BODY: \^developer
+
+Self-promotion should be made clear
+=====
+DATE: 2024-04-04T23:32:34Z | r/macapps | score:1 | u/lowfatevan
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky3cww1/
+BODY: FWIW, you can disable the corner pop up thing with the native screenshot tool and the files show up instantly in the target directory or get added to the clipboard instantly if holding control.
+=====
+DATE: 2024-04-04T23:13:55Z | r/macapps | score:1 | u/lu_chin
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky39xxy/
+BODY: I found the ability to capture the previous area/selection with a shortcut key a useful function in screenshot apps.
+=====
+DATE: 2024-04-04T22:54:30Z | r/macapps | score:1 | u/RenegadeUK
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky36u2n/
+BODY: Thanks for notifying.
+=====
+DATE: 2024-04-04T20:50:52Z | r/macapps | score:1 | u/jenspoder
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky2l3vd/
+BODY: Cleanshot is part of setapp if you’re interested. It’s a great app.
+=====
+DATE: 2024-04-04T18:55:25Z | r/macapps | score:1 | u/MEGACOCK_HEMORRHOIDS
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky1z5m3/
+BODY: these are some of the things i can remember that shottr has, which does not exist natively:
+
+-	blur / erase text (not the same as preview’s redact)
+-	stampable ruler to show pixel distance between elements in the screenshot
+-	OCR with optional cutting of line breaks
+-	pin to float, pin multiple things to do rapid caveman-style composition of multiple screenshots
+-	add new captures to existing screenshot
+-	option to remove/change the drop shadow background that mac screenshots automatically have
+-	modify default screenshot save location and title format
+-	demonstrably faster performance than using the native screenshot editor + no waiting time for the corner popup animation to play before you can interact with the image
+-	less steps to copy the screenshot you just took
+=====
+DATE: 2024-04-04T18:26:24Z | r/macapps | score:1 | u/human-exe
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky1tp9e/
+BODY: &gt; just guessing that they suck
+
+Absolutely not (and I didn't mean that). I mean, they seem to provide mostly the same experience. 
+
+I've checked their promo materials, checking the screenshotting features. 
+
+- ScreenFloat: the screenshotting listed as literally the same as stock, and all the extra features are organizing and editing, plus «float» of course.
+- Snagit has scrolling capture, timelapses, multiple areas and exact dimentions and that's definitely an upgrade to macOS stock tools. 
+- CleanShot has scrolling capture, and quite some features for screen recording. 
+- «Shottr is probably the only free Scrolling Screenshot app for Mac». 
+    I'll download it next time I need a scrolling screenshot. Unless it's a webpage screenshot — both my browsers (Orion &amp; Firefox) can make one natively.
+=====
+DATE: 2024-04-04T18:12:05Z | r/macapps | score:1 | u/Bog_Boy
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky1r1jn/
+BODY: It is for sure! I’m not too price sensitive though
+=====
+DATE: 2024-04-04T17:49:33Z | r/macapps | score:1 | u/Bonezey
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky1mw79/
+BODY: Using Shottr
+=====
+DATE: 2024-04-04T17:27:52Z | r/macapps | score:1 | u/MEGACOCK_HEMORRHOIDS
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky1iva7/
+BODY: vouching for shottr. started using it around 2022 and it has done everything i need in a lightweight and intuitive manner since
+=====
+DATE: 2024-04-04T17:22:24Z | r/macapps | score:1 | u/MEGACOCK_HEMORRHOIDS
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky1hus0/
+BODY: shottr is literally (literally) noticeably faster at taking and displaying (/ using) your screenshot than the native animated corner pop out thing. it sounds like you haven’t looked up any of these third-party tools at all and are just guessing that they suck
+=====
+DATE: 2024-04-04T17:13:35Z | r/macapps | score:1 | u/tDA4rcqHMbm7TDJSZC2q
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky1g8rl/
+BODY: Perhaps you could use services like ScribeHow or Tango.us to automatically generate documentation for your tech consultancy role.
+=====
+DATE: 2024-04-04T16:28:29Z | r/macapps | score:1 | u/Stunning_Pop1520
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky1802x/
+BODY: 💯agree
+=====
+DATE: 2024-04-04T16:25:21Z | r/macapps | score:1 | u/TenuredProfessional
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky17feh/
+BODY: CleanShot X here.  Haven't found any reason to move to another app.
+=====
+DATE: 2024-04-04T16:24:26Z | r/macapps | score:1 | u/anoninternetguy
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky1797s/
+BODY: snagit is a hot pile of garbage and I cannot discourage its use strongly enough. it’s incredibly slow, crashes every two minutes, and its markup tools are straight out of 1996.
+=====
+DATE: 2024-04-04T16:18:02Z | r/macapps | score:1 | u/Slitted
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky162ub/
+BODY: If you have to ask what these apps provide over the native tool, then it suggests that you haven’t even looked at them because each of them shows their extra features (over native) front and center on their websites.
+=====
+DATE: 2024-04-04T16:16:35Z | r/macapps | score:1 | u/Snorlax_Returns
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky15tbe/
+BODY: Cleanshot is really expensive. $30 for a single seat and only 1 year of updates included. I use Shottr because it’s simple and affordable.
+
+ I use a handful of computers (work laptop, home desktop and laptop etc). Buying separate licenses (and upgrading them every few years) doesn’t seem worth it.
+=====
+DATE: 2024-04-04T16:06:11Z | r/macapps | score:1 | u/human-exe
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky13xf5/
+BODY: Consider standard macOS Screenshot.app:
+
+1. User Experience: Natively integrates with macOS, provides native experience.
+2. Features: Integrated into OS, available on any Mac with standard hotkey. No DRM, no payments.
+3. Performance: Requires no additional CPU or memory since it's integrated.
+4. Versatility: supports full screen, selection, window, timed, screenshot or video, mouse cursor and clicks on/off. Can copy to clipboard or save as file. Provides annotation and share tool after screenshot is created. Guaranteed not to be “deprecated” or “retired” or “phased out”
+
+I really wonder what those apps provide that MacOS screenshotter don't. And what kind of pros need that. I (as non-pro user) am quite satisfied with Apple's offering.
+=====
+DATE: 2024-04-04T15:57:58Z | r/macapps | score:1 | u/ZeroReader
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky12fqx/
+BODY: True, Longshot is amazing. Rich of features. I recommend it too
+=====
+DATE: 2024-04-04T15:54:59Z | r/macapps | score:1 | u/ZeroReader
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky11w65/
+BODY: At the moment I use CleanShot but I am impressed with Longshot. CleanShot has subscription model. Longshot has lifetime option. Longshot also has OCR and other good features. I am impressed with Longshot despite being a long time user of CleanShot
+=====
+DATE: 2024-04-04T15:28:22Z | r/macapps | score:1 | u/Particular-Can1298
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky0x1l9/
+BODY: Shottr and Cleanshot are amazing. I use both (not at the same time obviously). Integration, ease of use, resource consumption all good for my use-cases (they’re very similar to yours)
+=====
+DATE: 2024-04-04T14:56:51Z | r/macapps | score:1 | u/jane_racoon
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky0rils/
+BODY: Cleanshot is the best so far 👍
+=====
+DATE: 2024-04-04T14:47:29Z | r/macapps | score:1 | u/coolnull
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky0pv89/
+BODY: Hello, I just posted about Longshot, a convenient screenshot tool. If you're interested, feel free to download and try it out to see if it meets your requirements. [https://www.reddit.com/r/macapps/comments/1bvjcbi/longshot\_screenshot\_ocr\_text\_sniper\_113\_released/](https://www.reddit.com/r/macapps/comments/1bvjcbi/longshot_screenshot_ocr_text_sniper_113_released/)
+=====
+DATE: 2024-04-04T14:20:37Z | r/macapps | score:1 | u/Bog_Boy
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky0ldno/
+BODY: It depends! Lot of explainers, lots of feedback. I’m a tech consultant so it varies
+=====
+DATE: 2024-04-04T14:19:22Z | r/macapps | score:1 | u/Juice10
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/ky0l643/
+BODY: With regards to workflow efficiency we need to know what you are going to be using the screenshots for mostly. Could you elaborate a bit?
+=====

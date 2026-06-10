@@ -1,0 +1,1446 @@
+DATE: 2024-12-22T11:58:19Z | r/macapps | score:1 | u/Devpaxj
+URL: https://reddit.com/r/macapps/comments/1hjx4mu/free_macos_apps_you_should_be_using/
+TITLE: Free MacOS apps you should be using
+BODY: This is the list that I've created for the free macOS apps that I've come across that add great value to your MacOS experience. 
+
+# 1. Maccy - Clipboard Manager
+
+[Maccy](https://maccy.app/) is a native, fast, and secure clipboard manager that's open-source and beats other clipboard apps in terms of simplicity.
+
+# 2. Ice - Menubar Manager
+
+[Ice](https://github.com/ice-itertools/ice) is an open-source Menubar Manager that gained popularity after the recent Bartender controversy. It helps you manage your menu bar and make it more organized.
+
+# 3. AppCleaner - Thoroughly Uninstall Apps
+
+[AppCleaner](https://www.freemacsoft.net/appcleaner/) is a free app that lets you thoroughly uninstall unwanted apps, including all related files.
+
+# 4. Amphetamine - Control Sleep Behavior
+
+[Amphetamine](https://github.com/everdo/amphetamine) is an app that lets you control your Mac's sleep behavior, keeping it awake when you need it to.
+
+# 5. KeyClu - Overview of All Shortcuts
+
+[KeyClu](https://keyclu.com/) gives you an overview of all shortcuts for an app, helping you learn more keyboard shortcuts and become more productive.
+
+# 6. Loop - Simplifies Window Management
+
+[Loop](https://github.com/loop-macos/loop) simplifies window management, letting you move, resize, and arrange windows with ease.
+
+# 7. Neat Download Manager - Download Manager
+
+[Neat Download Manager](https://neatdownloadmanager.com/) is a download manager that provides better control over your Internet downloads.
+
+8. PDFgear - PD
+=====
+DATE: 2024-12-09T01:08:59Z | r/mac | score:1 | u/LAN__Lord
+URL: https://reddit.com/r/mac/comments/1h9xypl/thought_i_would_list_most_of_the_app_i_have/
+TITLE: Thought I would list most of the app I have installed. Feel free to share any apps you like
+BODY: # Creative/Design/Development
+
+1. [**Adobe Creative Cloud**](https://www.adobe.com/creativecloud.html) – Central hub for Adobe’s creative apps.
+2. [**Adobe Media Encoder 2025**](https://www.adobe.com/products/media-encoder.html) – Video encoding and processing tool.
+3. [**Adobe Premiere Pro 2025**](https://www.adobe.com/products/premiere.html) – Professional video editing software.
+4. [**Anaconda Navigator**]() – Python/R development environment manager.
+5. [**PyCharm CE**](https://www.jetbrains.com/pycharm/) – Python IDE for coding and debugging.
+6. [**Xcode**](https://developer.apple.com/xcode/) – Apple’s IDE for macOS/iOS development.
+
+# Utilities
+
+1. [**1Password**](https://1password.com/) – Password manager.
+2. [**AdGuard Home**]() – Network-wide ad blocker.
+3. [**Alfred 5**](https://www.alfredapp.com/) – Productivity launcher for quick app access and workflows.
+4. [**AltServer**](https://altstore.io/) – Used to sideload apps onto iOS devices.
+5. [**Amphetamine**](https://apps.apple.com/us/app/amphetamine/id937984704) – Keeps your Mac awake.
+6. [**AppCleaner**]() – App uninstaller for macOS.
+7. [**Bartender 5**](https://www.macbartender.com/) – Menu bar management tool.
+8. [**DaisyDisk**](https://daisydiskapp.com/) – Disk space analyzer.
+9. [**Dropover**](https://dropoverapp.com/) – Temporary file storage for easy drag-and-drop.
+10. [**Folder Peek**]() – Quick access to frequently used folders.
+11. [**ForkLift**](https://binarynights.com/) – File manager and FTP client.
+
+=====
+DATE: 2024-12-05T12:59:55Z | r/raycastapp | score:1 | u/[deleted]
+URL: https://reddit.com/r/raycastapp/comments/1h78m7v/shottr_extension_in_raycast/
+TITLE: Shottr extension in Raycast
+BODY: [deleted]
+=====
+DATE: 2024-12-05T12:59:55Z | r/raycastapp | score:1 | u/horlorh
+URL: https://reddit.com/r/raycastapp/comments/1h78m7v/shottr_extension_in_raycast/
+TITLE: Shottr extension in Raycast
+BODY: 
+=====
+DATE: 2024-12-05T12:58:59Z | r/macapps | score:1 | u/horlorh
+URL: https://reddit.com/r/macapps/comments/1h78lm5/shottr_extension_in_raycast/
+TITLE: Shottr extension in Raycast
+BODY: Just found out that the Shottr extension is live in the Raycast store. It was announced to be released a few months ago but I never saw any announcement when it was finally released. Thought to share with Raycast + Shottr users!
+=====
+DATE: 2024-12-05T12:58:59Z | r/macapps | score:44 | u/horlorh
+URL: https://reddit.com/r/macapps/comments/1h78lm5/shottr_extension_in_raycast/
+TITLE: Shottr extension in Raycast
+BODY: Just found out that the Shottr extension is live in the Raycast store. Shottr is a screenshotting tool similar to Cleanshot X but cheaper (or free). It was announced to be released a few months ago but I never saw any announcement when it was finally released. Thought to share with Raycast + Shottr users!
+
+Edit: Here’s a [link](https://www.raycast.com/fernando_barrios/shottr) to the extension on the Raycast store. 
+=====
+DATE: 2024-12-03T21:30:31Z | r/iPadOS | score:1 | u/dakstra
+URL: https://reddit.com/r/iPadOS/comments/1h5yrj8/screenshot_editor/
+TITLE: Screenshot Editor
+BODY: Last year tried to go iPad only for work. My job as a business analyst is pretty much the office suite/JIRA and similar browser based applications. I was close to going for it full time but ended up getting a Mac for macOS instead.
+
+My workplace have recently locked down the ability to access the desktop MS365 apps so can now only access them via a browser (personal Mac). That means my experience is pretty much the same on desktop and iPad. In some cases better on iPad now as they haven’t locked down mobile apps…
+
+My one major workflow task I’ve not figured out on iPad OS is taking screenshots and editing them. I don’t mean content creator level in something like photoshop, I just want something like Shottr on Mac where it’s easy to blur/remove text, add number pins, highlight and add text etc. I know the standard screenshot tool can do some of it but it’s just not fully featured enough. 
+
+Any suggestions on a workflow option for that on iPad? I appreciate it’s not going to be as simple as on a Mac but even something slightly more long winded would be good enough.
+=====
+DATE: 2024-11-30T06:50:49Z | r/macbookair | score:1 | u/Electrical_Pay_6916
+URL: https://reddit.com/r/macbookair/comments/1h36um6/app_to_translate_instantly/
+TITLE: App to translate instantly 
+BODY: 
+Hello,im using shottr app to copy text from image or any place,then I translate it via “google translate “ ,i wonder if there’s any app that translate the copied text instantly to preferred language i choose 
+=====
+DATE: 2024-11-30T06:49:29Z | r/macbook | score:1 | u/Electrical_Pay_6916
+URL: https://reddit.com/r/macbook/comments/1h36tux/app_to_translate_instantly/
+TITLE: App to translate instantly 
+BODY: Hello,im using shottr app to copy text from image or any place,then I translate it via “google translate “ ,i wonder if there’s any app that translate the copied text instantly to preferred language i choose 
+=====
+DATE: 2024-11-30T04:44:19Z | r/macapps | score:1 | u/Electrical_Pay_6916
+URL: https://reddit.com/r/macapps/comments/1h34sum/app_to_translate_instantly/
+TITLE: App to translate instantly 
+BODY: Hello,im using shottr app to copy text from image or any place,then I translate it via “google translate “ ,i wonder if there’s any app that translate the copied text instantly to preferred language i choose 
+=====
+DATE: 2024-11-28T05:42:34Z | r/macapps | score:1 | u/MobileCool7175
+URL: https://reddit.com/r/macapps/comments/1h1p1qi/shottr_black_friday_deal_basic_tier_9/
+TITLE: Shottr Black Friday Deal: Basic tier -&gt; $9
+BODY: Black Friday Sale: **Basic Tier** price reduced to **$9**
+
+[https://shottr.cc/purchase.html](https://shottr.cc/purchase.html)
+
+
+=====
+DATE: 2024-11-28T05:37:39Z | r/macapps | score:1 | u/Ryeones
+URL: https://reddit.com/r/macapps/comments/1h1oyuz/shottr_and_kap_or_cleanshot_x/
+TITLE: shottr and kap or cleanshot x?
+BODY: [removed]
+=====
+DATE: 2024-11-28T05:37:39Z | r/macapps | score:8 | u/Ryeones
+URL: https://reddit.com/r/macapps/comments/1h1oyuz/shottr_and_kap_or_cleanshot_x/
+TITLE: shottr and kap or cleanshot x?
+BODY: hi everyone, i've been eyeing cleanshot x for the longest of times, but have always been hesitant to purchase because although it has a 'one time' license, it technically isn't as to get the subsequently years upgrade, you would then need to pay and additional price.
+
+at the moment, i use a combination of shottr and kap to substitute for cleanshot x
+
+what i use in shottr: 1. scrolling capture 2. targetted screenshots (with annotations at times) 3. full window screenshots ( rare occasions)
+
+what i use kap for: 1. screen recording to gif (i keep my design or creative inspiration in my notion database)
+
+however, now with the black friday sale happening, i was thinking if i should just bite the bullet and pay for it, was wondering what are yall folks suggestions? are there any glaring features of cleanshot x that i may have missed out? for those that own the one time licence, is it worth it? thankyou and hope you have a good day!
+=====
+DATE: 2024-11-28T05:30:57Z | r/macapps | score:1 | u/Ryeones
+URL: https://reddit.com/r/macapps/comments/1h1ouzp/cleanshot_x_or_a_combination_of_shottr_kap/
+TITLE: cleanshot x or a combination of shottr + kap
+BODY: [removed]
+=====
+DATE: 2024-11-17T07:32:28Z | r/MacOS | score:1 | u/supermariojerma
+URL: https://reddit.com/r/MacOS/comments/1gt8eza/screenshot_tool_that_freezes_screen/
+TITLE: Screenshot Tool That Freezes Screen
+BODY: Is there any macOS screenshot tool that freezes the screen, like most windows tools do? I've tried several, [screenshot.app](http://screenshot.app), ishare, shottr, but all of them don't freeze the screen. Is this a technical limitation of some sort or is it just chance that no ones made one that does that?
+=====
+DATE: 2024-11-10T16:24:32Z | r/macapps | score:1 | u/haoliu350
+URL: https://reddit.com/r/macapps/comments/1go4d6b/any_shottr_alternative_shottr_got_banned_at_my/
+TITLE: Any Shottr alternative? Shottr got banned at my company machine
+BODY: Recently my company just put this app to unapproved app list, not sure if its due privacy concern. Does Shottr send any data to any server over internet, like CleanShot cloud feature?
+
+Any alternative to this app? 
+
+All I need is an app can take screenshot with keyboard shortcut, then do simple annotation, and copy to clipboard.
+=====
+DATE: 2024-11-10T11:26:00Z | r/MacOS | score:1 | u/lady3jane
+URL: https://reddit.com/r/MacOS/comments/1gnym8x/screenshot_tool_with_capture_resize_handles_not/
+TITLE: Screenshot tool with capture resize handles - not hidden under crop or other options. I want to resize the captured image,  not the captured area. 
+BODY: I need to resize screenshots a lot for work. Our ticket platform doesn’t let you resize a pasted image. 
+
+I used Skitch for many years at a previous job where the ticket platform allowed resizing of pasted images. To resize in Skitch, I have to click on Crop, then a toggle to switch it to Resize, then drag a slider, then click Apply. 
+
+This is really annoying to do multiples times a day. 
+
+My desired workflow: 
+
+- hit keyboard shortcut to open the capture selection tool
+- drag to select capture area
+- captured area opens in an editor immediately without any other actions from me (like Skitch) 
+- with either 0 or 1 clicks, I can enable drag-to-resize. Resize is not buried under other menu options and does not require numerical input. 
+
+I have tried all of the below. They all have too many clicks to get what I want. 
+
+- Cleanshot
+- Shottr 
+- SnagIt
+- Built-in Mac OS screenshot tool 
+
+Thanks for any help! 
+
+=====
+DATE: 2024-10-28T14:44:18Z | r/macapps | score:1 | u/Fishsticks66
+URL: https://reddit.com/r/macapps/comments/1ge3spr/brand_new_to_mac_after_many_years_of_windows/
+TITLE: Brand new to Mac after many years of windows, looking for some guidance
+BODY: Hi guys, I know you get a lot of these posts so I hope mine will at easy have some fresh questions, I’ve spent all day yesterday reading old posts on this sub.
+
+I have an iPhone, and I’m really enjoying how widgets from some apps carry over. What are some of your favourite app widgets?
+
+I’m currently using mostly free apps, and would be interested in knowing what are some less powerful apps that are free, but have a better pod version, so that I can upgrade incrementally?
+
+
+# What I’ve got currently:
+
+- Shottr, over cleanshot x
+- Al dente (basic) over batfi.
+- Obsidian for notes 
+- Raycast for launching
+- IINA over elmedia
+- Mac mouse fix 3
+- Alt tab, to emulate windows alt tabbing
+- Apple reminders - over things3 or todoist
+
+#### Things I haven’t found a better app for
+
+- Apple calendar 
+- Outlook
+- Safari
+- VScode for .net and python
+- Basic weather widget
+- **And probably lots of apps I never knew I needed or wanted!**
+=====
+DATE: 2024-10-23T06:10:08Z | r/pricechangenews | score:1 | u/elantoh
+URL: https://reddit.com/r/pricechangenews/comments/1ga3ngv/shottr_is_increasing_basic_tier_price_by_50/
+TITLE: Shottr is Increasing Basic Tier Price by 50%
+BODY: Shottr is Increasing Basic Tier Price by 50% [https://pricechangenews.com/shottr-price-increase/](https://pricechangenews.com/shottr-price-increase/)
+=====
+DATE: 2024-10-21T18:32:18Z | r/MacOS | score:1 | u/DaStig00
+URL: https://reddit.com/r/MacOS/comments/1g8x0ia/screenshot_issues_macos_sequoia_new_macbook_air_m3/
+TITLE: Screenshot issues - macos Sequoia new macbook air M3 
+BODY: Hello all!
+
+I have a very weird and EXTREMELY annoying and inconvenient issue.
+
+I take many screenshots for my study notes. The issue is hard to explain. 
+
+The screenshots are from Udemy courses. When I take the screenshot using macos or Shottr , I have the same issue; I don't get the actual screenshot image. The screenshot is from what was previously in the video. The video is paused. When I paste the screenshot is showing the wrong image. How is this possible?
+
+  
+I have no issues with the same strategy on Windows machines, but this mac is driving me crazy.
+
+How am I supposed to take notes if the screenshots are impossible to get.
+
+The issues is on and off. That's the even more frustrating issue. After like 10 minutes it works.
+
+Anybody else pulling their hair out with this?
+=====
+DATE: 2024-10-15T11:02:06Z | r/photoshop | score:0 | u/pseudocoder_in
+URL: https://reddit.com/r/photoshop/comments/1g45004/snapshot_share_your_canvas/
+TITLE: Snapshot++ : Share your canvas 
+BODY: Any takers for a plugin which can quickly let you screenshot your canvas and add annotations and comments on it before sharing via chat apps for feedback.   
+Something like shottr but which works natively with Photoshop. 
+
+https://preview.redd.it/wvony887jwud1.png?width=1657&amp;format=png&amp;auto=webp&amp;s=e52843b2adc65216912ca78a0aac03a1c97c686e
+
+
+=====
+DATE: 2024-10-14T20:02:18Z | r/macapps | score:105 | u/BB-773
+URL: https://reddit.com/r/macapps/comments/1g3p8yd/clean_nativelike_and_userful_mac_apps/
+TITLE: Clean, Native-like, and Userful Mac Apps
+BODY: https://preview.redd.it/tmuml3z63sud1.jpg?width=3600&amp;format=pjpg&amp;auto=webp&amp;s=fde938243eb14a92cd1187f5a52b7bbc72ba43c6
+
+I keep discovering new apps thanks to this community over the past year, and these are the ones that ended up staying on my Macbook Pro (Apple Silicon). They're all very useful, look clean, and feel native to MacOS imo. I think the paid ones are worth it, at least for me as daily drivers.
+
+My apps:
+
+* [**1Password**](https://1password.com/) (Subscription, $5/month for Families Plan) - My preferred password manager. Works great on MacOS, can't live without it. The only subscription I have on this list.
+* [**AltTab**](https://alt-tab-macos.netlify.app/) (Free) - Windows-like window switcher
+* [**Amphetamine**](https://apps.apple.com/us/app/amphetamine/id937984704) (Free) - Keeps my Mac awake when I need to. Clean, minimal interface.
+* [**BatFi**](https://micropixels.software/apps/batfi) (One-time payment, $10) - Used AlDente before but prefer this one. Cheaper than AlDente's subscription, menu bar app looks cleaner imo, feels native, and has the features I need. Don't really need all of AlDente's bells and whistles.
+* [**Clop**](https://lowtechguys.com/clop/) (One-time payment, $15) - Optimizes everything I need. Photos, videos, PDFs, etc. Hover zone is cool to drag items into that need optimizing. Makes sending videos and photos a breeze with the reduced file sizes.
+* [**Command X**](https://sindresorhus.com/command-x) \*\*(\*\*Free) - Brings back 
+=====
+DATE: 2024-10-14T20:02:18Z | r/macapps | score:202 | u/BB-773
+URL: https://reddit.com/r/macapps/comments/1g3p8yd/clean_nativelike_and_userful_mac_apps/
+TITLE: Clean, Native-like, and Userful Mac Apps
+BODY: https://preview.redd.it/tmuml3z63sud1.jpg?width=3600&format=pjpg&auto=webp&s=fde938243eb14a92cd1187f5a52b7bbc72ba43c6
+
+I keep discovering new apps thanks to this community over the past year, and these are the ones that ended up staying on my Macbook Pro (Apple Silicon). They're all very useful, look clean, and feel native to MacOS imo. I think the paid ones are worth it, at least for me as daily drivers.
+
+My apps:
+
+* [**1Password**](https://1password.com/) (Subscription, $5/month for Families Plan) - My preferred password manager. Works great on MacOS, can't live without it. The only subscription I have on this list. I like its UI and features over other password managers.
+* [**AltTab**](https://alt-tab-macos.netlify.app/) (Free) - Windows-like window switcher
+* [**Amphetamine**](https://apps.apple.com/us/app/amphetamine/id937984704) (Free) - Keeps my Mac awake when I need to. Clean, minimal interface.
+* [**BatFi**](https://micropixels.software/apps/batfi) (One-time payment, $10) - Used AlDente before but prefer this one. Cheaper than AlDente's subscription, menu bar app looks cleaner imo, feels native, and has the features I need. Don't really need all of AlDente's bells and whistles.
+* [**Clop**](https://lowtechguys.com/clop/) (One-time payment, $15) - Optimizes everything I need. Photos, videos, PDFs, etc. Hover zone is cool to drag items into that need optimizing. Makes sending videos and photos a breeze with the reduced file sizes.
+* [**Command X**](https://sindresorhus
+=====
+DATE: 2024-10-08T21:08:44Z | r/macapps | score:1 | u/QenTox
+URL: https://reddit.com/r/macapps/comments/1fzaomz/there_will_be_a_price_increase_for_shottr/
+TITLE: There will be a price increase for Shottr
+BODY: One of the most popular screenshot editing apps [Shottr](https://shottr.cc) will be more expensive starting next Monday. If you want to purchase the app and save some money while supporting the developer, you can do so before next Monday at the original price.
+
+Starting October 14, 2024, [Shottr](https://shottr.cc/purchase.html) will cost $12 instead of $8. Still a great price in my opinion, especially since it's a one-time payment, without a subscription.
+
+https://preview.redd.it/pk10cw0zkltd1.png?width=1424&amp;format=png&amp;auto=webp&amp;s=ce34a4d7129c29587b589e80e677c04edcde2337
+
+Sources:
+
+[https://x.com/shottr\_cc/status/1843260736958820471](https://x.com/shottr_cc/status/1843260736958820471)
+
+[https://shottr.cc/purchase.html](https://shottr.cc/purchase.html)
+=====
+DATE: 2024-10-08T20:58:48Z | r/macapps | score:1 | u/QenTox
+URL: https://reddit.com/r/macapps/comments/1fzag7u/shottr_price_goes_up/
+TITLE: Shottr price goes up
+BODY: 
+=====
+DATE: 2024-10-06T15:36:10Z | r/apple | score:1 | u/fffitch
+URL: https://reddit.com/r/apple/comments/1fxj8wb/shottr_now_has_beautiful_backgrounds_screenshot/
+TITLE: Shottr now has beautiful backgrounds (screenshot app for mac)
+BODY: Hello!
+
+This week I released a new version of Shottr with a tool for gradient backgrounds, rounded corners, and shadows for screenshots.
+
+Here's a 30s demo:  
+[https://youtu.be/z7-\_rRc72hs?si=rv4y7aeQ52rKIQZg](https://youtu.be/z7-_rRc72hs?si=rv4y7aeQ52rKIQZg)
+
+(I like how the video came out, but have almost nowhere to show it off. Thanks for watching : )
+
+My goal with Shottr is to build a lightweight screenshot app with a clean and simple interface. All advanced features are tucked out of the way until you need them. I watch performance metrics and memory footprint closely, and I approached the backdrop tool with the same mindset. The app has a fully functional free tier, however, this particular feature — fancy backgrounds — requires a license ($8, I'm raising it to $12 on October 14th).
+
+The most interesting backgrounds in this release are programmatically generated colorful abstractions. They don't require large assets shipped with the app, and they are unique every time. Besides, you can make them yours with custom colors. I spent some time tuning the algorithm to get smooth and visually appealing color transitions, and I'm quite happy with the result.
+
+I've put some effort into rendering nice-looking shadows, too. The ubiquitous drop shadow effect doesn't cut it: the shadow shape is not life-like, the penumbra intensity profile is unnaturally linear, and black shade blended in the background desaturates colors. I ended up with a custom shadow rendering that doesn't subs
+=====
+DATE: 2024-10-06T15:01:22Z | r/apple | score:1 | u/fffitch
+URL: https://reddit.com/r/apple/comments/1fxiga8/shottr_can_now_add_beautiful_backgrounds_to_your/
+TITLE: Shottr can now add beautiful backgrounds to your screenshots
+BODY: [removed]
+=====
+DATE: 2024-10-06T11:19:36Z | r/macapps | score:1 | u/AmazingExplorer698
+URL: https://reddit.com/r/macapps/comments/1fxe8nr/what_are_the_mac_apps_you_cannot_live_without/
+TITLE: What are the Mac Apps you cannot live without?
+BODY: What are some of the Mac Apps you can't live without?
+
+for me, these are irreplacable:
+
+  
+**1.  1Password:**  
+My Password manager for managing passwords, 2FA, Credit cards, Identity, addresses, software licenses and Passkeys. Absolutely irreplaceable.
+
+  
+**2.  RayCast:**  
+I tried RayCast twice for 1-2 days, wasn't sure how to use it, then I tried it again by going all-in and replacing Spotlight keyboard shortcut with Raycast and man, I'm in live with it more and more everyday! This is an absolutely must-have for developers and normal users alike.
+
+Their Clipboard history with option to search in Images (OCR) works amazingly and is very snappy.
+
+It can do wonderful stuff including so many calculations (days to, since specific date, modifying text, Quick snippets to quickly fill tons of texts, replaces MacOS's native Text Replacement much better by allowing to to have multi-line replacements and so much more)
+
+You can do everything with a keyboard shortcut including making windows full-screen, maximizing, minimizing, specific sizes (left half, first third-half and so much more)|  
+
+
+**3.  Shottr:**  
+A wonderful, super-lightweight Screenshot tool, can do a lot more than MacOS' native screenshot tool and works like a charm. You can now add 'backdrop', gradient style backgrounds to screenshots too, the popular style for code and other screenshots these days, and is super super fast!  
+  
+MonitorControl and Lunar:  
+These are both great for managing brightness of your external
+=====
+DATE: 2024-10-01T19:19:49Z | r/raycastapp | score:1 | u/jfernandogt
+URL: https://reddit.com/r/raycastapp/comments/1ftwjg6/i_made_an_extension_for_the_shottr_app/
+TITLE: I made an extension for the Shottr app
+BODY: Hi, 
+
+  
+it's my first time creating an extension for Raycast which add a support to take screenshots using Shottr. If anyone is interested in taking a look at it, here's the PR: [https://github.com/raycast/extensions/pull/14750](https://github.com/raycast/extensions/pull/14750)
+
+
+=====
+DATE: 2024-09-30T15:05:41Z | r/CaschysBlog | score:1 | u/orihcsro
+URL: https://reddit.com/r/CaschysBlog/comments/1fsxra5/shottr_screenshotapp_für_den_mac_liegt_in_version/
+TITLE: Shottr: Screenshot-App für den Mac liegt in Version 1.8 vor
+BODY: 
+=====
+DATE: 2024-09-30T11:07:12Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1fssvlt/shottr_18_released/
+TITLE: Shottr 1.8 Released
+BODY: This release introduces the Backdrop Tool, a quick way to add colorful backgrounds, shadows, and rounded corners to your screenshots.
+
+Other improvements in v1.8: 
+- Bigger sizes for Text labels, Arrows, and other annotations
+- URL Scheme support
+- Raycast Extension support (the extension is coming soon)
+- Alfred Workflow support (get it [here](https://eot.shottr.cc/f/a/JFGfyj4y4cd0DbJkID2yyQ~~/AAAHUQA~/RgRo3Qo2P0UgZDY5N2M3MjA2ZmI4Mjk1NjQ0M2MyZmEyOGRkODIwYThEMmh0dHBzOi8vZ2l0aHViLmNvbS9kcmFnc3Rvci9zaG90dHItYWxmcmVkLXdvcmtmbG93VwVzcGNldUIKZvc2hfpmHnhtiFIVbG91LnBsdW1tZXJAZ21haWwuY29tWAQAAEtD), 
+- Custom annotation colors
+- A setting to hide the splash window on startup
+=====
+DATE: 2024-09-30T07:25:53Z | r/macapps | score:1 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1fspwli/whats_the_best_ocr_app/
+TITLE: What’s the best OCR app? 
+BODY: Hello! I’ve tried quite a lot of OCR apps, but was wondering which one is the best. The one I liked is TextSniper, but I heard Shottr and CleanShot X also have it. 
+
+So, what’s your personal choice for OCR?
+=====
+DATE: 2024-09-29T19:30:32Z | r/Windows10 | score:1 | u/Bluestskyas
+URL: https://reddit.com/r/Windows10/comments/1fscl6f/is_there_any_app_like_shottr_for_mac_but_for/
+TITLE: Is there any app like Shottr for Mac but for Windows. 
+BODY: What I am really looking for is an app that allows me to select and area and it reads and copies text. For example if I select and area of text by pressing a keybind I can create a box, similar to shift+windows+s, and it reads and copies that text
+=====
+DATE: 2024-09-23T23:33:16Z | r/macapps | score:1 | u/nez329
+URL: https://reddit.com/r/macapps/comments/1fnyoak/help_shottr_for_mac_how_to_rotate_screenshot/
+TITLE: Help: Shottr for Mac - How to rotate screenshot image after capture?
+BODY: This is the tool bar after capture.
+
+https://preview.redd.it/4q1lz16a9nqd1.png?width=1156&amp;format=png&amp;auto=webp&amp;s=58733e3154e1ec7fc2623c4393888d10380b312c
+
+
+=====
+DATE: 2024-09-16T14:06:01Z | r/androiddev | score:1 | u/fontofile
+URL: https://reddit.com/r/androiddev/comments/1fi5iki/how_to_change_the_default_value_of_elevation_in/
+TITLE: How to change the default value of elevation in Snackbar componenet in M3
+BODY: Hello, 
+
+I am designer and we are using Material 3 for our Android dev. We are using jetpack compose as a way to program the app (I have 0 knowledge about programming). In our ecommerce app we recently implemented a snackbar which has by default very strong elevation and my developers say that there is now way to change an elevation. 
+
+My designer brain does not want to accept it. Even the googles own app is not using that kind of elevation. Am I getting something wrong here? If its not possible to change than why is it like that? The whole reason to have a design system , tokens and properties so one can have a flexibility. 
+
+You can take a look here
+
+[https://shottr.cc/s/WLbp/SCR-20240916-ncf.png](https://shottr.cc/s/WLbp/SCR-20240916-ncf.png)
+=====
+DATE: 2024-09-15T13:03:31Z | r/macapps | score:1 | u/Shank2410
+URL: https://reddit.com/r/macapps/comments/1fhc0s1/shottr_tip_to_draw_a_straight_line/
+TITLE: Shottr Tip to draw a straight line
+BODY: Been using Shottr for last few days and when I try to use the line option to underline any text, it is always coming as a slant line, is there a keyboard shortcut or combination of keys to make the line straight. 
+=====
+DATE: 2024-09-13T03:20:34Z | r/macapps | score:1 | u/micangaroo
+URL: https://reddit.com/r/macapps/comments/1ffl2sv/screenshot_app_suggestion/
+TITLE: Screenshot app suggestion
+BODY: Hi, I'm looking around for a good screenshot app. I've read the posts that suggest the best are Shottr (Free) and Cleanshot X (Paid).
+
+For context, I am taking multiple screenshots for training guide purposes for a Webapp. I require features for consistent screenshots rather than dragging the rectangle area every single time, and ending up with inconsistent screenshots. 
+
+And because it is a webapp, I can't actually do a window snapshot because the browser controls and other elements that are not required will be captured too.
+
+So specifically, I need a screenshot app that allows me to
+
+1. Select an Area
+2. Hold it there for me to make adjustments
+3. Snap the screenshot and remember the area
+4. Re-snap the same previous selected area continuously.
+
+While they are both great apps, they're unusable for me because once you select the area, the screenshot is immediately captured.
+
+Appreciate the suggestions. Free or Paid are both fine.
+
+Thank you!
+
+
+
+
+
+
+=====
+DATE: 2024-09-10T21:45:32Z | r/macapps | score:1 | u/blissfool
+URL: https://reddit.com/r/macapps/comments/1fdtu03/shottr_how_do_you_drag_around_the_image/
+TITLE: Shottr - How do you drag around the image?
+BODY: I am trying to crop an image and trying to make sure that I have the boundary correctly lined up by zooming in. However, after zooming into one part of the image, I can't figure out how to move to different part of the image. Is there a way to drag the image or a technique I can use to move to different part of the image? I was at least expecting scrollbars to appear but that wasn't the case.
+
+Thank you!
+=====
+DATE: 2024-09-04T07:52:48Z | r/macapps | score:1 | u/bojanradovic5
+URL: https://reddit.com/r/macapps/comments/1f8nm8b/does_shottr_have_a_way_to_add_backgrounds_to/
+TITLE: Does Shottr have a way to add backgrounds to screenshots?
+BODY: Currently using Cleanshot X and the one feature I really like is the ability to add backgrounds to screenshots. I downloaded the free tier of Shottr to trial it and can't seem to find any options for that.
+
+Is this is a paid feature? If so is it the first or 2nd tier?
+
+Thanks!
+=====
+DATE: 2024-08-30T23:02:47Z | r/CoDCompetitive | score:1 | u/oli2194
+URL: https://reddit.com/r/CoDCompetitive/comments/1f58toe/tip_for_anyone_that_still_needs_a_beta_code/
+TITLE: Tip for anyone that still needs a beta code
+BODY: The Call of Duty Twitch account is streaming a printer constantly "printing" codes. Use a screenshot tool that has OCR built in, highlight where the codes usually land when they're "printed" and quickly copy the code into the redeem site.
+
+On Mac I used an app called Shottr (which is a great app to have anyway) and on windows, I think the feature is built into the Snipping Tool.
+
+I got a code first try doing this.
+=====
+DATE: 2024-08-30T21:52:26Z | r/browsers | score:1 | u/konph
+URL: https://reddit.com/r/browsers/comments/1f579bb/browser_benchmarks/
+TITLE: browser benchmarks
+BODY: not sure if this might be useful to some1 but i dont think speed is everything
+
+[https://ethercalc.net/pwbjrj05pk1d/app](https://ethercalc.net/pwbjrj05pk1d/app) results of browser benchmark speedtests. these were \*\*\_\_NOT\_\_\*\* done in a strict environment!!111
+
+the protocol:
+
+- no other major open apps(i have taskbar apps: shottr, f.lux, aldente, ice, later, but were there for all tests), so no other browsers or tabs.
+
+- the browser is NOT in a stock state, many have ubo w yoko's recommended enhanced filters, and other extensions(possibly such as: bitwarden, supatabs, faststream, languagetool, violentmonkey). the extensions and the settings of extensions are not consistent.
+
+-  all tests done on the same computer: organization(school) given/restricted 2022 macbook air with m2 chip and 8gb memory on sonoma 14.6.1
+=====
+DATE: 2024-08-30T11:14:35Z | r/macapps | score:1 | u/giuliomagnifico
+URL: https://reddit.com/r/macapps/comments/1f4snat/unused_app_licenses_what_to_do_with_them/
+TITLE: Unused app licenses? What to do with them?
+BODY: Hi, it’s a weird question, and I hope it’s allowed, but I have a lot of unused app licenses.
+
+For example, I bought and used Shottr, then I got CleanShot X and now I'm using that on my Macs, so I don't need Shottr anymore. What can I do with the license for Shottr? (Same for BetterTouchTool, Bartender, Clop, Rectangle, Dropshare and lots more). 
+
+Is there a place or website where I can sell it at a lower price or something similar? It's a waste of money for me, and maybe someone else would want the app and buy it at a lower “used” price.
+
+Thanks. 
+=====
+DATE: 2024-08-29T09:51:36Z | r/MacOS | score:1 | u/Puzzleheaded-Big-925
+URL: https://reddit.com/r/MacOS/comments/1f3yg2t/how_does_the_screenshot_tool_shottr_prevent_the/
+TITLE: How does the screenshot tool Shottr prevent the mouse from waking up the top menu bar?
+BODY: I've noticed that both the built-in screenshot tool in the Mac system and the third-party tool Shottr prevent the automatic display of the system menu bar when the mouse moves to the top of the screen during the screenshot process. I also found that they don't seem to be faking the screen with screenshots, because I noticed that animations in the screen were still playing during the screenshot process. And they don't ask for Accessibility permissions, so it's not possible that they are implemented through CGEventTap. I'm really curious about how they achieve that.
+=====
+DATE: 2024-08-26T17:02:58Z | r/MacOS | score:1 | u/Golden_Antt
+URL: https://reddit.com/r/MacOS/comments/1f1tc80/shottr_copied_vs_saved_screenshot/
+TITLE: Shottr Copied vs Saved Screenshot
+BODY: I have shottr set to always copy my screenshots on close and only to save when instructed. I usually always save screenshots I make edits to. Lately I've noticed that only the original is copied, rather than the edited version. so after making edits and saving, I cannot simply paste the edited screenshot, I need to open my downloads folder to grab the edited version – I could swear it didn't used to behave like like.
+
+
+=====
+DATE: 2024-08-13T07:24:06Z | r/linux | score:1 | u/delusionbattered
+URL: https://reddit.com/r/linux/comments/1er1ooz/linux_apps_what_are_your_top_apps/
+TITLE: Linux apps - what are your top apps?
+BODY: Hi,   
+So I see that more and more ppl are joining the linux community! And that is great! I am one of them, and have been using macos actively the last 10 years. One of the nice things I see with Macos is all the apps, and the community around it sharing tips &amp; tricks. Like Alfred, Shottr, Little Snitch, CopyClip and more. 
+
+This is something I am missing, and want to see what apps you recommend. As there are many ways to obtain software, sometimes I feel unsafe doing so. 
+
+Cause when browsing [https://flathub.org/](https://flathub.org/) so many apps are unverified. 
+
+I hope to see a bunch recommended here, and maybe even some "hidden gems" that ppl was not aware of :) 
+=====
+DATE: 2024-08-13T04:45:47Z | r/MacOS | score:1 | u/sunny27jan
+URL: https://reddit.com/r/MacOS/comments/1eqz9k7/which_is_the_best_screenshot_app_for_macos_free/
+TITLE: Which is the best screenshot app for macOS (Free &amp; Paid)
+BODY: [10 Best Screenshot Apps](https://storychief.io/blog/best-screenshot-tool-for-mac)
+
+* [Xnapper](https://storychief.io/blog/best-screenshot-tool-for-mac#4j6f2)
+* [CleanShot X](https://storychief.io/blog/best-screenshot-tool-for-mac#1lonj)
+* [Snagit](https://storychief.io/blog/best-screenshot-tool-for-mac#cvbca)
+* [Lightshot](https://storychief.io/blog/best-screenshot-tool-for-mac#8rb89)
+* [Shottr](https://storychief.io/blog/best-screenshot-tool-for-mac#29noe)
+* [Monosnap](https://storychief.io/blog/best-screenshot-tool-for-mac#9g6e)
+* [Skitch](https://storychief.io/blog/best-screenshot-tool-for-mac#9g6e)
+* [Zight](https://storychief.io/blog/best-screenshot-tool-for-mac#9g6e)
+* [Movavi Screen](https://storychief.io/blog/best-screenshot-tool-for-mac#9g6e)
+* [Droplr](https://storychief.io/blog/best-screenshot-tool-for-mac#9g6e)
+=====
+DATE: 2024-08-12T07:12:04Z | r/macapps | score:1 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1eq7an9/my_must_have_macos_utilities/
+TITLE: My must have MacOS utilities
+BODY: \*\*Modern MacOS Utilities List with nice UI and useful features\*\*
+
+  
+
+
+\*\*Price list\*\*
+
+
+
+\*Free\* - fully free(sometimes with pro features)
+
+
+
+\*Freemium\* - can be used for free with optional pro plan or include free trial
+
+
+
+\*Paid\* - can be used properly, only If you buy them  
+
+
+
+\*\*Must have apps for daily use\*\*
+
+
+
+1. \[Ice\](https://github.com/jordanbaird/Ice)(\*free\*) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+
+
+
+2. \[Raycast\](https://www.raycast.com)(\*free\*) - Spotlight on steroids, windows manager, clipboard manager. Similar apps: Spotlight, Alfred
+
+
+
+3. \[PopClip\](https://www.popclip.app)(\*freemiuml\*) -  Instant text actions. Similar apps: None
+
+
+
+4. \[BoringNotch\]([https://github.com/iamharshdev/TheBoringNotch](https://github.com/iamharshdev/TheBoringNotch))(\*free\*) - Dynamic island for MacOS. Similar apps: DynamicLakePro, NotchNook, NotchDrop
+
+
+
+5. \[Shottr\]([https://shottr.cc/](https://shottr.cc/))(\*freemium\*) -  Insane screenshot tool, OCR, and color picker. Similar apps: CleanShot X
+
+
+
+6. \[Clop\]([https://lowtechguys.com/clop](https://lowtechguys.com/clop))(\*freemium\*) -  File optimizer and converter. Similar apps: Permute
+
+
+
+\*\*Great apps for their use cases\*\*
+
+
+
+1. \[PearCleaner\](https://github.com/alienator88/Pearcleaner)(\*free\*) - App uninstaller and cleaner. Similar apps: App Cleaner
+
+
+
+2. \[IINA\](https://iina.io)(\*free\*) - Media player with more supported formats. Similar apps: QuickTime
+=====
+DATE: 2024-08-12T07:12:04Z | r/macapps | score:385 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1eq7an9/my_must_have_macos_utilities/
+TITLE: My must have MacOS utilities
+BODY: ***Modern MacOS Utilities List with nice UI and useful features***
+
+*Price list*
+
+**Free** - fully free
+
+**Freemium** - can be used for free with optional pro plan or include free trial
+
+**Paid** - can be used properly, only If you buy them  
+
+*Must have apps for daily use*
+
+1. [Ice](https://github.com/jordanbaird/Ice)(**free**) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+2. [Raycast](https://www.raycast.com)(**free**) - Spotlight on steroids, windows manager, clipboard manager. Similar apps: Spotlight, Alfred
+3. [PopClip](https://www.popclip.app)(**freemium**) -  Instant text actions. Similar apps: None
+4. [BoringNotch](https://github.com/iamharshdev/TheBoringNotch)(**free**) - Dynamic island for MacOS. Similar apps: DynamicLakePro, NotchNook, NotchDrop
+5. [Shottr](https://shottr.cc/)(**freemium**) -  Insane screenshot tool, OCR, and color picker. Similar apps: CleanShot X
+6. [Clop](https://lowtechguys.com/clop)(**freemium**) -  File optimizer and converter. Similar apps: Permute
+
+*Great apps for their use cases*
+
+1. [PearCleaner](https://github.com/alienator88/Pearcleaner)(**free**) - App uninstaller and cleaner. Similar apps: App Cleaner
+2. [IINA](https://iina.io)(**free**) - Media player with more supported formats. Similar apps: QuickTime Player, Elmedia Player
+3. [Diffusion Bee](https://diffusionbee.com)(**free**) - AI Image editor with upscayling and generating. Similar apps: Upscayl
+4. [Homebrew](https://brew.sh)(**free**) - Package Mana
+=====
+DATE: 2024-07-28T09:55:29Z | r/MacOSBeta | score:1 | u/dynamo22
+URL: https://reddit.com/r/MacOSBeta/comments/1ee3xxy/my_experience_with_macos_sequoia_beta_in_eu_and/
+TITLE: My experience with macOS Sequoia Beta in EU and why i downgraded.
+BODY: For those wondering if it is worth it to install latest macOS beta if you are in EU - **not at all**.
+
+Only "major" things that i noticed is windows snapping, cool calculator app and cool macintosh screensaver. You can probably live without these and also rectangle app exists and does better job with windows at the moment.
+
+**No iPhone mirroring** - in EU you can't use the main feature you would install this beta for. I saw there are workarounds but they are janky and not guaranteed to work.
+
+**No Apple Intelligence stuff down the road** - because of some EU laws there will be no Apple Intelligence stuff in the nearest future, especially not in beta.
+
+**Some apps just don't work** - sure you have new calculator or something but apps that you rely on everyday can become useless like Shottr.
+
+I'm not complaining about stability or some bugs because i installed this beta knowing this. I can live without new calculator or new wallpaper, so i'm downgrading to Sonoma.
+
+For comparison iOS 18 Beta has a lot more features (even without Apple Intelligence) and it is pretty stable, so you can consider doing that. Obviously it's a beta so you should make backup and be expecting some bugs.
+
+So again - **you shouldn't install macOS Sequoia Beta if you are in EU because it's not worth it.** Even if you have beta on everything else.
+=====
+DATE: 2024-07-22T02:26:24Z | r/MacOSBeta | score:1 | u/Narrow_Fisherman4653
+URL: https://reddit.com/r/MacOSBeta/comments/1e93azc/shortcut_issues_in_macos_15_public_beta_custom/
+TITLE: Shortcut Issues in MacOS 15 Public Beta: Custom Shortcuts Resulting in Unexpected Characters
+BODY: I am currently using **MacOS 15 Public Beta** and have encountered an issue with the shortcut functionality. 
+
+For example: I use [Shottr](https://shottr.cc/) as my main screenshot tool, I had configured the shortcut Option+Shift+S for the Area Screenshot feature. This shortcut worked correctly on previous versions of MacOS (Ventura or Sonoma). However, after upgrading to Sequoia, I can no longer use this shortcut.
+
+When I press the configured shortcut, it results in the output of a strange “Í” character instead. 
+
+The same problem occurs when I use the [Maccy](https://maccy.app/) app and set the Options + V shortcut, it will print "√" character. :(  
+  
+This issue is quite disruptive to my workflow. I would appreciate it if anyone could address this problem or provide any solution.
+
+Thank you so much!
+=====
+DATE: 2024-07-11T03:47:18Z | r/MacOSBeta | score:3 | u/Depth_Special
+URL: https://reddit.com/r/MacOSBeta/comments/1e0fk3i/the_bug_of_popping_up_screen_access_hasnt_fixed/
+TITLE: The bug of popping up screen access, hasn't fixed yet in beta3
+BODY: I don't understand...  
+There are so many people who use cleanshot and shottr, and many of them have submitted feedback, why hasn't Apple fixed it from beta 1 to beta 3 yet?   
+The popups are so annoying...Due to work reasons,I get 20 pop-ups a day
+=====
+DATE: 2024-07-09T19:11:22Z | r/mac | score:30 | u/Sinrra
+URL: https://reddit.com/r/mac/comments/1dzargs/my_favorite_macos_utilities/
+TITLE: My favorite MacOS utilities
+BODY: **Modern MacOS Utilities List with nice UI and useful features**
+
+
+**Price list**
+
+*Free* - fully free(sometimes with pro features)
+
+*Free trial* - can be used for free, but with some limitations after the period or popups to buy
+
+*Paid* - can be used properly, only If you buy them  
+
+**Must have apps for daily use**
+
+1. [Ice](https://github.com/jordanbaird/Ice)(*free*) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+
+2. [Loop](https://github.com/MrKai77/Loop)(*free*) - Smooth window management with keyboard shortcuts. Similar apps: Swish, Rectangle, Magnet, Moom
+
+3. [Raycast](https://www.raycast.com)(*free*) - Spotlight on steroids. Similar apps: Spotlight, Alfred
+
+4. [PopClip](https://www.popclip.app)(*free trial*) -  Instant text actions. Similar apps: None
+
+5. [DropOver](https://dropoverapp.com)(*free trial*) - Drag & drop on steroids. Similar apps: DropZone, Yoink
+
+6. [HazeOver](https://hazeover.com)(*paid*) - Distraction free background dimmer. Similar apps: None
+
+**Great apps for their use cases**
+
+1. [PearCleaner](https://github.com/alienator88/Pearcleaner)(*free*) - App uninstaller and cleaner. Similar apps: App Cleaner
+
+2. [IIna](https://iina.io)(*free*) - Media player with more supported formats. Similar apps: QuickTime Player, Elmedia Player
+
+3. [Diffusion Bee](https://diffusionbee.com)(*free*) - AI Image editor with upscayling and generating. Similar apps: Upscayl
+
+4. [Homebrew](https://brew.sh)(*free*) - Package Manager, which helps to
+=====
+DATE: 2024-07-09T08:03:09Z | r/MacOS | score:369 | u/Romachamp10
+URL: https://reddit.com/r/MacOS/comments/1dywx4o/my_favorite_macos_utilities/
+TITLE: My favorite MacOS utilities
+BODY: **Modern MacOS Utilities List with nice UI and useful features**
+
+
+**Price list**
+
+*Free* - fully free(sometimes with pro features)
+
+*Free trial* - can be used for free, but with some limitations after the period or popups to buy
+
+*Paid* - can be used properly, only If you buy them  
+
+**Must have apps for daily use**
+
+1. [Ice](https://github.com/jordanbaird/Ice)(*free*) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+
+2. [Loop](https://github.com/MrKai77/Loop)(*free*) - Smooth window management with keyboard shortcuts. Similar apps: Swish, Rectangle, Magnet, Moom
+
+3. [Raycast](https://www.raycast.com)(*free*) - Spotlight on steroids. Similar apps: Spotlight, Alfred
+
+4. [PopClip](https://www.popclip.app)(*free trial*) -  Instant text actions. Similar apps: None
+
+5. [DropOver](https://dropoverapp.com)(*free trial*) - Drag &amp; drop on steroids. Similar apps: DropZone, Yoink
+
+6. [HazeOver](https://hazeover.com)(*paid*) - Distraction free background dimmer. Similar apps: None
+
+**Great apps for their use cases**
+
+1. [PearCleaner](https://github.com/alienator88/Pearcleaner)(*free*) - App uninstaller and cleaner. Similar apps: App Cleaner
+
+2. [IIna](https://iina.io)(*free*) - Media player with more supported formats. Similar apps: QuickTime Player, Elmedia Player
+
+3. [Diffusion Bee](https://diffusionbee.com)(*free*) - AI Image editor with upscayling and generating. Similar apps: Upscayl
+
+4. [Homebrew](https://brew.sh)(*free*) - Package Manager, which help
+=====
+DATE: 2024-07-09T08:03:09Z | r/MacOS | score:341 | u/Romachamp10
+URL: https://reddit.com/r/MacOS/comments/1dywx4o/my_favorite_macos_utilities/
+TITLE: My favorite MacOS utilities
+BODY: **Modern MacOS Utilities List with nice UI and useful features**
+
+
+**Price list**
+
+*Free* - fully free(sometimes with pro features)
+
+*Free trial* - can be used for free, but with some limitations after the period or popups to buy
+
+*Paid* - can be used properly, only If you buy them  
+
+**Must have apps for daily use**
+
+1. [Ice](https://github.com/jordanbaird/Ice)(*free*) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+
+2. [Loop](https://github.com/MrKai77/Loop)(*free*) - Smooth window management with keyboard shortcuts. Similar apps: Swish, Rectangle, Magnet, Moom
+
+3. [Raycast](https://www.raycast.com)(*free*) - Spotlight on steroids. Similar apps: Spotlight, Alfred
+
+4. [PopClip](https://www.popclip.app)(*free trial*) -  Instant text actions. Similar apps: None
+
+5. [DropOver](https://dropoverapp.com)(*free trial*) - Drag & drop on steroids. Similar apps: DropZone, Yoink
+
+6. [HazeOver](https://hazeover.com)(*paid*) - Distraction free background dimmer. Similar apps: None
+
+**Great apps for their use cases**
+
+1. [PearCleaner](https://github.com/alienator88/Pearcleaner)(*free*) - App uninstaller and cleaner. Similar apps: App Cleaner
+
+2. [IIna](https://iina.io)(*free*) - Media player with more supported formats. Similar apps: QuickTime Player, Elmedia Player
+
+3. [Diffusion Bee](https://diffusionbee.com)(*free*) - AI Image editor with upscayling and generating. Similar apps: Upscayl
+
+4. [Homebrew](https://brew.sh)(*free*) - Package Manager, which helps to
+=====
+DATE: 2024-07-07T07:39:56Z | r/macapps | score:406 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1dxb1bm/my_favourite_macos_utilities/
+TITLE: My Favourite MacOS Utilities
+BODY: **Modern MacOS Utilities List with nice UI and useful features**
+
+
+**Price list**
+
+*Free* - fully free(sometimes with pro features)
+
+*Free trial* - can be used for free, but with some limitations after the period or popups to buy
+
+*Paid* - can be used properly, only If you buy them  
+
+**Must have apps for daily use**
+
+1. [Ice](https://github.com/jordanbaird/Ice)(*free*) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+
+2. [Loop](https://github.com/MrKai77/Loop)(*free*) - Smooth window management with keyboard shortcuts. Similar apps: Swish, Rectangle, Magnet, Moom
+
+3. [Raycast](https://www.raycast.com)(*free*) - Spotlight on steroids. Similar apps: Spotlight, Alfred
+
+4. [PopClip](https://www.popclip.app)(*free trial*) -  Instant text actions. Similar apps: None
+
+5. [DropOver](https://dropoverapp.com)(*free trial*) - Drag &amp; drop on steroids. Similar apps: DropZone, Yoink
+
+6. [HazeOver](https://hazeover.com)(*paid*) - Distraction free background dimmer. Similar apps: None
+
+**Great apps for their use cases**
+
+1. [PearCleaner](https://github.com/alienator88/Pearcleaner)(*free*) - App uninstaller and cleaner. Similar apps: App Cleaner
+
+2. [IIna](https://iina.io)(*free*) - Media player with more supported formats. Similar apps: QuickTime Player, Elmedia Player
+
+3. [Diffusion Bee](https://diffusionbee.com)(*free*) - AI Image editor with upscayling and generating. Similar apps: Upscayl
+
+4. [Homebrew](https://brew.sh)(*free*) - Package Manager, which help
+=====
+DATE: 2024-07-07T07:39:56Z | r/macapps | score:373 | u/Romachamp10
+URL: https://reddit.com/r/macapps/comments/1dxb1bm/my_favourite_macos_utilities/
+TITLE: My Favourite MacOS Utilities
+BODY: **Modern MacOS Utilities List with nice UI and useful features**
+
+
+**Price list**
+
+*Free* - fully free(sometimes with pro features)
+
+*Free trial* - can be used for free, but with some limitations after the period or popups to buy
+
+*Paid* - can be used properly, only If you buy them  
+
+**Must have apps for daily use**
+
+1. [Ice](https://github.com/jordanbaird/Ice)(*free*) - Hide menu bar icons and customise it. Similar apps: Bartender, HiddenBar
+
+2. [Loop](https://github.com/MrKai77/Loop)(*free*) - Smooth window management with keyboard shortcuts. Similar apps: Swish, Rectangle, Magnet, Moom
+
+3. [Raycast](https://www.raycast.com)(*free*) - Spotlight on steroids. Similar apps: Spotlight, Alfred
+
+4. [PopClip](https://www.popclip.app)(*free trial*) -  Instant text actions. Similar apps: None
+
+5. [DropOver](https://dropoverapp.com)(*free trial*) - Drag & drop on steroids. Similar apps: DropZone, Yoink
+
+6. [HazeOver](https://hazeover.com)(*paid*) - Distraction free background dimmer. Similar apps: None
+
+**Great apps for their use cases**
+
+1. [PearCleaner](https://github.com/alienator88/Pearcleaner)(*free*) - App uninstaller and cleaner. Similar apps: App Cleaner, CleanMyMac X
+
+2. [IIna](https://iina.io)(*free*) - Media player with more supported formats. Similar apps: QuickTime Player, Elmedia Player
+
+3. [Diffusion Bee](https://diffusionbee.com)(*free*) - AI Image editor with upscayling and generating. Similar apps: Upscayl
+
+4. [Homebrew](https://brew.sh)(*free*) - Package Manager, 
+=====
+DATE: 2024-06-29T17:18:29Z | r/MacOS | score:1 | u/emzy21234
+URL: https://reddit.com/r/MacOS/comments/1drg4df/looking_for_an_ocr_capture_tool_like/
+TITLE: Looking for an OCR capture tool like Textsniper/Shottr
+BODY: I have been using TextSniper for a while, but it has recently been failing to detect text. I gave Shottr a try, and it worked for around 10 minutes before also ceasing to detect text. Has anyone encountered a similar issue and found a solution, or could recommend a reliable alternative tool?
+=====
+DATE: 2024-06-28T18:25:47Z | r/vmware | score:1 | u/jesuita
+URL: https://reddit.com/r/vmware/comments/1dqqkwp/dups_after_switching_switches/
+TITLE: DUP's after switching Switches
+BODY: Hello.
+
+After changing the switch infrastructure that supports this ESXi cluster I'm getting DUP ping sto the management IP of these ESXi, not always but sometimes:
+
+[https://shottr.cc/s/PDu9/SCR-20240628-rql.png](https://shottr.cc/s/PDu9/SCR-20240628-rql.png)
+
+  
+vSwitch configuration is basic:  
+[https://shottr.cc/s/PjLJ/SCR-20240628-rt5p.png](https://shottr.cc/s/PjLJ/SCR-20240628-rt5p.png)
+
+  
+Switch ports are set to trunk but no aggregation/port channels:
+
+Before:
+
+    interface GigabitEthernet1/0/27
+     description ESX1 PCI1-P0
+     switchport trunk encapsulation dot1q
+     switchport trunk allowed vlan 106,722
+     switchport mode trunk
+
+Now:
+
+    interface Ethernet1/44
+      description ESX1
+      switchport mode trunk
+      switchport trunk native vlan 999
+      switchport trunk allowed vlan 106,722
+
+  
+Old switches here HP, there new ones are Cisco Nexus.
+
+  
+Any idea on what could be causing these DUP's?
+
+  
+I've configured these management interfaces like this for a while and never had troubles, until today.
+=====
+DATE: 2024-06-23T13:31:58Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1dmm838/a_directory_of_pay_once_apps/
+TITLE: A Directory of Pay Once Apps
+BODY: If you are tired od subscription pricing and looking for apps that require a one-time payment, there's a website for you. [PayOneApps](https://payonceapps.com/explore/platform-mac/)
+
+These well known and popular apps are included - 
+- [$ 9.99 Mac LookAway Reduce digital eye strain with scheduled rest breaks. (payonceapps.com)](https://payonceapps.com/application/lookaway/)
+- [€ 19.99 Mac MacCopilot Ultimate AI Copilot for macOS users. (payonceapps.com)](https://payonceapps.com/application/maccopilot/)
+- [$ 24.99 Mac Arclite Pro Free Explore, create, and secure all your archives. (payonceapps.com)](https://payonceapps.com/application/arclite-pro/)
+- [$ 19.95 Mac Forklift 4 Free Dual pane file manager and transfer client for macOS. (payonceapps.com)](https://payonceapps.com/application/forklift/)
+- [$ 29.99 Mac Windows Paprika RECIPE MANAGER Organize your recipes, meal plans, and grocery lists. (payonceapps.com)](https://payonceapps.com/application/paprika/)
+- [$ 29.99 Mac Typinator Automate your typing with custom text shortcuts (payonceapps.com)](https://payonceapps.com/application/typinator/)
+- [€ 10 Mac Moom Moom makes window management as easy as clicking a mouse button (payonceapps.com)](https://payonceapps.com/application/moom/)
+- [$ 9.99 Mac Mela Free Your modern solution to managing recipes. (payonceapps.com)](https://payonceapps.com/application/mela/)
+- [$ 9.99 Mac Maccy Free Your clipboard history, always within reach. (payonceapps.com)](https://payonceapps.com/appli
+=====
+DATE: 2024-06-23T13:31:58Z | r/macapps | score:144 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1dmm838/a_directory_of_pay_once_apps/
+TITLE: A Directory of Pay Once Apps
+BODY: If you are tired of subscription pricing and looking for apps that require a one-time payment, there's a website for you. [PayOnceApps](https://payonceapps.com/explore/platform-mac/)
+
+For developers who want to add an app, there is a form on the website [Add Your App](https://payonceapps.com/add-your-app/)
+
+Disclaimer: I am not the owner of this site. I'm just sharing it as a resource.
+
+These well known and popular apps are included - 
+- [$ 9.99 Mac LookAway Reduce digital eye strain with scheduled rest breaks. (payonceapps.com)](https://payonceapps.com/application/lookaway/)
+- [€ 19.99 Mac MacCopilot Ultimate AI Copilot for macOS users. (payonceapps.com)](https://payonceapps.com/application/maccopilot/)
+- [$ 24.99 Mac Arclite Pro Free Explore, create, and secure all your archives. (payonceapps.com)](https://payonceapps.com/application/arclite-pro/)
+- [$ 19.95 Mac Forklift 4 Free Dual pane file manager and transfer client for macOS. (payonceapps.com)](https://payonceapps.com/application/forklift/)
+- [$ 29.99 Mac Windows Paprika RECIPE MANAGER Organize your recipes, meal plans, and grocery lists. (payonceapps.com)](https://payonceapps.com/application/paprika/)
+- [$ 29.99 Mac Typinator Automate your typing with custom text shortcuts (payonceapps.com)](https://payonceapps.com/application/typinator/)
+- [€ 10 Mac Moom Moom makes window management as easy as clicking a mouse button (payonceapps.com)](https://payonceapps.com/application/moom/)
+- [$ 9.99 Mac Mela Free Your modern sol
+=====
+DATE: 2024-06-09T04:13:18Z | r/macapps | score:1 | u/thesujit
+URL: https://reddit.com/r/macapps/comments/1dbl4id/shottr_for_mac_any_updates_on_development/
+TITLE: Shottr for Mac - Any updates on development?
+BODY: I've been using [Shottr](https://shottr.cc/), the screenshot app for Mac, for a while now and I really like it. In fact, I liked it so much that I bought a license to support the developer.  
+  
+However, I noticed that there haven't been any updates to the app in over 6 months. I was wondering if anyone in the community might have some insight into whether there are plans for any new releases or updates in the near future.  
+  
+I understand that software development can take time, especially for smaller independent projects. I'm just curious to know if Shottr is still being actively developed and if there's anything in the pipeline that users can look forward to. If anyone has any information or leads, I would greatly appreciate it.
+=====
+DATE: 2024-06-06T19:04:06Z | r/unRAID | score:1 | u/idarryl
+URL: https://reddit.com/r/unRAID/comments/1d9q472/migrating_plex_docker_containers_new_server_shown/
+TITLE: Migrating Plex Docker Containers - new server shown and no content
+BODY: I'm migrating from an old hotio docker image to the official image.  I've mapped the variables from the old image to the new image, and copied the Plex claim token across - see [https://shottr.cc/s/1PE4/SCR-20240606-lln.png](https://shottr.cc/s/1PE4/SCR-20240606-lln.png) (current is on the left, new is on the right)
+
+However when I start the new container:
+
+1. a second server appears on my account - I thought by using the same claim token, it would be the same server.
+2. none of the media shows up.
+
+Have I made a silly mistake, or is there a guide that I can follow?
+=====
+DATE: 2024-06-06T15:00:23Z | r/PleX | score:1 | u/idarryl
+URL: https://reddit.com/r/PleX/comments/1d9k9w7/migrating_docker_containers_new_server_shown_and/
+TITLE: Migrating Docker Containers - new server shown and no content
+BODY: I'm migrating from an old hotio docker image to the official image.  I've mapped the variables from the old image to the new image, and copied the Plex claim token across - see [https://shottr.cc/s/1PE4/SCR-20240606-lln.png](https://shottr.cc/s/1PE4/SCR-20240606-lln.png) (current is on the left, new is on the right)
+
+However when I start the new container:
+
+1. a second server appears on my account - I thought by using the same claim token, it would be the same server.
+2. none of the media shows up.
+
+Have I made a silly mistake, or is there a guide that I can follow?
+=====
+DATE: 2024-06-04T05:00:03Z | r/macapps | score:1 | u/rmateu
+URL: https://reddit.com/r/macapps/comments/1d7p49g/my_macos_setup_2024/
+TITLE: My macOS setup 2024
+BODY: I upgraded my work laptop from an M2 MacBook Air 13-inch with 16GB of RAM and a 512GB SSD to a model with 24GB of RAM and a 1TB SSD. I used a solo weekend to perform a clean setup without using the migration assistant. It's been a long time since I did a fresh install, but it took me about a month to get everything configured the way I wanted, minus a lot of unnecessary clutter. 
+
+Here's a list my must-have apps since I've seen a few similar post. 
+
+# Apps
+
+* **Core**:
+   * [1Password 8](https://1password.com/product/mac/): used to love it, now I just appreciate it.
+   * [Arc](https://arc.net/): I've drank the Kool-Aid. A browser with great design and cool ideas.
+   * [Drafts](https://getdrafts.com/): my scratch-pad, since forever.
+   * [Ivory](https://tapbots.com/ivory/mac/): I need my tweetbot. Doesn't matter the social network.
+   * [Obsidian](https://obsidian.md/): where most of my work starts and ends.
+   * [Peek](https://www.bigzlabs.com/peek.html): quick look anything.
+   * [Raycast](https://www.raycast.com/) : App launcher, clipboard viewer, screenshot search, snippet expander, etc.
+   * [Soulver 3](https://soulver.app/): the only way to calculate anything.
+   * [Sublime Text 4](https://www.sublimetext.com/): Photoshop for Text.
+   * [Tembo](https://www.houdah.com/tembo/): find a needle in your haystack.
+   * [Things](https://culturedcode.com/things/): old faithful task manager.
+* **Work**
+   * [Microsoft 365](https://apps.apple.com/us/app-bundle/microsoft-365/id14500
+=====
+DATE: 2024-05-29T08:34:48Z | r/PPC | score:1 | u/git-123
+URL: https://reddit.com/r/PPC/comments/1d37b8w/ga4_reports_more_conversions_over_google_ads/
+TITLE: GA4 reports more conversions over Google Ads
+BODY: Hey fellows,
+
+On one of my latest projects, I set up conversion tracking via GTM in both Google Ads and Google Analytics. In my Google Ads, I have both conversion actions (Google Ads and imported from GA4) and am seeing the following picture: [https://shottr.cc/s/1pPW/SCR-20240529-gq3.png](https://shottr.cc/s/1pPW/SCR-20240529-gq3.png). GA4 reports more conversions than Google Ads, which is quite the opposite of what I'm used to.
+
+One important thing to mention is that there is a CMP on the website, and we are using Consent Mode. So my theory is that the difference is caused by Google Ads and GA4 having different consent checks.
+
+Is there anything else that can explain the discrepancy? The tracking approach is the same, both conversion tags are configured in GTM with the same trigger.
+=====
+DATE: 2024-05-29T00:03:58Z | r/macapps | score:7 | u/nachoduartecl
+URL: https://reddit.com/r/macapps/comments/1d2yo2k/what_apps_do_you_have_on_custom_keyboard_shortcuts/
+TITLE: What apps do you have on custom keyboard shortcuts? 
+BODY: And which ones are they? I’m looking to improve my keyboard first workflow, and just remapped Caps which opened a whole other layer to add new ones
+
+I have right now:
+
+Caps+1= 1Password   
+Caps+7= scrolling screenshot (Shottr)   
+Caps+S= save clipboard to dropover shelf   
+Caps+D= new shelf in dropover   
+Caps+F= raycast -&gt; search files   
+Caps+N= new Folders window
+
+Thanks!
+
+Edit: because of format
+=====
+DATE: 2024-05-29T00:03:58Z | r/macapps | score:10 | u/nachoduartecl
+URL: https://reddit.com/r/macapps/comments/1d2yo2k/what_apps_do_you_have_on_custom_keyboard_shortcuts/
+TITLE: What apps do you have on custom keyboard shortcuts? 
+BODY: And which ones are they? I’m looking to improve my keyboard first workflow, and just remapped Caps which opened a whole other layer to add new ones
+
+I have right now:
+ 
+Caps+1= 1Password
+Caps+7= scrolling screenshot (Shottr)
+Caps+S= save clipboard to dropover shelf
+Caps+D= new shelf in dropover 
+Caps+F= raycast -> search files
+Caps+N= new Folders window
+
+Thanks! 
+
+=====
+DATE: 2024-05-23T16:30:18Z | r/macapps | score:1 | u/lukejames
+URL: https://reddit.com/r/macapps/comments/1cyx2ef/any_working_mac_app_that_captures_a_full_webpage/
+TITLE: Any working Mac app that captures a full webpage?
+BODY: Seems like there are hundreds of sketchy Chrome plug-ins that claim to do this with mixed results, and plenty of Windows apps, but I cannot find a Mac app that will spit out an image of a full webpage or a video of a scroll through of a webpage. I've tried so many solutions and I just simply can't believe that in 2024 no one has found a way to do this on a Mac yet.
+
+The Arc browser has the option to save a page as an image, but the results are not great.
+
+I thought I found a solution in Shottr which claims to record the screen as you manually scroll, but it doesn't actually work and provides no instructions on how to make it work.
+
+Anyone know of a Mac solution for this?
+=====
+DATE: 2024-05-20T11:22:31Z | r/mac | score:1 | u/YajDaOne
+URL: https://reddit.com/r/mac/comments/1cwd5sa/my_favorite_mac_utility_apps_free_paid/
+TITLE: My Favorite Mac Utility Apps (Free &amp; Paid)
+BODY: Free in bold, paid in normal
+
+1. **Alfred 5 - Recently bought the powerpack but the free version is just as good**
+2. **Amphetamine - Keeps your mac awake, use it for long downloads**
+3. **AppCleaner - Removes apps and all affiliated folder**
+4. Bartender ($16) - Reduces clutter on the menubar, and the bowtie looks cool :)
+5. CleanMyMac ($90, $10/month with Setapp) - Use it to free up storage and speed up my macbook
+6. **ColorSlurp - Color eyedropper to get the RGB/hex code of any color on your screen**
+7. **Dato - Regular date/time but with a dropdown calendar by pressing on the time**
+8. Downie 4 ($20, 10/month with Setapp, $26 with Permute) - Downloads YouTube videos (also works on most other sites), has a browser extension too
+9. Permute ($15, 10/month with Setapp, $26 with Permute) - FIle convertor, can convert anything into any other corresponding file type
+10. **FruitJuice - Customizable battery icon, incl. how long you have left till your macbook dies**
+11. **IINA - Bassically VLC but cleaner UI, can open most video file formats**
+12. **iTerm - Basically terminal but more customizable**
+13. **Jettison - Automtically ejects external drives on shortcut or when you shut the lid**
+14. Magnet ($5) **(Rectangle is a free alternative)** - Window manager with shortcuts (similar to windows)
+15. Mission Control Plus ($14) - Can close/quit windows in mission control with cmd-W or cmd-Q
+16. **ProtonVPN - Free VPN with activation from menubar**
+17. **Shottr - Free alternative to C
+=====
+DATE: 2024-05-20T10:44:08Z | r/macapps | score:1 | u/YajDaOne
+URL: https://reddit.com/r/macapps/comments/1cwciua/my_favorite_utility_apps/
+TITLE: My favorite utility apps
+BODY: Free in bold, paid in normal
+
+1. Alfred 5 - Recently bought the powerpack but the free version is just as good
+
+2. Amphetamine - Keeps your mac awake, use it for long downloads
+
+3. AppCleaner - Removes apps and all affiliated folder
+
+4.  Bartender - Reduces clutter on the menubar, and the bowtie looks cool :)
+
+5. CleanMyMac (Now part of Settapp) - Use it to free up storage and speed up my macbook
+
+6. ColorSlurp - Color eyedropper to get the RGB/hex code of any color on your screen
+
+7. Dato - Regular date/time but with a dropdown calendar by pressing on the time
+
+8. Downie 4 - Downloads YouTube videos (also works on most other sites), has a browser extension too
+
+9. FruitJuice - Customizable battery icon, incl. how long you have left till your macbook dies
+
+10. IINA - Bassically VLC but cleaner UI, can open most video file formats
+
+11. iTerm - Basically terminal but more customizable 
+
+12. Jettison - Automtically ejects external drives on shortcut or when you shut the lid
+
+13. Magnet (Rectangle is a free alternative) - Window manager with shortcuts (similar to windows)
+
+14. Mission Control Plus - Can close/quit windows in mission control with cmd-W or cmd-Q
+
+15. ProtonVPN - Free VPN with activation from menubar
+
+16. Shottr - Free alternative to CleanShotX, includes OCR, screenshot, screen recording, etc.
+
+17. SlimHUD - Free alternative to MediaMate, but doesn't remove default HUD so that defeats the point
+
+18. TextPal - Opens the emoji menu on double slash (\\\\) and you can t
+=====
+DATE: 2024-05-18T15:25:29Z | r/onlyfansadvice | score:1 | u/AllyElliot
+URL: https://reddit.com/r/onlyfansadvice/comments/1cuzquf/content_organization_technique/
+TITLE: Content organization technique
+BODY: Just wanted to share my own system because I've tried a few! 
+
+Every time I do a shoot, I create a folder called `[YEAR]-[MONTH]-[DAY]-DESCRIPTION` on my laptop. This is so the folders are organized by most recent folder at the top. I select all the content in the folder and rename using this pattern: `[MONTH][DAY][YEAR]-1.jpg`. So for example, if I did a shoot today I would have a folder named `2024-05-18-Red-Lingerie-In-Bed`  with images in it named `051824-1.jpg`, `051824-2.jpg`, etc. I back up that folder on Google Drive, Proton Drive and my external hard drive.
+
+Then this is where the magic happens! This step takes some time but it allows me to easily search and reuse all of my old content and know where/how I've used it before. ✨
+
+I've created a spreadsheet in Airtable that I call Content. Airtable is a free online spreadsheet tool with a beautiful UI. I tried using Google Sheets but it doesn't have all the features I need. These are the columns I have and the types:
+
+* `Name`, single line text
+   * This is where you put the file name: `051824-1.jpg`
+* `Censored`, single line text
+   * I sometimes create a censored version of the same image for promo (using an app called Shottr) so I put that file name here: `051824-1-censored.jpg`
+* `Image`, attachment
+   * I'm using the free plan which only allows 1GB of file attachments per sheet so I upload the lowest quality image possible here in KB (there's 1000000 KB in 1 GB). This is not for storage, only so I can see a preview
+=====
+DATE: 2024-05-17T17:56:45Z | r/Spline3D | score:1 | u/patrik_media
+URL: https://reddit.com/r/Spline3D/comments/1cubshr/objects_transparency_doesnt_interact_with/
+TITLE: Objects transparency doesn't interact with websites background
+BODY: Hi, I'm currently working on a web design project and it's the first time using Spline. However I ran into an issue when implementing the scene on the website. The object has a glass-like, see-through material which also has a blurry/frosted effect on top. However, when implementing on the site it isn't reacting to the background texture/color and instead just displays it in black.  
+  
+Here a screenshot of what I mean: [https://shottr.cc/s/NcVz/SCR-20240517-ro4p.png](https://shottr.cc/s/NcVz/SCR-20240517-ro4p.png)  
+Note: on the Spline preview I just added a screenshot of the website design in the background.
+
+
+
+Any idea how I can fix this or did I just miss something when exporting/implementing?
+=====
+DATE: 2024-05-16T19:47:04Z | r/macapps | score:1 | u/realpollybalboa
+URL: https://reddit.com/r/macapps/comments/1ctlvi1/shottr_any_way_to_get_true_white_color_for/
+TITLE: Shottr - Any way to get true white color for text/boxes/etc.?
+BODY: I love this app, and I bought the license for it.  The only thing that aggravates me is when I want to add text or draw a box, there is no true white color option.  The closest is an off-white.  That means when I add text, it always has a colored background that doesn't fit.  
+
+Is there any way to either get white or remove the background color for a text addition on a screenshot?
+=====
+DATE: 2024-05-15T08:52:33Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1csg4y3/cleanshot_x_47_released_with_new_features/
+TITLE: CleanShot X 4.7 Released With New Features
+BODY: CleanShot X has over 50 features, including [several new ones in the just released version, 4.7](https://apps.louplummer.lol/post/cleanshot-x)
+- Ability to resize screen shots
+- Cursor automatically resizes to match text found in the image
+- 10 new background gradients wallpapers, as well as custom wallpapers
+- Saved presets for screenshots
+- Autoformats text when entered on a screenshot
+- Hide desktop now hides widgets too
+- Pinned screenshots can be toggled visible and hidden
+
+There are a lot of options for screenshot utilities on the Mac, from the built in ability to capture images that's built in to the OS, to the full featured freemium app [Shottr](https://shottr.cc/) by indie developer Electric Endeavors for still images to even more powerful still and video capture products like [SnagIt](https://www.techsmith.com/screen-capture.html) by TechSmith. The product I personally use, [CleanShot X](https://cleanshot.com/) hits the sweet spot in the middle. It may be over kill if you just need to screenshot memes for social media, but if you are a blogger, need screenshots for work documents or deal with tech support regularly, you should take advantage of the 30-day money back guarantee and try it out.  
+
+[See full review for more features](https://apps.louplummer.lol/post/cleanshot-x)
+[CleanShot X web site](https://cleanshot.com/)
+
+CleanShot X is $29 for the current version with one year of updates and 1GB of cloud storage. It is also available as part of SetApp.
+
+
+=====
+DATE: 2024-05-07T19:00:14Z | r/LaunchBar | score:1 | u/ronbrinkmann
+URL: https://reddit.com/r/LaunchBar/comments/1cmjnpb/lb_action_for_shottr/
+TITLE: LB action for 'shottr'
+BODY: Don't suppose anybody out there uses the 'shottr' screengrab app (which I highly recommend) and has made or found a launchbar action to activate it?
+
+&amp;#x200B;
+
+\-ron
+
+&amp;#x200B;
+=====
+DATE: 2024-05-05T09:04:22Z | r/raycastapp | score:1 | u/ilovecoffeeandbrunch
+URL: https://reddit.com/r/raycastapp/comments/1ckn3km/shottr_extension/
+TITLE: Shottr extension
+BODY: I love Shottr and I paid for it before I discovered CleanShot X. Unlike CleanShot X, Shottr does not have Raycast extension and I doubt it's high on the their priority list (it seems like it's built by a solo developer). Is it possible to build a Raycast extension with no help from the Shottr developer?
+=====
+DATE: 2024-04-30T13:28:35Z | r/technicalwriting | score:1 | u/pratik360
+URL: https://reddit.com/r/technicalwriting/comments/1cgsuve/screenshot_tools_you_guys_use_for_work/
+TITLE: Screenshot tools you guys use for work? 
+BODY: I mostly use Mac's default screenshot tool and Shottr. 
+
+I know about Cleanshot X, Greenshot, Snagit but would love to know some that are free as well! 
+=====
+DATE: 2024-04-29T07:55:42Z | r/PPC | score:1 | u/Apprehensive_Bit7098
+URL: https://reddit.com/r/PPC/comments/1cfthjt/gtm_google_ads_tracking_do_i_need_a_google_tag/
+TITLE: GTM + Google Ads Tracking: do I need a Google Tag?
+BODY: Hi fellows, I have a rookie question. I'm questioning the way I set up Google Ads conversion tracking. My usual method is to:
+
+* create a conversion linker tag,
+* create a conversion tracking tag.
+
+Such an approach worked for me for quite a long time. But I'm wondering, do I have to create a Google Tag (AW-xxx)?  
+The reason I'm asking is that I'm getting a warning in Tag Assistant: https://shottr.cc/s/1XjZ/SCR-20240429-fvk.png
+=====
+DATE: 2024-04-29T07:50:57Z | r/GoogleTagManager | score:1 | u/Apprehensive_Bit7098
+URL: https://reddit.com/r/GoogleTagManager/comments/1cftf6a/gtm_gads_do_i_need_a_google_tag/
+TITLE: GTM + GAds: do I need a Google Tag?
+BODY: Hi fellows, I have a rookie question. I'm questioning the way I set up Google Ads conversion tracking. My usual method is to:
+
+1. create a conversion linker tag,
+2. create a conversion tracking tag.
+
+Such an approach worked for me for quite a long time. But I'm wondering, do I have to create a Google Tag (AW-xxx)?
+
+The reason I'm asking is that I'm getting a warning in Tag Assistant:
+
+[https://shottr.cc/s/1XjZ/SCR-20240429-fvk.png](https://shottr.cc/s/1XjZ/SCR-20240429-fvk.png)
+=====
+DATE: 2024-04-04T14:09:51Z | r/macapps | score:1 | u/Bog_Boy
+URL: https://reddit.com/r/macapps/comments/1bvo3ms/seeking_advice_screenfloat_2_vs_snagit_vs/
+TITLE: Seeking Advice: ScreenFloat 2 vs Snagit vs CleanShot X vs Shottr for macOS - Looking for the Best Screenshot Tool
+BODY: Hey everyone,
+
+I’m currently in the process of reevaluating my screenshot tool of choice for macOS. I’ve been using Snagit for a while, but I’m finding its interface to be quite anti-Mac, which has prompted me to look into alternatives.
+
+In my search, I’ve come across several options, including ScreenFloat 2, CleanShot X, and Shottr. While I’ve seen plenty of discussions around CleanShot X and Shottr, ScreenFloat 2 seems to fly under the radar in most conversations.
+
+I’m not overly concerned about the price; my main goal is to find the best tool for the job. Ideally, I’m looking for something that blends seamlessly with the macOS ecosystem, offers powerful features, and has an intuitive interface. Efficiency and workflow integration are key for me.
+
+For those of you who have experience with any (or all) of these tools, I would love to hear your thoughts:
+
+	1.	User Experience: How does each tool integrate with macOS, and which offers the most intuitive user interface?
+	2.	Features: Are there any standout features that make one tool significantly better than the others?
+	3.	Performance: How do these tools perform in terms of speed and resource consumption?
+	4.	Versatility: Which tool offers the best versatility for different types of screenshot needs (e.g., full screen, selection, window, timed)?
+	5.	Personal Preference: If you’ve used ScreenFloat 2, how does it compare to the more commonly discussed tools like Snagit, CleanShot X, and Shottr?
+
+I’m particularly interested in an
+=====
+DATE: 2024-03-27T11:54:56Z | r/macapps | score:1 | u/Virtamancer
+URL: https://reddit.com/r/macapps/comments/1bp00ow/screenshot_app_with_uploadtoimgur_feature/
+TITLE: Screenshot app with upload-to-imgur feature?
+BODY: Is there one that doesn't have a cringe interface like flameshot? Shottr would be perfect if it had upload to imgur...
+=====
+DATE: 2024-03-25T10:42:38Z | r/S24Ultra | score:1 | u/Saltpeteryoga
+URL: https://reddit.com/r/S24Ultra/comments/1bnaj9e/screen_shot_availability_question/
+TITLE: Screen Shot availability question !!!
+BODY: Best way to share photos and screenshots and other stuff with a Mac? 
+
+Currently using Google photo but have anyone found a quicker way to **move stuff** from the S24 Ultra to Your MacbookPro? I have **Shottr** on my MBP and it is super but would like to screen dump on the MBP and open it on the S24U and **vice versa** !
+=====
+DATE: 2024-03-25T09:01:27Z | r/ibs | score:1 | u/fontofile
+URL: https://reddit.com/r/ibs/comments/1bn91m8/success_with_probiotic_capsules_ibsd/
+TITLE: Success with Probiotic capsules - IBS-D
+BODY: Hello,   
+I have problem with IBS-D for most of my adult life that I need to go to toilet for 3 to 4 times a day. I discovered this probiotic pill in DM drugstore in germany. It has 7bn Bacterias and after a long time I can get out of bathroom using only 4 toilet paper instead of 40. :X    
+
+
+If you guys have not tried probiotic, I will highly recommend to at least give it a try.   
+
+
+It contains mixture of following bacterias : Lactobacillus acidophilus; Lactobacillus paracasei; Lactobacillus rhamnosus; Lactobacillus plantarum; Lactobacillus fermentum; Lactobacillus brevis; Bifidobacterium longum; Bifidobacterium animalis ssp. lactis; Bifidobacterium bifidum; Bifidobacterium infantis)
+
+[https://shottr.cc/s/Wd8Q/SCR-20240325-es1.png](https://shottr.cc/s/Wd8Q/SCR-20240325-es1.png)
+=====
+DATE: 2024-03-13T01:47:03Z | r/Affine | score:1 | u/cliffr39
+URL: https://reddit.com/r/Affine/comments/1bdf9co/toggle_text/
+TITLE: Toggle Text
+BODY: How do I make a toggle for text to hide the content contained in it? I copied text from my Tana to this app and it duplicated the toggle, but I can't seem to figure out how to make it on my own. Example here https://shottr.cc/s/11U8/SCR-20240312-v80.png
+=====
+DATE: 2024-03-12T19:42:51Z | r/windowsapps | score:1 | u/DescriptionFlashy934
+URL: https://reddit.com/r/windowsapps/comments/1bd6hd4/screenshot_quick_editor/
+TITLE: Screenshot quick editor.
+BODY: I use both a Windows PC and a MacBook and I really miss one of mac app called [shottr](https://shottr.cc/). It is very helpful since it lets me blur easily text or information in a matter of seconds. Do you know any similar program or app that allows me to do that?
+=====
+DATE: 2024-03-12T17:24:44Z | r/macbookpro | score:1 | u/groosha
+URL: https://reddit.com/r/macbookpro/comments/1bd2xg1/first_macbook_experience_apps_i_use_and_issues/
+TITLE: First Macbook experience, apps I use and issues
+BODY: Hello everyone! As much as I want to share yet another “It’s here” post, I’d like to make it a little bit useful and tell about my experience so far as well as give a list of apps/utilities I currently use to make my life easier on Mac.
+
+I already shared some of my background and thoughts about choosing Macbook [here on Reddit](https://www.reddit.com/r/macbookpro/comments/1afa5z0/indecisive_first_macbook_to_buy/), so feel free to check it.
+
+Finally, after a month of waiting, it arrived. M3 Pro with 36Gb RAM and 1TB SSD.
+
+https://preview.redd.it/yghtjwsqtxnc1.jpg?width=1280&amp;format=pjpg&amp;auto=webp&amp;s=cd9947f2ad88fb1c5117eb7e00148c1d56fb837a
+
+The very first setup was quite a disaster: had to hard reboot twice just to get to desktop, otherwise infinite “loading” in different menus.
+
+While waiting for Macbook to arrive, I watched at lot (honestly, A LOT) of videos about hardware, software, reviews… so I knew what to expect and what issues I can face.
+
+Apps and utilities I use often or keep them in background, sorted by alphabet (I had to remove links otherwise Reddit deletes the whole post; feel free to ask for links in comments):
+
+* AlDente — Limits charging to a certain level. Limited my Mac to 80%, sometimes discharging to 35-40, just to keep battery in shape. For now, using Free version, probably will buy Pro later.
+* AltTab — Brings Windows-like Alt-Tab (Cmd-Tab) experience on macOS. MUCH better than native switcher.
+* Amphetamine — prevent Mac from sleeping. I used
+=====
+DATE: 2024-03-09T23:48:12Z | r/macapps | score:1 | u/ashishjullia
+URL: https://reddit.com/r/macapps/comments/1bavykp/shottr_gets_automatically_closed_on_a_regular/
+TITLE: Shottr gets automatically closed on a regular basis?
+BODY: I like the application very much but it gets force closed automatically from the background very frequently, is there a known bug or something I can do to prevent this from happening?
+=====
+DATE: 2024-03-09T20:44:03Z | r/mac | score:1 | u/Quiet-Sundae-9535
+URL: https://reddit.com/r/mac/comments/1barp04/horrible_battery_life_on_an_m2_pro/
+TITLE: Horrible battery Life on an M2 Pro?
+BODY: I have had my M2 pro for almost a year, and it has been great, but I've started to notice my battery life being quite average if not disappointing. Everyone swears by this computer's unkillable battery and how it lasts people 3 days and more off one charge, but for me, I'm having to charge it multiple times a day.
+
+I run various programs in the background, so I'll give a rundown of those:  
+Shottr (great screenshot program)
+
+Today (easy way to see all events I have today right from my menu bar, works off iCalendar, but I think it supports other calendars)
+
+Command X
+
+Little Snitch - control network traffic
+
+Malwarebytes - free version
+
+Bitwarden - my password manager of choice
+
+Aldente - Lots of battery saving and battery health options, kind of ironic
+
+MediaMate - cool notch animations that sync to media
+
+Apart from that, I use adobe for editing and firefox for browsing. Ive heard awful things about firefox battery draining, but do I really have to resort to safari? I like firefox a lot...
+
+In case I missed anything, here are screenshots of apps allowed in background:  
+[https://imgur.com/a/N6xWgG1](https://imgur.com/a/N6xWgG1)  
+And my login items:  
+[https://imgur.com/a/GCcuPJ1](https://imgur.com/a/GCcuPJ1)
+
+I normally use my mac with Firefox, Spotify, notes, and maybe Whatsapp and/or Discord all open.
+
+**EDIT: Since this post I've decided to delete Today, Command X, and stop Little Snitch. My battery life, however, is still just as disappointing.**
+=====
+DATE: 2024-03-07T06:16:43Z | r/mac | score:1 | u/Environmental_Ad2801
+URL: https://reddit.com/r/mac/comments/1b8nfpc/my_handy_tool_exploration_journey/
+TITLE: My Handy Tool Exploration Journey
+BODY: Hello everyone, I am an engineer from China, and my name is Tw93 [https://tw93.fun/en/about.html](https://tw93.fun/en/about.html) , The original article was published on my blog, Also welcome to check out more there.
+
+\&gt; [https://tw93.fun/en/2024-02-09/tools.html](https://tw93.fun/en/2024-02-09/tools.html)
+
+Leveraging the recent holiday break, I took the opportunity to tidy up a list of Mac software, websites, and daily life gadgets that I’ve found particularly useful over the past year. I’ve always valued simplicity, ease of use, and beauty in my tools, hoping to provide some guidance when you face similar dilemmas in choice.
+
+## Mac Software
+
+This year, I didn’t venture into new software territories as much as refining and optimizing my current toolkit for a more comfortable usage experience. I aimed to avoid duplicating tools with similar functionalities, keeping to the principle of simplicity and beauty. Here are some of the Mac applications I’ve favored this year. If you’re into experimenting with new tools, you might find some of these worth downloading and trying out.
+
+*Processing img zeoaettbtumc1...*
+
+### Favorites of the Year
+
+1. [**MiaoYan**](https://github.com/tw93/MiaoYan/): A simple and easy-to-use native Markdown note application I developed 3 years ago, continuously updated throughout its use.
+2. [**ChatGPT Desktop**](https://github.com/tw93/Pake): A desktop version of the official GPT webpage, packaged using my own Pake, with injected styles and scripts fo
+=====
+DATE: 2024-02-28T08:19:22Z | r/MacOS | score:1 | u/Environmental_Ad2801
+URL: https://reddit.com/r/MacOS/comments/1b20zpq/my_annual_tool_exploration_journey/
+TITLE: My Annual Tool Exploration Journey
+BODY: Hello everyone, I am a developer from China. This article was written by me during the Spring Festival. The original text is on my blog [https://tw93.fun/en/2024-02-09/tools.html](https://tw93.fun/en/2024-02-09/tools.html).
+
+Leveraging the recent holiday break, I took the opportunity to tidy up a list of Mac software, websites, and daily life gadgets that I've found particularly useful over the past year. I've always valued simplicity, ease of use, and beauty in my tools, hoping to provide some guidance when you face similar dilemmas in choice.
+
+## Mac Software
+
+This year, I didn't venture into new software territories as much as refining and optimizing my current toolkit for a more comfortable usage experience. I aimed to avoid duplicating tools with similar functionalities, keeping to the principle of simplicity and beauty. Here are some of the Mac applications I've favored this year. If you're into experimenting with new tools, you might find some of these worth downloading and trying out.
+
+![](https://cdn.fliggy.com/upic/x7M782.png)
+
+### Favorites of the Year
+
+1. [**MiaoYan**](https://github.com/tw93/MiaoYan/): A simple and easy-to-use native Markdown note application I developed 3 years ago, continuously updated throughout its use.
+2. [**ChatGPT Desktop**](https://github.com/tw93/Pake): A desktop version of the official GPT webpage, packaged using my own Pake, with injected styles and scripts for enhanced usability, invoked through shortcuts for daily use.
+3. [**MessAuto
+=====
+DATE: 2024-02-28T08:14:25Z | r/MacOS | score:1 | u/Environmental_Ad2801
+URL: https://reddit.com/r/MacOS/comments/1b20x31/my_annual_tool_exploration_journey/
+TITLE: My Annual Tool Exploration Journey
+BODY: Leveraging the recent holiday break, I took the opportunity to tidy up a list of Mac software, websites, and daily life gadgets that I've found particularly useful over the past year. I've always valued simplicity, ease of use, and beauty in my tools, hoping to provide some guidance when you face similar dilemmas in choice.
+
+## Mac Software
+
+This year, I didn't venture into new software territories as much as refining and optimizing my current toolkit for a more comfortable usage experience. I aimed to avoid duplicating tools with similar functionalities, keeping to the principle of simplicity and beauty. Here are some of the Mac applications I've favored this year. If you're into experimenting with new tools, you might find some of these worth downloading and trying out.
+
+![](https://cdn.fliggy.com/upic/x7M782.png)
+
+### Favorites of the Year
+
+1. [**MiaoYan**](https://github.com/tw93/MiaoYan/): A simple and easy-to-use native Markdown note application I developed 3 years ago, continuously updated throughout its use.
+2. [**ChatGPT Desktop**](https://github.com/tw93/Pake): A desktop version of the official GPT webpage, packaged using my own Pake, with injected styles and scripts for enhanced usability, invoked through shortcuts for daily use.
+3. [**MessAuto**](https://github.com/LeeeSe/MessAuto): A handy tool for receiving SMS verification codes on your phone and automatically filling them in on your Mac, solving the hassle of manually typing them from your phone.
+4. [**Alacrit
+=====
+DATE: 2024-02-25T07:47:36Z | r/MacOS | score:1 | u/purezen
+URL: https://reddit.com/r/MacOS/comments/1aziehc/good_way_to_make_a_screencast_gif/
+TITLE: Good way to make a screencast gif
+BODY: Want to make a short screen recording and save it as gif ?
+
+The native tool allows to record screen but only saves it as .mp4 afaik. Does it allow to save as gif? Is there any native tool like QuickTime which allows to convert mp4 to gif ?
+
+Or even if tools like Shottr allow to save screen record as gif ?
+=====
+DATE: 2024-02-20T17:54:34Z | r/OpenCoreLegacyPatcher | score:1 | u/robotphood
+URL: https://reddit.com/r/OpenCoreLegacyPatcher/comments/1avo023/scrolling_screenshot_issue/
+TITLE: Scrolling screenshot issue?
+BODY: iMac 2012 &amp; 2013 - OCLP 1.3 - Sonoma 14.0/14.3.1
+
+Not sure if this is OCLP related but I can no longer take scrolling screenshots with apps like Shottr or chrome extensions like GoFullPage. For some reason the scrolling part either doesn't work (static shot) or the image comes out with graphic errors (overlapping/duplication/blurring). Anyone experiencing this? Both my iMacs experience the same issue. 
+=====
+DATE: 2024-02-12T06:12:14Z | r/macapps | score:1 | u/bhav1
+URL: https://reddit.com/r/macapps/comments/1aotane/apps_to_edit_gifs/
+TITLE: Apps to edit GIFs?
+BODY: Looking for an intuitive app like shottr that I can use to quickly add text labels to GIFs (e.g. adding product to cart -&gt; going to checkout -&gt; etc.) - we use GIFs to demo new features to stakeholders  
+=====
+DATE: 2024-01-27T09:57:53Z | r/macapps | score:4 | u/nlpat016
+URL: https://reddit.com/r/macapps/comments/1ac7ja2/how_to_simulate_click_and_hold_from_top_left/
+TITLE: How to simulate click (and hold) from top left corner of screen drag to bottom left corner (now release) in BTT?
+BODY: I'm genuinely confused about how to execute this if it's possible. I want to assign a keyboard shortcut to this action (Opt+Shift+3, for instance).  
+I have some work which requires me to take scrollshots. I use Shottr for this. I've set up Opt+3 for scrollshots in Shottr.
+
+**My execution requirement:**  
+Opt+3 (to enable scrollshot mode, discussed above) --&gt; Move mouse pointer to top left of screen --&gt; Left click AND hold --&gt; Move/drag mouse pointer to bottom right (with left click held) --&gt; Release click now.
+
+Maybe this is obvious, but somehow I cannot find how to execute this.
+=====
+DATE: 2024-01-23T16:10:19Z | r/MacOS | score:1 | u/wanderlustful1
+URL: https://reddit.com/r/MacOS/comments/19drwfb/p2p_notification/
+TITLE: P2P Notification
+BODY: I live overseas and use Proton VPN to access certain US-only websites sometimes. Lately, I've been getting a random notification from Proton that my VPN has been disconnected. It says their free servers don't allow P2P traffic. I haven't been doing anything different than usual, so I'd like to know how I can find out what application is causing this and if it could be something malicious. 
+
+The only two applications I recall downloading recently are Zappy and Shottr, because I was looking for something to save videos and screenshots of my live college classes for study references. I've now removed both of those applications as a precaution, although I wasn't using either of them or watching a class at the time of the notification. I do use Signal and Telegram messenger apps, but I've also always used them. Would anyone be able to give me some advice? 
+=====
+DATE: 2024-01-23T03:10:53Z | r/MacOS | score:1 | u/OUTheMovie
+URL: https://reddit.com/r/MacOS/comments/19dej8l/shottr_hidden_bar_and_amphetamine_wont_load_on/
+TITLE: Shottr, Hidden Bar, and Amphetamine won't load on log in, Monterey 12.7.1
+BODY: These apps are listed under my login items but I still have to manually open them every single time I log in. Is there anything else I can do?
+=====
+DATE: 2024-01-18T11:06:29Z | r/macapps | score:1 | u/soji34
+URL: https://reddit.com/r/macapps/comments/199npa3/more_colors_on_shottr_app/
+TITLE: More colors on shottr app
+BODY: Does anybody know how to add more colors for free hand drawing tool on the app? It only offers 8 colors
+=====

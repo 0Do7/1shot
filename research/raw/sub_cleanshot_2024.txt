@@ -1,0 +1,1649 @@
+DATE: 2025-05-14T04:11:27Z | r/ObsidianMD | score:60 | u/Responsible-Slide-26
+URL: https://reddit.com/r/ObsidianMD/comments/1km688x/cleanshot_for_mac_is_a_incredible/
+TITLE: CleanShot for Mac is a Incredible Screenshot/Markup Companion for Obsidian
+BODY: I've been doing a lot of research that involves capturing screenshots into Obsidian and wanted to give a callout to CleanShot, it's an absolutely beautifully designed program that has saved me a ton of time when working with Obsidian. With CleanShot it is two clicks:
+
+1. Capture Screenshot (can be an area, full-screen, scrolling capture, screen recording, or even *automatic text capture* from an image).
+
+2. Select Copy and Paste into Obsidian.
+
+What I love is that there is no need to save the screenshot to disc, it's automatic and makes capturing all types of screenshots into Obsidian *extremely* fast. You can also add notations and markups.
+
+It's a $30 one-time purchase, and also comes with SetApp for those who have a SetApp subscription.
+
+  
+[https://cleanshot.com/](https://cleanshot.com/)
+=====
+DATE: 2025-05-13T15:55:22Z | r/cycling | score:1 | u/vonschnork
+URL: https://reddit.com/r/cycling/comments/1klpj7p/riverside_500_assembly/
+TITLE: Riverside 500 assembly
+BODY: Hi guys. Just bought my first bike. Took me a while to assemble and I feel pretty darn stupid, but several parts were lose in the big box upon delivery, and there's no manual, so I figured I'd ask here. 
+I'm pretty sure I've assembled the bike correctly, but I am left with two parts which I'm guessing should go somewhere but I'm not sure where. Any help would be greatly appreciated.
+Pic: https://share.cleanshot.com/6hZSMbdd
+=====
+DATE: 2025-05-13T15:27:47Z | r/CarpetCleaning | score:0 | u/Pure_College_3254
+URL: https://reddit.com/r/CarpetCleaning/comments/1kloue6/toprated_carpet_cleaning_machines_for_home_use/
+TITLE: Top-Rated Carpet Cleaning Machines for Home Use
+BODY: # Why Invest in a Home Carpet Cleaning Machine?
+
+Let’s face it — life happens on your carpet. From muddy footprints to spilled coffee and pet accidents, your floor sees it all. While regular vacuuming helps, it doesn’t always do the deep cleaning your carpets truly need. That’s where owning a powerful [**carpet cleaning**](https://dnolid.com/carpet-cleaning/) machine becomes a game-changer. Whether you’re tackling stains or just freshening things up, we’ve gathered the top-rated carpet cleaning machines for home use to make your life easier.
+
+# 1. Understanding Carpet Cleaning Machines
+
+# 1.1 How Do They Work?
+
+Carpet cleaning machines work by spraying a mixture of water and cleaning solution deep into the carpet fibers. Then, powerful suction pulls out the dirt, grime, and moisture, leaving your carpets fresh and revitalized.
+
+# 1.2 Why Use a Carpet Cleaner Instead of a Vacuum?
+
+While vacuums remove surface-level dust and debris, they don’t lift deep-seated stains or odors. Carpet cleaning machines penetrate fibers, sanitize surfaces, and prolong your carpet’s lifespan , making them a must-have for allergy sufferers, pet owners, and families with kids.
+
+# 2. What to Look for in a Home Carpet Cleaner
+
+# 2.1 Suction Power and Water Tank Capacity
+
+Strong suction ensures better extraction of water and dirt. A larger water tank means fewer trips to the sink for refills, which saves you time during big cleaning sessions.
+
+# 2.2 Heating and Drying Features
+
+Look for models with bui
+=====
+DATE: 2025-05-13T03:06:26Z | r/MexicoFinanciero | score:7 | u/Dangerous_Parmigiano
+URL: https://reddit.com/r/MexicoFinanciero/comments/1klbone/cancelar_póliza_por_falsa_promesa_del_asesor/
+TITLE: Cancelar póliza por falsa promesa del asesor
+BODY: Que tal gente.
+
+A finales del año pasado comencé a ver posibilidades de contratar un PPR por aquello de no andar de cerillo en walmart a los 70 años.
+
+Tuve una serie de llamadas con un asesor, amigo de un amigo, en donde le comentaba que mi intención era dar una suma fuerte al inicio y no tener que estar atado a mensualidades forzosas durante 20 años, después de ver opciones me recomendó un plan en Seguros Monterrey de un pago único.
+
+En ese momento yo era RESICO pero específicamente le pregunte al asesor que si en un futuro, si cambiaba de régimen, yo podría deducir mis aportaciones voluntarias, su respuesta fue un rotundo sí, si se puede.
+
+Bien, En octubre pague la mitad de la prima (Pago único a 19 años) de $275,000 y ahora estoy por pagar el resto, otros $250,000. Pero en enero cambié mi régimen de RESICO a Persona física con actividades empresariales, entonces hablo con el asesor y le digo que ahora sí quiero deducir la factura ya que cambie de régimen y al poder cambiar a PPR (Como el me aseguro) se puede hacer dicha deducción.
+
+Después de varios días me responde que la aseguradora (Seguros Monterrey) no permite hacer el cambio a PPR por ser una póliza de pago único, lo cual pues no me sirve en lo absoluto ya que la póliza es un seguro de vida con ahorro.
+
+Mi pregunta es, si voy a PROFECO con el antecedente de que el asesor me aseguro que se podría hacer el cambio si mi situación fiscal cambiaba pero en realidad no se puede, creen que proceda?
+
+Estuve revisando y lo úni
+=====
+DATE: 2025-05-12T09:22:20Z | r/TechTalkie | score:1 | u/DarthTheRock
+URL: https://reddit.com/r/TechTalkie/comments/1kko57t/is_there_a_snip_tool_for_mac/
+TITLE: Is There a “Snip Tool” for Mac?
+BODY: You know that moment when you’re trying to show your colleague that one weird glitch on your screen… but instead of just quickly snipping it, you spend ten minutes figuring out how to take a snip on Mac? Yeah. That was me last year.
+
+I had just switched from a Windows laptop to a MacBook, and I was completely thrown off by the lack of something like the Windows Snipping Tool. On Windows, I’d use it constantly – crop out a section, add a quick arrow, save or copy it to Slack. Done. On Mac? Well, the functionality is there… but Apple being Apple, it’s a bit hidden under layers of keyboard shortcuts and apps with names like “Preview” that sound like they’re just going to open a file.
+
+So, is there a Snip Tool for Mac? Short answer: not exactly, but there are *multiple* ways to achieve the same (and sometimes better) results. Let me walk you through what I’ve learned after way too many accidental screenshots of my entire desktop.
+
+# The Built-In Snipping Tools for Mac (Yes, They Exist)
+
+Apple has always leaned heavily into keyboard shortcuts, and their snipping solution is no different. Instead of a dedicated “Snipping Tool” app, macOS gives you a set of shortcuts that let you snip any part of your screen instantly. It’s honestly faster than the Windows version – once you’ve memorized the keys.
+
+**How to Snip on Mac Using Shortcuts**
+
+Here’s what I use almost daily now:
+
+**Capture the Entire Screen**   
+Press **Shift + Command + 3**. It instantly takes a picture of everything on 
+=====
+DATE: 2025-05-08T10:47:22Z | r/MacOS | score:1 | u/Worried-Network3946
+URL: https://reddit.com/r/MacOS/comments/1khn1de/looking_for_a_sharexlike_workflow_on_mac/
+TITLE: Looking for a ShareX-like workflow on Mac – Screenshot/Video → OneDrive for Business → Shorten with POLR
+BODY: Hey folks,
+
+I'm looking for a way to replicate a ShareX workflow on macOS.
+
+**Here’s what I want to achieve:**
+
+1. Take a screenshot or screen recording
+2. Edit the file (crop, highlight)
+3. Automatically upload it to **OneDrive for Business**
+4. Automatically shorten the URL using **POLR** (self-hosted URL shortener)
+
+I know there are ShareX alternatives on Mac like CleanShot X, Shottr, and Monosnap, but I'm specifically asking if this exact workflow can be done using these **specific services**, either through built-in features, automation, or scripting.
+
+Anyone here set something like this up? Any ideas on how to achieve this with Automator, Shortcuts, or other tools?
+
+Thanks in advance!
+=====
+DATE: 2025-05-07T17:03:43Z | r/MacOS | score:1 | u/yellowroll
+URL: https://reddit.com/r/MacOS/comments/1kh2ksz/how_come_on_macos_monterey_recording_facetime/
+TITLE: How come on macOS Monterey recording FaceTime video calls (screen) and the other person's audio (system audio) worked but doesn't work on macOS Ventura?
+BODY: I have tried multiple screen recorders (Snagit, Cleanshot X, QuickRecorder) and none of them were able to record the system audio for FaceTime video calls on macOS Ventura (I do informal interviews for seasonal work whereby most of the workers are young so they don't use Zoom or Teams, plus it is easier as I have their number already). All the above mentioned screen recorders were able to record the screen and system audio fine in any other programs. Therefore I know it is not an issue with the screen recorder programs but rather FaceTime. Snagit on Monterey was able to record the screen and system audio for FaceTime without any issues.
+
+Was this something Apple did intentionally for Ventura or maybe I messed up somewhere when upgrading to Ventura from Monterey?
+
+Is this still the case for macOS Sonoma and macOS Sequoia?
+=====
+DATE: 2025-05-06T23:06:26Z | r/Drugtests | score:1 | u/Express-Spirit-5911
+URL: https://reddit.com/r/Drugtests/comments/1kgijit/possible_pass_this_week/
+TITLE: Possible pass this week?
+BODY: 3pm in the afternoon and 7pm in the evening… does 7pm look negative with 2nd line? Job just notified (monday) possible drug test this week. Haven heard date yet but person is expected to start work on Monday and onboarding should be completed. 
+
+Person is not a heavy user, started Cookies 5g THC vape about 4 weeks ago to aid sleep. 1-2, max 3 small puffs at night, not everyday, but about 3-5days.
+
+Is there any chance to pass? Anyone knows if CleanShot from passyourtest.com works? 
+
+What about quickfix? How can a woman take that in? And keep it warm etc? Sounds complicated. Any tips? 
+=====
+DATE: 2025-05-06T19:37:22Z | r/androidapps | score:1 | u/Somnesis
+URL: https://reddit.com/r/androidapps/comments/1kgdk5k/calendar_widget_that_visually_shows_my_day/
+TITLE: Calendar widget that visually shows my day
+BODY: I'm moving from the Apple world and I'm struggling to find a calendar widget that can visually at a glance show me my day. Here's a screenshot from the widget on the iPhone:
+
+[https://share.cleanshot.com/LSNTMzfw](https://share.cleanshot.com/LSNTMzfw) 
+
+Specifically it enables me to VISUALLY at a glance see:
+
+1. What my upcoming events are
+2. How long they are
+3. How far I am away from the next event
+
+  
+I tried the widgets from a bunch of apps but haven't yet found one that satisfies the above. Most of them have some kind of text based representation ("in 3 hours", or "12:00-13:00"). But that's not visually glanceable.
+
+Any suggestions? Thanks! :) 
+=====
+DATE: 2025-05-06T10:35:08Z | r/Notion | score:1 | u/TheS4m
+URL: https://reddit.com/r/Notion/comments/1kg17u3/tips_how_to_get_rid_of_those_ugly_scrollbars_in/
+TITLE: [TIPS] How to get rid of those ugly scrollbars in Notion (MAC OS)
+BODY: [LINK TUTORIAL](https://share.cleanshot.com/rfn2STgB)
+
+https://preview.redd.it/3avzp6kh35ze1.png?width=1278&amp;format=png&amp;auto=webp&amp;s=3e909a778cdfc0ecd20987a5d2aa9f58cb8e2302
+
+
+=====
+DATE: 2025-05-06T10:32:23Z | r/Notion | score:1 | u/TheS4m
+URL: https://reddit.com/r/Notion/comments/1kg16bz/tips_how_to_get_rid_of_those_ugly_scroll_bars_in/
+TITLE: [TIPS] How to get rid of those ugly scroll bars in Notion (TUTORIAL MACOS)
+BODY: [https://share.cleanshot.com/rfn2STgB](https://share.cleanshot.com/rfn2STgB)
+=====
+DATE: 2025-05-06T01:05:57Z | r/macapps | score:1 | u/Kin_KC
+URL: https://reddit.com/r/macapps/comments/1kfs80b/list_of_apps_that_i_found_useful_after_6_months/
+TITLE: List of apps that I found useful after 6 months of returning to Mac OS
+BODY: Hello everyone! This is my very first post in Reddit, plus I am not a native English speaker, hopefully you will not find this post too hard / boring to read!
+
+It has been around 6 months since using the M4 Pro Mac mini and revisiting Mac OS after a 5-year hiatus. The last Apple computer that I own was the MBP 15” 2016 whose monitor was dead on 2020 probably due to the FlexGate issue. Back then I didn’t have many apps installed, just some of the very basics like Fantastical and Things 3. Revisiting the Mac OS after 5 years and joining this community exposes me to a lot of latest and interesting apps. As I feel like I have alredy catched up with all the tools I need for my workflow and have been using most of them adequately, I want to share my comments on some of them and hopefully you will find this post useful. Here we go!
+
+[AdGuard](https://adguard.com/en/welcome.html) (Paid): As the name implies, a pretty famous Ad blocker. As I use Microsoft Edge as my default browser, many great recommendations here which only work on Safari (e.g., [Wipr 2](https://apps.apple.com/hk/app/wipr-2/id1662217862?l=en-GB)) do not really suit my need. As an universal adblocker, I think it not only facilates web browsing experience but also makes reading in RSS reader (I use [News Explorer](https://betamagic.nl/products/newsexplorer.html)) more flexible: Without it, reading an article in its original website view will be full of ads. I purchased it on stacksocial, which seems to offer the best d
+=====
+DATE: 2025-05-02T07:29:13Z | r/Adguard | score:1 | u/rosenkrieger360
+URL: https://reddit.com/r/Adguard/comments/1kcv4ru/cookie_notice_on_sammobile_not_blocked/
+TITLE: Cookie Notice on SamMobile NOT blocked
+BODY: I have the AdGuard Cookie Notice Filtering active and a bunch of other filters - but SamMobile still displays the cookie notice. 
+
+Running the AdGuard macOS Application as well as the browser extension. Both in their newest versions. 
+
+Screenshot: [https://share.cleanshot.com/XNFfpqp74qW1tGxxM5nt](https://share.cleanshot.com/XNFfpqp74qW1tGxxM5nt) 
+=====
+DATE: 2025-04-26T15:13:21Z | r/macapps | score:1 | u/TheMagicianGamerTMG
+URL: https://reddit.com/r/macapps/comments/1k8f7mw/any_ocr_app_suggestions/
+TITLE: Any OCR app suggestions
+BODY: Hello! I am wondering if anyone knew any good OCR apps similar to SuperWhisper/MacWhisper for audio. I know Cleanshot X and TextSniper have a OCR capabilities for on screen text, but I am looking for something a little more robust. I plan on OCR-ing large PDFs, handwriting, and other media.
+=====
+DATE: 2025-04-25T20:53:08Z | r/PleX | score:114 | u/samwiseg0
+URL: https://reddit.com/r/PleX/comments/1k7vkt3/plexamp_v4122_released/
+TITLE: Plexamp v4.12.2 Released
+BODY: 
+## [](#p-3771859-plexamp-v4122-1)Plexamp v4.12.2
+
+A few more fixes for you, with much love to everyone giving us great feedback and helping us track down issues, especially to Matt, who responded thusly when we reached out and offered to help figure out why he was having playback issues.
+
+[CleanShot 2025-04-25 at 10.44.12@2x1188×684 75.3 KB](https://global.discourse-cdn.com/plex/original/4X/f/6/8/f68501015aeceae12093bf644d5b6368cc8b9ce6.png)
+
+### [](#p-3771859-fixed-2)Fixed
+
+- Improve reliability of sending offline plays/ratings to server.
+- In some cases, transcoded Opus playback could end a track prematurely.
+- Occasional crash when starting playback.
+- Lack of explanation for sample rate quality setting.
+- Update translations.
+- Update EQ presets.
+- Android: Fix playback of DSD, AAC.
+
+Source: https://forums.plex.tv/t/221280/82
+=====
+DATE: 2025-04-24T18:21:09Z | r/openin | score:0 | u/optemization
+URL: https://reddit.com/r/openin/comments/1k6zdvf/openin_opens_safari_in_addition_to_arc/
+TITLE: OpenIn opens Safari in addition to Arc
+BODY: OpenIn opens links in Safari as well as Arc.   
+  
+Has anyone else seen this behaivor pop up all of sudden?[ I don't even have Safari as a browser option. ](https://share.cleanshot.com/WlnljLq7)
+=====
+DATE: 2025-04-23T19:59:51Z | r/SaaS | score:6 | u/HairyAd9106
+URL: https://reddit.com/r/SaaS/comments/1k68s7b/my_shopify_app_cartboss_just_got_featured_40/
+TITLE: My Shopify app (CartBoss) just got featured – 40 signups in 16 hours 🚀
+BODY: Just wanted to share a quick win with the community – our app CartBoss got featured on the Shopify App Store yesterday! 🎉
+
+It’s not a top-banner placement or anything, but still surreal to see our app on the front page. In just 16 hours, we saw 40 new signups, which is a huge spike for us. definitely not the numbers of the big players, but a major jump compared to our usual pace.
+
+Here’s what the feature looks like:  
+screenshot: [https://share.cleanshot.com/pjS0PNjw](https://share.cleanshot.com/pjS0PNjw)
+
+Bit of a promo: CartBoss works with Shopify and Wordpress: [www.cartboss.io](http://www.cartboss.io/)
+
+Grateful for the Shopify feature love and if anyone’s curious about how we got there, happy to share more!
+=====
+DATE: 2025-04-23T19:54:31Z | r/microsaas | score:7 | u/HairyAd9106
+URL: https://reddit.com/r/microsaas/comments/1k68nmq/my_shopify_app_cartboss_just_got_featured_40/
+TITLE: My Shopify app (CartBoss) just got featured – 40 signups in 16 hours 🚀
+BODY: Just wanted to share a quick win with you – our app CartBoss got featured on the Shopify App Store yesterday! 🎉
+
+It’s not a top-banner placement or anything, but still surreal to see our app on the front page. In just 16 hours, we saw 40 new signups, which is a huge spike for us. definitely not the numbers of the big players, but a major jump compared to our usual pace.
+
+Here’s what the feature looks like:  
+screenshot: [https://share.cleanshot.com/pjS0PNjw](https://share.cleanshot.com/pjS0PNjw)
+
+CartBoss works with Shopify and Wordpress: [www.cartboss.io](http://www.cartboss.io/)
+
+Grateful for the Shopify feature love and if anyone’s curious about how we got there, happy to share more!
+=====
+DATE: 2025-04-23T19:50:54Z | r/ecommerce | score:0 | u/HairyAd9106
+URL: https://reddit.com/r/ecommerce/comments/1k68kf9/my_shopify_app_cartboss_just_got_featured_40/
+TITLE: My Shopify app (CartBoss) just got featured – 40 signups in 16 hours 🚀
+BODY: Just wanted to share a quick win with the community – our app CartBoss got featured on the Shopify App Store yesterday! 🎉
+
+It’s not a top-banner placement or anything, but still surreal to see our app on the front page. In just 16 hours, we saw 40 new signups, which is a huge spike for us. definitely not the numbers of the big players, but a major jump compared to our usual pace.
+
+
+
+Here’s what the feature looks like:  
+screenshot: [https://share.cleanshot.com/pjS0PNjw](https://share.cleanshot.com/pjS0PNjw)
+
+40 signups in last 16hrs is nothing compared big players, but it's quite a bump to what we see ordinary.
+
+Bit of a promo: CartBoss works with Shopify and Wordpress: [www.cartboss.io](http://www.cartboss.io)
+
+Grateful for the Shopify feature love and if anyone’s curious about how we got there, happy to share more!
+=====
+DATE: 2025-04-23T05:14:09Z | r/gtd | score:1 | u/Kitchen_Archer_
+URL: https://reddit.com/r/gtd/comments/1k5rbhf/my_goto_mac_productivity_apps_that_are_actually/
+TITLE: My go-to Mac productivity apps (that are actually worth it)
+BODY: 1. [Raycast](https://www.raycast.com/) – Replaced Spotlight for me. App launcher, clipboard manager, AI assistant… all super fast and free.
+2. [VOMO AI](https://apps.apple.com/app/apple-store/id6449889336?pt=126411129&amp;ct=redditnew&amp;mt=8) – I use this for meetings and voice notes. It records, transcribes, and gives you summaries + action items. Great when you’re too busy to take proper notes or want to revisit what was said without replaying the whole thing.
+3. [TickTick](https://ticktick.com/) – My task manager of choice. Clean UI, Pomodoro timer built in, calendar view, and much cheaper than Todoist.
+4. [CleanShot X](https://cleanshot.com/) – Best screenshot/screen recording tool I’ve used. Way better than native macOS tools and makes documentation easier.
+5. [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) – Tiny menu bar app to keep your Mac awake when needed. Way more control than just tweaking energy settings.
+=====
+DATE: 2025-04-22T14:52:08Z | r/iOSProgramming | score:1 | u/A19BDze
+URL: https://reddit.com/r/iOSProgramming/comments/1k588wp/how_to_achieve_crystalclear_image_extraction/
+TITLE: How to achieve crystal-clear image extraction quality?
+BODY: Hi everyone,
+
+I'm trying to replicate the extremely high-quality, "crystal-clear" image extraction **demonstrated in the attached video**. This level of quality, where an object is lifted perfectly from its background with sharp, clean edges, is similar to what's seen in the system's Visual Look Up feature.
+
+My current approach uses Apple VisionKit:
+
+1. **Capture:** I use `AVFoundation` (`AVCaptureSession`, `AVCapturePhotoOutput`) within a `UIViewController` wrapped for SwiftUI (`CameraViewController`) to capture a high-resolution photo (`.photo` preset).
+2. **Analysis:** The captured `UIImage` is passed to a service class (`VisionService`).
+3. **Extraction:** Inside `VisionService`, I use `VisionKit`'s `ImageAnalyzer` with the `.visualLookUp` configuration. I then create an `ImageAnalysisInteraction`, assign the analysis to it, and access `interaction.subjects`.
+4. **Result:** I retrieve the extracted image using the `subject.image` property (available iOS 17+) which provides the subject already masked on a transparent background.
+
+**The Problem:** While this `subject.image` extraction works and provides a decent result, the quality isn't quite reaching that "crystal-clear," almost perfectly anti-aliased level seen in the system's Visual Look Up feature or the demo video I saw. My extracted images look like a standard segmentation result, good but not *exceptionally* sharp or clean-edged like the target quality.
+
+**My Question:** How can I improve the extraction quality beyo
+=====
+DATE: 2025-04-22T05:29:40Z | r/ProductivityApps | score:8 | u/Kitchen_Archer_
+URL: https://reddit.com/r/ProductivityApps/comments/1k4yrhg/my_goto_mac_productivity_apps_that_are_actually/
+TITLE: My go-to Mac productivity apps (that are actually worth it)
+BODY: 1. [Raycast](https://www.raycast.com/) – Replaced Spotlight for me. App launcher, clipboard manager, AI assistant… all super fast and free.
+2. [VOMO AI](https://apps.apple.com/app/apple-store/id6449889336?pt=126411129&amp;ct=redditnew&amp;mt=8) – I use this for meetings and voice notes. It records, transcribes, and gives you summaries + action items. Great when you’re too busy to take proper notes or want to revisit what was said without replaying the whole thing.
+3. [TickTick](https://ticktick.com/) – My task manager of choice. Clean UI, Pomodoro timer built in, calendar view, and much cheaper than Todoist.
+4. [CleanShot X](https://cleanshot.com/) – Best screenshot/screen recording tool I’ve used. Way better than native macOS tools and makes documentation easier.
+5. [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) – Tiny menu bar app to keep your Mac awake when needed. Way more control than just tweaking energy settings.
+=====
+DATE: 2025-04-21T18:24:20Z | r/macapps | score:1 | u/PierreMouchan
+URL: https://reddit.com/r/macapps/comments/1k4kn72/my_essential_mac_apps_what_are_yours/
+TITLE: My "essential" mac apps. What are yours?
+BODY: Essential means something different for everyone, but I honestly can't work without these, as they are huge time-savers each day:
+
+*   **Raycast:** A productivity tool and launcher for quick access to tools, AI, and automations. (replacement of Spotlight)
+    
+*   **Cleanshot X:** A screen capture tool with annotation and sharing capabilities.
+    
+*   **Bartender:** An app to organize your menu bar by hiding items and providing quick access.
+    
+*   **KeyboardCleanTool:** A tool that blocks keyboard input to clean your Macbook keyboard.
+    
+*   **Coconut Battery:** A macOS app that displays diagnostic information about your Mac's battery. (keep your battery plug as much as you can!!)
+    
+*   **Zen Browser:** A web browser focused on speed, security, and privacy.
+    
+*   **Heynds:** An AI-powered writing assistant that 10x my day on all writing and thinking tasks.
+    
+*   **Figma:** A collaborative web application for interface design and brainstorming.
+    
+*   **1Password:** A password manager that securely stores and manages account credentials.
+=====
+DATE: 2025-04-16T21:17:48Z | r/learnprogramming | score:0 | u/devlifeofbrian
+URL: https://reddit.com/r/learnprogramming/comments/1k0vqld/how_to_force_your_cursor_ai_agent_to_always/
+TITLE: 🤖 How to Force your Cursor AI Agent to 🧑‍🎓 Always follow your Rules using 💡 Auto-Rule Generation Techniques
+BODY: This tutorial guides you through creating structured Cursor rule files (`.mdc`) based on documented best practices. We will use a dedicated AI agent within Cursor, configured specifically for formatting these rules correctly. Following these steps ensures your rules are consistent and effectively guide the AI's behavior in your project.
+
+## ✅ Prerequisites
+
+*   Cursor AI code editor installed.
+*   Basic understanding of Cursor's features (like chat and repo prompts).
+*   A set of best practices you want to enforce, documented preferably in a Markdown file within your project.
+
+## 1️⃣ Step 1: Obtain the Rule Generation Rule
+
+![](https://www.ultrawideturbodevs.com/content/images/size/w2400/2025/04/CleanShot-2025-04-16-at-15.55.58@2x.png)
+
+The core of this process relies on a [specific Cursor rule](https://github.com/bmadcode/cursor-custom-agents-rules-generator/blob/main/.cursor/rules/core-rules/rule-generating-agent.mdc) designed to guide the AI in creating *other* rules correctly. Think of it as a meta-rule: a rule about how to make rules.
+
+This isn't a separate "agent" in the typical sense, but rather a standard Cursor rule file (`.mdc`) containing detailed instructions (its system prompt) on how to format and structure new rule files based on user input or best practices documents.
+
+**Recommendation:** Adding this rule allows Cursor to efficiently create and update *other* rules for your project whenever you ask it to, ensuring consistency by always referencing these format
+=====
+DATE: 2025-04-16T21:17:48Z | r/learnprogramming | score:0 | u/devlifeofbrian
+URL: https://reddit.com/r/learnprogramming/comments/1k0vqld/how_to_force_your_cursor_ai_agent_to_always/
+TITLE: 🤖 How to Force your Cursor AI Agent to 🧑‍🎓 Always follow your Rules using 💡 Auto-Rule Generation Techniques
+BODY: # 🤖 How to Force your Cursor AI Agent to 🧑‍🎓 Always follow your Rules using 💡 Auto-Rule Generation Techniques
+
+This tutorial guides you through creating structured Cursor rule files (`.mdc`) based on documented best practices. We will use a dedicated AI agent within Cursor, configured specifically for formatting these rules correctly. Following these steps ensures your rules are consistent and effectively guide the AI's behavior in your project.
+
+## ✅ Prerequisites
+
+*   Cursor AI code editor installed.
+*   Basic understanding of Cursor's features (like chat and repo prompts).
+*   A set of best practices you want to enforce, documented preferably in a Markdown file within your project.
+
+## 1️⃣ Step 1: Obtain the Rule Generation Rule
+
+![](https://www.ultrawideturbodevs.com/content/images/size/w2400/2025/04/CleanShot-2025-04-16-at-15.55.58@2x.png)
+
+The core of this process relies on a [specific Cursor rule](https://github.com/bmadcode/cursor-custom-agents-rules-generator/blob/main/.cursor/rules/core-rules/rule-generating-agent.mdc) designed to guide the AI in creating *other* rules correctly. Think of it as a meta-rule: a rule about how to make rules.
+
+This isn't a separate "agent" in the typical sense, but rather a standard Cursor rule file (`.mdc`) containing detailed instructions (its system prompt) on how to format and structure new rule files based on user input or best practices documents.
+
+**Recommendation:** Adding this rule allows Cursor to efficiently create and update
+=====
+DATE: 2025-04-12T16:33:01Z | r/macapps | score:1 | u/snarky_one
+URL: https://reddit.com/r/macapps/comments/1jxlau1/screenshot_curiosity/
+TITLE: Screenshot Curiosity
+BODY: I see a lot of people on Reddit saying they use screenshot apps, and some even posting apps like Cleanshot or something in their “most used apps” list. I’m just wondering why people feel the need to use screenshots so much?
+
+I have been using Macs since the late 80s and the number of times I’ve had to screenshot something (and especially mark it up thereafter) is a handful. This is coming from someone that did web design and development from the late 90s through 2019. 
+
+Just wondering what people’s use cases are for taking that many screenshots and marking them up? And why do you need specific apps to do it rather than just Mac OS X’s built-in screenshot app?
+=====
+DATE: 2025-04-08T22:54:51Z | r/macapps | score:1 | u/chrisBhappy
+URL: https://reddit.com/r/macapps/comments/1jur1n1/what_cleanshot_x_features_do_you_actually_use/
+TITLE: What CleanShot X features do you actually use?
+BODY: Hey everyone. CleanShot X is $29 one time or $10/month. I’m curious, what are the features you actually use the most? I’m thinking of building a cheaper alternative with just the core stuff. Thanks.
+=====
+DATE: 2025-04-07T16:40:36Z | r/roastmystartup | score:1 | u/prosamik
+URL: https://reddit.com/r/roastmystartup/comments/1jtps2j/roast_an_open_source_alternative_to_jumpshare_and/
+TITLE: Roast- An open source alternative to Jumpshare and CleanShot X
+BODY: Be little gentle while roasting, because this is just one day old
+
+and I made an open-source alternative to Jumpshare and CleanShot X. You can use cmd+shift+7 as shortcut and it has no limitation, everything is saved in your local file system.
+
+which works with the native UI of the MacOS.
+
+It is in the prototype stage and it solves a very basic challenge that is adding background in form of gradient, solid colour or image. You can also drag and drop the image.
+
+You can search in YouTube with this sentence- "Open-Source Alternative to CleanShot X and Jumpshare for MacOS" and here is the [link](https://www.youtube.com/watch?v=oOLXdRLYA24) for the video. 
+
+It is not signed by any certification, so you need to give explicit permission to record screen. You can find the .dmg file in this GitHub [repo](https://github.com/proSamik/freescreenshot).
+
+I welcome all the critics to help me build this app together. What features should be added next, and I'll keep this open-source always, so I am looking for collaborations either in terms of feedback, development or mentorship.
+
+
+
+I have tried different apps and all come with a limitation like pricing, screenshot limit or cloud storage. So, the intention is to provide a freescreenshot tool which extends tools like flameshot for further editing all in the native macOS.
+=====
+DATE: 2025-04-07T16:38:39Z | r/SaaS | score:1 | u/prosamik
+URL: https://reddit.com/r/SaaS/comments/1jtpqer/i_have_made_an_open_source_alternative_to/
+TITLE: I have made an open source alternative to Jumpshare and CleanShot X
+BODY: My name is Samik
+
+and I made an open-source alternative to Jumpshare and CleanShot X. You can use cmd+shift+7 as shortcut and it has no limitation, everything is saved in your local file system.
+
+which works with the native UI of the MacOS.
+
+It is in the prototype stage and it solves a very basic challenge that is adding background in form of gradient, solid colour or image. You can also drag and drop the image.
+
+You can search in YouTube with this sentence- "Open-Source Alternative to CleanShot X and Jumpshare for MacOS" and here is the [link](https://www.youtube.com/watch?v=oOLXdRLYA24) for the video. 
+
+It is not signed by any certification, so you need to give explicit permission to record screen. You can find the .dmg file in this GitHub [repo](https://github.com/proSamik/freescreenshot).
+
+I welcome all the critics to help me build this app together. What features should be added next, and I'll keep this open-source always, so I am looking for collaborations either in terms of feedback, development or mentorship.
+
+
+
+I have tried different apps and all come with a limitation like pricing, screenshot limit or cloud storage. So, the intention is to provide a freescreenshot tool which extends tools like flameshot for further editing all in the native macOS.
+=====
+DATE: 2025-04-07T16:37:52Z | r/prosamik | score:1 | u/prosamik
+URL: https://reddit.com/r/prosamik/comments/1jtppnp/open_source_alternative_to_jumpshare_and/
+TITLE: Open Source Alternative to Jumpshare and CleanShot X for MacOS
+BODY: My name is Samik
+
+and I made an open-source alternative to Jumpshare and CleanShot X. You can use cmd+shift+7 as shortcut and it has no limitation, everything is saved in your local file system.
+
+which works with the native UI of the MacOS.
+
+It is in the prototype stage and it solves a very basic challenge that is adding background in form of gradient, solid colour or image. You can also drag and drop the image.
+
+You can search in YouTube with this sentence- "Open-Source Alternative to CleanShot X and Jumpshare for MacOS" and here is the [link](https://www.youtube.com/watch?v=oOLXdRLYA24) for the video. 
+
+It is not signed by any certification, so you need to give explicit permission to record screen. You can find the .dmg file in this GitHub [repo](https://github.com/proSamik/freescreenshot).
+
+I welcome all the critics to help me build this app together. What features should be added next, and I'll keep this open-source always, so I am looking for collaborations either in terms of feedback, development or mentorship.
+
+
+
+I have tried different apps and all come with a limitation like pricing, screenshot limit or cloud storage. So, the intention is to provide a freescreenshot tool which extends tools like flameshot for further editing all in the native macOS.
+=====
+DATE: 2025-04-07T16:36:45Z | r/macapps | score:1 | u/prosamik
+URL: https://reddit.com/r/macapps/comments/1jtpoow/i_have_made_an_opensource_alternative_to/
+TITLE: I have made an open-source alternative to Jumpshare and CleanShot X
+BODY: [removed]
+=====
+DATE: 2025-04-07T16:36:45Z | r/macapps | score:53 | u/prosamik
+URL: https://reddit.com/r/macapps/comments/1jtpoow/i_have_made_an_opensource_alternative_to/
+TITLE: I have made an open-source alternative to Jumpshare and CleanShot X
+BODY: My name is Samik
+
+and I made an open-source alternative to Jumpshare and CleanShot X. You can use cmd+shift+7 as shortcut and it has no limitation, everything is saved in your local file system.
+
+which works with the native UI of the MacOS.
+
+It is in the prototype stage and it solves a very basic challenge that is adding background in form of gradient, solid colour or image. You can also drag and drop the image.
+
+You can search in YouTube with this sentence- "Open-Source Alternative to CleanShot X and Jumpshare for MacOS" and here is the [link](https://www.youtube.com/watch?v=oOLXdRLYA24) for the video. 
+
+It is not signed by any certification, so you need to give explicit permission to record screen. You can find the .dmg file in this GitHub [repo](https://github.com/proSamik/freescreenshot).
+
+I welcome all the critics to help me build this app together. What features should be added next, and I'll keep this open-source always, so I am looking for collaborations either in terms of feedback, development or mentorship.
+
+
+
+I have tried different apps and all come with a limitation like pricing, screenshot limit or cloud storage. So, the intention is to provide a freescreenshot tool which extends tools like flameshot for further editing all in the native macOS.
+=====
+DATE: 2025-04-05T23:24:15Z | r/buildinpublic | score:0 | u/jianbing4ever
+URL: https://reddit.com/r/buildinpublic/comments/1jsgl5v/all_the_apps_in_my_foundersopen_source/
+TITLE: all the apps in my founder's/open source maintainer's toolbox
+BODY: I've never listed them all out but this is gonna be fun and eye opening lol.
+
+* **cal** for meeting scheduling / booking links (open source calendly)
+* **kit** for email list management (switched from **mailerlite**, wowee what a difference.)
+* **f5bot** for timely marketing on reddit
+* **canva** for creating logos and graphics for landing pages across social media
+* **pipedream** for automating **github** issue creation from **google form** responses
+* **render** for hosting my app + persistent db $ (need to move to **aws**, can't pass up the $1k founders credits)
+* **posthog** for monitoring product usage
+* **discord** for talking to fellow app contributors
+* **slack** for spreading the word / learning from others / asking for help (e.g. https://randsinrepose.com/welcome-to-rands-leadership-slack/) - I'm a regular poster in 6+ communities like rands, leopard.fyi, women in tech
+* **linkedin** for spreading the word
+* **dosubot** for helping manage **github** issue tagging and initial bug diagnosis
+* **buymeacoffee** for managing donations
+* **github projects** for managing sprints with student contributors during the semester
+* **docker** for containerizing the app to make development easier and for forcing people to delete files from their 99% full computers
+* **visual studio code** for writing code
+* **github copilot** / **cursor** / **bolt** / **claude** / **chatgpt** for vibe coding (when I hit the free limit of 1, I switch to another)
+* **dbeaver** for querying database
+=====
+DATE: 2025-04-05T23:24:15Z | r/buildinpublic | score:3 | u/jianbing4ever
+URL: https://reddit.com/r/buildinpublic/comments/1jsgl5v/all_the_apps_in_my_foundersopen_source/
+TITLE: all the apps in my founder's/open source maintainer's toolbox
+BODY: I've never listed them all out but this is gonna be fun and eye opening lol.
+
+* **cal** for meeting scheduling / booking links (open source calendly)
+* **kit** for email list management (switched from **mailerlite**, wowee what a difference.)
+* **f5bot** for timely marketing on reddit
+* **canva** for creating logos and graphics for landing pages across social media
+* **pipedream** for automating **github** issue creation from **google form** responses
+* **render** for hosting my app + persistent db $ (need to move to **aws**, can't pass up the $1k founders credits)
+* **posthog** for monitoring product usage
+* **discord** for talking to fellow app contributors
+* **slack** for spreading the word / learning from others / asking for help (e.g. https://randsinrepose.com/welcome-to-rands-leadership-slack/) - I'm a regular poster in 6+ communities like rands, leopard.fyi, women in tech
+* **linkedin** for spreading the word
+* **dosubot** for helping manage **github** issue tagging and initial bug diagnosis
+* **buymeacoffee** for managing donations
+* **github projects** for managing sprints with student contributors during the semester
+* **docker** for containerizing the app to make development easier and for forcing people to delete files from their 99% full computers
+* **visual studio code** for writing code
+* **github copilot** / **cursor** / **bolt** / **claude** / **chatgpt** for vibe coding (when I hit the free limit of 1, I switch to another)
+* **dbeaver** for querying database
+=====
+DATE: 2025-04-05T20:28:18Z | r/academia | score:1 | u/Prestigious_Role_397
+URL: https://reddit.com/r/academia/comments/1jsctsf/i_am_considering_building_an_academic_website/
+TITLE: I am considering building an academic website builder, is that a good idea?
+BODY: Hello everyone,  
+I’m in the final year of my PhD in economics, and I’m also a freelance web designer in my free time.
+
+I’ve been considering creating a personal academic website, but I’ve been disappointed by existing solutions:
+
+* WordPress is unnecessarily complex, and most templates have poor design.
+* Tools like Gatsby or other static site generators are great only for people who already know how to code.
+* I would like to have a solution like [Bento.me](http://Bento.me) but tailored for academics.
+
+As a designer/developer, I have access to many beautiful and tailored tools for design, but as a researcher, it seems that almost all the tools we use are outdated and/or poorly designed. It feels a bit frustrating.
+
+So, I’m considering building my own solution—a tool to help academics easily build a beautiful academic website. As both a researcher and a designer/developer, I think I may be one of the few people able to do it *right*.
+
+I’d love to have your genuine feedback on this idea and on the screens I’ve already designed:
+
+* Home page: [https://share.cleanshot.com/KPr2jzbD](https://share.cleanshot.com/KPr2jzbD)
+* About page: [https://share.cleanshot.com/6LYqf4CR](https://share.cleanshot.com/6LYqf4CR)
+* Research page: [https://share.cleanshot.com/1pGd6w7D](https://share.cleanshot.com/1pGd6w7D)
+* Editor view: [https://share.cleanshot.com/BD2qQmXw](https://share.cleanshot.com/BD2qQmXw) (Please consider the content only as placeholder.)
+
+So far, I’ve designed the entire too
+=====
+DATE: 2025-04-05T01:19:11Z | r/buildinpublic | score:1 | u/jianbing4ever
+URL: https://reddit.com/r/buildinpublic/comments/1jrs011/psa_redact_sensitive_info_in_your_video_content/
+TITLE: psa: redact sensitive info in your video content with cleanshot (paid mac utility)
+BODY: just bought cleanshot since I'm starting to record tutorial videos for devs using my app.  
+  
+here's a list of things you should be redacting if you're not already:
+
+* ip addresses in your terminal logs
+* customer names
+* your email address
+* api keys if showing environment configuration
+* ...did I miss anything else? 
+=====
+DATE: 2025-04-04T15:25:47Z | r/macapps | score:1 | u/tomdegnan
+URL: https://reddit.com/r/macapps/comments/1jrelxg/cleanshot_x_app_size/
+TITLE: Cleanshot X app size
+BODY: Is Cleanshot X supposed to take up so much storage? it's just a screenshot app🤔 
+
+https://preview.redd.it/x8f4r4i56use1.png?width=790&amp;format=png&amp;auto=webp&amp;s=65dbd21decab2542471bcb14bf43e4ffd0972a61
+
+
+=====
+DATE: 2025-04-04T06:40:23Z | r/NoStupidQuestions | score:1 | u/WittyVermicelli4097
+URL: https://reddit.com/r/NoStupidQuestions/comments/1jr5ik1/is_it_worth_getting_a_vr_set_if_i_keep_seeing/
+TITLE: Is it Worth getting a VR Set if i keep seeing posts about people saying they don't use their VR headset and is collecting dust?
+BODY: People in reddit have posted a lot about how they bought  a Quest or VR Headset and they dont even play it after a few months
+
+1. It's too much hassle to wear the thing, it's a physical thing(for standalone or active games) and people want to rest and relax after work, not want to have to use their full bodies
+
+2. There's not enough good games. 
+
+3. Graphics and game quality are too cartoony.( that at least for me is aweful) 
+
+So is VR even something worth getting? Why do people buy headsets if they're not really into the idea of VR?
+
+I have a headset, ( looking to get Quest 3 later when i have money) but now i have quest 2 but it has never collected dust and  i just have a few simple games. They not the most expensive or fancy. I just have fun with simple stuff.
+
+Like Cleanshot( free applab baskeball shooting game), some boxing game from meta good for exercise, etc etc mix of freebie applabs, paid applabs, and meta ones, i dont have that many  just like 13 games and that's good enough and mine doesn't collect dust.
+
+  
+I wonder what makes some people not want to play theirs anymore. Were they ever interested ? or did they have Games in mind that they thought would exists? I'm not a gamer( from PC world or console) so i not think about nothing i just started discovering stuff. And yes there's a bunch of junk( more junk than good) but there's some goods that makes me not
+
+leave my Quest collecting dust.
+
+
+=====
+DATE: 2025-04-03T22:11:54Z | r/macapps | score:1 | u/venice--beach
+URL: https://reddit.com/r/macapps/comments/1jqvvb1/my_essential_mac_apps_what_are_yours/
+TITLE: My "essential" mac apps. What are yours?
+BODY: Essential means something different for everyone, but here are mine
+
+- **Alcove**: Notch-App that functions like native MacOS software
+
+- **AlDente**: Battery Charging app. Allows you to limit your MacBook from charging above a certain percentage
+
+- **Alfred**: Spotlight search
+
+- **AppCleaner**: AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps.
+
+
+- **Bartender 5**: Menu bar rearranger, can hide icons
+
+- **BetterTouchTool**: Utility belt of automating actions off of just about any trigger.
+
+- **Cleanshot X**: Screenshot/recording app I've used by far, including scrolling capture, grabbing audio, and good annotations.
+
+- **IINA**: Media file player
+
+- **KeyboardCleanTool**: Can disable keyboard while you clean it
+
+- **Mac Mouse Fix**: Gives your mouse/touchbar more settings
+
+- **MacUpdater**: Searches for and automatically updates outdated mac apps
+
+- **The Unarchiver**: uncachiver tool
+=====
+DATE: 2025-04-02T13:43:11Z | r/XCN | score:1 | u/Natebald603
+URL: https://reddit.com/r/XCN/comments/1jpov48/chainai_needs_xcn_tokens/
+TITLE: chain.ai NEEDS xcn Tokens
+BODY: &lt;blockquote class="twitter-tweet"&gt;&lt;p lang="en" dir="ltr"&gt;Launch your blockchain with &lt;a href="https://twitter.com/Chain?ref\_src=twsrc%5Etfw"&gt;@Chain&lt;/a&gt; in minutes, not months ⏳ &lt;a href="https://t.co/wrorWHYm9B"&gt;pic.twitter.com/wrorWHYm9B&lt;/a&gt;&lt;/p&gt;\&amp;mdash; Chain (@Chain) &lt;a href="https://twitter.com/Chain/status/1907424846956376483?ref\_src=twsrc%5Etfw"&gt;April 2, 2025&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+From [chain.ai](http://chain.ai) "You'll need XCN tokens for contract deployment and premium features."  [https://share.cleanshot.com/tFnbxbl3](https://share.cleanshot.com/tFnbxbl3)  
+
+=====
+DATE: 2025-03-30T14:14:51Z | r/modular | score:1 | u/SliceExotic248
+URL: https://reddit.com/r/modular/comments/1jndbos/clocking_problem_with_quadrantid_swarm/
+TITLE: Clocking problem with Quadrantid Swarm
+BODY: Quadrantid Swarm Clock Sync Issues with Oxi One
+
+I've been experiencing timing issues with my Quadrantid Swarm when clocked by my Oxi One. The QS randomly misses pulses, creating noticeable drift that ruins my groove. You can see this happening multiple times in [this video](https://share.cleanshot.com/ZVGryvgxKB6lKWDxcMd5) \- twice within the first 10 seconds and several more times toward the end.
+
+Interestingly, when I clock the QS with my HAPAX instead, the problem disappears completely. I've let it run for several minutes with zero drift issues.
+
+I've tried troubleshooting the Oxi One setup:
+
+* Changed output voltage from 10V (which I was using for my Pulsar-23) to 5V
+* Experimented with different velocity and gate settings
+* Tested different cables
+
+Nothing has resolved the issue - the QS still misses beats when clocked by the Oxi One.
+
+Has anyone else encountered similar problems? Is there something wrong with the Oxi One's clock signal quality? Could it be related to gate length settings I haven't tried?
+=====
+DATE: 2025-03-30T01:04:16Z | r/NoStupidQuestions | score:1 | u/WittyVermicelli4097
+URL: https://reddit.com/r/NoStupidQuestions/comments/1jn1602/if_you_upgrade_from_quest_2_to_quest_3_for_the/
+TITLE: If you Upgrade from Quest 2 to Quest 3 for the purpose of sure better tech and visuals and color passthrough and PCVR, but you're not wealthy and planning to buy a ton new games,  Do you really see any benefits or cool features in Applab games and older bought such as AimXR, Fruit Ninja 2, Creed?
+BODY: Like if I buy QUest 3 is already gonna be $499 plus i have to upgrade all my peripherals, even am saving for a New PC for PCVR( i won't have it any time soon). Anyways what i'm saying is I won't have money to buy games made for Quest 3 Augmented Reality/Mixed reality( i dont know the difference) but which ever it is where game stuff and characters comes into your Real life Color Passthrough world. And it looks cool i would like to experience some of those. I doubt there are any of those for free.
+
+. I have games i got for the Quest2 but i don't think none of them use any of the features from Quest 3 like color passthrough. Like i have Video Player, Creed, Fruit Ninja, AimXR, CleanShot( Basketball shooting simple graphics game from applab and a bunch of other simple graphics Applab games some free some paid, like that), Clay Hunt, Open Brush, Ninja Legends.
+
+I'm sure yes the visuals will probably be better, but Can any of those be played in Passthrough/Mixed reality. 
+
+Do you actually have to buy specific games that were made for the Quest 3 Mixed reality /Augmented Reality( i dont know the difference), to get any of the new features of the Quest 3 in games? (aside from better visuals ).
+
+PS the question may have sounded like my purpose is only PCVR. no it's not but that's one of them. But i was just saying I already spending a bunch of money with the Quest, peripherals, and a New PC, so i can't buy any more games than the ones i have which were bought when i had the quest 2.
+=====
+DATE: 2025-03-25T12:02:06Z | r/SaaS | score:1 | u/dji29i
+URL: https://reddit.com/r/SaaS/comments/1jjhp3x/i_vibe_coded_my_own_pipedrive_hubspot/
+TITLE: I vibe coded my own Pipedrive / HubSpot
+BODY: Don't know about you, but while building my SaaS and talking to potential customers, I really couldn't find a good solution to manage my prospects and deals. All solutions I looked at were either too expensive, overpowered, too complex or resulted in a confusing mess.
+
+* **Pipedrive** → checks all boxes, but too expensive
+* **HubSpot** → way too overpowered and cluttered
+* **Notion** → results in a mess after a while, not made for deal management
+* Other alternatives like **Attio** or **folk** have all kinds of AI features I don't need and also feel overpriced.
+
+So despite not being a developer myself, I used Cursor and built my [own version](https://share.cleanshot.com/zVPfzFld): Looks simple and clean like Notion, has the most important Sales CRM features like Pipedrive and Hubspot, though very minimalistic.
+
+If someone has the same problem and wants to use it for free, let me know. Happy to share it! :)
+=====
+DATE: 2025-03-20T16:14:44Z | r/McMansionHell | score:1 | u/thisisgiulio
+URL: https://reddit.com/r/McMansionHell/comments/1jfslk8/the_last_frank_lloyd_wright_house/
+TITLE: The last Frank Lloyd Wright house
+BODY: [zillow link here](https://www.zillow.com/homedetails/6836-N-36th-St-Phoenix-AZ-85018/7809607_zpid/)
+
+this house is stunnning... feels like there's not a single sharp angle, all smooth curves. [location also looks wild](https://media.cleanshot.cloud/media/86566/WdQPM6iODz7xtANnLSTLXEFemz9sInCtzDtc03yu.gif?Expires=1742496895&amp;Signature=o2mjnGMV7MIePhCDmQOh-OeqsvQZlJzHnrqpoCSTYy1kUJEq6Qg9oFWFV-CmJKc33HLrPFxQJ66nDuz5G73qG58p4nBGjCu5lh-Bqap1RFSh6ZJbyhkBEZW8H4CNhVCg6uvtideURDQdhGs1Zkcc24qnRfafFXcOAI2xAv8er8lMGDrtkbpV~8Lqo~pjPEOq0mkces4tViowA8k1uGokTo5ucfWAaz9OEEy3Sh2T7NbPiQao3i3RQmpkiEiASot15xQv2VrJjLvOzZzfw6kWyuPa-cqkhn6hVEUCN43uLuWn8DpCeCeGLNFvYQL0NHm9d78Ae0ngSJ3Fzq-t79WaGA__&amp;Key-Pair-Id=K269JMAT9ZF4GZ)\- i bet you'd see some pretty wild sunsets (you can play with 3d thing [here](https://www.trymasterkey.com/properties/6836-n-36th-st-phoenix-camelback-east-village-az-85018))
+
+ngl last shot might belong in r/mildlypenis
+=====
+DATE: 2025-03-20T15:55:44Z | r/mac | score:1 | u/False-Lengthiness-72
+URL: https://reddit.com/r/mac/comments/1jfs5d4/is_this_app_safe/
+TITLE: is this app safe?
+BODY: i need to be able to do scroll screenshots, and didnt want to spend money on cleanshot x since it costs 30$ and found this on the app store and works the exact same, thing is its from a chinese company and no reviews, should i delete it, do y’all know something more safe? thank you
+=====
+DATE: 2025-03-20T01:52:35Z | r/zillowgonewild | score:1 | u/thisisgiulio
+URL: https://reddit.com/r/zillowgonewild/comments/1jfe2aj/not_a_single_sharp_edge_in_sight_frank_lloyd/
+TITLE: Not a single sharp edge in sight (Frank Lloyd Wright)
+BODY: honestly this is one of the coolest houses I've ever seen...
+
+[zillow link here](https://www.zillow.com/homedetails/6836-N-36th-St-Phoenix-AZ-85018/7809607_zpid/)
+
+[location looks wild](https://share.cleanshot.com/4gxg5VQZ), i think you'd see some pretty wild sunsets (you can play with the sunlight simulator thing [here](https://www.trymasterkey.com/properties/6836-n-36th-st-phoenix-camelback-east-village-az-85018))
+
+ngl last shot might belong in r/mildlypenis 
+=====
+DATE: 2025-03-19T23:17:41Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1jfauh2/tips_and_tricks_for_setapp/
+TITLE: Tips and Tricks for Setapp
+BODY: I put together all the reviews I've written of the software that's part of Setapp in case anyone is wondering what the best apps on the service happen to be. I also have a few tips for getting the most for your money.
+
+1) One tip I can offer is to [get your own API key from Open.AI](https://www.reddit.com/r/ChatGPT/comments/174loi4/using_api_keys_what_you_need_to_know_faq_for/) for use with AI apps like Typing Mind or Elephas. It is much cheaper. In a year of constantly using my API with multiple apps, I've spent $15.
+
+2)  I tried the iOS add-on and didn't get that much from it. I do have the add-on to run the apps on a second machine though. It doesn't add that much and it comes in handy.
+
+3) If you have any apps from Setapp that you have already purchased, consider using the Setapp version while you have a subscription since it adds to the money that the developer make. It's just a nice thing to do. Brett Terpstra [wrote a script and an automator workflow](https://brettterpstra.com/2019/04/22/so-you-got-setapp-dot-dot-dot-make-the-most-of-it/) that will tell you if any of the apps on your computer are also on Setapp.
+
+Setapp is an app subscription service ($9.99 a month) owned by the Ukrainian company Macpaw. It has approximately 1 million subscribers, which is a good testament to its usefulness. Here are some of the things I've learned in a year and half of being a customer.
+
+Unfortunately, Macpaw is a frequent target of Russian trolls because of the ongoing war between th
+=====
+DATE: 2025-03-19T19:50:56Z | r/macapps | score:1 | u/nickccal
+URL: https://reddit.com/r/macapps/comments/1jf5zzv/apps_i_find_myself_installing_on_new_macs/
+TITLE: Apps I find myself installing on new Macs
+BODY: On every new Mac I set up, these are the apps I find myself installing. Please tell me if you see something that could be removed from my workflow because other apps have a similar function built in. These are all very talented developers who have put a lot of work into designing these apps, so I listed their website instead of the Mac App Store so you can decide where to install from and check out what else they have. Not listed in any order.
+
+1Password: [https://1password.com/](https://1password.com/)   
+Proton VPN: [https://protonvpn.com/download](https://protonvpn.com/download)  
+Little Snitch: [https://www.obdev.at/products/littlesnitch/index.html](https://www.obdev.at/products/littlesnitch/index.html)  
+1 Blocker: [https://1blocker.com](https://1blocker.com)  
+Snippety: [https://snippety.app/](https://snippety.app/)  
+Caffeinated: [https://caffeinated.app/](https://caffeinated.app/)  
+FridayGPT: [https://www.fridaygpt.app/](https://www.fridaygpt.app/)  
+Steer: [https://steerapp.ai/](https://steerapp.ai/)  
+Barbee: [https://macmenubar.com/barbee/](https://macmenubar.com/barbee/)  
+Collections: [https://collectionsdb.com/](https://collectionsdb.com/)  
+Scratchpad: [https://sindresorhus.com/scratchpad](https://sindresorhus.com/scratchpad)  
+PastePal: [https://onmyway133.com/pastepal/](https://onmyway133.com/pastepal/)  
+Dato: [https://sindresorhus.com/dato](https://sindresorhus.com/dato)  
+Things 3: [https://culturedcode.com/things/](https://culturedcode.com/things/)  
+Alc
+=====
+DATE: 2025-03-19T19:49:42Z | r/macapps | score:1 | u/nickccal
+URL: https://reddit.com/r/macapps/comments/1jf5yuw/apps_i_find_myself_installing_on_new_machines/
+TITLE: Apps I find myself installing on new machines
+BODY: On every new Mac I set up, these are the apps I find myself installing. Please tell me if you see something that could be removed from my workflow because other apps have a similar function built in. These are all very talented developers who have put a lot of work into designing these apps, so I listed their website instead of the Mac App Store so you can decide where to install from and check out what else they have. Not listed in any order. 1Password: [https://1password.com/](https://1password.com/) Proton VPN: [https://protonvpn.com/download](https://protonvpn.com/download) Little Snitch: [https://www.obdev.at/products/littlesnitch/index.html](https://www.obdev.at/products/littlesnitch/index.html) 1 Blocker: [https://1blocker.com](https://1blocker.com) Snippety: [https://snippety.app/](https://snippety.app/) Caffeinated: [https://caffeinated.app/](https://caffeinated.app/) FridayGPT: [https://www.fridaygpt.app/](https://www.fridaygpt.app/) Steer: [https://steerapp.ai/](https://steerapp.ai/) Barbee: [https://macmenubar.com/barbee/](https://macmenubar.com/barbee/) Collections: [https://collectionsdb.com/](https://collectionsdb.com/) Scratchpad: [https://sindresorhus.com/scratchpad](https://sindresorhus.com/scratchpad) PastePal: [https://onmyway133.com/pastepal/](https://onmyway133.com/pastepal/) Dato: [https://sindresorhus.com/dato](https://sindresorhus.com/dato) Things 3: [https://culturedcode.com/things/](https://culturedcode.com/things/) Alcove: [https://tryalcove.com/](
+=====
+DATE: 2025-03-18T16:21:29Z | r/macapps | score:1 | u/linkarzu
+URL: https://reddit.com/r/macapps/comments/1je8wfz/macos_apps_i_use_in_2025_as_a_power_user_36_min/
+TITLE: MacOS Apps I use in 2025 as a Power User  (36 min video)
+BODY: https://preview.redd.it/en34tbtk4hpe1.png?width=1280&amp;format=png&amp;auto=webp&amp;s=7a92f881d38ea8b7296ddbc9ba5651a9eb00e9b4
+
+  
+Here's the list of apps that I got from the video timeline  
+  
+00:00 - disclaimer  
+00:10 - ghostty  
+00:43 - kitty  
+01:05 - neovim  
+01:38 - skitty-notes  
+02:10 - math calculations  
+02:56 - yabai  
+03:57 - karabiner-elements  
+05:32 - BetterTouchTool  
+06:58 - Setapp  
+07:54 - Zen  
+08:55 - 1password  
+09:27 - cleanshot x  
+13:03 - forklift  
+13:54 - Paste  
+14:49 - yoink  
+16:21 - aldente  
+17:53 - raycast  
+18:58 - davinci resolve  
+19:12 - recut  
+19:48 - keycastr  
+20:04 - klack  
+20:40 - raindrop  
+21:49 - homerow  
+22:29 - mouseless  
+23:34 - betterdisplay  
+24:28 - permute  
+25:52 - hand mirror  
+26:13 - openin  
+27:26 - elmedia player  
+27:42 - neovide  
+28:47 - pdf search  
+29:20 - in your face  
+30:08 - bartender  
+30:42 - pulltube  
+31:14 - mission control plus  
+31:47 - gemini duplicates  
+32:23 - cleanmymac  
+33:06 - steermouse  
+33:44 - boom 3d  
+34:19 - clearvpn
+
+The video can be found here  
+[https://youtu.be/-4Yuf-ogaLk](https://youtu.be/-4Yuf-ogaLk)
+=====
+DATE: 2025-03-17T14:54:38Z | r/Affinity | score:0 | u/Albertkinng
+URL: https://reddit.com/r/Affinity/comments/1jdejm6/pioneer_and_affinity_a_match_made_in_heaven/
+TITLE: Pioneer and Affinity: A match made in heaven!
+BODY: https://preview.redd.it/pkl40k9oj9pe1.jpg?width=482&format=pjpg&auto=webp&s=fa4d5d353ca24a4449bf9b2027ce0912c39e0fb0
+
+I recently bought [Pieoneer app ](https://appahead.studio/apps/pieoneer/)and it has boosted my productivity 200%! This feels like a new design app and it's just a well-designed utility that will make your day a lot easier. Video: [https://share.cleanshot.com/g5PJ3Pw2](https://share.cleanshot.com/g5PJ3Pw2)
+=====
+DATE: 2025-03-12T12:44:14Z | r/macapps | score:1 | u/0xCUBE
+URL: https://reddit.com/r/macapps/comments/1j9j750/best_apps_on_setapp/
+TITLE: Best apps on Setapp?
+BODY: Debating whether the setapp subscription is worthwhile. Some apps I'm liking are Ulysses, Canary Mail, Craft, and Cleanshot X. With the student discount, it would be about $60/year. 
+
+But there are 250+ apps on Setapp, so there must be some hidden gems. Which apps make Setapp worthwhile for you?
+=====
+DATE: 2025-03-07T07:25:56Z | r/macapps | score:2 | u/Cheap_Occasion_8850
+URL: https://reddit.com/r/macapps/comments/1j5i0iz/why_do_screen_recordings_take_up_so_much_space/
+TITLE: Why do screen recordings take up so much space?
+BODY: I wanted to test out the Cleanshot X screen recorder so I basically record a youtube video for 4 minutes and it came out to be 2,1GB. Is this normal? Is there something I can do to minimize it? Thank you all in advance. 
+=====
+DATE: 2025-03-06T16:28:04Z | r/sysadmin | score:1 | u/sparrowhawk360
+URL: https://reddit.com/r/sysadmin/comments/1j4zed9/ssl_status_levels/
+TITLE: SSL status levels
+BODY: Hey. Looking for some insight if you manage SSL Certs and have a few min.  
+  
+I'm building an SSL monitoring app and wanted to sanity-check the status categories I'm using. Right now, I have '[SSL Status Cards](https://share.cleanshot.com/N8WcTndh2Hk0ScmQKvs2)' for 
+
+* **Expired** – Already expired, site security compromised
+* **Critical** – Less than 7 days left, renew ASAP
+* **Failing** – Cert check failed (misconfig connection issue, etc.)
+* **Expiring Soon** – Less than 30 days left
+* **Valid** – Cert is fine, no action needed
+* **Unknown** – Couldn't determine status (offline site, typo, etc.)
+
+Does this cover all the major scenarios you'd want to track? Am I missing any edge cases that could be useful?
+
+Would love to hear your thoughts because I only manage 5-20 Certs which is probably way less than some of you.  
+Preview Link: [SSL Status Cards](https://share.cleanshot.com/N8WcTndh2Hk0ScmQKvs2)
+
+Cheers
+
+
+=====
+DATE: 2025-03-06T15:52:43Z | r/GraphicDesignJobs | score:1 | u/Shali1995
+URL: https://reddit.com/r/GraphicDesignJobs/comments/1j4yk10/hiring_fulltime_sr_graphic_web_designer_2k_month/
+TITLE: Hiring full-time Sr. Graphic / Web Designer [2k $ / month]
+BODY: Looking for a Sr. Designer full-time. We need someone who LOVES creating eye-catching designs for social media & website.
+
+If you're interested and open for a quick chat, let me know!
+
+I’ve attached some references to give you an idea of the design style we’re aiming for. If you have something similar in your portfolio, DM it!
+
+Style we like:
+
+* [https://share.cleanshot.com/4RdWs57m](https://share.cleanshot.com/4RdWs57m)
+* [https://share.cleanshot.com/pfy20HVj](https://share.cleanshot.com/pfy20HVj)
+* [https://share.cleanshot.com/ZtG378Jv](https://share.cleanshot.com/ZtG378Jv)
+* [https://share.cleanshot.com/Py78gKWN](https://share.cleanshot.com/Py78gKWN)
+=====
+DATE: 2025-03-06T15:52:07Z | r/GraphicDesigning | score:1 | u/Shali1995
+URL: https://reddit.com/r/GraphicDesigning/comments/1j4yjif/hiring_fulltime_sr_graphic_web_designer_2k_month/
+TITLE: Hiring full-time Sr. Graphic / Web Designer [2k $ / month]
+BODY: Looking for a Sr. Designer full-time. We need someone who LOVES creating eye-catching designs for social media &amp; website.
+
+If you're interested and open for a quick chat, let me know!
+
+I’ve attached some references to give you an idea of the design style we’re aiming for. If you have something similar in your portfolio, DM it!
+
+Style we like:
+
+* [https://share.cleanshot.com/4RdWs57m](https://share.cleanshot.com/4RdWs57m)
+* [https://share.cleanshot.com/pfy20HVj](https://share.cleanshot.com/pfy20HVj)
+* [https://share.cleanshot.com/ZtG378Jv](https://share.cleanshot.com/ZtG378Jv)
+* [https://share.cleanshot.com/Py78gKWN](https://share.cleanshot.com/Py78gKWN)
+=====
+DATE: 2025-03-06T15:51:27Z | r/graphic_design | score:0 | u/Shali1995
+URL: https://reddit.com/r/graphic_design/comments/1j4yixe/hiring_fulltime_sr_graphic_web_designer_2k_month/
+TITLE: Hiring full-time Sr. Graphic / Web Designer [2k $ / month]
+BODY: Looking for a Sr. Designer full-time. We need someone who LOVES creating eye-catching designs for social media & website.
+
+If you're interested and open for a quick chat, let me know!
+
+I’ve attached some references to give you an idea of the design style we’re aiming for. If you have something similar in your portfolio, DM it!
+
+Style we like:
+
+* [https://share.cleanshot.com/4RdWs57m](https://share.cleanshot.com/4RdWs57m)
+* [https://share.cleanshot.com/pfy20HVj](https://share.cleanshot.com/pfy20HVj)
+* [https://share.cleanshot.com/ZtG378Jv](https://share.cleanshot.com/ZtG378Jv)
+* [https://share.cleanshot.com/Py78gKWN](https://share.cleanshot.com/Py78gKWN)
+=====
+DATE: 2025-03-06T15:50:04Z | r/freelance_forhire | score:5 | u/Shali1995
+URL: https://reddit.com/r/freelance_forhire/comments/1j4yhr0/looking_for_a_graphic_web_designer_2k_month/
+TITLE: Looking for a graphic / web designer [2k $ / month]
+BODY: Looking for a Sr. Designer full-time. We need someone who LOVES creating eye-catching designs for social media & website.
+
+If you're interested and open for a quick chat, let me know!
+
+I’ve attached some references to give you an idea of the design style we’re aiming for. If you have something similar in your portfolio, DM it!
+
+Style we like:
+
+* [https://share.cleanshot.com/4RdWs57m](https://share.cleanshot.com/4RdWs57m)
+* [https://share.cleanshot.com/pfy20HVj](https://share.cleanshot.com/pfy20HVj)
+* [https://share.cleanshot.com/ZtG378Jv](https://share.cleanshot.com/ZtG378Jv)
+* [https://share.cleanshot.com/Py78gKWN](https://share.cleanshot.com/Py78gKWN)
+=====
+DATE: 2025-03-06T14:51:40Z | r/MacOS | score:1 | u/ReconBadger01
+URL: https://reddit.com/r/MacOS/comments/1j4x653/cleanshot_x_mic_not_recording/
+TITLE: CleanShot X mic not recording
+BODY: I recently purchases CleanShot X for my mac because QuickTime wouldn’t record both computer audio and mic audio. So far CleanShot X has been able to provide audio from my computer but it wouldn’t pick up mic audio, I was wondering if this is an issue with the microphone I’m choosing or if it’s a settings issue?
+=====
+DATE: 2025-03-06T09:56:21Z | r/VacuumHelp | score:1 | u/unwelcome_frown15
+URL: https://reddit.com/r/VacuumHelp/comments/1j4s3j7/best_carpet_cleaner_shampooer_for_home/
+TITLE: Best carpet cleaner / shampooer for home
+BODY: A vacuum cleaner is the tool of choice to remove dust, pet hair, lint and food crumbs from your carpets, area rugs and upholstery — but simply vacuuming these household fabrics isn't enough. They need wet cleaning to better tackle stains and ground-in dirt, and that's when it's time to put a carpet cleaner to work. Carpet cleaners use a mix of water, a cleaning solution and suction to dissolve soil leaving fabrics cleaner and looking brighter.
+
+After extensive research and countless hours spent reading through real user experiences on Reddit threads, I’ve compiled this list of the best carpet cleaners available today. I wanted to ensure that the recommendations I share come from genuine feedback and firsthand accounts, so I looked through many discussions and reviews to find the most effective and top-rated options.
+
+&amp;#x200B;
+___
+&amp;#x200B;
+
+# Best Carpet Cleaners:
+
+1. Bissell Big Green Professional
+2. Bissell ProHeat 2X Revolution Pet Pro Plus
+3. Hoover SmartWash Automatic
+4. Rug Doctor Mighty Pro X3
+5. Shark CarpetXpert
+
+&amp;#x200B;
+___
+&amp;#x200B;
+
+# Bissell Big Green Professional
+
+This carpet cleaner is designed to handle the rigorous demands of large area cleanings, this machine boasts a construction quality robust enough for rental fleet use, implying its longevity and reliability. It offers a superior water capacity of 1.7 gallons and demonstrates efficient water usage, ensuring extended cleaning without frequent refills. The Bissell Big Green also excels in su
+=====
+DATE: 2025-03-04T05:19:57Z | r/macapps | score:1 | u/Latter_Pen2421
+URL: https://reddit.com/r/macapps/comments/1j33khz/screen_recoder_one_thats_not_laggy/
+TITLE: Screen Recoder - One that's not laggy?
+BODY: What's the best non-laggy screen recording software? I find CleanShot X lags a lot. I've found screen studio very response, but looking for a few other options to explore
+=====
+DATE: 2025-03-01T19:02:06Z | r/shopifyDev | score:1 | u/qua-z
+URL: https://reddit.com/r/shopifyDev/comments/1j16yq8/how_to_achieve_a_similar_mobile_header_for_mobile/
+TITLE: How to achieve a similar mobile header for mobile layouts
+BODY: Hey everyone, I'm working on customizing my  first Shopify store using the free dawn them and I was wondering if it's possible to to achieve a mobile header similar to [JoahBrown](https://media.cleanshot.cloud/media/109029/4PX8mAYOxv5osN37MTwkfcYksnCwsmUqEZzfaTS1.jpeg?Expires=1740877329&amp;Signature=ITSwKystWFn0LrI3Cl218B3dqkCNR8n~Y3tPUWHyh6TRaqULQwjvgP5XEWH25L0nRsZJCRodNvXiiT9hhMs6h1IjttMchaefry4nJCoIXTa2rQJGU8WyZL~iQdSWJ6jDuFx7WlNtG7z49ZM1XjQGGWYPB~XCBPgDz53H-DUELbBwrJm4xK5f~hR82e5Rs3Rsdpd1pqxjPmP-tdiulhDmxz8pb2ebxk~jl6VM6TH4bKaVnqflt7MkgBzsXJClesqU6Mm53fl9cnG0q1yp8is8dANWQYyjpVXyTZcwOF5QlSjBmkOMSCAcF4x3oABKDJ2TD5dQ3skLZASISoZ3of5x6Q__&amp;Key-Pair-Id=K269JMAT9ZF4GZ) website.
+
+I like the sticky top navigation with a clean, minimal look.
+=====
+DATE: 2025-03-01T19:02:06Z | r/shopifyDev | score:1 | u/qua-z
+URL: https://reddit.com/r/shopifyDev/comments/1j16yq8/how_to_achieve_a_similar_mobile_header_for_mobile/
+TITLE: How to achieve a similar mobile header for mobile layouts
+BODY: Hey everyone, I'm working on customizing my  first Shopify store using the free dawn them and I was wondering if it's possible to to achieve a mobile header similar to [JoahBrown](https://share.cleanshot.com/Z8W39Jyb) website.
+
+I like the sticky top navigation with a clean, minimal look.
+=====
+DATE: 2025-03-01T16:52:45Z | r/macapps | score:1 | u/Visual-Square-4416
+URL: https://reddit.com/r/macapps/comments/1j13wen/as_of_march_2025_here_are_the_ai_chatbot_apps/
+TITLE: As of March 2025, here are the AI chatbot apps that can add your current screen or windows as additional context
+BODY: First of all, keep in mind that there's a big privacy concern regarding the ability to read your computer's screen. Usually, you need to "opt-in" or enable the feature explicitly.
+
+⚠️  It's your responsibility to trust the app or not.
+
+I'm a Mac user who likes to learn efficiency tricks on macOS. I'm not a developer of these apps or promoting them.
+There’s a major advantage: you don’t need to copy and paste, and you can chat more freely and comfortably because the AI apps understand the context.
+One of my needs when completing tasks on my computer is to use my cursor to point at something on the screen and ask AI to assist me or explain the content I don't understand.
+I've categorized them into four types: macOS accessibility API, Selected text, Web Browser and Screenshot OCR. I personally like the "accessibility API" approach.
+
+macOS accessibility API
+
+I believe AI apps that utilize accessibility APIs are more accurate because they can actually read the text on your app windows. But many hours of looking up, these apps are rare. Also, there's another drawback: macOS won't notify you or show an indication each time the app reads your content.
+
+
+1. the official ChatGPT app.
+The feature is called "Work with Apps." Currently, it only works with a few apps, rendering the feature not very helpful. I hope OpenAI will add more apps.
+
+ChatGPT app also supports screenshot.
+
+2. Blue
+You can bring your own OpenAI API key. It's actually not bad. You can add multiple "windows" to the chat
+=====
+DATE: 2025-03-01T16:01:42Z | r/macapps | score:1 | u/Visual-Square-4416
+URL: https://reddit.com/r/macapps/comments/1j12pjd/as_of_march_2025_here_are_the_ai_chatbot_apps/
+TITLE: As of March 2025, here are the AI chatbot apps that can read your screen or add your current screen as additional context
+BODY: First of all, keep in mind that there's a big privacy concern regarding the app that reads your screen. Usually, you need to "opt-in" to these features explicitly.
+
+I'm a Mac user who likes to learn efficiency tricks on macOS. I'm not a developer of these apps or promoting them.
+
+There’s a major advantage: you don’t need to copy and paste, and you can chat more freely and comfortably because the AI apps understand the context.
+
+  
+One of my needs when completing tasks on my computer is to use my cursor to point at something on the screen and ask AI to assist me or explain the content I don't understand.
+
+I've categorized them into four types: macOS accessibility API, Selected text, Web Browser and Screenshot OCR. I personally like the "accessibility API" approach.
+
+
+
+# macOS accessibility API
+
+I believe AI apps that utilize accessibility APIs are more accurate because they can actually read the text on your app windows. But many hours of looking up, these apps are rare. Also, there's another drawback: macOS won't notify you or show an indication each time the app reads your content.
+
+1. the official ChatGPT app. The feature is called "Work with Apps." Currently, it only works with a few apps, rendering the feature not very helpful. I hope OpenAI will add more apps.
+
+https://preview.redd.it/o0shsbb983me1.png?width=2000&format=png&auto=webp&s=12dc3921f1ac12289077011c04de11947292e2e6
+
+
+
+ChatGPT app also supports screenshot.  
+
+
+2. Blue: [https://meetblue.ai/](https://meetblue.ai
+=====
+DATE: 2025-02-28T07:04:50Z | r/AskElectricians | score:1 | u/FezVrasta
+URL: https://reddit.com/r/AskElectricians/comments/1j01y07/anyone_has_experience_installing_basalte_sockets/
+TITLE: Anyone has experience installing Basalte sockets flush on wooden walls?
+BODY: I'm going to have Basalte sockets installed in my new apartment. I know Basalte sells a flush mount kit, but my local reseller told me it works only for dry wall and bricks. In my case I would need to install a 3 gang wall socket plate on a wooden surface and I'm not sure how to do it.
+
+It would be like this, but for the socket rather than the keypad.
+
+![https://share.cleanshot.com/CgHpPN7tpRKfvC4TqtqD](https://share.cleanshot.com/CgHpPN7tpRKfvC4TqtqD)
+
+Here's an example of how the sockets look like:
+
+![https://share.cleanshot.com/jllQ2LBhwdprFw3KDwnV](https://share.cleanshot.com/jllQ2LBhwdprFw3KDwnV)
+
+Does anyone have experience with this? Any tips?
+=====
+DATE: 2025-02-27T23:48:19Z | r/macapps | score:1 | u/Cranberry-Can
+URL: https://reddit.com/r/macapps/comments/1izu4lu/cleanshot_x_opens_original_image_rather_than/
+TITLE: Cleanshot X opens "original" image rather than latest edit
+BODY: Hello. I love using Cleanshot X for doing basic edits to images, including resizing or adding annotations etc. The problem is, when I re-open an image after I have done any edits to it, it shows me the original rather than the actual modified version when I open the image in Cleanshot X. If I look at that file in another application, it sees the correctly updated version of that image. It's as if Cleanshot X is "caching" the old version. I would have to rename the file, then when I open it in Cleanshot X it sees the correct updated version of the image. So, somehow, Cleanshot X is caching the state of the image tied to the filename. 
+
+  
+Any suggestions? I couldn't see any settings on this caching (and I wouldn't actually expect this to be a setting/feature, as it's very unintuitive).
+
+  
+Thanks!
+=====
+DATE: 2025-02-25T00:17:53Z | r/paint | score:1 | u/superstarasian
+URL: https://reddit.com/r/paint/comments/1ixhir5/is_this_orange_peel/
+TITLE: Is this orange peel?
+BODY: - Ceiling, skimmed
+- Sanded Fresh Start with 220 grit. Was smooth to the touch
+- 1 Coat Applied BM Aura Semi-gloss
+- 412 FFLP with Graco X7, with CleanShot and extension
+- ~2200psi
+
+Is this as smooth as it’s going to get? Should I turn up the psi to max?
+
+
+=====
+DATE: 2025-02-23T21:55:00Z | r/macgaming | score:1 | u/timmehthekid
+URL: https://reddit.com/r/macgaming/comments/1iwlotn/steam_doesnt_open/
+TITLE: Steam doesn't open
+BODY: Hi! I just re-installed Steam on macOS on Sequoia 15.3 (24D60) but it just doesn't open. I click on the application but nothing happens and nothing appears on Activity Monitor.  
+  
+I tried following the [troubleshooting steps](https://support.steampowered.com/kb_article.php?ref=3352-RYON-4107), including restarting, re-installing and verifying that not anti-spyware, firewall etc. software is interfering, so I'm at a loss of what to do.  
+  
+Screen recording but that doesn't help much: [https://share.cleanshot.com/gvTWBJxJ](https://share.cleanshot.com/gvTWBJxJ)  
+
+
+Has anyone experienced this?
+=====
+DATE: 2025-02-23T00:40:01Z | r/macapps | score:36 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1ivxn6t/everyday_apps_for_gsd/
+TITLE: Everyday Apps for GSD
+BODY: This is the actual list of apps that I used to get stuff done. I never thought of myself as any kind of productivity guru, but using these apps allowed me to work a full-time IT support job and complete an average of 20 blog posts a week, including testing and reviewing over 300 apps. These aren't always the coolest or the most powerful or the best bargains, not necessarily. They just are the workhorses that allow me to do what I need to do. I'm not saying they are the best for everyone. If you do a lot over email, you need something more specialized. I don't do much with spreadsheets or presentations, so I'm not even listing those.
+
+Most (not all) of the links here describe my use cases or what I like about the app and why I use it. All links contain download info.
+
+* 📨 Mail Client: [Kiwi for Gmail](https://www.kiwiforgmail.com/)
+* 📜 Writing: [Obsidian](https://amerpie.lol/2024/12/28/obsidian-plugins-for-writers.html)
+* 📝 Temporary Notes: [Drafts](https://amerpie.lol/2025/01/19/122427.html) and [Scratchpad](https://appaddict.app/post/scratchpad-floating-notes-but-better)
+* 📆 Calendar: [Fantastical](https://flexibits.com/fantastical?cjevent=c9729c1bac8211ee804115a60a82b82c) legacy features, not paid
+* 📖 RSS: [Inoreader](https://appaddict.app/post/inoreader-rss-gets-new-features)
+* 🌐 Browser: [Vivaldi](https://apps.louplummer.lol/post/a-day-with-vivaldi-browser) on macOS and iOS
+* 🔖 Bookmarks: [Raindrop.io](https://appaddict.app/post/battle-of-the-bookmark-managers)
+* 📑 Read I
+=====
+DATE: 2025-02-22T06:38:44Z | r/macapps | score:1 | u/9f8bfdc424e815f9e703
+URL: https://reddit.com/r/macapps/comments/1ivcmw8/cleanshot_x_takes_so_much_memory_resource/
+TITLE: CleanShot X takes so much Memory resource
+BODY: [removed]
+=====
+DATE: 2025-02-20T20:41:17Z | r/macapps | score:1 | u/Jay11Man
+URL: https://reddit.com/r/macapps/comments/1iu8s5o/what_screenshot_app_do_you_use/
+TITLE: What screenshot app do you use?
+BODY: I'm currently using Shottr free tier. I'm enjoying it so far but I want to see what other people are using. Heard Cleanshot X is the best out there, but I couldn't justify the $29 price tag for lifetime with one year of updates. I'm curious about what you guys are using.
+=====
+DATE: 2025-02-19T18:20:27Z | r/reactnative | score:1 | u/Spaaze
+URL: https://reddit.com/r/reactnative/comments/1itcgk0/any_advice_on_how_to_animate_this_svg/
+TITLE: Any advice on how to animate this SVG?
+BODY: I have multiple SVGs in an app I'm building that consist of one black "background path" and one colored"foreground path". The foreground path should smoothly animate along the background path.  Here you can see an example: [https://share.cleanshot.com/94JW1F1V](https://share.cleanshot.com/94JW1F1V)
+
+Essentially, the green part should move from one side of the black path to the other.
+
+The main issue I'm encountering is that the background path is curved multiple times. My initial idea was to use Reanimated's useAnimatedProps to animate the SVG path itself. However, that's probably not viable with the way the SVG is set-up – here's the above example as SVG:
+
+    &lt;svg width="51" height="23" viewBox="0 0 51 23" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;  
+    &lt;path d="M1.00012 21.3457V11.4778C1.00012 10.1549 2.26146 9.19648 3.53598 9.55092L11.5001 11.7657L50.0001 1.3457" stroke="#0F0F0F" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/&gt;  
+    &lt;path d="M21 9.19458L11.5001 11.7657L5 9.95809" stroke="#96B30E" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/&gt;  
+    &lt;/svg&gt;
+
+Does anyone have any creative idea on how to accomplish this?
+=====
+DATE: 2025-02-19T11:04:02Z | r/Housepainting101 | score:0 | u/zixujo
+URL: https://reddit.com/r/Housepainting101/comments/1it2y5l/aliexpress_airless_spraying_tips_and_accessories/
+TITLE: AliExpress airless spraying tips and accessories?
+BODY: I've seen tips and accessories for decent prices on AliExpress. Much cheaper than genuine items. Has anyone tried these? This is purely for DIY use, so longevity isn't a concern.
+
+I was especially looking at getting a cleanshot valve. I noticed there are 2 types - one with a thumb screw, one without. What's the difference?
+=====
+DATE: 2025-02-18T19:17:15Z | r/macapps | score:1 | u/laptopllama
+URL: https://reddit.com/r/macapps/comments/1iskyso/top_20_lists_of_mac_apps_surprisingly_useful_to/
+TITLE: Top 20 lists of Mac apps: surprisingly useful to see other people's lists
+BODY: I've loved people posting their Top 20 Mac Apps lists, because twenty seems like a magic number. It's enough that the lists start to include the more obscure, specialized tools that you never hear about because they get no marketing.
+
+Some Top 20's I've enjoyed so far:
+
+* u/amerpie's (everyone here is probably familiar with his nice app reviews on the subreddit): [I Picked My Top 20 Apps](https://linkage.lol/my-top-20-apps/)
+* Kanat Akylson (a dev): [Top 20 MacOs Apps for your Productivity](https://akylson.com/top-20-macos-apps-for-your-productivity-2aaade40f473) (requires a Medium subscription though)
+* Bakari Chavanu, a Mac-writer-extraordinaire, is currently working on his list (presumably will be posted to his [Mac Automation Tips](https://macautomationtips.com/) site, and I'll comment with it when it's up).
+* Not a true top 20, but yesterday's "[20 apps that haven’t been mentioned here AFAIK](https://www.reddit.com/r/macapps/comments/1irz71c/20_apps_that_havent_been_mentioned_here_afaik/)" thread had a ton of new-to-me obscure apps.
+
+And then here's my Top 20 as a dev (my expanded list is [here](https://laptopllama.me/top-20-apps/) with screenshots/video-clips/bad-jokes):
+
+* [One Thing](https://sindresorhus.com/one-thing) **(free)**: put a current focus for your time right up in your menu bar where you can't not-see-it.
+* [Yoink](https://eternalstorms.at/yoink/mac/): stop wanting to punch your own face every time you drag and drop.
+* [Day Progress](https://sindresorhus.c
+=====
+DATE: 2025-02-17T16:38:48Z | r/crossword | score:1 | u/migraine91
+URL: https://reddit.com/r/crossword/comments/1iro317/beginner_constructor_looking_for_test_solvers/
+TITLE: Beginner constructor looking for test solvers
+BODY: I'd love some feedback  from y'all on my latest themed puzzle. I've been creating [crossword zines](https://share.cleanshot.com/vvlYpHsg) for friends and thought I'd finally get some outside eyes on them on how to improve. 
+
+**Check it out and let me know what you think:** [https://crosswordr.com/a/puzzle/vso67b21e15VSBz3](https://crosswordr.com/a/puzzle/vso67b21e15VSBz3)
+=====
+DATE: 2025-02-15T13:03:59Z | r/ObsidianMD | score:1 | u/mpfritz
+URL: https://reddit.com/r/ObsidianMD/comments/1iq0whf/question_frontmatter_into_an_outgoing_link/
+TITLE: Question- Frontmatter into an Outgoing Link
+BODY: Obsidian 1.8.6 user trying to get frontmatter into an outgoing link. The frontmatter is titled "RehDate" and is a string populated by a short date (e.g. 02-15). The link in the body of the note I'm trying to change should take the RehDate frontmatter and insert it after the "#" symbol in a file link. 
+
+E.G.: !\[\[Let Me Fly#02-15\]\] where the "02-15" is generated from the frontmatter labeled "RehDate."
+
+Further explanation:  
+\- I am a choral conductor rehearsing several pieces of music at each rehearsal. For each rehearsal, I create a new note (using Templater) that lists the repertoire we are working on that day. Each piece or repertoire (or song) has its own note (e.g. "Let Me Fly"). In each of those notes, I enter my rehearsal plans with a header for each rehearsal date (e.g. 02-15). In my Templater file, each new note would contain a list of each piece of music with the rehearsal plans for that day appearing under the title. An example is here (from 02-13): [https://share.cleanshot.com/xLqQ1FY1](https://share.cleanshot.com/xLqQ1FY1)
+
+  
+One solution I thought would work was to use &lt;% tp.frontmatter.RehDate %&gt; like so:
+
+\[\[Let Me Fly\]\]
+
+!\[\[Let Me Fly#&lt;% tp.frontmatter.RehDate %&gt;\]\]
+
+It works SOMETIMES but often returns
+
+Let Me Fly
+
+Unable to find “undefined” in Let Me Fly
+
+Any ideas?? 
+
+  
+
+
+
+=====
+DATE: 2025-02-14T01:27:25Z | r/inertiajs | score:1 | u/ogarocious
+URL: https://reddit.com/r/inertiajs/comments/1ioz5z7/inertia_link_opens_preview_window_inside_mantine/
+TITLE: Inertia Link Opens Preview Window Inside Mantine Drawer – Help Needed!
+BODY: Hi everyone,
+
+
+
+I’m having an issue with my Inertia/React application. When I click a link inside instead of navigating as expected, a preview window opens up. I’ve tried several troubleshooting steps, but nothing seems to resolve it. I’m hoping someone here might have encountered a similar issue or can point me in the right direction. I'm using Rails 8.
+
+
+
+**Environment:**
+
+• **React:** (version not specified, but I’m using React 18)
+
+• u/inertiajs**/inertia:** 0.11.1
+
+• u/inertiajs**/inertia-react:** 0.8.1
+
+• u/inertiajs**/react:** 2.0.3
+
+• **Mantine:** (latest version from yarn)
+
+• **Bundler:** Vite
+
+
+
+**Issue Details:**
+
+When I click the link inside a Mantine Drawer, a preview window (or full page reload that resembles a preview) appears instead of the expected client-side navigation. I have tried the following troubleshooting steps:
+
+1. **Disabling prefetch:**
+
+I added prefetch={false} to the &lt;Link&gt; component.
+
+2. **Using programmatic navigation:**
+
+I tried using router.visit(/posts/${post.slug}) in an onClick handler instead of the &lt;Link&gt; component.
+
+3. **Testing outside the Drawer:**
+
+I rendered the same &lt;Link&gt; on the index post page (outside any modal/drawer) and navigation worked correctly.
+
+4. **Browsers &amp; Incognito:**
+
+I tested in multiple browsers and incognito mode; the issue persists.
+
+
+
+**Relevant Code:**
+
+*Inside the Mantine Drawer:*
+
+*\`\`\`*
+
+*import { Drawer, Text, Button } from "@mantine/core";*
+
+*import { Link } from "@inertiajs/reac
+=====
+DATE: 2025-02-12T18:27:43Z | r/macapps | score:1 | u/bread-it
+URL: https://reddit.com/r/macapps/comments/1inxvml/cleanshot_vs_freeform/
+TITLE: Cleanshot vs Freeform
+BODY: There are countless "Cleanshot vs XXXX" threads.
+
+But it looks like no one anywhere ever compared Cleanshot and Freeform. While Freeform isn't  a screeshot app, its editing tools are very similar. I'm wondering if anyone's gone deep with both and has a favorite?
+=====
+DATE: 2025-02-11T13:14:30Z | r/macapps | score:1 | u/amerpie
+URL: https://reddit.com/r/macapps/comments/1imyaaq/applite_updated_with_new_features/
+TITLE: Applite Updated with New Features
+BODY: Installing software using the package manager, Homebrew, makes it much easier to update than downloading installation files manually. It isn't necessarily difficult to find the commands to download apps, but it does require a certain amount of searching around. The free and open-source utility, Applite, provides an App Store like interface for Homebrew, allowing you to browse what is available through a GUI. Anything you download through Applite can also be updated through the same interface.
+
+When you install [Applite](https://aerolite.dev/applite), it will offer to install Homebrew . If you don't have it installed already, you'll want to do that. Otherwise, just choose the option to use your currently installed version, which will be detected.
+
+Every application in the [Homebrew Catalog](https://brew.sh/) is available through [Applite](https://aerolite.dev/applite). When you launch an app downloaded with Applite, the built-in Mac security apps, Gatekeeper and Xprotect will examine it to make sure it is safe to run. Most of the apps in the Homebrew catalog are notarized, but not all of them are sandboxed, meaning that some may run with elevated privileges. Be careful when downloading applications that few others have downloaded. Not all apps available through Homebrew are FOSS. Some are trialware of commercial products.
+
+The following categories of apps are available along with info on some of the apps I have tested:
+
+* Browsers like [Edge](https://amerpie.lol/2024/01/09/mic
+=====
+DATE: 2025-02-09T02:21:55Z | r/selfhosted | score:1 | u/chuchodavids
+URL: https://reddit.com/r/selfhosted/comments/1il4c2i/guide2go_update_back_in_action/
+TITLE: Guide2Go Update - Back in Action!
+BODY: Hey everyone, I'm back! I apologize for the delay. I previously forked `guide2go`, but then life got in the way, and I wasn't able to address a few outstanding issues. I even received a generous SchedulesDirect membership from a user (thank you!). I really appreciate the support, and I hope you enjoy the new changes I've just implemented.
+
+**My Fork:**[https://github.com/Chuchodavids/guide2go](https://github.com/Chuchodavids/guide2go)
+
+The project is still a work in progress, with some minor details to iron out, but the major updates are ready!
+
+**Key Changes:**
+
+* **Simplified Channel Configuration:**
+   * When you configure your `config.yaml` file by running `guide2go -configure config.yaml`, you'll now be greeted with a much more user-friendly interface: 
+      * [https://share.cleanshot.com/957hX6D2](https://share.cleanshot.com/957hX6D2)
+   * Previously, adding channels was a tedious, one-by-one process. This new interface significantly streamlines that.
+   * You can easily search for channels by pressing `/` and then typing your query.
+* **New Image Handling (TheMovieDB Integration):**
+   * This is a *major* change. I've removed the previous, rudimentary method of downloading images from SchedulesDirect.
+   * Instead, the application now searches for images on [TheMovieDB](https://www.google.com/url?sa=E&amp;source=gmail&amp;q=https://www.themoviedb.org/). While it might not be quite as comprehensive as SchedulesDirect's images, it's a very powerful and generally effecti
+=====
+DATE: 2025-02-08T23:06:16Z | r/fslogix | score:1 | u/42eclipse
+URL: https://reddit.com/r/fslogix/comments/1il0d76/fslogix_breaks_the_start_menu_in_a_new_windows_11/
+TITLE: FSLogix breaks the start menu in a new Windows 11 24H2 installation in AVD
+BODY: Hello,
+
+
+
+I have observed a phenomenon that the start menu does not work correctly on my Azure Virtual Desktop machines immediately after boot when I use FSLogix.
+
+
+
+I do not have this problem on machines without FSLogix.
+
+
+
+After logging in, I can open the start menu normally, but when I search for something in the search field, a loading animation appears first and then the menu resets itself briefly and displays the OS build number and the set language: [https://share.cleanshot.com/0kHcvL4Q](https://share.cleanshot.com/0kHcvL4Q)
+
+
+
+Are you aware of this problem, what can I do? The FSLogix logs do not show any (obvious to me) error.
+
+
+
+I am thankful for any help...!
+
+
+=====
+DATE: 2025-02-08T19:16:33Z | r/OculusQuest | score:1 | u/WittyVermicelli4097
+URL: https://reddit.com/r/OculusQuest/comments/1ikv4ed/what_are_good_single_player_offline_basketball/
+TITLE: What are good Single Player offline Basketball Games other than Blacktop Hoops since i can't find any?
+BODY: I'm kind of disappointed with BlackTop Hoops. In the beta things were a little better, they made some decisions for the release versions that just ruined it for me( others were already there i just hadn't noticed). Note i play single player, no internet
+
+a) Hands weren't cartoony. Now they are
+
+b) Courts, in beta at least you got the cool New york one with cool urban kind of hiphop type. Now the default starting court is a weird purple looking sky. The environment looks lifeless as if people were about to go to sleep back to their houses. Not vibrant. The music sounds something like mystical-magical instead of some hiphop type. That's disappointing
+
+And yeah you have options to change to other courts/environments but what are they?
+
+They are fictitious environments like UNDERWATER? I don't understand how this makes sense. I was thinking blacktop hoops was more like a simulator and that the only kind of funny thing would be the characters faces.  There's underwater, then there's ROOM. Playing inside a room, and a weird very uninteresting one where it's basically total darkness and you play in a blue court that is lighten with a spotlight. That's so unintersting. I would think people like to experience a nice environment, not just a court with nothing to see but a light
+
+Including the Promo description in the Quest page is misleading making it seem like you're gonna play great realistic places: Stunning Environments: Play across 8 beautifully crafted basketball courts across th
+=====
+DATE: 2025-02-08T19:04:58Z | r/OculusQuest2 | score:1 | u/WittyVermicelli4097
+URL: https://reddit.com/r/OculusQuest2/comments/1ikuuk4/whats_a_good_basketball_sim_for_single_player_an/
+TITLE: What's a Good Basketball Sim for Single Player An Alternative to BlackTop hoops?
+BODY: I'm kind of disappointed with BlackTop Hoops. In the beta things were a little better. Note i play single player, no internet
+
+a) Hands weren't cartoony. Now they are
+
+b) Courts, in beta at least you got the cool New york one with cool urban kind of hiphop type. Now the default starting court is a weird purple looking sky. The environment looks lifeless as if people were about to go to sleep back to their houses. Not vibrant. The music sounds something like mystical-magical instead of some hiphop type. That's disappointing
+
+And yeah you have options to change to other courts/environments but what are they?
+
+They are fictitious environments like UNDERWATER? I don't understand how this makes sense. I was thinking blacktop hoops was more like a simulator and that the only kind of funny thing would be the characters faces.  There's underwater, then there's ROOM. Playing inside a room, and a weird very uninteresting one where it's basically total darkness and you play in a blue court that is lighten with a spotlight. That's so unintersting. I would think people like to experience a nice environment, not just a court with nothing to see but a light
+
+Including the Promo description in the Quest page is misleading making it seem like you're gonna play great realistic places: *Stunning Environments: Play across 8 beautifully crafted basketball courts across the globe including Oakland, Los Angeles, New York City, and Athens.*  ( YEah, except that you'll be playing Under water, in your
+=====
+DATE: 2025-02-08T18:52:41Z | r/techsupport | score:1 | u/AmsonofSweden
+URL: https://reddit.com/r/techsupport/comments/1ikujt0/need_help_how_to_program_ruwido_universal_remote/
+TITLE: Need help! How to program Ruwido Universal Remote 780a?
+BODY: I've been searching for over an hour now and I can't seem to find how to program this remote. How to get into programming mode etc.
+
+  
+[https://share.cleanshot.com/Rzd7sv4b](https://share.cleanshot.com/Rzd7sv4b)
+
+
+
+  
+Anyone got any suggestion?
+
+  
+Thaaaaanks 🙏🏻
+=====
+DATE: 2025-01-31T06:43:12Z | r/macbook | score:1 | u/justonpoint
+URL: https://reddit.com/r/macbook/comments/1ie8wy2/app_constantly_crashes_for_me_and_i_cant_identify/
+TITLE: App constantly crashes for me and I can't identify why — Hoping someone can help me find out.
+BODY: Hey all, I'm pretty desperate and have been searching for answers to no avail, really hoping someone can help me figure out the reason.
+
+I'm using Flow by Wispr, a Speech-To-Text app that transcribes what I say in real-time when I press the Fn button. Recently, each time I use Flow or if I open the app without using it for awhile, the app closes (i.e., quits entirely) several minutes after.
+
+When I tried to do a screen recording to show the Flow team, interestingly the Flow app doesn't close. :/
+
+Initially I thought it was an app issue, and raised it to the team, but apparently I'm the only person with this issue, so I'm wondering now if it's related to one of the other apps I have, or a certain configuration in my Mac that's causing a conflict.
+
+These are the apps I have:
+
+* AltTab.
+* Anki.
+* AutoRaise.
+* Bananotate.
+* Cardhop.
+* CleanShot X.
+* Leader Key.
+* Elephas.
+* Fantastical.
+* Flow.
+* Ice.
+* iStat Menus 7.
+* Jagex / Old School RuneScape.
+* Logi Options+.
+* Loom.
+* MacWhisper.
+* Microsoft Office.
+* Raycast.
+* Visual Studio Code.
+
+Has anyone experienced similar issues with other apps, or know how I can trace the source of this issue? Would really appreciate the help!
+
+If it helps, I have a Macbook Air M3, 8GB RAM.
+=====
+DATE: 2025-01-31T06:40:41Z | r/macapps | score:1 | u/justonpoint
+URL: https://reddit.com/r/macapps/comments/1ie8vmi/app_constantly_crashes_for_me_and_i_cant_identify/
+TITLE: App constantly crashes for me and I can't identify why — Hoping someone can help me find out.
+BODY: Hey all, I'm pretty desperate and have been searching for answers to no avail, really hoping someone can help me figure out the reason.
+
+I'm using Flow by Wispr, a Speech-To-Text app that transcribes what I say in real-time when I press the Fn button. Recently, each time I use Flow or if I open the app without using it for awhile, the app closes (i.e., quits entirely) several minutes after.
+
+When I tried to do a screen recording to show the Flow team, interestingly the Flow app doesn't close. :/ 
+
+Initially I thought it was an app issue, and raised it to the team, but apparently I'm the only person with this issue, so I'm wondering now if it's related to one of the other apps I have, or a certain configuration in my Mac that's causing a conflict.
+
+These are the apps I have:
+
+* AltTab.
+* Anki.
+* AutoRaise.
+* Bananotate.
+* Cardhop.
+* CleanShot X.
+* Leader Key.
+* Elephas.
+* Fantastical.
+* Flow.
+* Ice.
+* iStat Menus 7.
+* Jagex / Old School RuneScape.
+* Logi Options+.
+* Loom.
+* MacWhisper.
+* Microsoft Office.
+* Raycast.
+* Visual Studio Code.
+
+Has anyone experienced similar issues with other apps, or know how I can trace the source of this issue? Would really appreciate the help!
+=====
+DATE: 2025-01-30T13:38:00Z | r/macapps | score:1 | u/AnKingMed
+URL: https://reddit.com/r/macapps/comments/1idn4l9/my_favorite_apps_what_do_you_think/
+TITLE: My favorite apps - what do you think?
+BODY: I am a resident physician working 60+ hours a week most weeks while also trying to run three businesses and be a good father/husband. Over the years I've found many favorites and I wanted to share and get feedback. I love productivity apps and I'm always open to new ideas.
+
+**Things3** \- I've tried all the todo apps and this is by far my favorite. My only complaints are no collaboration, no attachments, and no availability on windows (I only care because my work is windows). I've tried all the others and just couldn't stick with them and always came back to Things3. Todoist is probably the best competitor, but just looks awful compared to Things and the keyboard shortcuts and workflow and klunky.
+
+**Keyboard maestro** \- probably one of my all-time favorite apps. I think everyone needs it, they just don't know it yet. I use it to adjust windows when plugging or unplugging external monitors, phrase expander, formatting things, custom shortcuts within certain apps, clipboard manager, formatting text, and more. Basically if I'm repeating the action more than a few times, I try and make a macro for it
+
+**Alfred** \- This is a close second to keyboard maestro. I use it to trigger KM macros, find 2 factor codes in my messages, calculate things, phrase expander, search chrome bookmarks, trigger tons of different apps (cleanshot x, bitwarden, etc), open github repositories, adjust microphone and volume, search apple notes, and integrate with Things3.
+
+**Bitwarden** \- amazing passwo
+=====
+DATE: 2025-01-28T20:38:41Z | r/Calidad_Precio | score:1 | u/ForwardHawk6625
+URL: https://reddit.com/r/Calidad_Precio/comments/1icbnt9/best_carpet_cleaners_in_2025/
+TITLE: Best Carpet Cleaners in 2025
+BODY: # [Shop Bissell ProHeat 2X Revolution Pet Pro](https://amzn.to/3EeR2Mc)
+
+***According to our analysis, the Bissell ProHeat 2X Revolution Pet Pro is the best carpet cleaner in 2025.***
+
+This powerhouse carpet cleaner is designed with pet owners in mind, offering excellent stain removal, powerful suction, and a lightweight design for easy maneuverability. 
+
+|**Brand**|**Bissell ProHeat 2X Revolution**|**Hoover SmartWash Automatic Cleaner**|**Rug Doctor Mighty Pro X3**|
+|:-|:-|:-|:-|
+|**Best For**|Pet messes, deep stains|Automatic cleaning|Heavy-duty cleaning|
+|**Tank Size**|1 gallon|1 gallon|3.9 gallons|
+|**Weight**|17.5 lbs|18.9 lbs|39 lbs|
+|**Special Features**|HeatWave, CleanShot Pretreater|Auto-clean, Dry-Only mode|Wide cleaning path, strong suction|
+|**Amazon Link**|[**Check Price**](https://amzn.to/3EeR2Mc)|[**Check Price**](https://amzn.to/4jyIe3M)|[**Check Price**](https://amzn.to/42x7nFV)|
+
+# Why These Carpet Cleaners Work
+
+# Bissell ProHeat 2X Revolution: My Top Pick
+
+I love the Bissell ProHeat 2X for its ability to tackle stubborn pet stains and odors. It’s lightweight, easy to use, and features HeatWave technology to maintain warm water during cleaning. The CleanShot Pretreater is a game-changer for tough spots, making it perfect for homes with kids or pets.
+
+# Hoover SmartWash Automatic Cleaner: Best for Easy Operation
+
+The Hoover SmartWash stands out for its automatic cleaning system. Just push it forward to clean and pull it back to dry—no buttons or triggers nee
+=====
+DATE: 2025-01-28T17:35:46Z | r/macapps | score:3 | u/Loose_Ad9349
+URL: https://reddit.com/r/macapps/comments/1ic74qv/screen_recording_app_mac_software_to_record/
+TITLE: Screen Recording App Mac : Software to Record Videos with Optional Camera Overlay (Easily Removable in Post-Editing)
+BODY: Hi everyone,
+
+I’ve been using CleanShot X for recording lectures and YouTube videos, and it’s been great in terms of quality and performance. However, I have a different need now:
+
+1. **Requirement**: I want to record videos with my camera overlay, but keep the camera feed optional — meaning I should be able to:
+   * Remove the camera feed in post-editing if needed.
+   * Or export two versions of the video: one with the camera on, and one with it off.
+2. **Current Tool Tried**: I tried Wondershare DemoCreator, but the performance and output quality didn’t meet my expectations.
+3. **Ideal Features**:
+   * High-quality video recording with camera overlay.
+   * Ability to remove the camera feed or export separate versions (camera on/off) easily.
+   * Price should be in the same range as CleanShot X (affordable).
+
+**Looking for recommendations**: If anyone knows of any software that can do this well (and at a reasonable price), I would appreciate your suggestions!
+
+Thanks in advance!
+=====
+DATE: 2025-01-25T14:36:20Z | r/SaaS | score:1 | u/ohansemmanuel
+URL: https://reddit.com/r/SaaS/comments/1i9o8e5/has_producthunt_lost_its_magic/
+TITLE: Has ProductHunt lost its magic?
+BODY: There’s been a lot of chatter (especially on X) about whether ProductHunt is still worth it for indie hackers. Some say its golden era is over. So, we decided to test it ourselves.
+
+On **December 11**, while debates raged, we quietly launched **Remention** on ProductHunt. And somehow, that alone helped us cross **$1K in revenue.**
+
+# The Numbers (Proof Included):
+
+* **11.5K page views** (50% unique) -  [Proof](https://share.cleanshot.com/X0FQRnF6)
+* **#2 Product of the Day** with **500+ upvotes -**  [Proof](https://www.producthunt.com/products/agent69#remention)
+* **#5 Marketing Product of the Month -** [Proof](https://share.cleanshot.com/JYWYRP9G)
+* **10 paying customers** in the first 2 weeks ($63 AOV) - [Proof](https://share.cleanshot.com/LcYdwXbb) 
+* **Currently at $1.4K revenue** \- [Proof](https://share.cleanshot.com/7MSV6Z6Q)
+
+Fun fact: A tracking bug meant we lost our first day’s data. Classic “ship fast” moment.
+
+# What Worked for Us:
+
+1. **ProductHunt Newsletter Love:**
+   * We got featured in their newsletter, which drove paying customers and demo calls. My calendar was buzzing!
+2. **A Solid MVP:**
+   * We focused on solving an actual problem with a unique spin—great UX and filling market gaps.
+   * Hot take: Please don’t ship a half-baked MVP. Too many AI apps do this.
+3. **We Took Launch Day Seriously:**
+   * Planned 2 weeks in advance.
+   * Engaged in comments, reached out manually, and optimized our launch page.
+
+# Should You Launch on PH?
+
+Maybe. It depends on
+=====
+DATE: 2025-01-25T06:37:01Z | r/FortniteClips | score:1 | u/BadBitch73_
+URL: https://reddit.com/r/FortniteClips/comments/1i9h357/shorts_fortnite_headshot_like_music_cleanshot_song/
+TITLE: #shorts #fortnite #headshot #like #music #cleanshot #song
+BODY: 
+=====
+DATE: 2025-01-23T14:59:12Z | r/macbookrepair | score:1 | u/shevchuk95
+URL: https://reddit.com/r/macbookrepair/comments/1i857v0/any_ideas_why_display_is_flickering_mb_pro_2016/
+TITLE: Any ideas why Display is flickering ? MB Pro 2016, 13", Sonoma 14.6 (oclp)
+BODY: MacBook Pro 13-inch, 2016 (yes, I know about the problematic display cable; the display was replaced with a new one 1-2 years ago). My mom uses this MacBook, and while screen recording with CleanShot X, she noticed this issue. According to her, the problem disappeared after closing and reopening the lid.
+
+To keep the MacBook somewhat up-to-date, I installed OCLP on it.
+
+Could this really be a flex cable issue? Or might it be a software-related problem?
+
+[https://youtube.com/shorts/jLQ1ZYqi12o?feature=share](https://youtube.com/shorts/jLQ1ZYqi12o?feature=share)
+
+
+=====
+DATE: 2025-01-22T05:41:37Z | r/macapps | score:6 | u/Dantnad
+URL: https://reddit.com/r/macapps/comments/1i748b1/rate_my_mac_apps_setup/
+TITLE: Rate my mac apps setup
+BODY: I've seen lots of people lately asking for apps for mac in several categories. In many years I've been trying to optimize my workflow as much as possible and for that I've gotten my hands into some apps that I believe are the best at what they do. Would love to know your opinions on them and if you happen to know any better alternatives.
+
+  
+**Utilities and maintenance**
+
+\- [DaisyDisk](https://daisydiskapp.com/) \- I'm starting off with this one, since I discovered it a few years back I fell in love with it, It allows you to see your files in a graph and easily know what's taking up space, and prevents you from deleting important files. A must have installed in my opinion.  
+\- [AppCleaner](https://freemacsoft.net/appcleaner/) \- Many of you may already have installed this one, but for those who don't it basically allows you to completely uninstall apps from your mac, including files that usually stay there taking up stace.  
+\- [Shottr](https://shottr.cc/) \- A pretty good one time purchase screenshot tool, I use it a lot, however after I bought it I saw there was [Cleanshot X](https://cleanshot.com/), I'm still not sure Shottr was the smartest choice over Cleanshot, but pretty good nonetheless.  
+\- [Keka](https://www.keka.io/en/) \- A compression utility, allows you to compress and uncompress files in several formats, free, pretty good, you just install it and forget it  
+\- [Permute 3](https://software.charliemonroe.net/permute/) \- A converter app that can convert and c
+=====
+DATE: 2025-01-22T02:52:11Z | r/rails | score:1 | u/ogarocious
+URL: https://reddit.com/r/rails/comments/1i70zqk/performance_issues_on_recent_upgrade_to_rails_8/
+TITLE: Performance Issues on Recent Upgrade to Rails 8 in Production
+BODY: **\[Help\] Diagnosing Long Page Load Times in Rails 8 App with ActiveStorage**
+
+Hi everyone,
+
+I’m encountering significant page load delays on my Rails 8 production site and could use some guidance to identify the root cause and optimize performance. Here are the details:
+
+**The Problem**
+
+1. **Long Page Load Times**: Some pages take an unusually long time to load, particularly ones with associated ActiveStorage attachments.
+
+2. **Largest Contentful Paint (LCP)**: Tools like Lighthouse report LCP values in excess of **150 seconds** for images.
+
+3. **ActiveStorage Issues**: Logs indicate that ActiveStorage::Attachment Load is a frequent slow event.
+
+
+
+**My Setup**
+
+• **Rails Version**: 8.0.0
+
+• **ActiveStorage Variant Processor**: MiniMagick
+
+• **Hosting**: [Fly.io](http://Fly.io)
+
+• **Database**: PostgreSQL
+
+• **Caching**: Redis (via Sidekiq for background jobs)
+
+• **Image Assets**: Stored on AWS S3 (via ActiveStorage) 
+
+
+
+**What I’ve Tried**
+
+1. **Eager Loading Associations**: I’ve added eager loading for event\_image\_attachment and event\_image\_blob in my index and show actions to reduce N+1 queries.
+
+2. **Precompiling Assets**: Assets are precompiled during the Docker build process using SECRET\_KEY\_BASE\_DUMMY=1 ./bin/rails assets:precompile.
+
+3. Recreated my Dockerfile and fly.toml.
+
+4. **Database Optimization**: Verified indexes on ActiveStorage tables (active\_storage\_attachments and active\_storage\_blobs).
+
+5. Reviewed my application.rb and production.rb.
+
+
+
+In S
+=====
+DATE: 2025-01-21T02:43:06Z | r/Notion | score:1 | u/buildinthefuture
+URL: https://reddit.com/r/Notion/comments/1i68jl2/database_button_for_assigning/
+TITLE: Database button for assigning
+BODY: I recently discovered database buttons - what a game changer!
+
+I'm trying to use it to mirror the way we used to go Google Docs and Task for assigning specific task items. In Google Docs, you could assign a doc for someone to review, it would appear on their Tasks list and when they marked it off as approved it would complete that task.
+
+To date, nothing in Notion seems to support this (I posted about it a few months back) but now I'm trying to use these button automations to try. 
+
+I noticed you could use the automation to add a task to Tasks - and I was hoping to set the assignee as a custom Person property I created that sets all the reviewers. But I can't seem to figure out how to set that for the Assignee. Has anyone tried this?
+
+Screenshot of my setup: https://share.cleanshot.com/LYRnkln
+
+Screenshot of the view trying to make the connection but I don't seem to have access to the Person property that I set for this page: https://share.cleanshot.com/JHpbYxbK
+=====
+DATE: 2025-01-19T17:43:42Z | r/macro_pads | score:1 | u/booknerdcarp
+URL: https://reddit.com/r/macro_pads/comments/1i543wj/name_editing_on_via/
+TITLE: Name Editing on Via
+BODY: Anyone know if the title on the keycap can be changed? 
+
+[Image](https://share.cleanshot.com/Q17rvwDm)
+=====
+DATE: 2025-01-17T03:07:33Z | r/Insta360 | score:1 | u/trynagrub
+URL: https://reddit.com/r/Insta360/comments/1i36x3m/insta360_link_2c_mac_8_frame_audio_delay_driving/
+TITLE: Insta360 Link 2c (Mac) ~ 8 Frame Audio Delay Driving Me Nuts! (Tried Everything)
+BODY: I’m at my wit’s end trying to fix this audio delay issue with my Insta360 Link 2c. There’s a consistent 8ish frame delay no matter what I do.
+
+My Setup:
+
+	•	MacBook Pro M3 Pro (18GB RAM) - Killed all apps, plenty of processing power
+
+	•	Direct USB-C connection with the original cable
+
+	•	Tried both MacBook mic and external mic
+
+	•	Latest MacOS, latest insta software and firmware
+
+What I’ve already tried:
+
+	•	Killed (and uninstalled) the virtual camera
+
+	•	Completely nuked (and uninstalled) the Insta360 software
+
+	•	Dropped quality settings to potato mode
+
+	•	Set audio sample rate to 48kHz in Audio MIDI Setup
+
+	•	Tested in OBS, CleanShot X, Quicktime, and the original Insta360 software
+
+	•	Made sure I’m within proper distance (1.5m)
+
+	•	Direct connection, no hubs or adapters
+
+The weird thing is, it’s EXACTLY 8 frames off every single time, regardless of what I do. Tried all the intelligent audio modes too, no dice.
+
+Anyone else dealing with this? Any magical solutions I haven’t tried yet? Starting to think this might be a hardware limitation, but hoping someone here has cracked the code.
+
+Would especially love to hear from other Mac users who might have solved this!
+=====
+DATE: 2025-01-15T19:31:06Z | r/macapps | score:1 | u/Intelligent-Rice9907
+URL: https://reddit.com/r/macapps/comments/1i25m11/is_there_an_app_that_delays_login_apps/
+TITLE: Is there an app that delays login apps?
+BODY: Hello Everyone!! I'm looking an app that can help me delay the apps that open as soon as I start a session? For example: I have hammerspoon, rectangle, oversight, blockblock, lulu, openin, fivenotes, cleanshot x, alfred5, aldente all opening at startup but would like to let the OS start as quickly as possible and then periodically open one by one after the previous has finished opening then open the next one but only when Im already able to use the mac
+=====
+DATE: 2025-01-15T07:06:42Z | r/Instagram | score:1 | u/soamjena
+URL: https://reddit.com/r/Instagram/comments/1i1rz7h/is_this_a_new_trend_going_on_from_big_accounts/
+TITLE: Is this a new trend going on from big accounts ?
+BODY: [https://share.cleanshot.com/5Zg9XdXy](https://share.cleanshot.com/5Zg9XdXy)
+
+So, something really strange is happening, and I need to share this. One of my pinned posts on my Instagram profile recently got a wave of comments—about 20-30 of them—all from verified accounts. When I checked, these accounts had over 1M followers each! 😳
+
+Here’s the catch: their account activity doesn’t add up to the massive following they have. Most of them have fewer than 50-100 posts, but somehow they’re sitting at 1-2M followers. Meanwhile, I’ve been grinding for the last 10 years, posting organically (I have over 5000+ posts), and I’ve built my account to 320k followers.
+
+It’s wild to think that verified means they’re actual people, not bots or fake accounts. But how are they pulling this off? Is it paid growths, or something shady that I’m missing?
+
+
+=====
