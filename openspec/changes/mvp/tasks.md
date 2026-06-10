@@ -20,7 +20,7 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 - [x] 2.3 Geometry/coordinate model: logical-vs-pixel spaces, multi-display mapping, mixed-DPI math + property tests (spec:capture-engine)
 - [x] 2.4 Heuristic auto-naming engine: source app + window title + top OCR tokens → kebab filename; collision handling; unit-test corpus of 50 fixtures (spec:library, NO AI)
 - [x] 2.5 Destination plugin protocol: payload model (image/document/text), destination descriptor, registration, error surface; clipboard + file built-ins (spec:output-destinations)
-- [ ] 2.6 Settings model: typed schema, defaults per PRD "opinionated defaults", migration, import/export excluding secrets (spec:utilities-settings)
+- [x] 2.6 Settings model: typed schema, defaults per PRD "opinionated defaults", migration, import/export excluding secrets (spec:utilities-settings)
 - [x] 2.7 Filename template engine + save-location rules (spec:output-destinations)
 
 ## 3. OneShotCapture — capture engine (lane: capture; needs 2.3)
