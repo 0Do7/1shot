@@ -29,7 +29,7 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 - [ ] 3.2 Area selection overlay windows (per display, borderless): crosshair, magnifier, dimension readout, keyboard nudge, multi-display + mixed-DPI correct
 - [ ] 3.3 Window capture: alpha-preserving transparent shadow + shadowless mode; window picking UX (spec:capture-engine)
 - [ ] 3.4 Modes: fullscreen, repeat-previous-area (with region preview before recapture), delayed (UI-configurable), freeze-screen (spec:capture-engine)
-- [ ] 3.5 Global hotkeys: RegisterEventHotKey wrapper, conflict detection, rebinding UI model (design D6)
+- [x] 3.5 Global hotkeys: RegisterEventHotKey wrapper, conflict detection, rebinding UI model (design D6)
 - [x] 3.6 Permission state machine: Screen Recording status detection, re-auth detection (per S0 findings), recovery flow hooks (spec:onboarding-permissions)
 
 ## 4. Post-capture chip (lane: chip; needs 3.1)
