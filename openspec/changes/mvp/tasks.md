@@ -6,7 +6,7 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 1. Spikes & Foundation (blocks everything; do first)
 
-- [ ] 1.1 S0 spike: empirically test whether non-picker SCScreenshotManager triggers Sequoia/Tahoe periodic re-auth on macOS 15.x and 26.x; write findings to `docs/spikes/s0-screencapture-reauth.md` (design D5; resolves design Open Q1)
+- [x] 1.1 S0 spike: empirically test whether non-picker SCScreenshotManager triggers Sequoia/Tahoe periodic re-auth on macOS 15.x and 26.x; write findings to `docs/spikes/s0-screencapture-reauth.md` (design D5; resolves design Open Q1) — 26.x empirics + sourced research done; 15.x empirical pass deferred to beta (no Sequoia hardware), tracked in findings doc
 - [x] 1.2 S1 spike: Core Image inpainting quality test on 5 fixture screenshots; decide content-aware-removal approach vs blur-fill fallback; write `docs/spikes/s1-inpainting.md` (design D9)
 - [x] 1.3 Scaffold repo: SPM workspace per design D2 (9 packages + app target), Xcode project, placeholder bundle ID `com.sidequests.darkroom`, SwiftLint/SwiftFormat configs
 - [x] 1.4 CI pipeline (GitHub Actions): build + unit tests on hosted macOS runner; portability lint job that fails if DarkroomCore/DarkroomRender import AppKit/SwiftUI/UIKit (design D2)
