@@ -18,7 +18,7 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 - [x] 2.1 AnnotationDocument value-type scene graph: all annotation types as enum cases with associated values, canvas extensions, schemaVersion + forward-migration (spec:annotation-editor, design D3)
 - [x] 2.2 `.1shot` bundle format: base image + JSON + thumbnail, atomic read/write, versioned codec + golden fixture files
 - [x] 2.3 Geometry/coordinate model: logical-vs-pixel spaces, multi-display mapping, mixed-DPI math + property tests (spec:capture-engine)
-- [ ] 2.4 Heuristic auto-naming engine: source app + window title + top OCR tokens → kebab filename; collision handling; unit-test corpus of 50 fixtures (spec:library, NO AI)
+- [x] 2.4 Heuristic auto-naming engine: source app + window title + top OCR tokens → kebab filename; collision handling; unit-test corpus of 50 fixtures (spec:library, NO AI)
 - [ ] 2.5 Destination plugin protocol: payload model (image/document/text), destination descriptor, registration, error surface; clipboard + file built-ins (spec:output-destinations)
 - [ ] 2.6 Settings model: typed schema, defaults per PRD "opinionated defaults", migration, import/export excluding secrets (spec:utilities-settings)
 - [ ] 2.7 Filename template engine + save-location rules (spec:output-destinations)
