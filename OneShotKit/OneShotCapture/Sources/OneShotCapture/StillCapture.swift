@@ -51,6 +51,8 @@ public enum CaptureError: Error, Hashable, Sendable {
     case permissionDenied
     /// The requested display is no longer attached.
     case displayNotFound(UInt32)
+    /// The requested window no longer exists (closed between pick and capture).
+    case windowNotFound(UInt32)
     /// Zero-area pixel rect.
     case invalidRect
     /// Any other ScreenCaptureKit failure, preserved for diagnostics.
