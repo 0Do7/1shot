@@ -1,0 +1,91 @@
+# XcodeGen manifest — `xcodegen generate` produces Darkroom.xcodeproj (not committed).
+# Bundle ID is the codename placeholder; final rename is task 14.6.
+name: Darkroom
+options:
+  bundleIdPrefix: com.sidequests
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+
+packages:
+  DarkroomCore: { path: DarkroomKit/DarkroomCore }
+  DarkroomRender: { path: DarkroomKit/DarkroomRender }
+  DarkroomCapture: { path: DarkroomKit/DarkroomCapture }
+  DarkroomScroll: { path: DarkroomKit/DarkroomScroll }
+  DarkroomOCR: { path: DarkroomKit/DarkroomOCR }
+  DarkroomLibrary: { path: DarkroomKit/DarkroomLibrary }
+  DarkroomDestinations: { path: DarkroomKit/DarkroomDestinations }
+  DarkroomLicensing: { path: DarkroomKit/DarkroomLicensing }
+  DarkroomInstruments: { path: DarkroomKit/DarkroomInstruments }
+
+settingGroups:
+  swift6:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+
+targets:
+  Darkroom:
+    type: application
+    platform: macOS
+    sources:
+      - Darkroom/Sources
+    dependencies:
+      - package: DarkroomCore
+      - package: DarkroomRender
+      - package: DarkroomCapture
+      - package: DarkroomScroll
+      - package: DarkroomOCR
+      - package: DarkroomLibrary
+      - package: DarkroomDestinations
+      - package: DarkroomLicensing
+      - package: DarkroomInstruments
+    settings:
+      groups: [swift6]
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sidequests.darkroom
+        PRODUCT_NAME: Darkroom
+        MARKETING_VERSION: 0.1.0
+        CURRENT_PROJECT_VERSION: 1
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"
+        GENERATE_INFOPLIST_FILE: YES
+        # Menu-bar app: no Dock icon, no main window (PRD E13).
+        INFOPLIST_KEY_LSUIElement: YES
+        INFOPLIST_KEY_NSPrincipalClass: NSApplication
+
+  DarkroomAppTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - Darkroom/Tests
+    dependencies:
+      - target: Darkroom
+    settings:
+      groups: [swift6]
+      base:
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Darkroom.app/Contents/MacOS/Darkroom"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+
+  DarkroomUITests:
+    type: bundle.ui-testing
+    platform: macOS
+    sources:
+      - Darkroom/UITests
+    dependencies:
+      - target: Darkroom
+    settings:
+      groups: [swift6]
+
+schemes:
+  Darkroom:
+    build:
+      targets:
+        Darkroom: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - DarkroomAppTests
+        # DarkroomUITests runs only on the self-hosted runner (needs permissions).

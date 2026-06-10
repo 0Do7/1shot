@@ -1,0 +1,74 @@
+# CI (task 1.4): portability lint + style + package tests + app build.
+# The live-capture integration and scrolling failure suites run on the
+# self-hosted runner instead (design D8/D13) — see selfhosted.yml when task 7.8 lands.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  portability-lint:
+    name: Portability law (DarkroomCore/Render)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash Scripts/check-portability.sh
+
+  style:
+    name: SwiftFormat + SwiftLint
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew install swiftformat swiftlint
+      - run: swiftformat --lint .
+      - run: swiftlint lint --strict --quiet
+
+  package-tests:
+    name: ${{ matrix.package }} tests
+    runs-on: macos-15
+    strategy:
+      fail-fast: false
+      matrix:
+        package:
+          - DarkroomCore
+          - DarkroomRender
+          - DarkroomCapture
+          - DarkroomScroll
+          - DarkroomOCR
+          - DarkroomLibrary
+          - DarkroomDestinations
+          - DarkroomLicensing
+          - DarkroomInstruments
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+      - name: Cache SPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: DarkroomKit/${{ matrix.package }}/.build
+          key: spm-${{ matrix.package }}-${{ hashFiles(format('DarkroomKit/{0}/Package.swift', matrix.package)) }}
+      - run: swift test --package-path DarkroomKit/${{ matrix.package }}
+
+  app-build:
+    name: App target build + unit tests
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+      - run: brew install xcodegen
+      - run: xcodegen generate
+      - name: Build and test (unit tests only; XCUITest needs the self-hosted runner)
+        run: |
+          set -o pipefail
+          xcodebuild -project Darkroom.xcodeproj -scheme Darkroom \
+            -configuration Debug test CODE_SIGNING_ALLOWED=NO | tail -50
