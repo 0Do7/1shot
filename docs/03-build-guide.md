@@ -30,11 +30,11 @@ Wave 4 (integration):  §14.3-14.6 commerce-real   §15 beta & launch
 ## 2. Repo conventions (mechanically enforced where possible)
 
 - **Repo root:** this directory becomes the repo (git init in task 1.3). SPM workspace layout per design D2.
-- **Portability law (CI-enforced):** `DarkroomCore` and `DarkroomRender` import Foundation/CoreGraphics-level frameworks only — never AppKit/SwiftUI/UIKit. The CI lint (task 1.4) greps imports; do not add exemptions.
+- **Portability law (CI-enforced):** `OneShotCore` and `OneShotRender` import Foundation/CoreGraphics-level frameworks only — never AppKit/SwiftUI/UIKit. The CI lint (task 1.4) greps imports; do not add exemptions.
 - **Swift 6, strict concurrency.** Domain types are `Sendable` value types; app layer is `@MainActor`. No `@unchecked Sendable` without a comment stating the invariant.
 - **Style:** SwiftFormat + SwiftLint configs from task 1.3 are law; match surrounding code; comments only for non-obvious constraints.
 - **Branches/PRs:** one branch per task group (`lane/scroll`, `lane/library`…); PR per task or small task cluster; CI green required; another agent (or the human) reviews cross-lane interface changes.
-- **Interface changes:** anything touching `DarkroomCore` public API after Wave 1 requires a note in the PR description flagging which lanes consume it.
+- **Interface changes:** anything touching `OneShotCore` public API after Wave 1 requires a note in the PR description flagging which lanes consume it.
 
 ## 3. Definition of Done (every task)
 

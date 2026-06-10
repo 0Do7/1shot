@@ -35,7 +35,7 @@ AppIntents SHALL operate within the app's local-first constraints: no intent SHA
 The app SHALL register a URL scheme exposing an automation API, and this API SHALL be OFF by default. Incoming scheme requests while disabled SHALL be ignored except for a single non-actionable notice telling the user where to enable the feature. Enabling SHALL require an explicit toggle in Settings accompanied by a plain-language explanation that other apps on the Mac will be able to trigger captures. Actions with side effects beyond the app (e.g. capture) SHALL be confirmable: the user SHALL be able to choose between always-confirm and silent operation per enabled scheme action.
 
 #### Scenario: Scheme call while disabled
-- **WHEN** another app opens a darkroom URL while the URL API is disabled
+- **WHEN** another app opens a oneshot URL while the URL API is disabled
 - **THEN** no capture or other action occurs
 - **AND** the app shows a notice explaining the API is off and where to enable it
 

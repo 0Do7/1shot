@@ -12,7 +12,7 @@ The Library SHALL store its entire index in a local SQLite database (FTS5 full-t
 - **THEN** the Library subsystem generates no outbound network requests
 
 ### Requirement: Transparent on-disk storage — references, never a vault
-Library media SHALL be stored as user-visible files (image files and `.darkroom` annotation bundles) in a user-browsable folder on disk; the database SHALL store references and index data, never the only copy of an image. A reveal-in-Finder action SHALL exist for every item. If the user moves or deletes a file externally, the Library SHALL detect the missing file and mark the item accordingly rather than crashing or showing stale thumbnails as live; deleting an item from the Library SHALL state what happens to the underlying file and behave accordingly.
+Library media SHALL be stored as user-visible files (image files and `.1shot` annotation bundles) in a user-browsable folder on disk; the database SHALL store references and index data, never the only copy of an image. A reveal-in-Finder action SHALL exist for every item. If the user moves or deletes a file externally, the Library SHALL detect the missing file and mark the item accordingly rather than crashing or showing stale thumbnails as live; deleting an item from the Library SHALL state what happens to the underlying file and behave accordingly.
 
 #### Scenario: Files are user-visible
 - **WHEN** the user opens the Library storage folder in Finder

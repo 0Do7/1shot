@@ -1,4 +1,4 @@
-# Tasks — MVP (Project Darkroom)
+# Tasks — MVP (1shot)
 
 Lanes: each `##` group is an independent agent lane unless its intro names a dependency.
 Conventions for implementers: see `docs/03-build-guide.md`. Specs referenced as `spec:<capability>`.
@@ -6,24 +6,24 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 1. Spikes & Foundation (blocks everything; do first)
 
-- [ ] 1.1 S0 spike: empirically test whether non-picker SCScreenshotManager triggers Sequoia/Tahoe periodic re-auth on macOS 15.x and 26.x; write findings to `docs/spikes/s0-screencapture-reauth.md` (design D5; resolves design Open Q1)
-- [ ] 1.2 S1 spike: Core Image inpainting quality test on 5 fixture screenshots; decide content-aware-removal approach vs blur-fill fallback; write `docs/spikes/s1-inpainting.md` (design D9)
-- [ ] 1.3 Scaffold repo: SPM workspace per design D2 (9 packages + app target), Xcode project, placeholder bundle ID `com.sidequests.darkroom`, SwiftLint/SwiftFormat configs
-- [ ] 1.4 CI pipeline (GitHub Actions): build + unit tests on hosted macOS runner; portability lint job that fails if DarkroomCore/DarkroomRender import AppKit/SwiftUI/UIKit (design D2)
-- [ ] 1.5 Performance-budget test harness: os_signpost + XCTest measure scaffolding for hotkey→chip <200ms p95 and editor-open <400ms budgets (PRD §7)
+- [x] 1.1 S0 spike: empirically test whether non-picker SCScreenshotManager triggers Sequoia/Tahoe periodic re-auth on macOS 15.x and 26.x; write findings to `docs/spikes/s0-screencapture-reauth.md` (design D5; resolves design Open Q1) — 26.x empirics + sourced research done; 15.x empirical pass deferred to beta (no Sequoia hardware), tracked in findings doc
+- [x] 1.2 S1 spike: Core Image inpainting quality test on 5 fixture screenshots; decide content-aware-removal approach vs blur-fill fallback; write `docs/spikes/s1-inpainting.md` (design D9)
+- [x] 1.3 Scaffold repo: SPM workspace per design D2 (9 packages + app target), Xcode project, placeholder bundle ID `com.sidequests.oneshot`, SwiftLint/SwiftFormat configs
+- [x] 1.4 CI pipeline (GitHub Actions): build + unit tests on hosted macOS runner; portability lint job that fails if OneShotCore/OneShotRender import AppKit/SwiftUI/UIKit (design D2)
+- [x] 1.5 Performance-budget test harness: os_signpost + XCTest measure scaffolding for hotkey→chip <200ms p95 and editor-open <400ms budgets (PRD §7)
 - [ ] 1.6 Self-hosted Mac runner: provision, script setup (Screen Recording + AX pre-granted), document restore procedure (design D8/D13)
 
-## 2. DarkroomCore — portable domain model (lane: core)
+## 2. OneShotCore — portable domain model (lane: core)
 
-- [ ] 2.1 AnnotationDocument value-type scene graph: all annotation types as enum cases with associated values, canvas extensions, schemaVersion + forward-migration (spec:annotation-editor, design D3)
-- [ ] 2.2 `.darkroom` bundle format: base image + JSON + thumbnail, atomic read/write, versioned codec + golden fixture files
+- [x] 2.1 AnnotationDocument value-type scene graph: all annotation types as enum cases with associated values, canvas extensions, schemaVersion + forward-migration (spec:annotation-editor, design D3)
+- [x] 2.2 `.1shot` bundle format: base image + JSON + thumbnail, atomic read/write, versioned codec + golden fixture files
 - [ ] 2.3 Geometry/coordinate model: logical-vs-pixel spaces, multi-display mapping, mixed-DPI math + property tests (spec:capture-engine)
 - [ ] 2.4 Heuristic auto-naming engine: source app + window title + top OCR tokens → kebab filename; collision handling; unit-test corpus of 50 fixtures (spec:library, NO AI)
 - [ ] 2.5 Destination plugin protocol: payload model (image/document/text), destination descriptor, registration, error surface; clipboard + file built-ins (spec:output-destinations)
 - [ ] 2.6 Settings model: typed schema, defaults per PRD "opinionated defaults", migration, import/export excluding secrets (spec:utilities-settings)
 - [ ] 2.7 Filename template engine + save-location rules (spec:output-destinations)
 
-## 3. DarkroomCapture — capture engine (lane: capture; needs 2.3)
+## 3. OneShotCapture — capture engine (lane: capture; needs 2.3)
 
 - [ ] 3.1 ScreenCaptureKit wrapper: display/window enumeration, SCScreenshotManager still capture, capture-type enum with `.video` reserved (spec:capture-engine, design D5)
 - [ ] 3.2 Area selection overlay windows (per display, borderless): crosshair, magnifier, dimension readout, keyboard nudge, multi-display + mixed-DPI correct
@@ -43,7 +43,7 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 5. Editor & render (lane: editor; needs 2.1, 2.2)
 
-- [ ] 5.1 DarkroomRender: rasterizer for every annotation type; flatten-on-export; golden snapshot test suite (the "annotations look so damn good" gate — goldens are design-reviewed assets) (spec:annotation-editor, design D13)
+- [ ] 5.1 OneShotRender: rasterizer for every annotation type; flatten-on-export; golden snapshot test suite (the "annotations look so damn good" gate — goldens are design-reviewed assets) (spec:annotation-editor, design D13)
 - [ ] 5.2 Editor canvas (AppKit + Core Animation): selection, drag/resize handles, Z+drag zoom/pan, 60fps manipulation
 - [ ] 5.3 Single-key tool switching with text-editing suspension; full keyboard operability (spec:annotation-editor)
 - [ ] 5.4 Tools wave 1: arrow (straight/curved), line, rect/ellipse, freehand, text with styles
@@ -73,7 +73,7 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 8. OCR (lane: ocr; small — combine with redaction agent if short-handed)
 
-- [ ] 8.1 DarkroomOCR: Vision text recognition wrapper, language auto-detect, confidence surfacing (spec:ocr-capture)
+- [ ] 8.1 OneShotOCR: Vision text recognition wrapper, language auto-detect, confidence surfacing (spec:ocr-capture)
 - [ ] 8.2 Layout post-processing: preserve-layout / merge-lines / raw-lines modes; indentation preservation tests on code screenshots
 - [ ] 8.3 OCR capture flow: hotkey → region → clipboard + toast preview; 3-keystroke loop timing test; link + QR detection (QR never silently replaces text) (spec:ocr-capture)
 
@@ -122,12 +122,12 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 14. Licensing, updates & distribution (lane: commerce; mock-first, real Paddle in beta)
 
-- [ ] 14.1 Local mock license server + DarkroomLicensing package: key activation, 3-seat logic, Ed25519 receipt, 14-day offline grace (spec:licensing-updates, design D10)
+- [ ] 14.1 Local mock license server + OneShotLicensing package: key activation, 3-seat logic, Ed25519 receipt, 14-day offline grace (spec:licensing-updates, design D10)
 - [ ] 14.2 Trial state machine: 14-day full trial, 24h capture grace, capture-disable with Library-forever guarantee; dignified expiry UI (no nag mascot)
 - [ ] 14.3 Paddle integration: product/price config, real activation/deactivation, refund webhook→deactivation [needs Paddle account; design Open Q4]
 - [ ] 14.4 Sparkle 2: EdDSA keys, appcast pipeline, bug-fix-vs-feature-year gating logic ("bug fixes free forever" enforcement) (spec:licensing-updates)
 - [ ] 14.5 Release pipeline: notarized DMG build, appcast publish, Homebrew cask, public changelog generation
-- [ ] 14.6 Rename task: codename → final product name (bundle ID, appcast URL, cask, About) — isolated single-PR task
+- [ ] 14.6 Name remnant sweep at release: product name **1shot** applied repo-wide 2026-06-09 (modules OneShot*, bundle `com.sidequests.oneshot`, `.1shot` extension); remaining = verify appcast URL/cask/About strings when they exist
 
 ## 15. Beta & launch engineering (needs all lanes at integration level)
 

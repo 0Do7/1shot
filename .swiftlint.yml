@@ -1,0 +1,47 @@
+# SwiftLint — repo law (build guide §2)
+included:
+  - OneShotKit
+  - OneShot
+excluded:
+  - "**/.build"
+
+opt_in_rules:
+  - empty_count
+  - closure_spacing
+  - contains_over_filter_count
+  - first_where
+  - last_where
+  - redundant_nil_coalescing
+  - unneeded_parentheses_in_closure_argument
+
+# SwiftFormat owns style mechanics; keep SwiftLint rules that overlap in agreement with it.
+trailing_comma:
+  mandatory_comma: true
+
+line_length:
+  warning: 120
+  error: 160
+  ignores_comments: true
+  ignores_urls: true
+
+identifier_name:
+  min_length: 2
+  allowed_symbols: ["_"]
+  # Idiomatic geometry/loop names; everything else needs ≥2 characters.
+  excluded: [x, y, a, b, i, n, v, dx, dy]
+
+type_body_length:
+  warning: 300
+
+# Discriminated-union codecs and test fixture builders legitimately run long/branchy.
+function_body_length:
+  warning: 60
+cyclomatic_complexity:
+  warning: 12
+
+file_length:
+  warning: 500
+
+# Swift 6 strict concurrency makes some force patterns extra dangerous; keep them errors.
+force_cast: error
+force_try: error

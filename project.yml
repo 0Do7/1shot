@@ -1,0 +1,93 @@
+# XcodeGen manifest — `xcodegen generate` produces OneShot.xcodeproj (not committed).
+# Product name is "1shot"; code identifiers use the OneShot prefix because Swift
+# modules and bundle-ID segments can't lead with a digit (1Password precedent).
+name: OneShot
+options:
+  bundleIdPrefix: com.sidequests
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+
+packages:
+  OneShotCore: { path: OneShotKit/OneShotCore }
+  OneShotRender: { path: OneShotKit/OneShotRender }
+  OneShotCapture: { path: OneShotKit/OneShotCapture }
+  OneShotScroll: { path: OneShotKit/OneShotScroll }
+  OneShotOCR: { path: OneShotKit/OneShotOCR }
+  OneShotLibrary: { path: OneShotKit/OneShotLibrary }
+  OneShotDestinations: { path: OneShotKit/OneShotDestinations }
+  OneShotLicensing: { path: OneShotKit/OneShotLicensing }
+  OneShotInstruments: { path: OneShotKit/OneShotInstruments }
+
+settingGroups:
+  swift6:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+
+targets:
+  OneShot:
+    type: application
+    platform: macOS
+    sources:
+      - OneShot/Sources
+    dependencies:
+      - package: OneShotCore
+      - package: OneShotRender
+      - package: OneShotCapture
+      - package: OneShotScroll
+      - package: OneShotOCR
+      - package: OneShotLibrary
+      - package: OneShotDestinations
+      - package: OneShotLicensing
+      - package: OneShotInstruments
+    settings:
+      groups: [swift6]
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sidequests.oneshot
+        PRODUCT_NAME: 1shot
+        PRODUCT_MODULE_NAME: OneShot
+        MARKETING_VERSION: 0.1.0
+        CURRENT_PROJECT_VERSION: 1
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"
+        GENERATE_INFOPLIST_FILE: YES
+        # Menu-bar app: no Dock icon, no main window (PRD E13).
+        INFOPLIST_KEY_LSUIElement: YES
+        INFOPLIST_KEY_NSPrincipalClass: NSApplication
+
+  OneShotAppTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - OneShot/Tests
+    dependencies:
+      - target: OneShot
+    settings:
+      groups: [swift6]
+      base:
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/1shot.app/Contents/MacOS/1shot"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+
+  OneShotUITests:
+    type: bundle.ui-testing
+    platform: macOS
+    sources:
+      - OneShot/UITests
+    dependencies:
+      - target: OneShot
+    settings:
+      groups: [swift6]
+
+schemes:
+  OneShot:
+    build:
+      targets:
+        OneShot: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - OneShotAppTests
+        # OneShotUITests runs only on the self-hosted runner (needs permissions).
