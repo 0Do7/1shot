@@ -34,3 +34,42 @@ CIFilters, zero inpaint/heal/reconstruct candidates. Resolution per S1 findings
 (`docs/spikes/s1-inpainting.md`): MVP content-aware removal = CI **diffusion fill**
 (beats blur-fill baseline 2–4×); custom patch-match kernel deferred post-MVP.
 Spec requirement text unchanged (already mandates honest-failure messaging).
+
+## 2026-06-13 · spec:ocr-capture · automatic-language surfacing is approximate
+`VNRecognizeTextRequest` does not report the per-run *detected* language. In
+`.automatic` mode `RecognizedText.languages` is populated with the recognizer's
+*supported* set (best-effort), not the detected one. Recognition correctness
+(diacritics, mixed-script) is unaffected — only the surfaced language list is
+imprecise. No spec text changed.
+
+## 2026-06-13 · spec:ocr-capture / spec:utilities-settings · no AppSettings.ocrLayoutMode field
+"Mode change persists" implies the OCR `LayoutMode` is a persisted setting, but
+`AppSettings` (Core) has no such field. `LayoutMode` currently lives in OneShotOCR
+and is `Codable`; wiring persistence requires either a Core field (`ocrLayoutMode`)
+or moving `LayoutMode` to Core. Deferred to app-layer settings wiring (task 13.3);
+flagged so the persistence half of the scenario isn't read as missing.
+
+## 2026-06-13 · spec:licensing-updates · post-grace capture left enabled for previously-valid license
+Spec says a license whose offline grace is exceeded SHALL degrade "no further than
+the documented unlicensed-capture rules." `LicenseState.licensedOfflineGraceExceeded`
+keeps capture enabled (single notice) rather than disabling it, reading "no further
+than" generously for a *previously-valid* purchase. One-line change in
+`LicenseState.captureEnabled` if stricter gating is wanted.
+
+## 2026-06-13 · spec:output-destinations · intrinsic JPEG EXIF dimension keys not strippable
+"Default export size sanity" requires no EXIF/GPS/serial/username metadata. ImageIO
+unconditionally re-derives `PixelXDimension`/`PixelYDimension` into the JPEG EXIF
+dict; these are intrinsic and non-identifying. Hardened export strips all GPS/TIFF/
+IPTC and every other EXIF key — only the two benign dimension keys remain. Also:
+WebP *encoding* availability is macOS-version dependent (unavailable on this build);
+handled via a typed `formatUnsupportedOnThisOS` error, tests adapt at runtime.
+
+## 2026-06-13 · spec:annotation-editor / spec:redaction · render-core redaction is a placeholder
+OneShotRender 5.1 draws redaction annotations as opaque fills (gray for blur/pixelate,
+black for blackout) — irreversible obscuring, but NOT true Gaussian/mosaic or the
+OCR-defeat strength floor. Real content-defeating blur/pixelate is task 6.1 (redaction
+lane, next batch), which the scout confirmed can use CoreImage inside Render (portability-
+legal). Also logged: highlight uses a `.multiply` blend (visual choice, spec is silent on
+blend mode); golden PNGs are AA-tolerance-compared and may need re-record on a different
+macOS/font version (`ONESHOT_RECORD_GOLDENS=1`). Render goldens are DRAFT pending human
+sign-off (build-guide DoD #3).

@@ -43,7 +43,7 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 5. Editor & render (lane: editor; needs 2.1, 2.2)
 
-- [ ] 5.1 OneShotRender: rasterizer for every annotation type; flatten-on-export; golden snapshot test suite (the "annotations look so damn good" gate — goldens are design-reviewed assets) (spec:annotation-editor, design D13)
+- [x] 5.1 OneShotRender: rasterizer for every annotation type; flatten-on-export; golden snapshot test suite (the "annotations look so damn good" gate — goldens are design-reviewed assets) (spec:annotation-editor, design D13)
 - [ ] 5.2 Editor canvas (AppKit + Core Animation): selection, drag/resize handles, Z+drag zoom/pan, 60fps manipulation
 - [ ] 5.3 Single-key tool switching with text-editing suspension; full keyboard operability (spec:annotation-editor)
 - [ ] 5.4 Tools wave 1: arrow (straight/curved), line, rect/ellipse, freehand, text with styles
@@ -73,8 +73,8 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 8. OCR (lane: ocr; small — combine with redaction agent if short-handed)
 
-- [ ] 8.1 OneShotOCR: Vision text recognition wrapper, language auto-detect, confidence surfacing (spec:ocr-capture)
-- [ ] 8.2 Layout post-processing: preserve-layout / merge-lines / raw-lines modes; indentation preservation tests on code screenshots
+- [x] 8.1 OneShotOCR: Vision text recognition wrapper, language auto-detect, confidence surfacing (spec:ocr-capture)
+- [x] 8.2 Layout post-processing: preserve-layout / merge-lines / raw-lines modes; indentation preservation tests on code screenshots
 - [ ] 8.3 OCR capture flow: hotkey → region → clipboard + toast preview; 3-keystroke loop timing test; link + QR detection (QR never silently replaces text) (spec:ocr-capture)
 
 ## 9. Library (lane: library; needs 2.1, 2.4, 8.1; flagship wedge)
@@ -102,7 +102,7 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 - [ ] 11.1 App hand-off destination (open-with / share to running app)
 - [ ] 11.2 S3/custom-endpoint destination: direct device→endpoint upload, Keychain-only credentials, excluded from settings export (spec:output-destinations) [demote-able]
-- [ ] 11.3 Format encoders: PNG/JPEG/WebP/HEIC with file-size-conscious defaults; size-comparison tests (spec:output-destinations)
+- [x] 11.3 Format encoders: PNG/JPEG/WebP/HEIC with file-size-conscious defaults; size-comparison tests (spec:output-destinations)
 
 ## 12. Onboarding & permissions (lane: onboarding; needs 3.6; trust differentiator)
 
@@ -122,8 +122,8 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 14. Licensing, updates & distribution (lane: commerce; mock-first, real Paddle in beta)
 
-- [ ] 14.1 Local mock license server + OneShotLicensing package: key activation, 3-seat logic, Ed25519 receipt, 14-day offline grace (spec:licensing-updates, design D10)
-- [ ] 14.2 Trial state machine: 14-day full trial, 24h capture grace, capture-disable with Library-forever guarantee; dignified expiry UI (no nag mascot)
+- [x] 14.1 Local mock license server + OneShotLicensing package: key activation, 3-seat logic, Ed25519 receipt, 14-day offline grace (spec:licensing-updates, design D10)
+- [x] 14.2 Trial state machine: 14-day full trial, 24h capture grace, capture-disable with Library-forever guarantee; dignified expiry UI (no nag mascot)
 - [ ] 14.3 Paddle integration: product/price config, real activation/deactivation, refund webhook→deactivation [needs Paddle account; design Open Q4]
 - [ ] 14.4 Sparkle 2: EdDSA keys, appcast pipeline, bug-fix-vs-feature-year gating logic ("bug fixes free forever" enforcement) (spec:licensing-updates)
 - [ ] 14.5 Release pipeline: notarized DMG build, appcast publish, Homebrew cask, public changelog generation
