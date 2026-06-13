@@ -20,12 +20,19 @@ public struct AppHandoffDestination: CaptureDestination {
     /// open-with picker (out of package scope) before delivery.
     public static let configApplicationPathKey = "applicationPath"
 
-    /// Outcome of an open attempt: `.opened` on success; `.targetMissing` when
-    /// the pinned app no longer exists (drives the spec's explicit error +
-    /// "offer the picker" recovery).
+    /// Outcome of an open attempt:
+    /// - `.opened` on success;
+    /// - `.targetMissing` only when the pinned app bundle is actually absent
+    ///   (drives the spec's explicit "missing app — offer the picker" recovery);
+    /// - `.openFailed(reason:)` when the app *is present* but the open failed for
+    ///   another reason (Gatekeeper/sandbox denial, a quarantined/corrupt bundle,
+    ///   or a `.fileURL` payload whose backing file was deleted). Reported as a
+    ///   distinct I/O failure so we don't dishonestly tell the user to re-pick an
+    ///   app that is installed and fine.
     public enum OpenResult: Equatable, Sendable {
         case opened
         case targetMissing
+        case openFailed(reason: String)
     }
 
     /// Injected open side effect: given the materialized file URL and the pinned
@@ -97,6 +104,15 @@ public struct AppHandoffDestination: CaptureDestination {
                 destinationName: descriptor.displayName,
                 reason: "application \(applicationURL.lastPathComponent) is missing — choose a replacement"
             )
+        case let .openFailed(reason):
+            // App is present but the open failed — surface the real cause, not
+            // a misleading "missing app" message that routes to re-picking.
+            try? FileManager.default.removeItem(at: fileURL)
+            throw DestinationError(
+                code: .io,
+                destinationName: descriptor.displayName,
+                reason: "could not open with \(applicationURL.lastPathComponent): \(reason)"
+            )
         }
     }
 
@@ -138,7 +154,9 @@ public struct AppHandoffDestination: CaptureDestination {
     // MARK: Real launch
 
     /// The production opener: detect a missing app first (honest failure), then
-    /// open the file with it via NSWorkspace.
+    /// open the file with it via NSWorkspace. A non-nil error from an app that is
+    /// present is a real open failure (Gatekeeper, quarantine, deleted source
+    /// file) — reported as `.openFailed`, never as a misleading "missing app."
     private static let workspaceOpener: Opener = { file, application in
         guard FileManager.default.fileExists(atPath: application.path) else {
             return .targetMissing
@@ -150,7 +168,11 @@ public struct AppHandoffDestination: CaptureDestination {
                 withApplicationAt: application,
                 configuration: configuration
             ) { _, error in
-                continuation.resume(returning: error == nil ? .opened : .targetMissing)
+                if let error {
+                    continuation.resume(returning: .openFailed(reason: error.localizedDescription))
+                } else {
+                    continuation.resume(returning: .opened)
+                }
             }
         }
     }

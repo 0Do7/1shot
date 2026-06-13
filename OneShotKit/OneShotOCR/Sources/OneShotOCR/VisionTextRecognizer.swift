@@ -23,8 +23,9 @@ public struct VisionTextRecognizer: TextRecognizing {
         case .automatic:
             // VNRecognizeTextRequest auto-detects from its supported set; on the
             // OS versions we target, automatic detection is on when no languages
-            // are forced. We leave `recognitionLanguages` unset and ask Vision to
-            // include the languages it actually used so we can surface them.
+            // are forced. We leave `recognitionLanguages` unset. Vision does not
+            // report which language(s) it actually applied, so the run's
+            // `languages` stays empty (see the result assembly below).
             if #available(macOS 13.0, *) {
                 request.automaticallyDetectsLanguage = true
             }
@@ -61,15 +62,18 @@ public struct VisionTextRecognizer: TextRecognizing {
         // reading order (top line first) so downstream layout is deterministic.
         let ordered = lines.sorted { $0.boundingBox.midY > $1.boundingBox.midY }
 
-        var languages: [String] = []
-        switch options.languages {
+        let languages: [String] = switch options.languages {
         case let .explicit(identifiers):
-            languages = identifiers
+            // Explicit mode: these identifiers WERE the ones applied to the run,
+            // so they honor RecognizedText.languages' "actually applied" contract.
+            identifiers
         case .automatic:
-            // Best-effort surfacing of what Vision could use; the recognizer does
-            // not report the per-run detected language directly, so we expose the
-            // supported set it considered. Empty is acceptable (see RecognizedText).
-            languages = (try? request.supportedRecognitionLanguages()) ?? []
+            // Vision does not report the per-run detected language(s), and the
+            // supported set (all ~30 recognizable languages) is NOT what was
+            // applied — surfacing it would let the toast claim a German-only
+            // capture "detected" 30 languages. The contract permits empty when
+            // the recognizer auto-detected without reporting, so report empty.
+            []
         }
 
         return RecognizedText(lines: ordered, languages: languages)

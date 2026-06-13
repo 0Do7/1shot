@@ -60,6 +60,20 @@ public struct ActivationError: Error, Equatable, Sendable {
         self.reason = reason
         self.existingActivations = existingActivations
     }
+
+    /// An authoritative "this license/seat is no longer valid for this Mac"
+    /// response (as opposed to a transport failure). When revalidation returns
+    /// one of these, the cached receipt must be dropped rather than coasting on
+    /// offline grace: the key was revoked (refund/chargeback) or the seat was
+    /// freed/reassigned on another machine.
+    public var isAuthoritativeRevocation: Bool {
+        switch code {
+        case .revokedKey, .notActivated:
+            true
+        case .invalidKey, .seatLimitReached:
+            false
+        }
+    }
 }
 
 // MARK: - Mock server
@@ -95,6 +109,13 @@ public actor MockLicenseServer: LicenseServer {
 
     public func activations(forKey licenseKey: String) -> [SeatActivation] {
         (seats[licenseKey]?.values).map { Array($0).sorted { $0.activatedAt < $1.activatedAt } } ?? []
+    }
+
+    /// Revoke a known key server-side (simulates a refund/chargeback after the
+    /// app already activated). Subsequent activate/revalidate calls then throw
+    /// `.revokedKey`. No-op for an unknown key.
+    public func revoke(_ licenseKey: String) {
+        keys[licenseKey]?.isRevoked = true
     }
 
     public func activate(licenseKey: String, machine: MachineIdentity, now: Date) async throws -> LicenseReceipt {

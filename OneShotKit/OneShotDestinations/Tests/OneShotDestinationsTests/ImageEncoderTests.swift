@@ -50,6 +50,49 @@ private func pixelSize(of data: Data) throws -> (width: Int, height: Int) {
     return (image.width, image.height)
 }
 
+/// A deliberately *unoptimized* baseline encode of `image` in `format`: the same
+/// pixels and same UTType the production encoder uses, but with EXIF/GPS/TIFF/IPTC
+/// metadata carried through instead of stripped. This is the "baseline unoptimized
+/// encode of the same pixels" the spec's size-sanity scenario compares against, so
+/// a regression that dropped metadata stripping would no longer be smaller than it.
+private func baselineUnstrippedEncode(_ image: CGImage, format: ImageFormat, quality: Double) throws -> Data {
+    let utType = try #require(UTType(format.utType))
+    let data = NSMutableData()
+    let destination = try #require(CGImageDestinationCreateWithData(
+        data as CFMutableData,
+        utType.identifier as CFString,
+        1,
+        nil
+    ))
+    // Populate the metadata families the production encoder zeroes out, so the
+    // baseline genuinely carries location/hardware/user-identifying bytes.
+    var properties: [CFString: Any] = [
+        kCGImagePropertyExifDictionary: [
+            kCGImagePropertyExifDateTimeOriginal: "2026:06:13 09:41:00",
+            kCGImagePropertyExifBodySerialNumber: "SN-0123456789-ABCDEF",
+            kCGImagePropertyExifUserComment: String(repeating: "captured-by-oneshot-user ", count: 16),
+        ] as [CFString: Any],
+        kCGImagePropertyGPSDictionary: [
+            kCGImagePropertyGPSLatitude: 37.7749,
+            kCGImagePropertyGPSLongitude: -122.4194,
+        ] as [CFString: Any],
+        kCGImagePropertyTIFFDictionary: [
+            kCGImagePropertyTIFFMake: "OneShot",
+            kCGImagePropertyTIFFModel: "Capture Device 9000",
+        ] as [CFString: Any],
+        kCGImagePropertyIPTCDictionary: [
+            kCGImagePropertyIPTCByline: "codyhung",
+            kCGImagePropertyIPTCCaptionAbstract: String(repeating: "desktop screenshot ", count: 16),
+        ] as [CFString: Any],
+    ]
+    if format != .png {
+        properties[kCGImageDestinationLossyCompressionQuality] = quality
+    }
+    CGImageDestinationAddImage(destination, image, properties as CFDictionary)
+    #expect(CGImageDestinationFinalize(destination))
+    return data as Data
+}
+
 // MARK: Format support / honest failure
 
 /// Spec ("Export format support" + honest-failure requirement): PNG and JPEG
@@ -80,11 +123,52 @@ private func pixelSize(of data: Data) throws -> (width: Int, height: Int) {
     }
 }
 
-// MARK: Size ordering (spec: file-size-conscious defaults)
+// MARK: Default export size sanity (spec: file-size-conscious defaults)
 
-/// Relative size ordering across formats on the same noisy source: lossless PNG
-/// is the largest; lossy formats at a moderate quality are smaller.
-@Test func defaultExportSizeSanity_lossyIsSmallerThanLosslessPNG() throws {
+/// Spec scenario "Default export size sanity" (output-destinations spec): exporting
+/// a typical full-screen capture with default settings produces a file whose encoded
+/// size "is not larger than a baseline unoptimized encode of the same pixels." This
+/// is the *same-format, same-pixels* optimized-vs-baseline comparison the spec names —
+/// the production encoder strips metadata, so its output must be no larger than the
+/// identical encode that carries that metadata through. A regression that dropped the
+/// metadata stripping (or otherwise inflated the encode) would fail here.
+@Test func defaultExportSizeSanity_strippedIsNotLargerThanUnstrippedBaseline() throws {
+    let image = makeTestImage()
+    // PNG is the lossless default for a typical capture; assert there first so the
+    // size win is attributable purely to metadata stripping (no quality variable).
+    let strippedPNG = try ImageEncoder.encode(image, format: .png)
+    let baselinePNG = try baselineUnstrippedEncode(image, format: .png, quality: 1.0)
+    #expect(
+        strippedPNG.count <= baselinePNG.count,
+        "stripped PNG (\(strippedPNG.count)) must be <= unstripped baseline (\(baselinePNG.count))"
+    )
+
+    // Same comparison for the lossy default, holding quality identical on both sides
+    // so the only difference being measured is the stripped metadata.
+    let quality = ImageEncoder.Options().quality
+    let strippedJPEG = try ImageEncoder.encode(image, format: .jpeg, options: .init(quality: quality))
+    let baselineJPEG = try baselineUnstrippedEncode(image, format: .jpeg, quality: quality)
+    #expect(
+        strippedJPEG.count <= baselineJPEG.count,
+        "stripped JPEG (\(strippedJPEG.count)) must be <= unstripped baseline (\(baselineJPEG.count))"
+    )
+}
+
+/// Guard that the baseline used above genuinely carries the metadata the production
+/// encoder strips — otherwise the size-sanity comparison would be vacuous. Confirms
+/// the baseline retains GPS/TIFF/IPTC bytes that the stripped encode does not.
+@Test func sizeSanityBaseline_actuallyCarriesUnstrippedMetadata() throws {
+    let image = makeTestImage()
+    let baseline = try baselineUnstrippedEncode(image, format: .jpeg, quality: ImageEncoder.Options().quality)
+    let source = try #require(CGImageSourceCreateWithData(baseline as CFData, nil))
+    let props = CGImageSourceCopyPropertiesAtIndex(source, 0, nil) as? [CFString: Any] ?? [:]
+    #expect(props[kCGImagePropertyGPSDictionary] != nil, "baseline must retain GPS metadata")
+    #expect(props[kCGImagePropertyTIFFDictionary] != nil, "baseline must retain TIFF metadata")
+}
+
+/// Separate cross-format sanity check (NOT the spec's size-sanity scenario): on the
+/// same noisy source, lossy formats at a moderate quality are smaller than lossless PNG.
+@Test func crossFormatSizeOrdering_lossyIsSmallerThanLosslessPNG() throws {
     let image = makeTestImage()
     let png = try ImageEncoder.encode(image, format: .png)
     let jpeg = try ImageEncoder.encode(image, format: .jpeg, options: .init(quality: 0.6))

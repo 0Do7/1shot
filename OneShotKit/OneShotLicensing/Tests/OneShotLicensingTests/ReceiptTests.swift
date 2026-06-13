@@ -65,7 +65,7 @@ struct ReceiptTests {
     /// signer/verifier agree on the signed message.
     @Test func canonicalBytesAreSortedKeysStable() throws {
         let bytes = try LicenseReceipt.canonicalBytes(of: samplePayload())
-        let json = String(decoding: bytes, as: UTF8.self)
+        let json = try #require(String(bytes: bytes, encoding: .utf8))
         // sorted-keys: "lastValidatedAt" precedes "licenseKey" precedes "machine".
         let iLast = try #require(json.range(of: "lastValidatedAt"))
         let iLicense = try #require(json.range(of: "licenseKey"))

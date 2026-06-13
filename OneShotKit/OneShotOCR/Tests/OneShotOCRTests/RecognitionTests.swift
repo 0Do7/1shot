@@ -42,8 +42,8 @@ import Testing
         ],
         languages: ["en-US", "ja"]
     )
-    let p = OCRPipeline(recognizer: FakeTextRecognizer(text), barcodeDetector: FakeBarcodeDetector())
-    let result = try p.run(on: blankImage(), mode: .rawLines)
+    let sut = OCRPipeline(recognizer: FakeTextRecognizer(text), barcodeDetector: FakeBarcodeDetector())
+    let result = try sut.run(on: blankImage(), mode: .rawLines)
     #expect(result.clipboardText?.contains("Hello world") == true)
     #expect(result.clipboardText?.contains("こんにちは世界") == true) // both scripts present
 }
@@ -53,9 +53,9 @@ import Testing
 @Test func nonEnglishTextRecognizedWithoutConfiguration() throws {
     let german = "Grüße über die Straße"
     let text = RecognizedText(lines: [line(german, left: 0.1, top: 0.9)])
-    let p = OCRPipeline(recognizer: FakeTextRecognizer(text), barcodeDetector: FakeBarcodeDetector())
+    let sut = OCRPipeline(recognizer: FakeTextRecognizer(text), barcodeDetector: FakeBarcodeDetector())
     // No language selection step performed (default options).
-    let result = try p.run(on: blankImage(), mode: .rawLines)
+    let result = try sut.run(on: blankImage(), mode: .rawLines)
     #expect(result.clipboardText == german) // diacritics intact
 }
 

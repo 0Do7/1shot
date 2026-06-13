@@ -91,6 +91,40 @@ private final class OpenSpy: @unchecked Sendable {
     #expect(leftovers.isEmpty)
 }
 
+/// An open that fails for a reason *other* than a missing app (Gatekeeper denial,
+/// quarantined/corrupt bundle, a `.fileURL` whose backing file was deleted) must
+/// surface as an I/O failure carrying the real cause — not the misleading
+/// "missing app — choose a replacement" message, which would route the user to
+/// re-pick an app that is installed and fine.
+@Test func handOffOpenFailsButAppPresent_failsAsIOWithRealReason() async throws {
+    let dir = try temporaryDirectory()
+    defer { try? FileManager.default.removeItem(at: dir) }
+    let underlyingReason = "operation not permitted (Gatekeeper)"
+    let spy = OpenSpy(result: .openFailed(reason: underlyingReason))
+    let destination = AppHandoffDestination(materializationDirectory: dir, opener: spy.opener)
+
+    do {
+        _ = try await destination.deliver(
+            pngPayload,
+            configuration: [AppHandoffDestination.configApplicationPathKey: "/Applications/Preview.app"]
+        )
+        Issue.record("expected throw")
+    } catch let error as DestinationError {
+        #expect(error.code == .io)
+        #expect(error.code != .targetMissing) // not the dishonest "missing app" path
+        #expect(error.reason.contains(underlyingReason)) // carries the real cause
+        #expect(error.reason.contains("Preview.app"))
+        #expect(!error.reason.contains("is missing"))
+        #expect(error.userMessage.contains("Open With…"))
+    } catch {
+        Issue.record("untyped error: \(error)")
+    }
+
+    // No staged file is left behind for a doomed open.
+    let leftovers = try FileManager.default.contentsOfDirectory(atPath: dir.path)
+    #expect(leftovers.isEmpty)
+}
+
 @Test func handOff_noApplicationConfigured_failsWithTypedError() async throws {
     let dir = try temporaryDirectory()
     defer { try? FileManager.default.removeItem(at: dir) }

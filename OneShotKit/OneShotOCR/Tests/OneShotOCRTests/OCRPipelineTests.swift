@@ -25,8 +25,8 @@ private func pipeline(
 
 /// Spec scenario: "QR code decoded from region" (QR-only → payload on clipboard).
 @Test func qrCodeDecodedFromRegion() throws {
-    let p = pipeline(text: RecognizedText(), codes: [code("https://example.com/qr")])
-    let result = try p.run(on: blankImage(), mode: .preserveLayout)
+    let sut = pipeline(text: RecognizedText(), codes: [code("https://example.com/qr")])
+    let result = try sut.run(on: blankImage(), mode: .preserveLayout)
 
     #expect(result.clipboardText == "https://example.com/qr") // payload on clipboard
     #expect(result.codes.count == 1)
@@ -41,8 +41,8 @@ private func pipeline(
         line("Read the manual carefully", left: 0.1, top: 0.9),
         line("before getting started.", left: 0.1, top: 0.82),
     ])
-    let p = pipeline(text: text, codes: [code("https://example.com/secret")])
-    let result = try p.run(on: blankImage(), mode: .mergeLines)
+    let sut = pipeline(text: text, codes: [code("https://example.com/secret")])
+    let result = try sut.run(on: blankImage(), mode: .mergeLines)
 
     // Clipboard receives the recognized TEXT, not the QR payload.
     #expect(result.clipboardText == "Read the manual carefully before getting started.")
@@ -53,8 +53,8 @@ private func pipeline(
 
 /// Spec scenario: "No text found" — honest empty result, clipboard untouched.
 @Test func noTextFound() throws {
-    let p = pipeline(text: RecognizedText(), codes: [])
-    let result = try p.run(on: blankImage(), mode: .preserveLayout)
+    let sut = pipeline(text: RecognizedText(), codes: [])
+    let result = try sut.run(on: blankImage(), mode: .preserveLayout)
 
     #expect(result.clipboardText == nil) // app leaves clipboard unchanged
     #expect(result.isEmpty)
@@ -66,8 +66,8 @@ private func pipeline(
     let text = RecognizedText(lines: [
         line("stylized hard to read", left: 0.1, top: 0.9, confidence: 0.18),
     ])
-    let p = pipeline(text: text, codes: [])
-    let result = try p.run(on: blankImage(), mode: .rawLines)
+    let sut = pipeline(text: text, codes: [])
+    let result = try sut.run(on: blankImage(), mode: .rawLines)
 
     #expect(result.clipboardText == "stylized hard to read") // delivered
     #expect(result.isLowConfidence()) // surfaced as low-confidence
@@ -80,8 +80,8 @@ private func pipeline(
     let text = RecognizedText(lines: [
         line("Visit https://example.com/docs now", left: 0.1, top: 0.9),
     ])
-    let p = pipeline(text: text, codes: [])
-    let result = try p.run(on: blankImage(), mode: .rawLines)
+    let sut = pipeline(text: text, codes: [])
+    let result = try sut.run(on: blankImage(), mode: .rawLines)
 
     #expect(result.clipboardText?.contains("https://example.com/docs") == true)
     #expect(result.links.map(\.value) == ["https://example.com/docs"])
@@ -105,11 +105,11 @@ private func pipeline(
         line("line one wraps", left: 0.1, top: 0.9),
         line("onto line two", left: 0.1, top: 0.84),
     ])
-    let p = pipeline(text: text, codes: [code("PAYLOAD")])
-    let raw = try p.run(on: blankImage(), mode: .rawLines)
+    let sut = pipeline(text: text, codes: [code("PAYLOAD")])
+    let raw = try sut.run(on: blankImage(), mode: .rawLines)
     #expect(raw.clipboardText == "line one wraps\nonto line two")
 
-    let merged = p.reformat(raw, to: .mergeLines)
+    let merged = sut.reformat(raw, to: .mergeLines)
     #expect(merged.clipboardText == "line one wraps onto line two")
     #expect(merged.codes == raw.codes) // QR surface unchanged across reformat
 }
@@ -117,11 +117,11 @@ private func pipeline(
 /// A barcode-detection failure must not sink the whole capture — text still wins.
 @Test func barcodeFailureDoesNotSinkTextRecognition() throws {
     let text = RecognizedText(lines: [line("recognized fine", left: 0.1, top: 0.9)])
-    let p = OCRPipeline(
+    let sut = OCRPipeline(
         recognizer: FakeTextRecognizer(text),
         barcodeDetector: FakeBarcodeDetector(error: .recognitionFailed("boom"))
     )
-    let result = try p.run(on: blankImage(), mode: .rawLines)
+    let result = try sut.run(on: blankImage(), mode: .rawLines)
     #expect(result.clipboardText == "recognized fine")
     #expect(result.codes.isEmpty)
 }

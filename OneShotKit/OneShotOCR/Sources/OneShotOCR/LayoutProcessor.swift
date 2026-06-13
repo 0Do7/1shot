@@ -25,15 +25,20 @@ public enum LayoutProcessor {
     /// Tuning constants for indentation reconstruction. Public so callers/tests
     /// can reason about the mapping; defaults are chosen for typical code shots.
     public enum Tuning {
-        /// Normalized x-gap (fraction of image width) that maps to one indent
-        /// unit. ~0.012 ≈ one monospace column at common capture sizes.
-        public static let indentUnitWidth = 0.012
         /// Spaces emitted per detected indent unit.
         public static let spacesPerIndentUnit = 4
         /// Two lines belong to the same paragraph (merge candidates) when their
         /// left edges differ by less than this — protects indentation from being
         /// read as a new paragraph.
         public static let sameColumnTolerance = 0.01
+        /// A left-edge gap is treated as real indentation only when it is at
+        /// least this fraction of the block's LARGEST gap. Indentation steps in a
+        /// block are integer multiples of one unit, so the smallest real step is
+        /// a sizable fraction of the deepest gap; sub-glyph OCR jitter is orders
+        /// of magnitude smaller and falls below this, so it never becomes the
+        /// unit. Both gaps scale with capture width together, so the test is
+        /// invariant to how wide the region was captured.
+        public static let minIndentFractionOfMaxGap = 0.1
     }
 
     /// Produce the layout-formatted string for `recognized` under `mode`.
@@ -59,18 +64,41 @@ public enum LayoutProcessor {
 
     /// Reproduce indentation by measuring each line's left edge against the
     /// block's leftmost edge and converting the gap into leading spaces.
+    ///
+    /// The size of one indent level is derived from the recognized block's OWN
+    /// geometry (the smallest real left-edge gap among its lines), not from the
+    /// image width. A code indent is a fixed number of columns regardless of how
+    /// wide the captured region is, so a width-relative unit over- or
+    /// under-indents narrow/wide captures; a gap-relative unit is invariant to
+    /// capture width and reproduces the block's structure at any size.
     private static func preserveLayout(_ lines: [RecognizedTextLine]) -> String {
         let minX = lines.map(\.boundingBox.minX).min() ?? 0
-        return lines.map { line -> String in
-            let gap = line.boundingBox.minX - minX
-            let units = Int((gap / Tuning.indentUnitWidth).rounded())
-            let indent = String(
-                repeating: " ",
-                count: Swift.max(0, units) * Tuning.spacesPerIndentUnit
-            )
+        let gaps = lines.map { $0.boundingBox.minX - minX }
+        guard let unit = indentUnit(gaps: gaps) else {
+            // No real indentation in the block — emit text with linebreaks only.
+            return lines.map { $0.text.trimmingCharacters(in: .whitespaces) }
+                .joined(separator: "\n")
+        }
+        return zip(lines, gaps).map { line, gap -> String in
+            let units = Swift.max(0, Int((gap / unit).rounded()))
+            let indent = String(repeating: " ", count: units * Tuning.spacesPerIndentUnit)
             return indent + line.text.trimmingCharacters(in: .whitespaces)
         }
         .joined(separator: "\n")
+    }
+
+    /// One indent level's width, in normalized x: the smallest left-edge gap that
+    /// is large enough to be a real indent step rather than sub-glyph OCR jitter.
+    /// Returns nil when the block has no real gap (everything left-aligned).
+    ///
+    /// Derived purely from the block's OWN gap distribution, so it is invariant
+    /// to capture width — scale every left edge by the same factor (a wider/
+    /// narrower capture of the same content) and both the candidate gaps and the
+    /// chosen unit scale together, leaving each line's column count unchanged.
+    private static func indentUnit(gaps: [Double]) -> Double? {
+        guard let maxGap = gaps.max(), maxGap > 0 else { return nil }
+        let floor = Tuning.minIndentFractionOfMaxGap * maxGap
+        return gaps.filter { $0 >= floor }.min()
     }
 
     // MARK: Merge lines

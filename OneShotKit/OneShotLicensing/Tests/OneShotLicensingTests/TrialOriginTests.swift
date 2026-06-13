@@ -49,6 +49,47 @@ struct TrialOriginTests {
         #expect(start == Fixtures.day0)
     }
 
+    /// `TrialClockGuard` records the highest instant ever observed and never
+    /// lowers it, so reading back a rolled-back `now` returns the high-water-mark.
+    @Test func clockGuardHoldsHighWaterMark() {
+        let prefs = InMemoryTrialOriginStore()
+        let keychain = InMemoryTrialOriginStore()
+        let guardian = TrialClockGuard(stores: [prefs, keychain])
+
+        let later = Fixtures.day0.addingTimeInterval(20 * LicensingDuration.day)
+        #expect(guardian.observe(now: later) == later)
+        #expect(prefs.read() == later)
+        #expect(keychain.read() == later) // mirrored across stores
+
+        // Clock rolled back: observe and read-only both clamp UP to the mark.
+        #expect(guardian.observe(now: Fixtures.day0) == later)
+        #expect(guardian.protectedNow(Fixtures.day0) == later)
+        #expect(prefs.read() == later) // mark never lowered
+    }
+
+    /// Spec-adjacent hardening: an EXPIRED trial cannot be re-granted by winding
+    /// the macOS system clock backward. Once the manager has observed time past
+    /// expiry, rolling `now` back keeps the state `.expired`.
+    @Test func clockRollbackDoesNotRegrantTrial() async {
+        let (signer, verifier) = Fixtures.keyPair()
+        let server = Fixtures.server(signer: signer)
+        let clock = FixedClock(Fixtures.day0)
+        let mgr = Fixtures.manager(server: server, verifier: verifier, clock: clock)
+        await mgr.startTrialIfNeeded()
+
+        // Advance past trial + grace; the high-water-mark is recorded on read.
+        clock.advance(by: 16 * LicensingDuration.day)
+        #expect(await mgr.currentState() == .expired)
+
+        // Attacker winds the clock back to before expiry. Trial must NOT return.
+        clock.set(Fixtures.day0.addingTimeInterval(5 * LicensingDuration.day))
+        #expect(await mgr.currentState() == .expired)
+
+        // Even all the way back to day 0.
+        clock.set(Fixtures.day0)
+        #expect(await mgr.currentState() == .expired)
+    }
+
     /// End-to-end through the manager: wiping the receipt store after expiry does
     /// not revive capture, because the trial origin survives in the mirror.
     @Test func managerCasualResetKeepsTrialExpired() async {

@@ -15,11 +15,18 @@ public struct LicenseEvaluator: Sendable {
     ///     (no receipt, or one that failed verification — treated as absent).
     ///   - trialStart: the established trial start (see `TrialOriginResolver`),
     ///     or `nil` if the trial has not begun.
-    ///   - now: injected current instant.
+    ///   - now: injected current instant (governs the licensed offline-grace
+    ///     window).
+    ///   - trialNow: the rollback-protected instant for trial arithmetic (see
+    ///     `TrialClockGuard`); defaults to `now`. Pulling the system clock
+    ///     backward must not re-grant an expired trial, so callers pass
+    ///     `max(now, highWaterMark)` here while the licensed path keeps the raw
+    ///     `now`.
     public func state(
         verifiedReceipt: LicenseReceipt.Payload?,
         trialStart: Date?,
-        now: Date
+        now: Date,
+        trialNow: Date? = nil
     ) -> LicenseState {
         // A valid license dominates the trial entirely.
         if let receipt = verifiedReceipt {
@@ -36,7 +43,7 @@ public struct LicenseEvaluator: Sendable {
             return .trial(daysRemaining: trialDays())
         }
 
-        let elapsed = now.timeIntervalSince(trialStart)
+        let elapsed = (trialNow ?? now).timeIntervalSince(trialStart)
 
         if elapsed < LicensingDuration.trial {
             let remaining = LicensingDuration.trial - elapsed

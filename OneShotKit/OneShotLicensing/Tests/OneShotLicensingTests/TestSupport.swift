@@ -37,20 +37,50 @@ enum Fixtures {
 
     /// A `LicenseManager` wired with in-memory stores and a fixed clock.
     static func manager(
-        server: MockLicenseServer,
+        server: any LicenseServer,
         verifier: ReceiptVerifier,
         clock: FixedClock,
         machine: MachineIdentity = machineA,
         receiptStore: InMemoryReceiptStore = InMemoryReceiptStore(),
-        trialStores: [any TrialOriginStore] = [InMemoryTrialOriginStore()]
+        trialStores: [any TrialOriginStore] = [InMemoryTrialOriginStore()],
+        clockGuardStores: [any TrialOriginStore] = [InMemoryTrialOriginStore()]
     ) -> LicenseManager {
         LicenseManager(
             server: server,
             verifier: verifier,
             receiptStore: receiptStore,
             trialResolver: TrialOriginResolver(stores: trialStores),
+            clockGuard: TrialClockGuard(stores: clockGuardStores),
             clock: clock,
             machine: machine
         )
+    }
+}
+
+/// A transport (network) outage we can match against in `catch`. Distinct from
+/// `ActivationError`, so the manager's soft-failure branch handles it.
+struct SimulatedNetworkError: Error {}
+
+/// Wraps a base server but simulates a connectivity outage on `revalidate()`:
+/// it throws a non-`ActivationError`, exercising the manager's soft-failure
+/// path (keep the receipt for offline grace) rather than an authoritative
+/// negative (clear the receipt).
+struct OfflineFailingServer: LicenseServer {
+    let base: any LicenseServer
+
+    func activate(licenseKey: String, machine: MachineIdentity, now: Date) async throws -> LicenseReceipt {
+        try await base.activate(licenseKey: licenseKey, machine: machine, now: now)
+    }
+
+    func deactivate(licenseKey: String, machine: MachineIdentity, now: Date) async throws {
+        try await base.deactivate(licenseKey: licenseKey, machine: machine, now: now)
+    }
+
+    func revalidate(licenseKey: String, machine: MachineIdentity, now: Date) async throws -> LicenseReceipt {
+        throw SimulatedNetworkError()
+    }
+
+    func activations(forKey licenseKey: String) async -> [SeatActivation] {
+        await base.activations(forKey: licenseKey)
     }
 }

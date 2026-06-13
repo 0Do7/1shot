@@ -47,6 +47,43 @@ public struct TrialOriginResolver: Sendable {
     }
 }
 
+/// Guards the trial clock against system-clock rollback. It persists a
+/// monotonic high-water-mark — the latest instant the app has ever observed —
+/// redundantly across the same stores as the trial origin (prefs + Keychain
+/// mirror). The trial decision is then evaluated against `max(now,
+/// highWaterMark)` instead of the raw, attacker-controlled `now`, so an expired
+/// trial cannot be re-granted by setting the macOS clock backward.
+///
+/// We deliberately only clamp the trial path; the licensed offline-grace window
+/// is intentionally generous and is governed by the signed `lastValidatedAt`,
+/// not by this guard.
+public struct TrialClockGuard: Sendable {
+    private let stores: [any TrialOriginStore]
+
+    public init(stores: [any TrialOriginStore]) {
+        self.stores = stores
+    }
+
+    /// Record `now` as observed and return the rollback-protected instant to use
+    /// for trial arithmetic: the greater of `now` and the highest instant ever
+    /// seen. Backfills every store that is behind the new high-water-mark, so a
+    /// partial wipe cannot drop the mark.
+    @discardableResult
+    public func observe(now: Date) -> Date {
+        let highWaterMark = max(now, stores.compactMap { $0.read() }.max() ?? now)
+        for store in stores where (store.read() ?? .distantPast) < highWaterMark {
+            store.write(highWaterMark)
+        }
+        return highWaterMark
+    }
+
+    /// Read-only rollback-protected instant without writing: the greater of `now`
+    /// and the recorded high-water-mark.
+    public func protectedNow(_ now: Date) -> Date {
+        max(now, stores.compactMap { $0.read() }.max() ?? now)
+    }
+}
+
 /// A simple in-memory `TrialOriginStore` for tests (and a reference for the
 /// app-layer Defaults/Keychain implementations). `@unchecked Sendable`: the
 /// single optional is guarded by a lock.

@@ -77,7 +77,7 @@ struct TrialStateTests {
         #expect(!state.captureEnabled)
         // The enum has no case that disables Library/export — proven structurally:
         // every state's only feature flag is captureEnabled.
-        for s in [
+        for state in [
             LicenseState.trial(daysRemaining: 1),
             .trialGrace(hoursRemaining: 1),
             .expired,
@@ -86,7 +86,7 @@ struct TrialStateTests {
         ] {
             // No assertion needed beyond confirming captureEnabled is the sole gate;
             // referencing it documents intent.
-            _ = s.captureEnabled
+            _ = state.captureEnabled
         }
     }
 

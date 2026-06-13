@@ -8,8 +8,9 @@ import Testing
 
 /// Spec scenario: "Code block keeps its indentation" (preserve-layout)
 @Test func codeBlockKeepsItsIndentation() {
-    // A small indented code block. One indent step = `indentUnitWidth` (0.012)
-    // in normalized x. Left edges: base 0.10, +0.012 (one step), +0.024 (two).
+    // A small indented code block. The indent unit is derived from the block's
+    // own smallest left-edge gap (0.012 here), not from image width. Left edges:
+    // base 0.10, +0.012 (one step), +0.024 (two).
     let recognized = RecognizedText(lines: [
         line("func main() {", left: 0.100, top: 0.90),
         line("if ready {", left: 0.112, top: 0.80), // indented one level
@@ -40,13 +41,40 @@ import Testing
     ])
     let lines = LayoutProcessor.format(recognized, mode: .preserveLayout)
         .components(separatedBy: "\n")
-    func leadingSpaces(_ s: String) -> Int {
-        s.prefix { $0 == " " }.count
+    func leadingSpaces(_ text: String) -> Int {
+        text.prefix { $0 == " " }.count
     }
     #expect(leadingSpaces(lines[0]) == 0)
     #expect(leadingSpaces(lines[1]) <= leadingSpaces(lines[2]))
     #expect(leadingSpaces(lines[2]) <= leadingSpaces(lines[3]))
     #expect(leadingSpaces(lines[3]) > 0)
+}
+
+/// The reconstructed indentation must NOT depend on how wide the region was
+/// captured. The same code block (a fixed-pixel indent step) captured at a wide
+/// and a narrow region — which in Vision's width-normalized space means every
+/// x-coordinate scales by the capture-width ratio — must yield identical output.
+/// (Regression for the width-relative indent-unit bug: a narrow code capture
+/// used to over-indent, e.g. one level rendering as 28 spaces instead of 4.)
+@Test func preserveLayout_indentationIsInvariantToCaptureWidth() {
+    /// Same content; `scale` models a narrower capture (bigger normalized gaps).
+    func codeBlock(scale: Double) -> RecognizedText {
+        RecognizedText(lines: [
+            line("def run():", left: 0.05 * scale, top: 0.90, width: 0.40 * scale),
+            line("setup()", left: (0.05 + 0.02) * scale, top: 0.80, width: 0.30 * scale),
+            line("for row in rows:", left: (0.05 + 0.02) * scale, top: 0.70, width: 0.50 * scale),
+            line("emit(row)", left: (0.05 + 0.04) * scale, top: 0.60, width: 0.35 * scale),
+        ])
+    }
+    let wide = LayoutProcessor.format(codeBlock(scale: 1.0), mode: .preserveLayout)
+    let narrow = LayoutProcessor.format(codeBlock(scale: 2.4), mode: .preserveLayout)
+
+    #expect(wide == narrow) // capture width does not change the structure
+    let lines = wide.components(separatedBy: "\n")
+    #expect(lines[0] == "def run():") // base column
+    #expect(lines[1] == "    setup()") // one indent level = 4 spaces, not 28
+    #expect(lines[2] == "    for row in rows:") // same level as the line above
+    #expect(lines[3] == "        emit(row)") // two indent levels = 8 spaces
 }
 
 /// Spec scenario: "Paragraph capture in merge-lines mode"

@@ -36,8 +36,8 @@ struct ActivationTests {
         await #expect {
             try await mgr.activate(licenseKey: "NOPE-NOT-REAL")
         } throws: { error in
-            guard let e = error as? ActivationError else { return false }
-            return e.code == .invalidKey && !e.reason.isEmpty
+            guard let activationError = error as? ActivationError else { return false }
+            return activationError.code == .invalidKey && !activationError.reason.isEmpty
         }
         // State unchanged: still trial, no receipt written on the failure path.
         #expect(store.load() == nil)
@@ -78,17 +78,17 @@ struct ActivationTests {
     @Test func test_seatLimitReached() async throws {
         let (signer, _) = Fixtures.keyPair()
         let server = Fixtures.server(signer: signer)
-        for m in [Fixtures.machineA, Fixtures.machineB, Fixtures.machineC] {
-            _ = try await server.activate(licenseKey: Fixtures.validKey, machine: m, now: Fixtures.day0)
+        for machine in [Fixtures.machineA, Fixtures.machineB, Fixtures.machineC] {
+            _ = try await server.activate(licenseKey: Fixtures.validKey, machine: machine, now: Fixtures.day0)
         }
         await #expect {
             _ = try await server.activate(licenseKey: Fixtures.validKey, machine: Fixtures.machineD, now: Fixtures.day0)
         } throws: { error in
-            guard let e = error as? ActivationError else { return false }
+            guard let activationError = error as? ActivationError else { return false }
             // Refused, and the existing activations are listed for the UI.
-            return e.code == .seatLimitReached
-                && e.existingActivations.count == 3
-                && e.existingActivations.contains { $0.machine == Fixtures.machineA }
+            return activationError.code == .seatLimitReached
+                && activationError.existingActivations.count == 3
+                && activationError.existingActivations.contains { $0.machine == Fixtures.machineA }
         }
     }
 
@@ -97,8 +97,8 @@ struct ActivationTests {
     @Test func freeSeatForInaccessibleMachine() async throws {
         let (signer, _) = Fixtures.keyPair()
         let server = Fixtures.server(signer: signer)
-        for m in [Fixtures.machineA, Fixtures.machineB, Fixtures.machineC] {
-            _ = try await server.activate(licenseKey: Fixtures.validKey, machine: m, now: Fixtures.day0)
+        for machine in [Fixtures.machineA, Fixtures.machineB, Fixtures.machineC] {
+            _ = try await server.activate(licenseKey: Fixtures.validKey, machine: machine, now: Fixtures.day0)
         }
         // Free machineB remotely (it is not present) then activate the new Mac.
         try await server.deactivate(licenseKey: Fixtures.validKey, machine: Fixtures.machineB, now: Fixtures.day0)
