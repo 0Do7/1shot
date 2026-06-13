@@ -20,4 +20,17 @@ for pkg in "${PORTABLE_PACKAGES[@]}"; do
     echo "✓ $pkg is portable"
   fi
 done
+
+# No deprecated capture APIs (spec:capture-engine "No deprecated APIs in the
+# binary", design D5): every capture path goes through ScreenCaptureKit /
+# SCScreenshotManager. CGWindowListCreateImage & friends must never appear.
+DEPRECATED='CGWindowListCreateImage|CGWindowListCreateImageFromArray|CGDisplayCreateImage'
+if matches=$(grep -rnE "$DEPRECATED" OneShotKit OneShot --include='*.swift' 2>/dev/null); then
+  echo "✗ deprecated capture API referenced (use ScreenCaptureKit instead):"
+  echo "$matches"
+  status=1
+else
+  echo "✓ no deprecated capture APIs"
+fi
+
 exit $status

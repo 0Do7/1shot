@@ -92,27 +92,37 @@ final class AreaSelectionController {
     func confirm() {
         guard let model, let target = model.target(),
               let image = snapshots[target.display.id],
-              let cropped = image.cropping(to: CGRect(
-                  x: target.pixels.x,
-                  y: target.pixels.y,
-                  width: target.pixels.width,
-                  height: target.pixels.height
-              ))
+              let frame = Self.croppedFrame(from: image, display: target.display, pixels: target.pixels)
         else {
             finish(.cancelled)
             return
         }
-        finish(.captured(CapturedFrame(
-            type: .image,
-            image: cropped,
-            displayID: target.display.id,
-            pixels: target.pixels,
-            scale: target.display.scale
-        )))
+        finish(.captured(frame))
     }
 
     func cancel() {
         finish(.cancelled)
+    }
+
+    /// Crop the confirmed region out of the on-open backdrop snapshot. This is
+    /// what makes freeze-screen correct (spec: the selected region is extracted
+    /// from the frozen image, never the live screen at confirm time) — the only
+    /// input is the snapshot, so the output can only be the frozen pixels.
+    /// Native density is preserved (the snapshot is already at native pixels).
+    nonisolated static func croppedFrame(
+        from snapshot: CGImage,
+        display: DisplayDescriptor,
+        pixels: PixelRect
+    ) -> CapturedFrame? {
+        let rect = CGRect(x: pixels.x, y: pixels.y, width: pixels.width, height: pixels.height)
+        guard let cropped = snapshot.cropping(to: rect) else { return nil }
+        return CapturedFrame(
+            type: .image,
+            image: cropped,
+            displayID: display.id,
+            pixels: pixels,
+            scale: display.scale
+        )
     }
 
     // MARK: Internals
