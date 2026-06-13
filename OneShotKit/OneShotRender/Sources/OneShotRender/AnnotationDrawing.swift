@@ -1,4 +1,5 @@
 import CoreGraphics
+import CoreImage
 import CoreText
 import Foundation
 import OneShotCore
@@ -50,11 +51,11 @@ struct AnnotationDrawer {
         let tipTangent: CGVector
         let shaftPath = CGMutablePath()
         if let control = a.control {
-            let c = surface.point(control)
+            let controlPoint = surface.point(control)
             shaftPath.move(to: start)
-            shaftPath.addQuadCurve(to: end, control: c)
+            shaftPath.addQuadCurve(to: end, control: controlPoint)
             // Tangent of a quadratic Bézier at t=1 is direction (end - control).
-            tipTangent = CGVector(dx: end.x - c.x, dy: end.y - c.y)
+            tipTangent = CGVector(dx: end.x - controlPoint.x, dy: end.y - controlPoint.y)
         } else {
             shaftPath.move(to: start)
             shaftPath.addLine(to: end)
@@ -71,9 +72,9 @@ struct AnnotationDrawer {
         // backed endpoint approximation.
         let drawnShaft = CGMutablePath()
         if let control = a.control {
-            let c = surface.point(control)
+            let controlPoint = surface.point(control)
             drawnShaft.move(to: start)
-            drawnShaft.addQuadCurve(to: backed, control: c)
+            drawnShaft.addQuadCurve(to: backed, control: controlPoint)
         } else {
             drawnShaft.move(to: start)
             drawnShaft.addLine(to: backed)
@@ -124,8 +125,8 @@ struct AnnotationDrawer {
         switch a.shape {
         case .rectangle:
             if a.cornerRadius > 0 {
-                let r = min(CGFloat(a.cornerRadius), min(rect.width, rect.height) / 2)
-                path.addRoundedRect(in: rect, cornerWidth: r, cornerHeight: r)
+                let radius = min(CGFloat(a.cornerRadius), min(rect.width, rect.height) / 2)
+                path.addRoundedRect(in: rect, cornerWidth: radius, cornerHeight: radius)
             } else {
                 path.addRect(rect)
             }
@@ -268,11 +269,13 @@ struct AnnotationDrawer {
         guard a.points.count > 1 else {
             // A single point renders as a dot so a tap is still visible.
             if let only = a.points.first {
-                let p = surface.point(only)
-                let r = CGFloat(a.stroke.width) / 2
+                let dot = surface.point(only)
+                let radius = CGFloat(a.stroke.width) / 2
                 context.saveGState()
                 context.setFillColor(a.stroke.color.cgColor)
-                context.fillEllipse(in: CGRect(x: p.x - r, y: p.y - r, width: r * 2, height: r * 2))
+                context.fillEllipse(in: CGRect(
+                    x: dot.x - radius, y: dot.y - radius, width: radius * 2, height: radius * 2
+                ))
                 context.restoreGState()
             }
             return
@@ -294,8 +297,8 @@ struct AnnotationDrawer {
                 path.addCurve(to: p2, control1: c1, control2: c2)
             }
         } else {
-            for p in pts.dropFirst() {
-                path.addLine(to: p)
+            for point in pts.dropFirst() {
+                path.addLine(to: point)
             }
         }
 
@@ -322,22 +325,31 @@ struct AnnotationDrawer {
         context.addPath(frame)
         context.clip()
 
-        // Render the visible document content magnified into the callout. We draw a
-        // snapshot of the base layer (base image + placed images) scaled so the
-        // source region maps onto the callout rect. To keep the render core simple
-        // and deterministic we re-draw the base image transformed.
-        if let baseImage = baseLayerImage() {
-            let source = a.sourceRect
-            // Map source-doc-rect → callout-context-rect.
-            let sx = callout.width / CGFloat(source.size.width == 0 ? 1 : source.size.width)
-            let sy = callout.height / CGFloat(source.size.height == 0 ? 1 : source.size.height)
-            // Position the full base image so that `source` lands on `callout`.
-            // base image is drawn in document space starting at (0,0).
-            let drawW = CGFloat(document.baseImage.pixelWidth) * sx
-            let drawH = CGFloat(document.baseImage.pixelHeight) * sy
-            let originX = callout.minX - (CGFloat(source.minX) - CGFloat(surface.visibleRect.minX)) * sx
-            let originY = callout.minY - (CGFloat(source.minY) - CGFloat(surface.visibleRect.minY)) * sy
-            drawCGImage(baseImage, in: CGRect(x: originX, y: originY, width: drawW, height: drawH))
+        // Render the visible document content magnified into the callout. We sample
+        // the ALREADY-RENDERED context (base image + every lower-z annotation,
+        // including destructive redactions) — never a pristine re-decode of the base
+        // image — so a magnifier over a redacted region cannot re-expose the original
+        // pixels (spec:redaction "Hardened, non-reversible export"). `makeImage()`
+        // returns the current canvas as one image covering the whole visible rect.
+        if let snapshot = context.makeImage() {
+            let source = surface.rect(a.sourceRect).standardized
+            // Scale that maps the source region onto the callout. Guard zero-size.
+            let sx = callout.width / (source.width == 0 ? 1 : source.width)
+            let sy = callout.height / (source.height == 0 ? 1 : source.height)
+            // The snapshot covers the whole visible rect in context space; place and
+            // scale it so the source sub-rect lands exactly on the callout.
+            let visible = surface.rect(surface.visibleRect)
+            let drawRect = CGRect(
+                x: callout.minX - source.minX * sx,
+                y: callout.minY - source.minY * sy,
+                width: visible.width * sx,
+                height: visible.height * sy
+            )
+            // The redaction below sampled the same makeImage() snapshot, so the magnified
+            // content already carries burned-in redactions. 1:1 nearest-neighbour keeps the
+            // magnified pixels honest (no resampling can synthesize readable detail).
+            context.interpolationQuality = .none
+            drawCGImage(snapshot, in: drawRect)
         }
         context.restoreGState()
 
@@ -351,37 +363,56 @@ struct AnnotationDrawer {
             context.restoreGState()
         }
     }
+}
 
-    private func baseLayerImage() -> CGImage? {
-        guard let data = images.data(for: document.baseImage) else { return nil }
-        return try? ImageCodec.decode(data, name: document.baseImage.fileName)
-    }
+// MARK: Destructive redaction + image compositing
 
-    // MARK: Redaction (blur / pixelate / blackout)
+/// Split into an extension to keep each declaration cohesive (and the primary type
+/// body within the strict length budget); identical behaviour, same file.
+extension AnnotationDrawer {
+    // MARK: Redaction (blur / pixelate / blackout) — destructive (task 6.1)
 
-    private func drawRedaction(_ a: RedactionAnnotation) {
-        // The render core renders redaction destructively at flatten time. Blur and
-        // pixelate require sampling underlying pixels; to stay portable (no Core
-        // Image filters that pull in platform specifics here) we composite an opaque
-        // obscuring fill. Full content-aware blur/pixelate lives in the redaction
-        // lane (task 6.x) which owns the destructive export pixel-floor tests; here
-        // we guarantee the region is irreversibly obscured for any style.
-        let rect = surface.rect(a.rect).standardized
+    func drawRedaction(_ a: RedactionAnnotation) {
+        // Two-pass, z-order-honest destructive obscuring (spec:redaction "Hardened,
+        // non-reversible export"): redaction reads the pixels BENEATH it (base +
+        // every lower annotation already drawn into this context), computes a real
+        // blur / pixelate / blackout patch, and overwrites the region irreversibly.
+        // Annotations drawn AFTER this one still composite on top, so z-order holds.
+        let userRect = surface.rect(a.rect).standardized
+        guard userRect.width > 0, userRect.height > 0 else { return }
+
+        // Convert the document-space rect into OUTPUT-pixel space (bottom-left
+        // origin — the orientation `context.makeImage()` returns), clamped to the
+        // canvas so we never sample outside the bitmap.
+        let scale = surface.scale
+        let canvas = CGRect(x: 0, y: 0, width: surface.pixelWidth, height: surface.pixelHeight)
+        let pixelRect = CGRect(
+            x: userRect.minX * scale,
+            y: CGFloat(surface.pixelHeight) - userRect.maxY * scale,
+            width: userRect.width * scale,
+            height: userRect.height * scale
+        ).intersection(canvas).integral
+        guard pixelRect.width >= 1, pixelRect.height >= 1 else { return }
+
+        // Snapshot what is currently beneath this redaction (everything drawn so far).
+        guard let beneath = context.makeImage(),
+              let patch = RedactionRenderer.obscuredPatch(
+                  of: beneath,
+                  region: pixelRect,
+                  style: a.style,
+                  strength: a.strength,
+                  scale: scale
+              )
+        else { return }
+
+        // Draw the obscuring patch back over exactly its region. We bypass the
+        // document-space CTM and draw straight in device pixels: save the current
+        // transform, reset to identity (device space), copy in opaque pixels, restore.
         context.saveGState()
-        switch a.style {
-        case .blackout:
-            context.setFillColor(DocColor.black.cgColor)
-            context.fill(rect)
-        case .blur, .pixelate:
-            // Mosaic block fill: average is unavailable without a sampling pass, so
-            // we paint a neutral opaque cover that defeats reading. Distinct from
-            // blackout by a mid-gray tone so the two styles render differently.
-            context.setFillColor(CGColor(
-                colorSpace: RenderColorSpace.sRGB,
-                components: [0.5, 0.5, 0.5, 1.0]
-            )!)
-            context.fill(rect)
-        }
+        context.concatenate(context.ctm.inverted())
+        context.setBlendMode(.copy) // destructive: replace, do not blend over
+        context.interpolationQuality = .none // 1:1 pixel copy, no resampling
+        context.draw(patch, in: pixelRect)
         context.restoreGState()
     }
 

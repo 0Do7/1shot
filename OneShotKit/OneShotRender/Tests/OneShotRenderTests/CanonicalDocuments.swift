@@ -29,8 +29,8 @@ enum Canonical {
         )!
         // Vertical gradient backdrop (drawn manually to avoid gradient AA variance).
         for y in 0 ..< height {
-            let t = CGFloat(y) / CGFloat(height)
-            ctx.setFillColor(red: 0.16 + 0.10 * t, green: 0.20 + 0.18 * t, blue: 0.30 + 0.30 * t, alpha: 1)
+            let ty = CGFloat(y) / CGFloat(height)
+            ctx.setFillColor(red: 0.16 + 0.10 * ty, green: 0.20 + 0.18 * ty, blue: 0.30 + 0.30 * ty, alpha: 1)
             ctx.fill(CGRect(x: 0, y: y, width: width, height: 1))
         }
         // Checkerboard band across the middle.
@@ -217,6 +217,9 @@ enum Canonical {
     }
 
     static var redaction: AnnotationDocument {
+        // One of each style over the three dark "text-line" bars + the checkerboard,
+        // so the DRAFT golden captures REAL destructive blur / pixelate / blackout
+        // (task 6.1) rather than the old flat-fill placeholder.
         document([
             .redaction(RedactionAnnotation(
                 id: uuid(14),
@@ -227,6 +230,12 @@ enum Canonical {
                 id: uuid(15),
                 rect: DocRect(x: 22, y: 54, width: 244, height: 12),
                 style: .blur,
+                strength: 16
+            )),
+            .redaction(RedactionAnnotation(
+                id: uuid(16),
+                rect: DocRect(x: 40, y: 86, width: 160, height: 48),
+                style: .pixelate,
                 strength: 16
             )),
         ])

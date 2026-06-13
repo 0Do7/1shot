@@ -41,16 +41,16 @@ struct RenderSurface {
     /// Maps a document point into the (already flipped, scaled) context coordinate
     /// system. After `prepareDocumentSpace()` the context is translated so the
     /// visible rect's top-left sits at the origin and y grows downward.
-    func point(_ p: DocPoint) -> CGPoint {
-        CGPoint(x: p.x - visibleRect.minX, y: p.y - visibleRect.minY)
+    func point(_ docPoint: DocPoint) -> CGPoint {
+        CGPoint(x: docPoint.x - visibleRect.minX, y: docPoint.y - visibleRect.minY)
     }
 
-    func rect(_ r: DocRect) -> CGRect {
+    func rect(_ docRect: DocRect) -> CGRect {
         CGRect(
-            x: r.minX - visibleRect.minX,
-            y: r.minY - visibleRect.minY,
-            width: r.size.width,
-            height: r.size.height
+            x: docRect.minX - visibleRect.minX,
+            y: docRect.minY - visibleRect.minY,
+            width: docRect.size.width,
+            height: docRect.size.height
         )
     }
 }

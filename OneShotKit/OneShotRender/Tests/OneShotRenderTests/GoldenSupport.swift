@@ -75,11 +75,19 @@ enum GoldenError: Error, CustomStringConvertible {
     }
 }
 
+/// A tight 8-bit RGBA sRGB pixel buffer (named fields keep call sites identical to
+/// the prior tuple while satisfying the strict large-tuple rule).
+struct RGBAImage {
+    let pixels: [UInt8]
+    let width: Int
+    let height: Int
+}
+
 enum RasterBuffer {
     /// Decodes a CGImage into a tight 8-bit RGBA sRGB buffer for comparison. We
     /// re-render into a known-format context so two images are always compared in
     /// the same layout regardless of how they were produced.
-    static func rgba(_ image: CGImage) -> (pixels: [UInt8], width: Int, height: Int)? {
+    static func rgba(_ image: CGImage) -> RGBAImage? {
         let width = image.width
         let height = image.height
         guard width > 0, height > 0 else { return nil }
@@ -98,7 +106,7 @@ enum RasterBuffer {
             ctx.draw(image, in: CGRect(x: 0, y: 0, width: width, height: height))
             return true
         }
-        return result ? (pixels, width, height) : nil
+        return result ? RGBAImage(pixels: pixels, width: width, height: height) : nil
     }
 
     static func decodePNG(_ data: Data) -> CGImage? {
@@ -134,10 +142,10 @@ enum GoldenComparator {
         let count = a.pixels.count
         var i = 0
         while i < count {
-            for c in 0 ..< 4 {
-                let d = abs(Int(a.pixels[i + c]) - Int(b.pixels[i + c]))
-                totalDiff += UInt64(d)
-                if d > Golden.pixelEpsilon { outliers += 1 }
+            for channel in 0 ..< 4 {
+                let delta = abs(Int(a.pixels[i + channel]) - Int(b.pixels[i + channel]))
+                totalDiff += UInt64(delta)
+                if delta > Golden.pixelEpsilon { outliers += 1 }
             }
             i += 4
         }

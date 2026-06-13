@@ -117,12 +117,13 @@ private func assertGolden(
 /// #### Scenario: Retina capture exports at full resolution
 @Test func retinaCaptureExportsAtFullResolution() throws {
     // A 2x-density capture exported with default settings keeps full 2x pixels.
-    let doc = Canonical.document([.arrow(ArrowAnnotation(
+    let arrow = ArrowAnnotation(
         id: Canonical.uuid(99),
         start: DocPoint(x: 20, y: 20),
         end: DocPoint(x: 100, y: 100),
         stroke: StrokeStyle(color: Canonical.red, width: 4)
-    )),], scale: 2)
+    )
+    let doc = Canonical.document([.arrow(arrow)], scale: 2)
     // No explicit scale => uses baseImage.scale (2.0).
     let image = try AnnotationRasterizer.render(document: doc, images: Canonical.provider())
     #expect(image.width == Canonical.baseWidth * 2)
@@ -177,19 +178,21 @@ private func assertGolden(
 /// same endpoints (the control point reshapes the object).
 @Test func curvedArrowIsCreatedAndReshaped() throws {
     let stroke = StrokeStyle(color: Canonical.blue, width: 6)
-    let straight = Canonical.document([.arrow(ArrowAnnotation(
+    let straightArrow = ArrowAnnotation(
         id: Canonical.uuid(30),
         start: DocPoint(x: 40, y: 60),
         end: DocPoint(x: 270, y: 150),
         stroke: stroke
-    )),])
-    let curved = Canonical.document([.arrow(ArrowAnnotation(
+    )
+    let curvedArrow = ArrowAnnotation(
         id: Canonical.uuid(30),
         start: DocPoint(x: 40, y: 60),
         end: DocPoint(x: 270, y: 150),
         control: DocPoint(x: 80, y: 180),
         stroke: stroke
-    )),])
+    )
+    let straight = Canonical.document([.arrow(straightArrow)])
+    let curved = Canonical.document([.arrow(curvedArrow)])
     let a = try AnnotationRasterizer.render(document: straight, images: Canonical.provider(), scale: 1)
     let b = try AnnotationRasterizer.render(document: curved, images: Canonical.provider(), scale: 1)
     let diff = GoldenComparator.compare(candidate: a, baseline: b)
@@ -229,22 +232,77 @@ private func assertGolden(
 @Test func magnifierCalloutTracksItsSource() throws {
     let calloutRect = DocRect(x: 150, y: 120, width: 150, height: 70)
     let border = StrokeStyle(color: .white, width: 4)
-    let a = Canonical.document([.magnifier(MagnifierAnnotation(
+    let magnifierA = MagnifierAnnotation(
         id: Canonical.uuid(40),
         sourceRect: DocRect(x: 30, y: 24, width: 60, height: 40),
         calloutRect: calloutRect,
         border: border
-    )),])
-    let b = Canonical.document([.magnifier(MagnifierAnnotation(
+    )
+    let magnifierB = MagnifierAnnotation(
         id: Canonical.uuid(40),
         sourceRect: DocRect(x: 30, y: 90, width: 60, height: 40),
         calloutRect: calloutRect,
         border: border
-    )),])
+    )
+    let a = Canonical.document([.magnifier(magnifierA)])
+    let b = Canonical.document([.magnifier(magnifierB)])
     let imgA = try AnnotationRasterizer.render(document: a, images: Canonical.provider(), scale: 1)
     let imgB = try AnnotationRasterizer.render(document: b, images: Canonical.provider(), scale: 1)
     let diff = GoldenComparator.compare(candidate: imgA, baseline: imgB)
     #expect(diff.meanDifference > Golden.meanTolerance, "callout content must track the source region")
+}
+
+/// Regression: the magnifier must sample the SAME source pixels whether or not the
+/// document has a crop / expanded canvas (visibleRect origin != 0). A previous bug
+/// subtracted the visibleRect origin an extra time, shifting the magnified content
+/// by visibleRect.min * magnification pixels when a crop was present.
+@Test func magnifierIgnoresVisibleRectOffset() throws {
+    let provider = Canonical.provider()
+    let source = DocRect(x: 100, y: 90, width: 60, height: 40)
+    let callout = DocRect(x: 200, y: 150, width: 90, height: 50)
+    let magnifier = Annotation.magnifier(MagnifierAnnotation(
+        id: Canonical.uuid(41),
+        sourceRect: source,
+        calloutRect: callout,
+        border: StrokeStyle(color: .white, width: 4)
+    ))
+
+    // Uncropped (visibleRect origin 0,0).
+    let plain = Canonical.document([magnifier])
+    // Same scene cropped so the visible rect starts at (60, 50) — the magnifier's
+    // source and callout both still lie inside this window.
+    var cropped = Canonical.document([magnifier])
+    cropped.crop = CropState(rect: DocRect(x: 60, y: 50, width: 240, height: 140))
+
+    let plainImg = try AnnotationRasterizer.render(document: plain, images: provider, scale: 1)
+    let croppedImg = try AnnotationRasterizer.render(document: cropped, images: provider, scale: 1)
+    let plainBuf = try #require(RasterBuffer.rgba(plainImg))
+    let croppedBuf = try #require(RasterBuffer.rgba(croppedImg))
+
+    // The callout interior maps to the same document region in both. Compare the
+    // callout interior (inset past the border) sampling the document-space pixel in
+    // each buffer via its own visible-rect origin.
+    let inset = 8.0
+    let interior = DocRect(
+        x: callout.minX + inset, y: callout.minY + inset,
+        width: callout.size.width - inset * 2, height: callout.size.height - inset * 2
+    )
+    var total = 0, count = 0
+    for docY in stride(from: interior.minY, to: interior.maxY, by: 1) {
+        for docX in stride(from: interior.minX, to: interior.maxX, by: 1) {
+            let pi = (Int(docY) * plainBuf.width + Int(docX)) * 4
+            // Cropped buffer is offset by the crop origin (60, 50).
+            let cx = Int(docX - 60), cy = Int(docY - 50)
+            guard cx >= 0, cy >= 0, cx < croppedBuf.width, cy < croppedBuf.height else { continue }
+            let ci = (cy * croppedBuf.width + cx) * 4
+            for channel in 0 ..< 3 {
+                total += abs(Int(plainBuf.pixels[pi + channel]) - Int(croppedBuf.pixels[ci + channel]))
+                count += 1
+            }
+        }
+    }
+    let mean = count == 0 ? 0 : Double(total) / Double(count)
+    #expect(mean < 5, "magnified content must be identical with/without a crop (mean diff \(mean))")
 }
 
 // MARK: - spec: Smart text-following highlight
@@ -263,12 +321,13 @@ private func assertGolden(
 /// #### Scenario: Highlight over non-text content
 /// Free mode renders a single rectangular band wherever dragged.
 @Test func highlightOverNonTextContent() throws {
-    let doc = Canonical.document([.highlight(HighlightAnnotation(
+    let highlight = HighlightAnnotation(
         id: Canonical.uuid(50),
         mode: .free,
         rects: [DocRect(x: 40, y: 150, width: 200, height: 30)],
         color: Canonical.yellow
-    )),])
+    )
+    let doc = Canonical.document([.highlight(highlight)])
     let image = try AnnotationRasterizer.render(document: doc, images: Canonical.provider(), scale: 1)
     #expect(image.width == Canonical.baseWidth) // renders without text detection
 }
