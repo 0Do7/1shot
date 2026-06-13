@@ -17,7 +17,10 @@ let package = Package(
         ),
         .testTarget(
             name: "OneShotRenderTests",
-            dependencies: ["OneShotRender"]
+            dependencies: ["OneShotRender"],
+            // DRAFT golden baseline PNGs (design D13 / build-guide DoD #3): reviewed
+            // product assets — pending human visual sign-off.
+            resources: [.copy("Goldens")]
         ),
     ]
 )
