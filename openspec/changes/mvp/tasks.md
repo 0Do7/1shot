@@ -26,7 +26,7 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 ## 3. OneShotCapture — capture engine (lane: capture; needs 2.3)
 
 - [x] 3.1 ScreenCaptureKit wrapper: display/window enumeration, SCScreenshotManager still capture, capture-type enum with `.video` reserved (spec:capture-engine, design D5)
-- [ ] 3.2 Area selection overlay windows (per display, borderless): crosshair, magnifier, dimension readout, keyboard nudge, multi-display + mixed-DPI correct
+- [x] 3.2 Area selection overlay windows (per display, borderless): crosshair, magnifier, dimension readout, keyboard nudge, multi-display + mixed-DPI correct
 - [x] 3.3 Window capture: alpha-preserving transparent shadow + shadowless mode; window picking UX (spec:capture-engine)
 - [ ] 3.4 Modes: fullscreen, repeat-previous-area (with region preview before recapture), delayed (UI-configurable), freeze-screen (spec:capture-engine)
 - [x] 3.5 Global hotkeys: RegisterEventHotKey wrapper, conflict detection, rebinding UI model (design D6)
