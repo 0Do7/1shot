@@ -15,6 +15,19 @@ strips the redundant `test` prefix on swift-testing `@Test` functions. Resolutio
 scenario-based names keep the `<surface>_<scenario>` shape without the prefix
 (`chip_neverStealsFocus`). Formatter wins — it's the mechanically-enforced rule.
 
+## 2026-06-13 · spec:capture-engine area vs freeze · area selection captures a snapshot on open
+The "Area selection" requirement implies a live overlay (final pixels from the
+live screen at confirm), while "Freeze-screen" is the explicit frozen mode.
+Task 3.2 implements area selection by grabbing a per-display snapshot at
+invocation, dimming it as the overlay backdrop, and **cropping the confirmed
+region out of that snapshot** rather than re-capturing live. Rationale: exact
+WYSIWYG with the backdrop, no one-frame race where the dimming leaks into the
+shot, and the snapshot is needed anyway for the pixel-accurate magnifier. Output
+is still at the source display's native density, satisfying the requirement
+verbatim. Consequence: the screen is visually frozen for the brief selection
+lifetime; freeze-screen (3.4) becomes the same mechanism surfaced deliberately
+(persistent + signposted), not a separate capture path. No spec text changed.
+
 ## 2026-06-09 · design D9 · "Core Image inpainting" does not exist
 D9 assumed CI ships an inpainting facility. Spike S1 census on macOS 26.3: 247
 CIFilters, zero inpaint/heal/reconstruct candidates. Resolution per S1 findings
