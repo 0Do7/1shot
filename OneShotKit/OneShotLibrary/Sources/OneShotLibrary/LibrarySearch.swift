@@ -32,23 +32,30 @@ public struct SearchFilters: Sendable, Hashable {
     public var tag: String?
     /// Restrict to a media type (MVP only ever has `.image`).
     public var mediaType: MediaType?
+    /// Require the stored `containsCode` flag to equal this value. Smart folders
+    /// (§9.5 contains-code) compile to this; it reuses the index-time heuristic
+    /// result rather than re-scanning OCR, so membership is consistent and cheap.
+    public var containsCode: Bool?
 
     public init(
         appName: String? = nil,
         capturedAfter: Date? = nil,
         capturedBefore: Date? = nil,
         tag: String? = nil,
-        mediaType: MediaType? = nil
+        mediaType: MediaType? = nil,
+        containsCode: Bool? = nil
     ) {
         self.appName = appName
         self.capturedAfter = capturedAfter
         self.capturedBefore = capturedBefore
         self.tag = tag
         self.mediaType = mediaType
+        self.containsCode = containsCode
     }
 
     var isEmpty: Bool {
-        appName == nil && capturedAfter == nil && capturedBefore == nil && tag == nil && mediaType == nil
+        appName == nil && capturedAfter == nil && capturedBefore == nil
+            && tag == nil && mediaType == nil && containsCode == nil
     }
 }
 
@@ -156,6 +163,10 @@ public struct LibrarySearch: Sendable {
         if let mediaType = filters.mediaType {
             sql += " AND \(alias).mediaType = ?"
             args.append(mediaType.rawValue)
+        }
+        if let containsCode = filters.containsCode {
+            sql += " AND \(alias).containsCode = ?"
+            args.append(containsCode)
         }
         if let tag = filters.tag {
             sql += """

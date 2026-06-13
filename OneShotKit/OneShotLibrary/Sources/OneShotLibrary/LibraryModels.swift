@@ -3,7 +3,7 @@ import Foundation
 /// The kind of media a Library item references. MVP only ever produces `.image`;
 /// `.video` is a forward-compatibility hook (spec: "media-type field with nullable
 /// duration") that MUST remain unproduced by MVP code paths.
-public enum MediaType: String, Sendable, Hashable, CaseIterable {
+public enum MediaType: String, Codable, Sendable, Hashable, CaseIterable {
     case image
     case video
 }

@@ -342,7 +342,9 @@ public actor LibraryStore {
 
     // MARK: - Internals
 
-    private func write<T: Sendable>(_ work: @Sendable (Database) throws -> T) throws -> T {
+    /// Package-internal write escape hatch (mirrors `read`), used by same-module
+    /// extensions in other files (§9.5 tag support). Not part of the public API.
+    func write<T: Sendable>(_ work: @Sendable (Database) throws -> T) throws -> T {
         do {
             return try dbQueue.write(work)
         } catch let error as LibraryError {
