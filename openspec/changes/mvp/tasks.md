@@ -65,11 +65,11 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 - [x] 7.2 Sticky-chrome detection (static-row variance mask) + dedup-crop; fixture tests
 - [ ] 7.3 Auto-scroll synthesis (AX scroll events) + manual mode + mid-session switch; lazy Accessibility request with explainer (spec:scrolling-capture)
 - [ ] 7.4 Live stitch preview panel rendering the growing canvas; finish/cancel controls
-- [ ] 7.5 Honest-failure: confidence thresholds, explicit failure messaging, unsupported-surface detection (spec:scrolling-capture)
+- [x] 7.5 Honest-failure: confidence thresholds, explicit failure messaging, unsupported-surface detection (spec:scrolling-capture)
 - [ ] 7.6 Restitch view: seam dragging, segment trimming, re-seam without recapture; ScrollDocument persists through Library save/reopen
-- [ ] 7.7 Horizontal scrolling capture
+- [x] 7.7 Horizontal scrolling capture
 - [ ] 7.8 Failure-suite rig on self-hosted runner: scripted Terminal/VS Code/Finder-columns/Mos/Scroll-Reverser/sticky-header/lazy-load scenarios; wired as release gate (design D8/D13)
-- [ ] 7.9 Full-resolution guarantee: resource-limit behavior = honest partial, never downscale; tests
+- [x] 7.9 Full-resolution guarantee: resource-limit behavior = honest partial, never downscale; tests
 
 ## 8. OCR (lane: ocr; small — combine with redaction agent if short-handed)
 
@@ -83,10 +83,10 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 - [x] 9.2 Index-on-capture pipeline: async OCR + auto-name + provenance (frontmost app, window title, browser URL via AX/scripting with graceful degradation) (spec:library)
 - [x] 9.3 Search: FTS5 query layer, <50ms @ 10k items perf test, filters (app/date/tag/type)
 - [ ] 9.4 Library browser UI (SwiftUI): grid, instant search, detail view, reopen-with-live-annotations, reopen-source action
-- [ ] 9.5 Smart folders (per-app, contains-code heuristic, date) + manual tags
+- [x] 9.5 Smart folders (per-app, contains-code heuristic, date) + manual tags
 - [ ] 9.6 Auto-import watcher (opt-in): standard screenshot folders, any-tool captures, pre-install backfill, dedup, originals never modified (spec:library)
 - [ ] 9.7 Core Spotlight donation + withdrawal
-- [ ] 9.8 Retention controls (off by default): size cap, age rules, preview-before-delete
+- [x] 9.8 Retention controls (off by default): size cap, age rules, preview-before-delete
 
 ## 10. Pixel tools, pin, beautify (lane: visuals; needs 5.2)
 

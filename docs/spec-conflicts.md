@@ -93,3 +93,20 @@ receipt could be copied to any Mac and still verify — now machine-bound;
 (3) a magnifier callout re-decoded the ORIGINAL base image, leaking pixels a redaction
 was meant to hide — now samples the already-redacted render layer. Plus 29 med/low
 robustness + lint fixes. All packages remain swiftlint --strict clean.
+
+## 2026-06-13 · batch 3 partials + headless-verify environment limits
+- **6.3 text-aware redaction** — per-instance toggleable redactions + all-text one-click +
+  blur/pixelate/blackout over OCR boxes are DONE; the "Text-aware erase blends" scenario is
+  DEFERRED (left 6.3 unchecked): it needs a new Core `RedactionAnnotation.Style` (.erase =
+  background-matching fill, no legible residue) and overlaps the demote-able 6.4 content-aware
+  removal. The conversion stays OCR-free in Render's product target (takes geometry boxes).
+- **7.6 restitch** — the MODEL is done (ScrollDocument Codable round-trip + re-seam/trim
+  transforms with no recapture); the seam-dragging VIEW and the Library save/reopen wiring are
+  app/integration-layer, deferred (left 7.6 unchecked).
+- **Review-harden fixes:** library size-cap now counts kept/tagged bytes toward the cap (was
+  over-cap-blind when excluded items held space); Today/Yesterday date-bucket midnight overlap.
+- **Headless-verify caveat (NOT regressions):** the workspace verify ran OneShotCapture's
+  Live*CaptureTests (need a real display + Screen Recording — self-hosted-runner only per design
+  D8/D13) and the real-Vision OCR-defeat test, which stalled under concurrent sandbox load. Every
+  batch-3 package passed `swift test` + `swiftlint --strict` in its own isolated harden run, and
+  an earlier isolated verify had OneShotRender 40 ✓ / OneShotCapture 46 ✓.
