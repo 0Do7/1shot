@@ -73,3 +73,23 @@ legal). Also logged: highlight uses a `.multiply` blend (visual choice, spec is 
 blend mode); golden PNGs are AA-tolerance-compared and may need re-record on a different
 macOS/font version (`ONESHOT_RECORD_GOLDENS=1`). Render goldens are DRAFT pending human
 sign-off (build-guide DoD #3).
+
+## 2026-06-13 · spec:library · FTS perf budget tested at a CI-safe ceiling
+9.3's "<50ms at 10k items" is asserted at a generous 500ms CI-safe budget (debug
+GRDB + CI variance); measured debug latency is ~1.7ms (printed via [perf]). The
+50ms target is documented in-code as the release-build goal. FTS sync is explicit
+delete-then-insert per write transaction (text denormalized from multiple columns +
+the tags junction), not external-content triggers. ScrollDocument (7.1) lives in
+OneShotScroll, not Core; Library round-trip persistence of scroll seams is deferred
+to later integration.
+
+## 2026-06-13 · ultracode adversarial review · 3 high-severity bugs found & fixed (0 deferred)
+A per-package adversarial review pass (with attack reviewers on licensing + redaction)
+caught three real spec/security defects the original green tests missed; all fixed:
+(1) OCR preserve-layout indentation was normalized to image width, so narrow code
+captures over-indented grossly — now derived from the recognized-text geometry;
+(2) the signed license receipt was NOT bound to the running machine, so a valid
+receipt could be copied to any Mac and still verify — now machine-bound;
+(3) a magnifier callout re-decoded the ORIGINAL base image, leaking pixels a redaction
+was meant to hide — now samples the already-redacted render layer. Plus 29 med/low
+robustness + lint fixes. All packages remain swiftlint --strict clean.

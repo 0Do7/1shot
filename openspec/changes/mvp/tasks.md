@@ -54,15 +54,15 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 6. Redaction (lane: redaction; needs 5.1, 8.1)
 
-- [ ] 6.1 Blur + pixelate + black-out annotation types; OCR-defeat strength floor test (blur must defeat Vision OCR on 11–14pt text) (spec:redaction)
-- [ ] 6.2 Hardened export: redactions rasterized destructively on export across all formats + pasteboard types; metadata stripped; test that no pixel data survives
+- [x] 6.1 Blur + pixelate + black-out annotation types; OCR-defeat strength floor test (blur must defeat Vision OCR on 11–14pt text) (spec:redaction)
+- [x] 6.2 Hardened export: redactions rasterized destructively on export across all formats + pasteboard types; metadata stripped; test that no pixel data survives
 - [ ] 6.3 Text-aware blur/erase: Vision text boxes → per-instance toggleable redaction annotations; all-text one-click (spec:redaction)
 - [ ] 6.4 Content-aware removal per S1 decision (inpaint or blend-fill fallback) [demote-able to fast-follow]
 
 ## 7. Scrolling capture (lane: scroll; needs 3.1; the reliability crown — protect this lane's time)
 
-- [ ] 7.1 Stitcher core: overlap estimation via normalized cross-correlation on luminance strips (vDSP), full-res refinement, ScrollDocument (tiles + seams) model + fixture-based unit tests (design D8)
-- [ ] 7.2 Sticky-chrome detection (static-row variance mask) + dedup-crop; fixture tests
+- [x] 7.1 Stitcher core: overlap estimation via normalized cross-correlation on luminance strips (vDSP), full-res refinement, ScrollDocument (tiles + seams) model + fixture-based unit tests (design D8)
+- [x] 7.2 Sticky-chrome detection (static-row variance mask) + dedup-crop; fixture tests
 - [ ] 7.3 Auto-scroll synthesis (AX scroll events) + manual mode + mid-session switch; lazy Accessibility request with explainer (spec:scrolling-capture)
 - [ ] 7.4 Live stitch preview panel rendering the growing canvas; finish/cancel controls
 - [ ] 7.5 Honest-failure: confidence thresholds, explicit failure messaging, unsupported-surface detection (spec:scrolling-capture)
@@ -79,9 +79,9 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 9. Library (lane: library; needs 2.1, 2.4, 8.1; flagship wedge)
 
-- [ ] 9.1 GRDB store: captures table (provenance, media type + nullable duration, nullable metadata/embedding columns), FTS5 index, migrations, reference-not-vault file handling (spec:library, design D4)
-- [ ] 9.2 Index-on-capture pipeline: async OCR + auto-name + provenance (frontmost app, window title, browser URL via AX/scripting with graceful degradation) (spec:library)
-- [ ] 9.3 Search: FTS5 query layer, <50ms @ 10k items perf test, filters (app/date/tag/type)
+- [x] 9.1 GRDB store: captures table (provenance, media type + nullable duration, nullable metadata/embedding columns), FTS5 index, migrations, reference-not-vault file handling (spec:library, design D4)
+- [x] 9.2 Index-on-capture pipeline: async OCR + auto-name + provenance (frontmost app, window title, browser URL via AX/scripting with graceful degradation) (spec:library)
+- [x] 9.3 Search: FTS5 query layer, <50ms @ 10k items perf test, filters (app/date/tag/type)
 - [ ] 9.4 Library browser UI (SwiftUI): grid, instant search, detail view, reopen-with-live-annotations, reopen-source action
 - [ ] 9.5 Smart folders (per-app, contains-code heuristic, date) + manual tags
 - [ ] 9.6 Auto-import watcher (opt-in): standard screenshot folders, any-tool captures, pre-install backfill, dedup, originals never modified (spec:library)
