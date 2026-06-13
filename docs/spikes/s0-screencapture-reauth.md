@@ -70,7 +70,7 @@ routine state, never an error.
 - **D5 confirmed:** stay on non-picker `SCScreenshotManager`. No picker, no entitlement
   application, no plist hacks (we never ship workarounds that need Full Disk Access).
 - **Permission state machine (3.6):** model states `unknown / granted / denied /
-  reauthRequired`. `reauthRequired` is detectable only reactively (capture fails or the
+  reauthSuspected` (named as implemented in OneShotCapture). `reauthSuspected` is detectable only reactively (capture fails or the
   system dialog appears) — we cannot read the deadline. Treat -3801 after prior success
   as probable re-auth, re-preflight, and route to recovery copy.
 - **Permission-health screen (12.3):** present the monthly dialog as *expected macOS

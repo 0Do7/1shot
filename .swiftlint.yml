@@ -18,6 +18,11 @@ opt_in_rules:
 trailing_comma:
   mandatory_comma: true
 
+# SwiftFormat's wrapMultilineStatementBraces (default-on) puts the opening brace
+# on its own line after a wrapped function signature; don't fight it.
+opening_brace:
+  ignore_multiline_function_signatures: true
+
 line_length:
   warning: 120
   error: 160
