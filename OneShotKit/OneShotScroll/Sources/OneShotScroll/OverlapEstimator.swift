@@ -36,6 +36,15 @@ struct OverlapEstimator {
     /// refuses to consider advances that leave fewer than this many samples.
     var minimumOverlap: Int = 8
 
+    /// When true, candidates are RANKED by NCC weighted by overlap fraction
+    /// (`score * sqrt(overlap / height)`) rather than raw NCC, while the returned
+    /// `confidence` stays the raw NCC. This breaks the coarse pass's tendency to
+    /// prefer a short-overlap coincidence (a few samples of a smooth gradient
+    /// correlate spuriously high) over a long-overlap true match — a real defect
+    /// that threatens both axes; the coarse pass enables it, refine leaves it off
+    /// (its narrow window has near-equal overlaps, so weighting is a no-op there).
+    var overlapWeightedSelection: Bool = false
+
     /// Correlate two equal-orientation row profiles (previous, next), searching
     /// advances in `[searchLow, searchHigh]` (clamped to the valid range). The
     /// profiles are the per-row mean luma from `LuminanceExtractor`. Returns nil
@@ -55,18 +64,19 @@ struct OverlapEstimator {
         guard low <= maxAdvance else { return nil }
 
         var best = OverlapMatch(advance: low, confidence: -.greatestFiniteMagnitude, overlapCount: 0)
+        var bestRank = -Float.greatestFiniteMagnitude
         previous.withUnsafeBufferPointer { prev in
             next.withUnsafeBufferPointer { nxt in
                 for advance in low ... maxAdvance {
                     let overlap = height - advance
                     guard overlap >= minimumOverlap else { continue }
                     // previous[advance ..< height] vs next[0 ..< overlap]
-                    let score = Self.ncc(
-                        a: prev.baseAddress! + advance,
-                        b: nxt.baseAddress!,
-                        count: overlap
-                    )
-                    if score > best.confidence {
+                    let score = Self.ncc(a: prev.baseAddress! + advance, b: nxt.baseAddress!, count: overlap)
+                    let rank = overlapWeightedSelection
+                        ? score * (Float(overlap) / Float(height)).squareRoot()
+                        : score
+                    if rank > bestRank {
+                        bestRank = rank
                         best = OverlapMatch(advance: advance, confidence: score, overlapCount: overlap)
                     }
                 }

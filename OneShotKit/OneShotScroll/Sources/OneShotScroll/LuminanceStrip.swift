@@ -121,4 +121,50 @@ enum LuminanceExtractor {
         }
         return profile
     }
+
+    // MARK: - Horizontal axis (task 7.7)
+
+    // The horizontal path mirrors the vertical one with rows↔columns swapped: for
+    // a left-right scroll the discriminating signal is how brightness varies ACROSS
+    // the strip, so a 1-D profile of length = strip width (one mean-luma value per
+    // pixel column, columns left→right) is the analogue of the row profile. The
+    // estimator/stitcher consume the profile axis-agnostically, so they need no
+    // horizontal-specific code beyond picking this profile.
+
+    /// Builds the full-width column profile of a horizontal tile: one mean-luma
+    /// value per pixel column (columns left→right). The cross-axis (height) is
+    /// averaged out, mirroring `verticalProfile`'s averaging of width.
+    static func horizontalProfile(of image: CGImage) -> [Float]? {
+        guard let buffer = rgba(image) else { return nil }
+        return horizontalProfile(pixels: buffer.pixels, width: buffer.width, height: buffer.height)
+    }
+
+    /// Mean luma per column from a straight RGBA8 buffer (columns left→right).
+    static func horizontalProfile(pixels: [UInt8], width: Int, height: Int) -> [Float] {
+        guard width > 0, height > 0 else { return [] }
+        var profile = [Float](repeating: 0, count: width)
+        let inv = 1.0 / Float(height) / 255.0
+        pixels.withUnsafeBytes { (raw: UnsafeRawBufferPointer) in
+            guard let base = raw.baseAddress?.assumingMemoryBound(to: UInt8.self) else { return }
+            for x in 0 ..< width {
+                var acc: Float = 0
+                for y in 0 ..< height {
+                    let px = base + (y * width + x) * 4
+                    acc += lumaR * Float(px[0]) + lumaG * Float(px[1]) + lumaB * Float(px[2])
+                }
+                profile[x] = acc * inv
+            }
+        }
+        return profile
+    }
+
+    /// Axis-dispatching profile: the per-position mean-luma signal the estimator
+    /// correlates, running along the scroll axis (rows for vertical, columns for
+    /// horizontal). Centralizes the axis switch so callers stay axis-agnostic.
+    static func profile(of image: CGImage, axis: ScrollAxis) -> [Float]? {
+        switch axis {
+        case .vertical: verticalProfile(of: image)
+        case .horizontal: horizontalProfile(of: image)
+        }
+    }
 }

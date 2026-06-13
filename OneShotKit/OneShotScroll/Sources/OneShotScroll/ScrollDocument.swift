@@ -118,4 +118,68 @@ public struct ScrollDocument: @unchecked Sendable {
         let offset = tiles.last.map { $0.offset + advance } ?? 0
         return ScrollDocument(axis: axis, tiles: tiles + [ScrollTile(image: image, offset: offset)])
     }
+
+    // MARK: - Re-seam transforms (task 7.6)
+
+    // Restitch operates PURELY on the retained tiles: every transform returns a new
+    // document by re-deriving offsets, never recapturing or rasterizing. The
+    // renderer flattens the result; these only move/trim the seam geometry. (Spec:
+    // "the corrected result re-rendered from the original segments — no recapture".)
+
+    /// Re-positions the seam BEFORE tile `index` (1...tiles.count-1) so that tile's
+    /// origin sits `advance` pixels past its predecessor, and SHIFTS every tile at
+    /// or after `index` by the same delta so the rest of the stack stays rigid
+    /// (only the one seam moves; downstream relative spacing is preserved). Tile 0
+    /// has no preceding seam, so `index <= 0` or out of range is a no-op.
+    public func adjustingSeam(before index: Int, toAdvance advance: Int) -> ScrollDocument {
+        guard index >= 1, index < tiles.count else { return self }
+        let currentAdvance = tiles[index].offset - tiles[index - 1].offset
+        let delta = advance - currentAdvance
+        guard delta != 0 else { return self }
+        let shifted = tiles.enumerated().map { idx, tile in
+            idx >= index ? ScrollTile(image: tile.image, offset: tile.offset + delta) : tile
+        }
+        return ScrollDocument(axis: axis, tiles: shifted)
+    }
+
+    /// Removes tile `index`, re-deriving offsets so the result is well-formed
+    /// (anchored at 0). Trimming preserves the relative advances of the SURVIVING
+    /// tiles: the seams either side of the removed tile collapse into one whose
+    /// advance is their sum (the surviving neighbours keep their original gap to
+    /// the rest of the stack). Out-of-range index is a no-op.
+    public func trimming(at index: Int) -> ScrollDocument {
+        guard index >= 0, index < tiles.count else { return self }
+        var kept = tiles
+        kept.remove(at: index)
+        return Self.reanchored(axis: axis, tiles: kept)
+    }
+
+    /// Trims `count` tiles from the leading (`fromEnd == false`) or trailing end,
+    /// re-anchoring the survivors. Removing a bad popup at the tail is the common
+    /// case (spec scenario "Trim a bad trailing segment").
+    public func trimming(_ count: Int, fromEnd: Bool) -> ScrollDocument {
+        guard count > 0 else { return self }
+        let keepCount = Swift.max(0, tiles.count - count)
+        let kept = fromEnd ? Array(tiles.prefix(keepCount)) : Array(tiles.suffix(keepCount))
+        return Self.reanchored(axis: axis, tiles: kept)
+    }
+
+    /// Re-derives a well-formed document from a tile list: the first surviving tile
+    /// is re-anchored to offset 0 and every later tile keeps its ORIGINAL spacing
+    /// to its predecessor (advance = original offset difference). This is the pure
+    /// "re-derive layout" the restitch view needs after a trim. Empty stays empty.
+    public static func reanchored(axis: ScrollAxis, tiles: [ScrollTile]) -> ScrollDocument {
+        guard let first = tiles.first else { return ScrollDocument(axis: axis, tiles: []) }
+        var rebuilt: [ScrollTile] = [ScrollTile(image: first.image, offset: 0)]
+        rebuilt.reserveCapacity(tiles.count)
+        var previousOriginal = first.offset
+        var runningOffset = 0
+        for tile in tiles.dropFirst() {
+            let advance = tile.offset - previousOriginal
+            runningOffset += advance
+            rebuilt.append(ScrollTile(image: tile.image, offset: runningOffset))
+            previousOriginal = tile.offset
+        }
+        return ScrollDocument(axis: axis, tiles: rebuilt)
+    }
 }

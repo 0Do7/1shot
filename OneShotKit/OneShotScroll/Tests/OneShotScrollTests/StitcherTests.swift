@@ -114,29 +114,11 @@ import Testing
 
 // MARK: - Honest failure
 
-@Test func lowConfidenceStitchHaltsWithExplanation() throws {
-    // Two unrelated pages -> no real overlap -> confidence below threshold.
-    let pageA = ScrollFixtures.tallPage(width: 200, height: 800, seed: 1)
-    let pageB = ScrollFixtures.tallPage(width: 200, height: 800, seed: 999_999)
-    let tileA = try #require(pageA.cropping(to: CGRect(x: 0, y: 0, width: 200, height: 400)))
-    let tileB = try #require(pageB.cropping(to: CGRect(x: 0, y: 0, width: 200, height: 400)))
-
-    let stitcher = Stitcher()
-    let document = ScrollDocument(axis: .vertical, tiles: [ScrollTile(image: tileA, offset: 0)])
-    var grown = document
-    let result = stitcher.stitch(incoming: tileB, onto: document, appended: &grown)
-    guard case let .lowConfidence(failure) = result else {
-        Issue.record("expected lowConfidence, got \(result)")
-        return
-    }
-    guard case let .belowThreshold(confidence, threshold) = failure else {
-        Issue.record("expected belowThreshold, got \(failure)")
-        return
-    }
-    #expect(confidence < threshold)
-    // Honest failure: the document is NOT grown with a bad tile.
-    #expect(grown.tiles.count == 1)
-}
+// Note: the "Low-confidence stitch halts with explanation" scenario (task 7.5)
+// is covered in HonestFailureTests, which additionally asserts the typed
+// explanation/remedy. The earlier 7.1 duplicate was removed to avoid a name
+// collision after swiftformat normalizes test names (the repo strips the legacy
+// `test_` prefix).
 
 @Test func noSilentGarbage_documentUnchangedOnFailure() {
     // Cross-axis mismatch (viewport resized) must not stitch a misaligned tile.

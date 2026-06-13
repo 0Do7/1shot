@@ -14,13 +14,21 @@ import Foundation
 // and bottom edges — those are the chrome bands. (Interior static rows, e.g. a
 // solid block that happens not to change, are NOT chrome: chrome is edge-fixed,
 // and only edge-anchored bands are safe to dedup.)
+//
+// HORIZONTAL (task 7.7): the same logic mirrors across the scroll axis. For a
+// horizontal scroll the fixed bands are LEFT/RIGHT columns (a sticky sidebar /
+// floating control), detected from the per-COLUMN profile. `headerRows`/
+// `footerRows` therefore name the LEADING/TRAILING band extent ALONG the scroll
+// axis: rows for vertical, columns for horizontal.
 
-/// The static chrome bands found at the edges of the viewport, in tile-pixel row
-/// coordinates. Either may be empty (no chrome at that edge).
+/// The static chrome bands found at the leading/trailing edges of the viewport
+/// along the scroll axis, in tile-pixel coordinates. Either may be empty.
 struct ChromeBands: Equatable {
-    /// Rows [0, headerRows) are a static top band. 0 = no header.
+    /// Leading band: positions [0, headerRows) along the axis are static.
+    /// (Top rows for vertical, left columns for horizontal.) 0 = none.
     let headerRows: Int
-    /// Rows [height - footerRows, height) are a static bottom band. 0 = no footer.
+    /// Trailing band: the last `footerRows` positions along the axis are static.
+    /// (Bottom rows for vertical, right columns for horizontal.) 0 = none.
     let footerRows: Int
 
     static let none = ChromeBands(headerRows: 0, footerRows: 0)
@@ -39,24 +47,27 @@ struct StickyChromeDetector {
     /// two frames "static across frames" is meaningless.
     var minimumFrames: Int = 3
 
-    /// Detect edge chrome across a sequence of equal-size vertical tiles. All
-    /// tiles must share the same pixel height/width; mismatched or too-few tiles
-    /// yield `.none`.
-    func detect(tiles: [CGImage]) -> ChromeBands {
+    /// Detect edge chrome across a sequence of equal-size tiles along `axis`
+    /// (vertical default for back-compat). All tiles must share the same pixel
+    /// size; mismatched or too-few tiles yield `.none`. For horizontal the bands
+    /// are left/right columns; for vertical, top/bottom rows (task 7.7).
+    func detect(tiles: [CGImage], axis: ScrollAxis = .vertical) -> ChromeBands {
         guard tiles.count >= minimumFrames else { return ChromeBands.none }
         let height = tiles[0].height
         let width = tiles[0].width
         guard height > 0, width > 0 else { return ChromeBands.none }
         guard tiles.allSatisfy({ $0.width == width && $0.height == height }) else { return ChromeBands.none }
 
-        // Row profile per frame (mean luma per row).
+        // Per-frame profile along the scroll axis (rows for vertical, columns for
+        // horizontal). `extent` is the band length along that axis.
+        let extent = axis == .vertical ? height : width
         var profiles: [[Float]] = []
         profiles.reserveCapacity(tiles.count)
         for tile in tiles {
-            guard let profile = LuminanceExtractor.verticalProfile(of: tile) else { return ChromeBands.none }
+            guard let profile = LuminanceExtractor.profile(of: tile, axis: axis) else { return ChromeBands.none }
             profiles.append(profile)
         }
-        return detect(profiles: profiles, height: height)
+        return detect(profiles: profiles, height: extent)
     }
 
     /// Variance-mask core, separated for direct testing on synthetic profiles.

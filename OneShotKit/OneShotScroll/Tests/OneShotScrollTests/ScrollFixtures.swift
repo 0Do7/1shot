@@ -112,4 +112,95 @@ enum ScrollFixtures {
         }
         return sum / Float(rows)
     }
+
+    // MARK: - Horizontal axis fixtures (task 7.7)
+
+    /// A WIDE page with a non-repeating horizontal pattern: vertical stripes of
+    /// pseudo-random brightness plus a left→right gradient, so every COLUMN has a
+    /// distinct luminance signature and an exact horizontal scroll offset is
+    /// recoverable. Mirror of `tallPage` with rows↔columns swapped.
+    static func widePage(width: Int, height: Int, seed: UInt64 = 0x9E37_79B9) -> CGImage {
+        let ctx = context(width: width, height: height)
+        var state = seed
+        func next() -> Double {
+            state ^= state >> 12
+            state ^= state << 25
+            state ^= state >> 27
+            let v = state &* 0x2545_F491_4F6C_DD1D
+            return Double(v >> 11) / Double(1 << 53)
+        }
+        for col in 0 ..< width {
+            let noise = next()
+            let gradient = Double(col) / Double(width)
+            let level = 0.15 + 0.7 * (0.5 * noise + 0.5 * gradient)
+            ctx.setFillColor(CGColor(srgbRed: level, green: level * 0.9, blue: 1 - level, alpha: 1))
+            ctx.fill(CGRect(x: col, y: 0, width: 1, height: height))
+        }
+        return ctx.makeImage()!
+    }
+
+    /// Slices a wide page into `count` viewport tiles of `viewportWidth`, each
+    /// scrolled `advance` pixels right of the previous. Tile i covers source
+    /// columns [i*advance, i*advance+vw).
+    static func horizontalTiles(
+        from page: CGImage,
+        viewportWidth: Int,
+        advance: Int,
+        count: Int
+    ) -> [CGImage] {
+        var out: [CGImage] = []
+        for i in 0 ..< count {
+            let left = i * advance
+            let rect = CGRect(x: left, y: 0, width: viewportWidth, height: page.height)
+            out.append(page.cropping(to: rect)!)
+        }
+        return out
+    }
+
+    /// Composites a fixed LEFT band and/or RIGHT band (a solid color) over a tile,
+    /// simulating a sticky sidebar / floating control on the horizontal axis: the
+    /// band is identical across all tiles built this way while the body differs.
+    static func withVerticalChrome(
+        _ body: CGImage,
+        leftCols: Int,
+        rightCols: Int,
+        leftLevel: Double = 0.95,
+        rightLevel: Double = 0.05
+    ) -> CGImage {
+        let width = body.width
+        let height = body.height
+        let ctx = context(width: width, height: height)
+        ctx.draw(body, in: CGRect(x: 0, y: 0, width: width, height: height))
+        if leftCols > 0 {
+            ctx.setFillColor(CGColor(srgbRed: leftLevel, green: leftLevel, blue: leftLevel, alpha: 1))
+            ctx.fill(CGRect(x: 0, y: 0, width: leftCols, height: height))
+        }
+        if rightCols > 0 {
+            ctx.setFillColor(CGColor(srgbRed: rightLevel, green: rightLevel, blue: rightLevel, alpha: 1))
+            ctx.fill(CGRect(x: width - rightCols, y: 0, width: rightCols, height: height))
+        }
+        return ctx.makeImage()!
+    }
+
+    /// Mean luma of a vertical pixel band [leftCol, leftCol+cols) of an image
+    /// (columns left→right), for assertions about which content survived a
+    /// horizontal crop.
+    static func meanLumaColumns(of image: CGImage, leftCol: Int, cols: Int) -> Float {
+        guard let buf = LuminanceExtractor.rgba(image) else { return -1 }
+        let profile = LuminanceExtractor.horizontalProfile(pixels: buf.pixels, width: buf.width, height: buf.height)
+        var sum: Float = 0
+        for col in leftCol ..< (leftCol + cols) {
+            sum += profile[col]
+        }
+        return sum / Float(cols)
+    }
+
+    /// A flat, near-uniform tile (single solid level) — used to test the
+    /// too-uniform honest-failure path. Tiny noise is added only if `jitter > 0`.
+    static func uniformTile(width: Int, height: Int, level: Double = 0.5) -> CGImage {
+        let ctx = context(width: width, height: height)
+        ctx.setFillColor(CGColor(srgbRed: level, green: level, blue: level, alpha: 1))
+        ctx.fill(CGRect(x: 0, y: 0, width: width, height: height))
+        return ctx.makeImage()!
+    }
 }
