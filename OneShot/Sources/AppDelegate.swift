@@ -50,6 +50,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         hotkeyCenter = center
 
         installStatusItem()
+        installAutomation(coordinator: coordinator) // §13.4/§13.5 — wired in AppDelegate+Automation.swift
     }
 
     private func installStatusItem() {
