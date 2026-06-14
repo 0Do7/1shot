@@ -154,6 +154,32 @@ robustness + lint fixes. All packages remain swiftlint --strict clean.
   batch-3 package passed `swift test` + `swiftlint --strict` in its own isolated harden run, and
   an earlier isolated verify had OneShotRender 40 ✓ / OneShotCapture 46 ✓.
 
+## 2026-06-14 · spec:library §9.6/§9.7 · auto-import watcher + Core Spotlight (lane library-import)
+- **Branch base.** The lane prompt said "branch off main", but `main` (351002b) does NOT yet
+  contain the Library backend (LibraryStore/IndexingPipeline/etc.) my tasks must integrate with —
+  that work lives on `lane/wave2-foundation` (= main + the Wave-2 commits; main is its ancestor).
+  Branching off bare main was impossible (no store to integrate with), so `lane/library-import`
+  is based on `lane/wave2-foundation`. When wave2 merges to main, this lane rebases cleanly (it
+  only adds files + 3 additive edits). Flagged so the reviewer expects the wave2 delta in the diff.
+- **New `contentHash` column (schema v1 → v2 forward-migration).** §9.6 "No duplicate entries"
+  needs a content-identity field; `CaptureRecord` had only `originalPath` (path identity, fragile
+  to move/rename). Per the lane brief ("add one only if absent"), added a nullable `contentHash`
+  (SHA-256, streamed) via an ADDITIVE v2 migration — v1 DBs migrate with all items/names/tags/FTS
+  preserved (existing "Migration path from v1" test updated to assert `["v1","v2"]`). Native
+  captures leave it null (deduped by their unique path); auto-imports fill it. Dedup probe checks
+  path OR hash, so a moved-but-identical file is still recognized. `CaptureRecord.contentHash` and
+  `IndexingPipeline.CaptureInput.contentHash` are additive (defaulted nil) — no consumer breaks.
+- **Opt-in gate stays in Core settings, not duplicated.** `AppSettings.autoImportEnabled` already
+  exists (Core, default false); the app gates construction of `AutoImportController` on it. The
+  library package carries only WHICH folders/types (`AutoImportConfig`) — no new Core field added.
+- **Headless core vs. macOS-only edges (D8/D13 testing topology).** File-system watching
+  (`DispatchSourceFolderWatcher`) and CoreSpotlight (`CoreSpotlightIndex`, `#if canImport`) are
+  behind injectable protocols (`FileSystemWatching` / `SpotlightIndexing`); all import/dedup/
+  backfill/donation/withdrawal LOGIC is unit-tested headlessly with in-memory fakes + a mock index
+  (no real FSEvents, no permissions, no Spotlight). Real FSEvents delivery and real CSSearchableIndex
+  donation are runner-verified like the other interactive surfaces. Spotlight withdrawal fires on
+  delete + retention-eviction + integration-disable (`withdrawAll`), routed through a
+  `SpotlightCoordinator` so the store stays Spotlight-free (no coupling). No spec text changed.
 ## 2026-06-14 · §4 post-capture chip · settings reconciliation + contract mechanism + partials
 - **`chipTimeoutSeconds` default 8 → 0 (persistent).** spec:post-capture-chip "Chip persistence
   and timeout" says the chip is *persistent by default*; the prior default (8s) contradicted it.
