@@ -175,11 +175,18 @@ public struct MagnifierAnnotation: Codable, Hashable, Sendable {
     }
 }
 
-/// Blur / pixelate / black-out share one payload (spec:redaction). Rendered
-/// destructively only at export (task 6.2); a live object until then.
+/// Blur / pixelate / black-out / erase share one payload (spec:redaction).
+/// Rendered destructively only at export (task 6.2); a live object until then.
 public struct RedactionAnnotation: Codable, Hashable, Sendable {
     public enum Style: String, Codable, Sendable {
         case blur, pixelate, blackout
+        /// Background-matching fill that synthesizes plausible surrounding content
+        /// into the region so it blends in with NO legible residue (spec:redaction
+        /// "Text-aware blur and erase" erase branch + "Content-aware object removal").
+        /// Like the obscuring styles it is rendered destructively at export, never
+        /// reversible. The fill synthesis lives in OneShotRender (CoreImage); the
+        /// model just carries the case so erase round-trips through the document.
+        case erase
     }
 
     public var id: UUID

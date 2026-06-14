@@ -210,6 +210,33 @@ robustness + lint fixes. All packages remain swiftlint --strict clean.
   so `xcodebuild … test` builds+signs the app test bundle locally and on the self-hosted runner
   (hosted CI stays build-only). No effect on the CI build step.
 
+## 2026-06-14 · §6.3/6.4 redaction finish · `.erase` blend-fill + content-aware removal
+- **New `RedactionAnnotation.Style.erase` (OneShotCore, strictly additive).** Added ONE enum case to the
+  existing `blur/pixelate/blackout` set — no renames/reorders of Core types (the editor-canvas lane edits
+  Core in parallel; this minimizes the merge). Wire token is the literal `"erase"`, pinned by a Core test;
+  existing documents decode unchanged. `RedactionAnnotation.strength` is unused by erase (it carries no
+  radius/cell) — left as-is rather than making it optional, to avoid a non-additive model change.
+- **Erase == content-aware removal == the S1 diffusion-fill fallback.** Per `docs/spikes/s1-inpainting.md`:
+  macOS 26.3 Core Image ships ZERO inpaint/heal filters, so MVP content-aware removal is CI **diffusion
+  fill** (the spike's winning technique, 2–4× better RMSE than blur-fill). The spec has two requirements
+  that both reduce to the same primitive — "Text-aware blur and erase" (erase = "fill to match the
+  surrounding background … no legible residue") and "Content-aware object removal" (inpaint, else "fall
+  back to a blended fill"). One renderer (`RedactionRenderer.erasedPatch`) satisfies both: seed the region
+  with the surrounding-ring average colour, then 7 blur-and-reblend passes with shrinking sigma so border
+  colours diffuse inward. **No custom patch-match / ML kernel** (spike decision #3: post-MVP only, ML banned).
+- **OCR-defeat by construction.** The fill is synthesized ONLY from pixels OUTSIDE the region — the region's
+  original pixels are masked out before any blur, so nothing legible can bleed through. Verified like 6.1
+  with the REAL `VisionTextRecognizer` (`textAwareEraseBlends`, `eraseHardensDestructivelyAcrossFormats`)
+  PLUS a background-continuity floor (`meanDiffFromColor` < 24 over a flat fixture) and a direct
+  "no near-black residue survives" check (`eraseFillIgnoresOriginalRegionContent`). Erase reuses the
+  existing destructive `.copy` redraw path in `AnnotationDrawing.drawRedaction`, so it hardens on export
+  across every format and z-orders correctly — no new export plumbing.
+- **Honest-failure scope (spike decision #2) is app-layer, not regressed here.** The spike asks for a
+  variance/structured-content warning before applying erase ("never claim magic"); that live-preview UX is
+  an editor-canvas (§5) concern. The render core's contract is correct-and-destructive: on structured
+  backgrounds the fill is an honest smudge that still leaks no legible text (the floor), not a corrupted
+  result. Undo is the editor's document-snapshot stack (§5.7), already specced — the erase object is
+  re-editable in the document like every redaction and only flattened at export.
 ## 2026-06-14 · §13 automation (AppIntents + URL scheme) · decisions + deferrals
 Lane `lane/automation` (tasks 13.4/13.5). New code lives in `OneShot/Sources/Automation/`
 + tests in `OneShot/Tests/Automation*.swift`. Notes:

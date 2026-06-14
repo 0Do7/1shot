@@ -5,12 +5,12 @@ import OneShotCore
 // Text-aware redaction MODEL helper (task 6.3, spec:redaction "Text-aware blur and
 // erase" + "Per-instance toggles" + "No-text and partial-detection behavior").
 //
-// COVERAGE NOTE: this helper covers the "blur" branch (and the other obscuring
-// styles) of "Text-aware blur and erase". The "erase" branch — filling each text
-// region to BLEND with the surrounding background with no legible residue — is NOT
-// covered: `RedactionAnnotation.Style` offers only blur/pixelate/blackout, none of
-// which blends. A background-matching fill is the separate "Content-aware object
-// removal" (inpainting) requirement, tracked outside this package.
+// COVERAGE NOTE: this helper covers BOTH branches of "Text-aware blur and erase".
+// The "erase" branch — filling each text region to BLEND with the surrounding
+// background with no legible residue — is now representable: `RedactionAnnotation
+// .Style.erase` is a content-aware background-matching fill (spike S1 diffusion
+// fill), rasterized destructively at export like the obscuring styles. So
+// `style: .erase` produces one toggleable erase redaction per detected instance.
 //
 // SCOPE: this is the pure model layer only. It turns *already-detected* text-box
 // geometry into re-editable `RedactionAnnotation` objects (each marked
@@ -84,12 +84,10 @@ public enum TextAwareRedaction {
     /// - Parameters:
     ///   - boxes: detected text instances in image-pixel space (NOT OCR types).
     ///   - imageSize: the base image size in pixels, used to clamp each region.
-    ///   - style: the redaction style to apply to every instance — one of
-    ///     blur/pixelate/blackout (the only `RedactionAnnotation.Style` cases). The
-    ///     spec's "Text-aware erase blends" (a background-matching fill with no
-    ///     legible residue) is NOT representable here — none of these styles blend.
-    ///     Blended/synthesized fill is the separate "Content-aware object removal"
-    ///     (inpainting) requirement and is out of scope for this helper.
+    ///   - style: the redaction style to apply to every instance — any
+    ///     `RedactionAnnotation.Style` (blur/pixelate/blackout, or `.erase` for the
+    ///     spec's "Text-aware erase blends": a background-matching fill with no
+    ///     legible residue, synthesized in the renderer per spike S1).
     ///   - strength: blur sigma / pixelate cell (base-image px). The renderer floors
     ///     it to the OCR-defeat minimum (task 6.1), so a low value still obscures.
     ///   - padding: pixels grown around each box (default `defaultPadding`).

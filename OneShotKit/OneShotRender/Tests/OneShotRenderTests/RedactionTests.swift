@@ -13,7 +13,7 @@ import Testing
 
 // MARK: - Helpers
 
-private enum RedactionSupport {
+enum RedactionSupport {
     /// Decodes PNG/any bytes into a CGImage.
     static func decode(_ data: Data) -> CGImage? {
         guard let src = CGImageSourceCreateWithData(data as CFData, nil) else { return nil }
