@@ -42,4 +42,32 @@ public extension LibraryStore {
             try Set(Int64.fetchAll(db, sql: "SELECT DISTINCT captureID FROM capture_tags"))
         }
     }
+
+    /// The recognized OCR text stored for a capture, or nil when none is indexed yet.
+    /// The `CaptureRecord` value type intentionally omits the (potentially large) OCR
+    /// blob; the Spotlight donation builder (§9.7) reads it here on demand.
+    func ocrText(forCapture captureID: Int64) throws -> String? {
+        try read { db in
+            try String.fetchOne(db, sql: "SELECT ocrText FROM captures WHERE id = ?", arguments: [captureID])
+        }
+    }
+
+    /// Auto-import dedup probe (§9.6 "No duplicate entries"). True when ANY indexed
+    /// item already references this exact `path` OR already carries this content
+    /// `hash`. Content identity wins over path so a moved/renamed-but-identical file
+    /// is recognized; the path branch catches a re-scan before any hash was computed.
+    /// Passing a nil hash falls back to a path-only check.
+    func isAlreadyIndexed(path: String, contentHash hash: String?) throws -> Bool {
+        try read { db in
+            if try Bool.fetchOne(
+                db, sql: "SELECT 1 FROM captures WHERE originalPath = ? LIMIT 1", arguments: [path]
+            ) ?? false {
+                return true
+            }
+            guard let hash else { return false }
+            return try Bool.fetchOne(
+                db, sql: "SELECT 1 FROM captures WHERE contentHash = ? LIMIT 1", arguments: [hash]
+            ) ?? false
+        }
+    }
 }

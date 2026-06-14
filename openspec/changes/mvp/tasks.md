@@ -84,8 +84,8 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 - [x] 9.3 Search: FTS5 query layer, <50ms @ 10k items perf test, filters (app/date/tag/type)
 - [ ] 9.4 Library browser UI (SwiftUI): grid, instant search, detail view, reopen-with-live-annotations, reopen-source action
 - [x] 9.5 Smart folders (per-app, contains-code heuristic, date) + manual tags
-- [ ] 9.6 Auto-import watcher (opt-in): standard screenshot folders, any-tool captures, pre-install backfill, dedup, originals never modified (spec:library)
-- [ ] 9.7 Core Spotlight donation + withdrawal
+- [x] 9.6 Auto-import watcher (opt-in): standard screenshot folders, any-tool captures, pre-install backfill, dedup, originals never modified (spec:library) — headless core done: AutoImporter (backfill + count-preview + live ingest through the existing IndexingPipeline, file-derived provenance only), content-hash dedup (new nullable `contentHash` column, schema v2 forward-migration), DispatchSource folder watcher behind an injectable `FileSystemWatching` protocol, AutoImportController (first-enable backfill / survive-launch resume / disable). App layer wires `AppSettings.autoImportEnabled` + the system screenshot folder (resolver provided). Real FSEvents delivery is runner-verified like all interactive paths
+- [x] 9.7 Core Spotlight donation + withdrawal — donation/withdrawal logic behind an injectable `SpotlightIndexing` protocol (headless-tested with a mock); thin `CSSearchableIndex` adapter (`CoreSpotlightIndex`, `#if canImport(CoreSpotlight)`). SpotlightCoordinator donates on index/rename/re-index, withdraws on delete + retention-eviction, and `withdrawAll` on disable; deep-link identifier round-trips to the Library row id
 - [x] 9.8 Retention controls (off by default): size cap, age rules, preview-before-delete
 
 ## 10. Pixel tools, pin, beautify (lane: visuals; needs 5.2)
@@ -101,6 +101,8 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 ## 11. Destinations & output (lane: destinations; needs 2.5)
 
 - [ ] 11.1 App hand-off destination (open-with / share to running app)
+- [x] 11.2 S3/custom-endpoint destination: direct device→endpoint upload, Keychain-only credentials, excluded from settings export (spec:output-destinations) [demote-able] — EndpointDestination conforms to Core's CaptureDestination; injectable HTTPUploadClient (mock in tests, URLSessionUploadClient in prod) + injectable EndpointCredentialStore (in-memory fake in tests, Keychain in app layer). S3 SigV4-signed PUT (canonical request asserted against AWS worked example) + generic custom-HTTP PUT/POST (presigned-URL = no-credential PUT; bearer-token header injection). Connection test (signed HEAD), typed DestinationError surface (network/unauthorized/targetMissing/io with S3 `<Code>` detail), no partial-success URL on failure, shareableURL rendered from user URL pattern. Secrets live ONLY in the store → never in AppSettings/export. 32 destinations tests green, swiftlint --strict clean. App-layer wiring (real Keychain SecItem store + config/test UI) deferred to §13 settings/platform lane.
+- [ ] 11.3 Format encoders: PNG/JPEG/WebP/HEIC with file-size-conscious defaults; size-comparison tests (spec:output-destinations)
 - [ ] 11.2 S3/custom-endpoint destination: direct device→endpoint upload, Keychain-only credentials, excluded from settings export (spec:output-destinations) [demote-able]
 - [x] 11.3 Format encoders: PNG/JPEG/WebP/HEIC with file-size-conscious defaults; size-comparison tests (spec:output-destinations)
 
