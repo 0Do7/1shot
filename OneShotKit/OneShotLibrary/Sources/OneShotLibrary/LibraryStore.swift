@@ -17,7 +17,10 @@ public actor LibraryStore {
     /// reserved columns (durationSeconds, metadataJSON, embedding) stay null. v2 adds
     /// the auto-import dedup `contentHash` column (§9.6) — additive and nullable, so a
     /// v1 database opens and migrates with all existing items/names/tags/FTS preserved.
-    public static let schemaVersion = "v2"
+    /// v3 upgrades the contentHash index to a UNIQUE partial index so the §9.6 "No
+    /// duplicate entries" guarantee is enforced at the DB level — a hard backstop for the
+    /// dedup probe that closes the concurrent-watcher TOCTOU window.
+    public static let schemaVersion = "v3"
 
     private let dbQueue: DatabaseQueue
 
@@ -95,6 +98,21 @@ public actor LibraryStore {
             try db.execute(sql: "ALTER TABLE captures ADD COLUMN contentHash TEXT")
             try db.execute(sql: """
             CREATE INDEX idx_captures_contentHash ON captures(contentHash)
+            WHERE contentHash IS NOT NULL
+            """)
+        }
+        // v3: make the contentHash index UNIQUE (partial, over non-null hashes only) so
+        // the database itself rejects a second row for the same content. This is the hard
+        // backstop behind `insertIfNotIndexed`'s dedup probe: even if two concurrent
+        // watcher-driven ingests both pass the probe before either commits, the loser's
+        // INSERT raises SQLITE_CONSTRAINT and is recorded as a skipped duplicate rather
+        // than persisted. Native captures keep a null hash and are unconstrained here
+        // (they dedup by their unique originalPath instead). NULLs are distinct in SQLite
+        // unique indexes, so multiple null-hash rows remain legal.
+        migrator.registerMigration("v3") { db in
+            try db.execute(sql: "DROP INDEX IF EXISTS idx_captures_contentHash")
+            try db.execute(sql: """
+            CREATE UNIQUE INDEX idx_captures_contentHash ON captures(contentHash)
             WHERE contentHash IS NOT NULL
             """)
         }
@@ -178,36 +196,7 @@ public actor LibraryStore {
     @discardableResult
     public func insert(_ record: CaptureRecord, ocrText: String? = nil) throws -> CaptureRecord {
         try write { db in
-            try db.execute(sql: """
-            INSERT INTO captures
-                (originalPath, missing, name, nameIsManual, mediaType, durationSeconds,
-                 bundleID, appName, windowTitle, url, displayID, capturedAt,
-                 textIndexed, containsCode, isKept, ocrText, contentHash)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """, arguments: [
-                record.originalPath,
-                record.missing,
-                record.name,
-                record.nameIsManual,
-                record.mediaType.rawValue,
-                record.durationSeconds,
-                record.provenance.bundleID,
-                record.provenance.appName,
-                record.provenance.windowTitle,
-                record.provenance.url,
-                record.provenance.displayID.map { Int64($0) },
-                record.capturedAt.timeIntervalSince1970,
-                record.textIndexed,
-                record.containsCode,
-                record.isKept,
-                ocrText,
-                record.contentHash,
-            ])
-            let id = db.lastInsertedRowID
-            try Self.syncFTS(db, captureID: id)
-            var hydrated = record
-            hydrated.id = id
-            return hydrated
+            try Self.insertRow(db, record, name: record.name, ocrText: ocrText)
         }
     }
 
@@ -223,37 +212,7 @@ public actor LibraryStore {
     ) throws -> CaptureRecord {
         try write { db in
             let name = try Self.resolveName(db, baseSlug: baseSlug, excludingID: nil)
-            try db.execute(sql: """
-            INSERT INTO captures
-                (originalPath, missing, name, nameIsManual, mediaType, durationSeconds,
-                 bundleID, appName, windowTitle, url, displayID, capturedAt,
-                 textIndexed, containsCode, isKept, ocrText, contentHash)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            """, arguments: [
-                record.originalPath,
-                record.missing,
-                name,
-                record.nameIsManual,
-                record.mediaType.rawValue,
-                record.durationSeconds,
-                record.provenance.bundleID,
-                record.provenance.appName,
-                record.provenance.windowTitle,
-                record.provenance.url,
-                record.provenance.displayID.map { Int64($0) },
-                record.capturedAt.timeIntervalSince1970,
-                record.textIndexed,
-                record.containsCode,
-                record.isKept,
-                ocrText,
-                record.contentHash,
-            ])
-            let id = db.lastInsertedRowID
-            try Self.syncFTS(db, captureID: id)
-            var hydrated = record
-            hydrated.id = id
-            hydrated.name = name
-            return hydrated
+            return try Self.insertRow(db, record, name: name, ocrText: ocrText)
         }
     }
 
@@ -328,7 +287,9 @@ public actor LibraryStore {
 
     /// Resolve `baseSlug` to a unique name within one open transaction, using
     /// `OneShotCore.AutoNamer.resolvingCollision` with a case-insensitive DB probe.
-    private nonisolated static func resolveName(
+    /// Package-internal (not `private`) so the atomic dedup-insert path in
+    /// `LibraryStoreDedupSupport.swift` can resolve the name inside the same transaction.
+    nonisolated static func resolveName(
         _ db: Database,
         baseSlug: String,
         excludingID: Int64?

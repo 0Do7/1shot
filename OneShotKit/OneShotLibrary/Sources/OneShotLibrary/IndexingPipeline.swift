@@ -91,6 +91,51 @@ public struct IndexingPipeline: Sendable {
         return try await store.insertResolvingCollision(record, baseSlug: slug, ocrText: ocrText)
     }
 
+    /// Outcome of `indexIfNotDuplicate`: the newly indexed record, or a signal that an
+    /// equivalent item (same path or content hash) was already present (§9.6 dedup).
+    public enum IndexOutcome: Sendable {
+        case indexed(CaptureRecord)
+        case duplicate
+    }
+
+    /// Index a candidate ONLY if it isn't already in the Library, with the dedup probe
+    /// and the insert in ONE store transaction (§9.6 "No duplicate entries"). OCR runs
+    /// before the transaction (it's expensive and must not hold the write lock); the
+    /// final dedup-check + collision-resolving insert are atomic in the store, closing
+    /// the read-then-write TOCTOU window that a per-file insert + separate probe left
+    /// open under concurrent watcher delivery. Never throws on OCR failure.
+    @discardableResult
+    public func indexIfNotDuplicate(image: CGImage, input: CaptureInput) async throws -> IndexOutcome {
+        let recognized: RecognizedText? = try? recognizer.recognizeText(in: image, options: options)
+        let ocrText = recognized.flatMap { $0.isEmpty ? nil : Self.plainText($0) }
+        let textIndexed = ocrText != nil
+
+        let signals = CaptureNamingSignals(
+            appName: input.provenance.appName,
+            windowTitle: input.provenance.windowTitle,
+            ocrText: ocrText,
+            capturedAt: input.capturedAt,
+            timeZone: input.timeZone
+        )
+        let slug = AutoNamer.slug(for: signals)
+        let containsCode = ocrText.map(Self.detectContainsCode) ?? false
+
+        let record = CaptureRecord(
+            originalPath: input.originalPath,
+            name: slug,
+            mediaType: .image,
+            provenance: input.provenance,
+            capturedAt: input.capturedAt,
+            textIndexed: textIndexed,
+            containsCode: containsCode,
+            contentHash: input.contentHash
+        )
+        switch try await store.insertIfNotIndexed(record, baseSlug: slug, ocrText: ocrText) {
+        case let .inserted(stored): return .indexed(stored)
+        case .duplicate: return .duplicate
+        }
+    }
+
     /// Re-index an existing item (e.g. after a later OCR pass). Honors manual-rename
     /// stickiness via the store. OCR failure degrades to `textIndexed = false` and
     /// never throws.

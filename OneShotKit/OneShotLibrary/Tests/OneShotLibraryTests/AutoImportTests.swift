@@ -128,6 +128,28 @@ struct AutoImportTests {
         #expect(result.skippedDuplicates == [renamed])
     }
 
+    /// In-pass content-dedup: two byte-identical files at DISTINCT new paths (e.g. a
+    /// Finder-duplicated "shot copy.png"), BOTH absent from the DB at backfill start,
+    /// must produce exactly one import + one skipped duplicate — not two rows for the
+    /// same content. Closes the gap where the per-file probe couldn't see an earlier
+    /// not-yet-committed import in the same pass.
+    @Test func backfillDedupesIdenticalContentWithinOnePass() async throws {
+        let store = try LibraryStore()
+        let folder = "/D"
+        let original = "\(folder)/shot.png"
+        let copy = "\(folder)/shot copy.png"
+        let scanner = FakeScanner(
+            folders: [folder: [candidate(original), candidate(copy)]],
+            hashes: [original: "identical", copy: "identical"]
+        )
+        let importer = importer(store: store, scanner: scanner)
+
+        let result = try await importer.backfill(config: config(folders: [folder]))
+        #expect(result.imported.count == 1)
+        #expect(result.skippedDuplicates.count == 1)
+        #expect(try await store.allRecords().count == 1)
+    }
+
     // MARK: - Any-tool capture becomes searchable (spec "Screenshot from another tool")
 
     @Test func importedScreenshotBecomesTextSearchable() async throws {

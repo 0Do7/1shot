@@ -154,6 +154,32 @@ struct AutoImportControllerTests {
         #expect(try await store.allRecords().count == 1)
     }
 
+    /// OVERLAPPING events for the SAME just-arrived file (the TOCTOU case): a tool that
+    /// writes-then-renames fires a .write + .rename burst, so the watcher may deliver two
+    /// folder-change events before the first ingest commits. We fire both back-to-back
+    /// (each spawns its own detached ingest Task) WITHOUT waiting for the first to land,
+    /// then assert exactly one row — the atomic dedup-probe+insert and the
+    /// UNIQUE(contentHash) backstop must prevent a duplicate even when the passes
+    /// interleave. This is the case the serialized `repeatedWatcherEvents…` test misses.
+    @Test func overlappingWatcherEventsForSameNewFileInsertOnce() async throws {
+        let store = try LibraryStore()
+        let scanner = MutableScanner()
+        let watcher = FakeWatcher()
+        let controller = makeController(store: store, scanner: scanner, watcher: watcher, folder: "/D")
+        _ = try await controller.enable(alreadyBackfilled: true)
+
+        // The new file is present BEFORE any event fires; both events then race to ingest
+        // it concurrently (no poll between them — the interleave is the point).
+        scanner.add("/D/new.png", to: "/D", hash: "same-bytes")
+        watcher.fire("/D")
+        watcher.fire("/D")
+
+        // Let both detached ingest tasks fully drain, then assert a single surviving row.
+        try await pollUntil { try await store.allRecords().count >= 1 }
+        try await Task.sleep(nanoseconds: 100_000_000)
+        #expect(try await store.allRecords().count == 1)
+    }
+
     /// Disable stops the watcher and releases it (spec: disabling truly stops watching).
     @Test func disableStopsWatcher() async throws {
         let store = try LibraryStore()

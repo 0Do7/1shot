@@ -69,8 +69,9 @@ public struct AutoImporter: Sendable {
     /// aborts the backfill (it lands in `failed`); duplicates land in `skippedDuplicates`.
     public func backfill(config: AutoImportConfig) async throws -> AutoImportResult {
         var result = AutoImportResult()
+        var seenHashes: Set<String> = []
         for candidate in try scanCandidates(config: config) {
-            await ingest(candidate, into: &result)
+            await ingest(candidate, into: &result, seenHashes: &seenHashes)
         }
         return result
     }
@@ -85,7 +86,8 @@ public struct AutoImporter: Sendable {
         guard config.importableExtensions.contains(ext) else { return nil }
         guard let candidate = candidateMetadata(forPath: path) else { return nil }
         var result = AutoImportResult()
-        await ingest(candidate, into: &result)
+        var seenHashes: Set<String> = []
+        await ingest(candidate, into: &result, seenHashes: &seenHashes)
         return result.imported.first
     }
 
@@ -106,13 +108,27 @@ public struct AutoImporter: Sendable {
     /// Dedup → load → index ONE candidate, recording the outcome. Never throws on a
     /// per-file problem (per-item isolation): unreadable/undecodable files are recorded
     /// in `failed`/indexed-without-text, and indexing continues for the rest.
-    private func ingest(_ candidate: ImportCandidate, into result: inout AutoImportResult) async {
+    ///
+    /// Dedup is atomic in the store: the path/content-hash probe and the insert share one
+    /// transaction (`indexIfNotDuplicate`), so two concurrent watcher events for the same
+    /// just-arrived file can't both pass the probe and both insert. `seenHashes` is an
+    /// in-pass fast path that skips a byte-identical second file (e.g. "shot copy.png")
+    /// without a redundant insert attempt; the store's UNIQUE(contentHash) backstops it
+    /// regardless of whether the caller threads a set through.
+    private func ingest(
+        _ candidate: ImportCandidate,
+        into result: inout AutoImportResult,
+        seenHashes: inout Set<String>
+    ) async {
         let hash = scanner.contentHash(forFileAt: candidate.path)
+        // In-pass content-dedup: a hash already imported earlier in THIS pass is a
+        // duplicate even though the first row may not be committed/visible to a fresh
+        // probe yet. Path identity is handled by the store probe (paths are unique).
+        if let hash, seenHashes.contains(hash) {
+            result.skippedDuplicates.append(candidate.path)
+            return
+        }
         do {
-            if try await store.isAlreadyIndexed(path: candidate.path, contentHash: hash) {
-                result.skippedDuplicates.append(candidate.path)
-                return
-            }
             let input = IndexingPipeline.CaptureInput(
                 originalPath: candidate.path,
                 provenance: Self.fileDerivedProvenance(forPath: candidate.path),
@@ -122,8 +138,13 @@ public struct AutoImporter: Sendable {
             // A file we can't decode is still indexed (present + findable by name) with
             // no OCR text — a blank stand-in drives the same pipeline, OCR yields nothing.
             let image = imageLoader.loadImage(atPath: candidate.path) ?? Self.blankFallbackImage
-            let record = try await pipeline.index(image: image, input: input)
-            result.imported.append(record)
+            switch try await pipeline.indexIfNotDuplicate(image: image, input: input) {
+            case let .indexed(record):
+                if let hash { seenHashes.insert(hash) }
+                result.imported.append(record)
+            case .duplicate:
+                result.skippedDuplicates.append(candidate.path)
+            }
         } catch {
             result.failed.append(candidate.path)
         }
