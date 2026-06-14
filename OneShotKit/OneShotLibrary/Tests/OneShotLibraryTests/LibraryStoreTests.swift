@@ -134,11 +134,59 @@ struct LibraryStoreTests {
         let hits = try await LibrarySearch(store: reopened).search("stripe webhook")
         #expect(hits.contains { $0.record.id == id })
 
-        // schema_version is still the single v1 entry (no double-migration).
+        // Each registered migration is applied exactly once (no double-migration): v1
+        // (base schema) + v2 (additive auto-import contentHash column, §9.6) + v3
+        // (UNIQUE partial index on contentHash — the dedup backstop, §9.6).
         let applied = try await reopened.read { db in
             try String.fetchAll(db, sql: "SELECT identifier FROM grdb_migrations ORDER BY identifier")
         }
-        #expect(applied == ["v1"])
+        #expect(applied == ["v1", "v2", "v3"])
+    }
+
+    // MARK: Atomic dedup + insert (§9.6 "No duplicate entries")
+
+    /// `insertIfNotIndexed` does the dedup probe and the insert in one transaction: the
+    /// first call inserts; a second call with the SAME content hash (even at a new path)
+    /// returns `.duplicate` and leaves exactly one row.
+    @Test func insertIfNotIndexedDedupesByContentHash() async throws {
+        let store = try newStore()
+        var record = sampleRecord(path: "/a.png", name: "shot")
+        record.contentHash = "shared-hash"
+
+        guard case .inserted = try await store.insertIfNotIndexed(record, baseSlug: "shot") else {
+            Issue.record("first insert should succeed")
+            return
+        }
+
+        var moved = sampleRecord(path: "/b.png", name: "shot")
+        moved.contentHash = "shared-hash" // same bytes, different path
+        guard case .duplicate = try await store.insertIfNotIndexed(moved, baseSlug: "shot") else {
+            Issue.record("second insert with same hash should be a duplicate")
+            return
+        }
+        #expect(try await store.allRecords().count == 1)
+    }
+
+    /// Hard DB backstop: the UNIQUE partial index on contentHash rejects a second row for
+    /// the same content even when written through the raw `insert` path (which does NOT
+    /// probe). A null hash is unconstrained, so native captures still coexist freely.
+    @Test func uniqueContentHashIndexRejectsDuplicateRow() async throws {
+        let store = try newStore()
+        var a = sampleRecord(path: "/a.png", name: "a")
+        a.contentHash = "dup"
+        _ = try await store.insert(a)
+
+        var b = sampleRecord(path: "/b.png", name: "b")
+        b.contentHash = "dup"
+        await #expect(throws: LibraryError.self) {
+            _ = try await store.insert(b)
+        }
+        #expect(try await store.allRecords().count == 1)
+
+        // Two null-hash rows (native captures) remain legal under the partial index.
+        _ = try await store.insert(sampleRecord(path: "/c.png", name: "c"))
+        _ = try await store.insert(sampleRecord(path: "/d.png", name: "d"))
+        #expect(try await store.allRecords().count == 3)
     }
 
     // MARK: Tags
