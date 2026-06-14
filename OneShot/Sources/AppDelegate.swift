@@ -3,16 +3,18 @@ import OneShotCapture
 import OneShotCore
 
 /// Menu-bar shell (design D1). Wires global hotkeys + the menu-bar menu to the
-/// capture coordinator (task 3.4). Capture output currently lands on the
-/// clipboard as a placeholder sink; the post-capture chip, Library, and
-/// destination routing (waves 2+) replace `handleCapture` without touching the
-/// capture engine.
+/// capture coordinator (task 3.4), and routes every capture into the
+/// post-capture chip (§4), which owns copy/save/pin/edit and the keyboard
+/// contract. The editor (§5) and pin (§10.5) lanes plug into the presenter's
+/// `openEditor`/`openPin` seams — placeholder windows stand in until they land.
 @main
 @MainActor
 final class AppDelegate: NSObject, NSApplicationDelegate {
     private var statusItem: NSStatusItem?
     private var hotkeyCenter: HotkeyCenter?
     private var coordinator: CaptureCoordinator?
+    private var chipPresenter: ChipPresenter?
+    private var seamWindows: [NSWindow] = []
 
     private static let repeatRegionKey = "oneShot.lastAreaRegion"
 
@@ -28,9 +30,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         // drive hotkeys, delay, and capture options.
         let settings = AppSettings()
 
+        let presenter = ChipPresenter(settings: { AppSettings() })
+        presenter.openEditor = { [weak self] frame in self?.openPlaceholderEditor(frame) }
+        presenter.openPin = { [weak self] frame in self?.openPlaceholderPin(frame) }
+        chipPresenter = presenter
+
         let repeatModel = RepeatAreaModel(load: Self.loadRegion, save: Self.saveRegion)
         let coordinator = CaptureCoordinator(repeatModel: repeatModel, settings: { AppSettings() })
-        coordinator.onCapture = { [weak self] frame in self?.handleCapture(frame) }
+        coordinator.onCapture = { [weak self] frame in self?.chipPresenter?.present(frame) }
         coordinator.onError = { error in NSLog("1shot capture error: \(String(describing: error))") }
         self.coordinator = coordinator
 
@@ -78,17 +85,47 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         coordinator?.handle(action)
     }
 
-    /// Placeholder output: copy the capture to the clipboard so the engine is
-    /// observable end-to-end before the chip/routing waves land.
-    private func handleCapture(_ frame: CapturedFrame) {
-        let image = NSImage(
-            cgImage: frame.image,
-            size: NSSize(width: frame.image.width, height: frame.image.height)
+    // MARK: Editor / pin seams (replaced by §5 and §10.5)
+
+    /// §5 seam: the real annotation editor (OneShotRender canvas) replaces this.
+    /// Until then, opening the capture in a focused window keeps capture → chip →
+    /// editor observable end-to-end and lets the chip's expand contract be verified.
+    private func openPlaceholderEditor(_ frame: CapturedFrame) {
+        presentSeamWindow(frame, title: "1shot — Editor (preview · §5)", activates: true, floating: false)
+    }
+
+    /// §10.5 seam: real pin adds per-pin opacity, click-through lock, and
+    /// scroll-resize. The minimal always-on-top window stands in for now.
+    private func openPlaceholderPin(_ frame: CapturedFrame) {
+        presentSeamWindow(frame, title: "1shot — Pinned", activates: false, floating: true)
+    }
+
+    private func presentSeamWindow(_ frame: CapturedFrame, title: String, activates: Bool, floating: Bool) {
+        let pixels = NSSize(width: frame.image.width, height: frame.image.height)
+        let scale = min(1, 900 / max(pixels.width, pixels.height))
+        let size = NSSize(width: pixels.width * scale, height: pixels.height * scale)
+        let window = NSWindow(
+            contentRect: NSRect(origin: .zero, size: size),
+            styleMask: floating ? [.borderless] : [.titled, .closable],
+            backing: .buffered,
+            defer: false
         )
-        let pasteboard = NSPasteboard.general
-        pasteboard.clearContents()
-        pasteboard.writeObjects([image])
-        NSLog("1shot: captured \(frame.image.width)×\(frame.image.height) on display \(frame.displayID) → clipboard")
+        window.title = title
+        window.isReleasedWhenClosed = false
+        if floating { window.level = .floating }
+        let imageView = NSImageView(frame: NSRect(origin: .zero, size: size))
+        imageView.image = NSImage(cgImage: frame.image, size: pixels)
+        imageView.imageScaling = .scaleProportionallyUpOrDown
+        imageView.autoresizingMask = [.width, .height]
+        window.contentView = imageView
+        window.center()
+        seamWindows.append(window)
+        if activates {
+            NSApp.activate(ignoringOtherApps: true)
+            window.makeKeyAndOrderFront(nil)
+        } else {
+            window.orderFrontRegardless()
+        }
     }
 
     private static func loadRegion() -> AreaRegion? {
