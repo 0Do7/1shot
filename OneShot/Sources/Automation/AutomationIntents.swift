@@ -33,63 +33,63 @@ private func requireDispatcher() throws -> AutomationDispatcher {
 struct CaptureAreaIntent: AppIntent {
     static let title: LocalizedStringResource = "Capture Area"
     static let description =
-        IntentDescription("Select a screen region to capture, following your normal chip and output settings.")
+        IntentDescription("Select a screen region to capture and return the image to the next Shortcuts step.")
     static let openAppWhenRun = true
 
     @MainActor
-    func perform() async throws -> some IntentResult {
-        _ = try await requireDispatcher().run(.capture(.area), source: .appIntent)
-        return .result()
+    func perform() async throws -> some IntentResult & ReturnsValue<IntentFile> {
+        let result = try await requireDispatcher().run(.capture(.area), source: .appIntent)
+        return .result(value: try result.intentFile())
     }
 }
 
 @available(macOS 13.0, *)
 struct CaptureWindowIntent: AppIntent {
     static let title: LocalizedStringResource = "Capture Window"
-    static let description = IntentDescription("Pick a window to capture.")
+    static let description = IntentDescription("Pick a window to capture and return the image.")
     static let openAppWhenRun = true
 
     @MainActor
-    func perform() async throws -> some IntentResult {
-        _ = try await requireDispatcher().run(.capture(.window), source: .appIntent)
-        return .result()
+    func perform() async throws -> some IntentResult & ReturnsValue<IntentFile> {
+        let result = try await requireDispatcher().run(.capture(.window), source: .appIntent)
+        return .result(value: try result.intentFile())
     }
 }
 
 @available(macOS 13.0, *)
 struct CaptureFullscreenIntent: AppIntent {
     static let title: LocalizedStringResource = "Capture Fullscreen"
-    static let description = IntentDescription("Capture the current display in full.")
+    static let description = IntentDescription("Capture the current display in full and return the image.")
 
     @MainActor
-    func perform() async throws -> some IntentResult {
-        _ = try await requireDispatcher().run(.capture(.fullscreen), source: .appIntent)
-        return .result()
+    func perform() async throws -> some IntentResult & ReturnsValue<IntentFile> {
+        let result = try await requireDispatcher().run(.capture(.fullscreen), source: .appIntent)
+        return .result(value: try result.intentFile())
     }
 }
 
 @available(macOS 13.0, *)
 struct RepeatLastAreaIntent: AppIntent {
     static let title: LocalizedStringResource = "Repeat Last Area"
-    static let description = IntentDescription("Re-capture the most recent area selection.")
+    static let description = IntentDescription("Re-capture the most recent area selection and return the image.")
 
     @MainActor
-    func perform() async throws -> some IntentResult {
-        _ = try await requireDispatcher().run(.capture(.repeatArea), source: .appIntent)
-        return .result()
+    func perform() async throws -> some IntentResult & ReturnsValue<IntentFile> {
+        let result = try await requireDispatcher().run(.capture(.repeatArea), source: .appIntent)
+        return .result(value: try result.intentFile())
     }
 }
 
 @available(macOS 13.0, *)
 struct StartScrollingCaptureIntent: AppIntent {
     static let title: LocalizedStringResource = "Start Scrolling Capture"
-    static let description = IntentDescription("Begin a scrolling capture session.")
+    static let description = IntentDescription("Run a scrolling capture and return the stitched image.")
     static let openAppWhenRun = true
 
     @MainActor
-    func perform() async throws -> some IntentResult {
-        _ = try await requireDispatcher().run(.capture(.scrolling), source: .appIntent)
-        return .result()
+    func perform() async throws -> some IntentResult & ReturnsValue<IntentFile> {
+        let result = try await requireDispatcher().run(.capture(.scrolling), source: .appIntent)
+        return .result(value: try result.intentFile())
     }
 }
 
@@ -268,5 +268,17 @@ private extension AutomationResult {
     var textValue: String {
         if case let .text(text) = self { return text }
         return ""
+    }
+
+    /// Project a capture result into an `IntentFile` so Shortcuts can hand the
+    /// captured image to the next step (§13.4 "return the captured image as an
+    /// output usable by subsequent Shortcuts steps"). A capture must resolve to a
+    /// `.file`; anything else is a contract violation surfaced as an honest error
+    /// rather than an empty file.
+    func intentFile() throws -> IntentFile {
+        guard case let .file(path) = self else {
+            throw AutomationError.malformedRequest("capture did not produce an image to return")
+        }
+        return IntentFile(fileURL: URL(fileURLWithPath: path), filename: (path as NSString).lastPathComponent)
     }
 }

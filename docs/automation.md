@@ -24,20 +24,22 @@ they **are** subject to licensing and permission rules.
 
 | Intent | Returns | Notes |
 |---|---|---|
-| Capture Area | — | Opens the area-selection overlay; result follows your chip/output config. |
-| Capture Window | — | Window picker. |
-| Capture Fullscreen | — | Current display. |
-| Repeat Last Area | — | Re-captures the most recent area. |
-| Start Scrolling Capture | — | Begins a scrolling session. |
-| Extract Text from Region | `String` | Pick a region; returns recognized text. |
+| Capture Area | `File` | Area-selection overlay; returns the captured image. *(App seam pending — see Limitations.)* |
+| Capture Window | `File` | Window picker; returns the captured image. *(App seam pending.)* |
+| Capture Fullscreen | `File` | Current display; returns the captured image. *(App seam pending.)* |
+| Repeat Last Area | `File` | Re-captures the most recent area; returns the image. *(App seam pending.)* |
+| Start Scrolling Capture | `File` | Scrolling session; returns the stitched image. *(App seam pending.)* |
+| Extract Text from Region | `String` | Pick a region; returns recognized text. *(App seam pending.)* |
 | Extract Text from Image | `String` | Pass an image file; returns recognized text (on-device). |
 | Pin Image | — | Floats an image as a pin. *(Pin engine ships in §10.5; see Limitations.)* |
 | Hide or Show All Pins | — | Toggles pin visibility. |
 | Search Library | `[Library Item]` | Returns matching items to display/open in the launcher. |
 
-**Capture intents return the captured image** so a following Shortcuts step (save
-to folder, share, etc.) can consume it, and the workflow is **not** blocked by
-1shot's own chip or editor.
+**Capture intents return the captured image** (as a Shortcuts `File`) so a
+following step (save to folder, share, etc.) can consume it, and the capture
+completes **without** 1shot's own chip or editor blocking the workflow. This is
+the intents' documented contract; the app-layer engine that materializes the
+frame to a file along the chip-free path is still being wired (see Limitations).
 
 ---
 
@@ -137,6 +139,13 @@ expiry while the search step still returns results.
 These surfaces are **defined and reachable** but their engines are owned by other
 build lanes and not yet wired into the app:
 
+- **Capture** (`capture-*`, the Capture/Repeat/Scrolling intents) — the
+  dispatcher contract is complete and unit-tested (a capture awaits, resolves to
+  the image, returns it as a `File` / `filePath`, and bypasses the chip), but the
+  app-layer **chip-free capture-and-return-to-file** path is owned by the
+  capture/output lane and not yet wired. Until it lands, an automation capture
+  fails honestly (`malformed-request`) rather than popping the chip or returning a
+  blank/fire-and-forget result.
 - **Pin** (`pin`, `Pin Image` intent) — the pin engine lands in §10.5. The action
   currently fails honestly (`malformed-request`) rather than pretending to pin.
 - **Interactive region OCR** (`ocr-region`, `Extract Text from Region`) — pending
@@ -148,3 +157,34 @@ build lanes and not yet wired into the app:
 
 The **parsing, gating (off-by-default, licensing, confirmation), and dispatch**
 logic is complete and unit-tested; only the named app surfaces above are pending.
+
+---
+
+## Testing & CI
+
+The automation logic — `AutomationAction`, `AutomationError`, `AutomationGate`,
+`AutomationCallbackBuilder`, `AutomationURLParser`, and the `AutomationDispatcher`
+driven by a fake `AutomationEnvironment` — is covered by swift-testing `@Test`
+cases in `OneShot/Tests/Automation*.swift`.
+
+> **These tests live in the Xcode app test target (`OneShotAppTests`,
+> `@testable import OneShot`), which is _not_ an SPM package.** They are therefore
+> **not run by `swift test`** (the OneShotKit packages are) and are **not gated by
+> the hosted PR CI**, which is build-only (see `docs/spec-conflicts.md` and
+> `project.yml` — `OneShotAppTests` runs only via `xcodebuild test` on the
+> self-hosted runner / locally). Any "automation tests pass" claim is reproducible
+> **only** with the command below, not with package-level `swift test`.
+
+Run them locally / on the self-hosted runner with:
+
+```sh
+xcodegen generate
+xcodebuild test -project OneShot.xcodeproj -scheme OneShot \
+  -destination 'platform=macOS' -only-testing:OneShotAppTests
+```
+
+The Apple-Event URL handler (`AutomationURLHandler`) and the AppIntents runtime
+are runner-only (they need a real app process / Shortcuts host), matching every
+other interactive surface in the app; their pure inputs (the parser's
+callback-extraction, the gate's decisions, the dispatcher's routing) are what the
+above tests exercise.

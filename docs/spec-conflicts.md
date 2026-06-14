@@ -186,3 +186,34 @@ Lane `lane/automation` (tasks 13.4/13.5). New code lives in `OneShot/Sources/Aut
   `installAutomation(coordinator:)`; all wiring lives in `AppDelegate+Automation.swift`. The extension
   takes `coordinator` as a parameter (passed from inside AppDelegate where the private property is
   visible) so it touches no private member.
+
+## 2026-06-14 · §13 automation · review-fix pass (capture return / callback honesty / test gating)
+Applied confirmed review findings on `lane/automation`. No spec change — these correct silently-faked
+behavior and overstated claims:
+- **(high) Capture intents now return the captured image, per §13.4.** The dispatcher's `.capture`
+  case was returning `.ok` via a fire-and-forget `startCapture` seam; it now `await`s a
+  `captureForAutomation(_:) async throws -> AutomationResult` seam that resolves to `.file(path:)`,
+  which is threaded into the AppIntents `ReturnsValue<IntentFile>` output AND the URL `x-success`
+  `filePath` callback. The seam is documented to **bypass the chip/editor** ("WITHOUT the app's own
+  chip or editor blocking it"). Because the chip-free capture-and-return-to-file engine is owned by
+  the capture/output lane and not yet wired in the app, the live seam (`automationCapture`) throws
+  HONESTLY (`malformed-request`, "pending the capture/output lane") instead of popping the chip via
+  `coordinator.perform` — the exact behavior §13.4 forbids and the review flagged. This matches the
+  existing pin/region-OCR honest-stub pattern; the dispatcher CONTRACT is complete + unit-tested
+  (capture → `.file` → `filePath`/`IntentFile`). `docs/automation.md` updated to show captures return
+  a `File` with the app seam listed as pending (no longer silently faked).
+- **(med) Malformed URL with a valid `x-error` now fires an error callback.** `AutomationURLParser`
+  gained `callbacks(in:)` (best-effort callback extraction WITHOUT resolving the action), and
+  `AutomationURLHandler.handle` now fires `AutomationCallbackBuilder.errorURL` on a parse failure
+  using those callbacks. So `oneshot://teleport?x-error=myapp://fail` (unknown action, valid callback)
+  now sends a descriptive error callback (spec §13.5/§13.6). Only a URL that `URLComponents` can't
+  decompose at all still bails silently.
+- **(med) Test-gating claim made honest.** The 60 automation `@Test` cases live in `OneShotAppTests`
+  (Xcode app test target, `@testable import OneShot`), which is NOT an SPM package and is NOT run by
+  `swift test` or hosted PR CI (build-only). `docs/automation.md` now has a "Testing & CI" section
+  documenting the exact `xcodebuild test -only-testing:OneShotAppTests` command and stating that PR CI
+  does not run these — so the green claim is no longer overstated. (Kept tests in the app target per
+  build-guide §0.5 "match existing test idioms exactly"; all sibling `OneShot/Tests/*` are
+  swift-testing in the app target.)
+- **Cleanup:** removed unused `AppKit`/`OneShotCore` imports from `AutomationDispatcher.swift` (it uses
+  only CoreGraphics/ImageIO + the engine packages).

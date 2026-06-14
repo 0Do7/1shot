@@ -10,20 +10,21 @@ import OneShotOCR
 /// (`installAutomation()`) — another lane edits `AppDelegate.swift` concurrently.
 ///
 /// The seams are wired to the real engines where they already exist in the app
-/// (capture via the coordinator) and to honest stubs where the consuming lane has
-/// not wired its app surface yet (pin §10.5, Library UI §9, Settings §13.3,
-/// real licensing §14). Each stub fails or no-ops honestly and is logged in
-/// docs/spec-conflicts.md — none invents an engine.
+/// (headless OCR-on-file via ImageIO + OCRPipeline) and to honest stubs where the
+/// consuming lane has not wired its app surface yet (chip-free capture-and-return
+/// §13.4, pin §10.5, Library UI §9, Settings §13.3, real licensing §14). Each stub
+/// fails or no-ops honestly and is logged in docs/spec-conflicts.md — none invents
+/// an engine, and none silently fakes a result.
 extension AppDelegate {
     /// `coordinator` is passed in from the call site inside `AppDelegate` (where
     /// the private property is visible) so this extension touches no private
     /// member — keeping the concurrent-edit surface on `AppDelegate.swift` to the
     /// single additive `installAutomation(coordinator:)` call.
-    func installAutomation(coordinator: CaptureCoordinator) {
+    func installAutomation(coordinator _: CaptureCoordinator) {
         let environment = LiveAutomationEnvironment(
             settings: { AppSettings() },
             licenseStateProvider: { Self.automationLicenseState() },
-            startCaptureHandler: { mode in Task { await coordinator.perform(mode) } },
+            captureForAutomationHandler: { try await Self.automationCapture($0) },
             ocrRegionHandler: { try await Self.automationOCRRegion() },
             pinHandler: { try Self.automationPin(path: $0) },
             toggleAllPinsHandler: { Self.automationToggleAllPins() },
@@ -44,6 +45,26 @@ extension AppDelegate {
     /// fully unit-tested against injected states; only this app-default is interim.
     private static func automationLicenseState() -> LicenseState {
         .trial(daysRemaining: 14)
+    }
+
+    /// §13.4 hard requirement: an automation capture must RESOLVE to the produced
+    /// image and complete WITHOUT the app's own chip/editor blocking it. That
+    /// chip-bypassing, capture-and-return-to-file path is owned by the capture +
+    /// editor/output lanes (the editor/output routing wave that materializes a
+    /// `CapturedFrame` to disk and is not yet wired into the app). Until those
+    /// seams land, automation capture fails HONESTLY rather than firing the normal
+    /// `coordinator.perform` (which would pop the chip and never return pixels —
+    /// the exact behavior §13.4 forbids and the review flagged as silently faked).
+    ///
+    /// The dispatcher contract (await → `.file(path:)` → returned to Shortcuts /
+    /// the x-success `filePath` callback / `IntentFile`) is complete and
+    /// unit-tested against a fake environment; only this app seam is interim, in
+    /// the same spirit as the region-OCR and pin stubs below.
+    private static func automationCapture(_ mode: CaptureMode) async throws -> AutomationResult {
+        throw AutomationError.malformedRequest(
+            "Capture via automation isn't available yet: the chip-free capture-and-return path "
+                + "(\(mode.rawValue)) is pending the capture/output lane that writes the frame to a file."
+        )
     }
 
     /// §8.3 OCR capture flow (hotkey → region → clipboard) is not yet wired into

@@ -112,6 +112,32 @@ import Testing
     }
 }
 
+// MARK: Callbacks survive a parse failure (spec §13.5/§13.6: "if a callback URL was
+// supplied, the caller receives a descriptive error callback")
+
+@Test func callbacks_extractedEvenWhenActionUnknown() {
+    // The action ("teleport") is unknown so parse() throws — but the x-error
+    // callback is perfectly valid and MUST still be recoverable so the handler can
+    // fire a descriptive error callback (the bug: it previously bailed silently).
+    let url = url("oneshot://teleport?x-error=myapp://fail&x-success=myapp://ok")
+    #expect(throws: AutomationError.self) { try AutomationURLParser.parse(url) }
+    let callbacks = AutomationURLParser.callbacks(in: url)
+    #expect(callbacks.error == URL(string: "myapp://fail"))
+    #expect(callbacks.success == URL(string: "myapp://ok"))
+}
+
+@Test func callbacks_extractedEvenWhenParamInvalid() {
+    // A known action with a bad param (unknown settings pane) also throws, yet the
+    // caller's x-error callback is still recoverable.
+    let url = url("oneshot://settings?pane=nope&x-error=myapp://err")
+    #expect(throws: AutomationError.self) { try AutomationURLParser.parse(url) }
+    #expect(AutomationURLParser.callbacks(in: url).error == URL(string: "myapp://err"))
+}
+
+@Test func callbacks_emptyWhenNonePresent() {
+    #expect(AutomationURLParser.callbacks(in: url("oneshot://teleport")).isEmpty)
+}
+
 // MARK: Round-trip (serialize then parse is identity for param-bearing actions)
 
 @Test func roundTrip_preservesActionAndParams() throws {

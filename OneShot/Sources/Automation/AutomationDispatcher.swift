@@ -1,8 +1,7 @@
-import AppKit
+import CoreGraphics
 import Foundation
 import ImageIO
 import OneShotCapture
-import OneShotCore
 import OneShotLibrary
 import OneShotLicensing
 import OneShotOCR
@@ -22,10 +21,17 @@ protocol AutomationEnvironment {
     /// Whether Screen Recording permission is currently granted.
     var screenRecordingGranted: Bool { get }
 
-    /// Start a capture in `mode` via the normal coordinator (chip/output config
-    /// applies exactly as if hotkey-triggered — spec: "follows the user's normal
-    /// chip/output configuration"). Interactive modes present their overlay.
-    func startCapture(_ mode: CaptureMode)
+    /// Capture in `mode` for an AUTOMATION caller and resolve to the produced
+    /// frame as a referenceable result (§13.4 hard requirement: "Capture intents
+    /// SHALL return the captured image as an output usable by subsequent Shortcuts
+    /// steps"). This path is awaited — it returns only once pixels exist — and it
+    /// must NOT pop the app's own chip/editor (spec: "complete WITHOUT the app's
+    /// own chip or editor blocking it"). Interactive modes (area/window) still
+    /// present their selection overlay; that is the user's pick, not a blocking
+    /// chip. The result is `.file(path:)` for a materialized capture; a caller that
+    /// wants the bytes in-memory (clipboard hand-off) gets a path to a temp file it
+    /// can read and delete. Throws an honest `AutomationError` on failure.
+    func captureForAutomation(_ mode: CaptureMode) async throws -> AutomationResult
     /// Run OCR on a region the user picks interactively, returning recognized text.
     func ocrRegion() async throws -> String
     /// Pin an image (path or pasteboard). Stubbed until §10.5 — see registrar.
@@ -93,8 +99,10 @@ struct AutomationDispatcher {
     private func perform(_ action: AutomationAction) async throws -> AutomationResult {
         switch action {
         case let .capture(mode):
-            environment.startCapture(mode)
-            return .ok
+            // Awaited capture-and-return: resolves to the produced frame so the
+            // intent/scheme can hand it to the next step, and bypasses the chip
+            // (§13.4 "WITHOUT the app's own chip or editor blocking it").
+            return try await environment.captureForAutomation(mode)
         case .ocrRegion:
             return try await .text(environment.ocrRegion())
         case let .ocrImage(path):

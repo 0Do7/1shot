@@ -46,10 +46,19 @@ final class AutomationURLHandler: NSObject {
         let request: ParsedAutomationRequest
         do {
             request = try AutomationURLParser.parse(url)
+        } catch let error as AutomationError {
+            // Malformed/unknown: no action, no crash. The action couldn't be
+            // resolved (unknown host / bad param), but the URL may still carry a
+            // valid x-error callback — extract it independently of action
+            // resolution and fire a descriptive error callback (spec §13.5/§13.6:
+            // "if a callback URL was supplied, the caller receives a descriptive
+            // error callback"). Only a URL that can't be decomposed at all yields
+            // empty callbacks and so bails silently.
+            handleFailure(error, callbacks: AutomationURLParser.callbacks(in: url))
+            return
         } catch {
-            // Malformed/unknown: no action, no crash. If the caller attached an
-            // x-error callback we still want to honor it, but a malformed URL we
-            // couldn't parse also couldn't carry a callback, so just bail safely.
+            let callbacks = AutomationURLParser.callbacks(in: url)
+            handleFailure(.malformedRequest(String(describing: error)), callbacks: callbacks)
             return
         }
 

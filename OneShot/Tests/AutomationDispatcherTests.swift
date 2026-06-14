@@ -43,6 +43,10 @@ private final class FakeEnvironment: AutomationEnvironment {
     var screenRecordingGranted = true
     var confirmResponse = true
     var ocrRegionText = "region text"
+    /// The file path an automation capture resolves to (the captured image,
+    /// materialized to disk for the caller). Tests assert this flows back as
+    /// `.file(path:)` so §13.4's "return the captured image" contract is covered.
+    var captureFilePath = "/tmp/oneshot-capture.png"
 
     private(set) var startedCaptures: [CaptureMode] = []
     private(set) var pinnedPaths: [String?] = []
@@ -53,8 +57,9 @@ private final class FakeEnvironment: AutomationEnvironment {
 
     var ocrPipeline = OCRPipeline(recognizer: FakeRecognizer(text: "fileText"), barcodeDetector: FakeBarcodes())
 
-    func startCapture(_ mode: CaptureMode) {
+    func captureForAutomation(_ mode: CaptureMode) async throws -> AutomationResult {
         startedCaptures.append(mode)
+        return .file(path: captureFilePath)
     }
 
     func ocrRegion() async throws -> String {
@@ -97,17 +102,32 @@ private func makeDispatcher(_ configure: (FakeEnvironment) -> Void = { _ in
 
 // MARK: Capture routing (spec: "Capture intent feeds a shortcut" / "Spotlight action invocation")
 
-@MainActor @Test func dispatch_captureFullscreen_routesToCoordinator() async throws {
-    let (dispatcher, env) = makeDispatcher()
+@MainActor @Test func dispatch_captureFullscreen_returnsCapturedImageFile() async throws {
+    // §13.4 hard requirement: a capture RESOLVES to the produced image as a
+    // referenceable result the next Shortcuts step can consume — not `.ok`.
+    let (dispatcher, env) = makeDispatcher { $0.captureFilePath = "/tmp/shot.png" }
     let result = try await dispatcher.run(.capture(.fullscreen), source: .appIntent)
-    #expect(result == .ok)
+    #expect(result == .file(path: "/tmp/shot.png"))
     #expect(env.startedCaptures == [.fullscreen])
 }
 
-@MainActor @Test func dispatch_captureArea_startsAreaFlow() async throws {
-    let (dispatcher, env) = makeDispatcher()
-    _ = try await dispatcher.run(.capture(.area), source: .appIntent)
+@MainActor @Test func dispatch_captureArea_startsAreaFlow_andReturnsFile() async throws {
+    let (dispatcher, env) = makeDispatcher { $0.captureFilePath = "/tmp/area.png" }
+    let result = try await dispatcher.run(.capture(.area), source: .appIntent)
+    #expect(result == .file(path: "/tmp/area.png"))
     #expect(env.startedCaptures == [.area])
+}
+
+@MainActor @Test func dispatch_capture_fileResult_feedsSuccessCallback() async throws {
+    // End-to-end §13.4: a capture's image path is threaded into the x-success
+    // callback as `filePath` so a URL-scheme caller (and the Shortcuts return)
+    // receives the captured image, not a bare "ok".
+    let (dispatcher, _) = makeDispatcher { $0.captureFilePath = "/tmp/cb.png" }
+    let result = try await dispatcher.run(.capture(.fullscreen), source: .appIntent)
+    let callbacks = AutomationCallbacks(success: URL(string: "caller://done"), error: nil)
+    let success = try #require(AutomationCallbackBuilder.successURL(for: result, callbacks: callbacks))
+    let items = URLComponents(url: success, resolvingAgainstBaseURL: false)?.queryItems ?? []
+    #expect(items.first { $0.name == "filePath" }?.value == "/tmp/cb.png")
 }
 
 // MARK: OCR on file (spec: "OCR intent returns text" — on-device, returns string)

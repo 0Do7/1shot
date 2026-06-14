@@ -72,6 +72,19 @@ enum AutomationURLParser {
         )
     }
 
+    /// Best-effort extraction of the x-callback hooks from a URL WITHOUT resolving
+    /// the action, so the handler can still fire a descriptive x-error callback when
+    /// action resolution itself throws (spec §13.6/§13.5: "if a callback URL was
+    /// supplied, the caller receives a descriptive error callback" — true even for
+    /// an unknown action or bad param, as long as the URL decomposes). Returns empty
+    /// callbacks for a URL that `URLComponents` genuinely can't decompose.
+    static func callbacks(in url: URL) -> AutomationCallbacks {
+        guard let components = URLComponents(url: url, resolvingAgainstBaseURL: false) else {
+            return AutomationCallbacks()
+        }
+        return callbacks(from: queryDictionary(components.queryItems))
+    }
+
     // MARK: - Host → action
 
     // swiftlint:disable:next cyclomatic_complexity

@@ -59,7 +59,7 @@ final class AutomationRegistrar {
 struct LiveAutomationEnvironment: AutomationEnvironment {
     let settings: () -> AppSettings
     let licenseStateProvider: () -> LicenseState
-    let startCaptureHandler: (CaptureMode) -> Void
+    let captureForAutomationHandler: (CaptureMode) async throws -> AutomationResult
     let ocrRegionHandler: () async throws -> String
     let pinHandler: (String?) throws -> Void
     let toggleAllPinsHandler: () -> Void
@@ -87,8 +87,8 @@ struct LiveAutomationEnvironment: AutomationEnvironment {
         CGPreflightScreenCaptureAccess()
     }
 
-    func startCapture(_ mode: CaptureMode) {
-        startCaptureHandler(mode)
+    func captureForAutomation(_ mode: CaptureMode) async throws -> AutomationResult {
+        try await captureForAutomationHandler(mode)
     }
 
     func ocrRegion() async throws -> String {
