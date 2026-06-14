@@ -110,3 +110,33 @@ robustness + lint fixes. All packages remain swiftlint --strict clean.
   D8/D13) and the real-Vision OCR-defeat test, which stalled under concurrent sandbox load. Every
   batch-3 package passed `swift test` + `swiftlint --strict` in its own isolated harden run, and
   an earlier isolated verify had OneShotRender 40 ✓ / OneShotCapture 46 ✓.
+
+## 2026-06-14 · §4 post-capture chip · settings reconciliation + contract mechanism + partials
+- **`chipTimeoutSeconds` default 8 → 0 (persistent).** spec:post-capture-chip "Chip persistence
+  and timeout" says the chip is *persistent by default*; the prior default (8s) contradicted it.
+  Spec wins (build-guide §0.5): `0` now means "no auto-dismiss"; a positive value opts into a
+  timeout. New `AppSettings` fields (additive, codec-merged): `chipCorner` (default
+  `.bottomTrailing`, matching the OS thumbnail) and `chipTimeoutAction` (`.discard`/`.copy`/`.save`,
+  default `.discard` — an unattended timeout never silently writes a file). `ScreenCorner` +
+  `ChipTimeoutAction` are portable OneShotCore enums. **Consumers note:** OneShotCore public API
+  grew three additive members; existing settings files decode unchanged.
+- **Keyboard contract uses a transient CGEventTap (D6 reconciliation).** D7 says "swallows only the
+  contracted keys"; an `NSEvent` *global* monitor can observe but not swallow, so the only mechanism
+  that satisfies the spec's "MUST swallow" is a `CGEventTap`. D6's "no CGEventTap" is scoped to
+  *core capture*; the optional, disableable chip contract is not core capture. The tap is created
+  ONLY while a chip is armed and torn down when the arm window ends; if it can't be created (app not
+  trusted for Input Monitoring) the contract silently degrades to mouse-only — no proactive prompt,
+  no nag (honest-failure). The contract *state machine* is unit-tested headlessly (`ChipStackModel`,
+  `ChipKey`); live global key-swallowing is self-hosted-runner-verified like all interactive capture UI.
+- **Partials (left unchecked in tasks.md):**
+  - **4.3** per-chip hover affordances (copy/save/pin/edit/drag-handle) are built; the *stack-level*
+    bulk-action UI control (copy-all/save-all/dismiss-all) is not yet surfaced — the model methods
+    (`copyAll`/`saveAll`/`dismissAll`) exist and are unit-tested, but no header control triggers them.
+  - **4.5** timeout behavior + chip-off pure-clipboard mode are done and tested; expand-in-place
+    currently opens an honest *placeholder* editor window (AppDelegate `§5 seam`) — the real editor
+    and the <400 ms p95 expand budget are §5 / perf-cert (4.6, 15.2).
+  - **4.6** capture→chip <200 ms p95 perf assertion is deferred (needs the budget harness on real
+    hardware / the self-hosted runner).
+- **Infra:** `project.yml` now sets `GENERATE_INFOPLIST_FILE: YES` on `OneShotAppTests`/`OneShotUITests`
+  so `xcodebuild … test` builds+signs the app test bundle locally and on the self-hosted runner
+  (hosted CI stays build-only). No effect on the CI build step.

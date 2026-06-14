@@ -34,11 +34,11 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 ## 4. Post-capture chip (lane: chip; needs 3.1)
 
-- [ ] 4.1 Non-activating NSPanel chip: corner anchoring, never-steals-focus, stacking layout, VoiceOver labels (spec:post-capture-chip, design D7)
-- [ ] 4.2 Keyboard contract: arm-window event monitor for Esc/⌘C/Enter, swallow-scope rules, "keys live" affordance, configurable/disable (spec:post-capture-chip)
-- [ ] 4.3 Hover affordances: copy/save/pin/edit/drag handle; bulk actions on stacks
-- [ ] 4.4 Drag-out via NSFilePromiseProvider (file materialized on drop; nothing-on-disk preserved)
-- [ ] 4.5 Chip lifecycle: timeout behavior, chip-off pure-clipboard mode, expand-in-place handoff to editor <400ms
+- [x] 4.1 Non-activating NSPanel chip: corner anchoring, never-steals-focus, stacking layout, VoiceOver labels (spec:post-capture-chip, design D7)
+- [x] 4.2 Keyboard contract: arm-window event monitor for Esc/⌘C/Enter, swallow-scope rules, "keys live" affordance, configurable/disable (spec:post-capture-chip) — contract state machine unit-tested; live swallow via transient CGEventTap (D6 reconciliation, graceful-degrade), runner-verified
+- [ ] 4.3 Hover affordances: copy/save/pin/edit/drag handle; bulk actions on stacks — per-chip hover affordances done; stack-level bulk-action UI trigger pending (model copyAll/saveAll/dismissAll done+tested) (see spec-conflicts 2026-06-14)
+- [x] 4.4 Drag-out via NSFilePromiseProvider (file materialized on drop; nothing-on-disk preserved)
+- [ ] 4.5 Chip lifecycle: timeout behavior, chip-off pure-clipboard mode, expand-in-place handoff to editor <400ms — timeout + chip-off done+tested; expand opens §5 placeholder editor; <400ms is perf-cert
 - [ ] 4.6 Performance pass: capture→chip <200ms p95 on budget harness (1.5)
 
 ## 5. Editor & render (lane: editor; needs 2.1, 2.2)
