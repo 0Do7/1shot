@@ -140,3 +140,49 @@ robustness + lint fixes. All packages remain swiftlint --strict clean.
 - **Infra:** `project.yml` now sets `GENERATE_INFOPLIST_FILE: YES` on `OneShotAppTests`/`OneShotUITests`
   so `xcodebuild … test` builds+signs the app test bundle locally and on the self-hosted runner
   (hosted CI stays build-only). No effect on the CI build step.
+
+## 2026-06-14 · §13 automation (AppIntents + URL scheme) · decisions + deferrals
+Lane `lane/automation` (tasks 13.4/13.5). New code lives in `OneShot/Sources/Automation/`
++ tests in `OneShot/Tests/Automation*.swift`. Notes:
+- **Branched off `origin/main` (the real, up-to-date main), not local `main`.** Local `main`
+  (`351002b`) was stale Wave-1 scaffold; `origin/main` (`2e27bc0`) has all merged Wave-2 work,
+  which is what the orchestrator worktree (`lane/editor`) tracks and what carries the engines this
+  lane wires to (OCRPipeline, LibrarySearch, LicenseState, CaptureCoordinator). Branching off stale
+  local main would have lost every engine. No spec/code change — a base-ref correction.
+- **Tests use swift-testing (`@Test`), not XCTest.** The lane instructions said "add XCTest
+  coverage", but build-guide §0.5 / the "match existing test idioms exactly" rule wins: every
+  existing `OneShot/Tests/*` file (ChipModelTests, AreaSelectionModelTests, …) is swift-testing.
+  Following XCTest would have split the app test target across two frameworks. 57 new `@Test` cases.
+- **One typed action catalog + one gate for BOTH surfaces.** AppIntents (§13.4) and the URL scheme
+  (§13.5) share `AutomationAction` → `AutomationGate` → `AutomationDispatcher`, so there is exactly
+  one place enforcing off-by-default / licensing / confirmation (spec "Public-surface parity"). The
+  pure units (parser, gate, callback builder, dispatcher-with-fake-env) carry all the test coverage;
+  the AppIntents runtime + the `kAEGetURL` Apple-Event handler are runner-only (matching prior lanes'
+  treatment of interactive surfaces).
+- **Scheme `oneshot://` chosen** (mirrors the bundle-id tail `com.sidequests.oneshot`). Registered
+  via XcodeGen's `info:` block (new `OneShot/Resources/Info.plist`), which required dropping
+  `GENERATE_INFOPLIST_FILE` for the OneShot app target ONLY (the test targets keep it); the menu-bar
+  `LSUIElement`/`NSPrincipalClass` keys moved into the same explicit plist. The generated plist is a
+  committed source file (only `OneShot.xcodeproj` is gitignored). Declaring the scheme is harmless
+  while the API is OFF — the runtime gate ignores all calls until the user enables it.
+- **Confirmation is scoped to the URL scheme, not AppIntents.** Spec says side-effecting actions
+  "SHALL be confirmable"; AppIntents are already an explicit user gesture (Shortcuts/Spotlight), so
+  applying a prompt there would double-confirm. The gate confirms only `source == .urlScheme`.
+  Persisted per-action confirmation posture is a §13.3 Settings field that does not exist yet; the
+  live env defaults to **always-confirm** (safe: any app can call the scheme). `AppSettings` was NOT
+  modified — `urlSchemeEnabled` already existed; no new Core field was added.
+- **Honest stubs for engines other lanes own (none invents an engine):**
+  - **Pin (§10.5)** — `Pin Image` / `pins-toggle` intents + `oneshot://pin` are defined but the app
+    seam throws/logs honestly ("pinning not available yet") per the lane instruction to guard/stub.
+  - **Region OCR (§8.3)** — `ocr-region` / "Extract Text from Region" surface exists; the app seam
+    throws "not available yet". OCR-on-file (`ocr-image`, headless via ImageIO + OCRPipeline) IS live.
+  - **Library search window (§9) / Settings panes (§13.3)** — open-search / open-settings are logged
+    no-ops; structured `Search Library` returns `[]` until the app instantiates a `LibraryStore`.
+  - **Licensing (§14)** — no app-layer `LicenseManager` instance exists yet, so the live env supplies
+    an interim in-trial default; the licensing GATE (expired → `capture-requires-license`, search
+    still works) is fully unit-tested against injected `LicenseState`s, so only the app default is
+    interim. When §14 wires a real manager, swap the one `automationLicenseState()` stub.
+- **AppDelegate touched minimally** (another lane edits it concurrently): one additive line
+  `installAutomation(coordinator:)`; all wiring lives in `AppDelegate+Automation.swift`. The extension
+  takes `coordinator` as a parameter (passed from inside AppDelegate where the private property is
+  visible) so it touches no private member.
