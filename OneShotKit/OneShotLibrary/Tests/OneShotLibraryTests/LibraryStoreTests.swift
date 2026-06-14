@@ -134,11 +134,12 @@ struct LibraryStoreTests {
         let hits = try await LibrarySearch(store: reopened).search("stripe webhook")
         #expect(hits.contains { $0.record.id == id })
 
-        // schema_version is still the single v1 entry (no double-migration).
+        // Each registered migration is applied exactly once (no double-migration): v1
+        // (base schema) + v2 (additive auto-import contentHash column, §9.6).
         let applied = try await reopened.read { db in
             try String.fetchAll(db, sql: "SELECT identifier FROM grdb_migrations ORDER BY identifier")
         }
-        #expect(applied == ["v1"])
+        #expect(applied == ["v1", "v2"])
     }
 
     // MARK: Tags

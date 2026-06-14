@@ -33,17 +33,22 @@ public struct IndexingPipeline: Sendable {
         public var provenance: CaptureProvenance
         public var capturedAt: Date
         public var timeZone: TimeZone
+        /// Content fingerprint for auto-imported files (§9.6 dedup). Nil for native
+        /// captures, which dedup by their unique `originalPath` instead.
+        public var contentHash: String?
 
         public init(
             originalPath: String,
             provenance: CaptureProvenance = CaptureProvenance(),
             capturedAt: Date = Date(),
-            timeZone: TimeZone = .current
+            timeZone: TimeZone = .current,
+            contentHash: String? = nil
         ) {
             self.originalPath = originalPath
             self.provenance = provenance
             self.capturedAt = capturedAt
             self.timeZone = timeZone
+            self.contentHash = contentHash
         }
     }
 
@@ -80,7 +85,8 @@ public struct IndexingPipeline: Sendable {
             provenance: input.provenance,
             capturedAt: input.capturedAt,
             textIndexed: textIndexed,
-            containsCode: containsCode
+            containsCode: containsCode,
+            contentHash: input.contentHash
         )
         return try await store.insertResolvingCollision(record, baseSlug: slug, ocrText: ocrText)
     }

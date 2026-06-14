@@ -69,6 +69,12 @@ public struct CaptureRecord: Sendable, Hashable, Identifiable {
     public var containsCode: Bool
     /// User "keep" flag — excludes the item from automatic retention deletion.
     public var isKept: Bool
+    /// Content fingerprint of the referenced original (spec §9.6 dedup: "No
+    /// duplicate entries"). Filled for auto-imported files so a re-scan, touch, or
+    /// move of an already-indexed file never creates a second entry; nil for native
+    /// captures (deduped by their unique originalPath instead). Identity is by file
+    /// CONTENT, not path, so the same file under a new path is still recognized.
+    public var contentHash: String?
 
     public init(
         id: Int64? = nil,
@@ -82,7 +88,8 @@ public struct CaptureRecord: Sendable, Hashable, Identifiable {
         capturedAt: Date,
         textIndexed: Bool = false,
         containsCode: Bool = false,
-        isKept: Bool = false
+        isKept: Bool = false,
+        contentHash: String? = nil
     ) {
         self.id = id
         self.originalPath = originalPath
@@ -96,6 +103,7 @@ public struct CaptureRecord: Sendable, Hashable, Identifiable {
         self.textIndexed = textIndexed
         self.containsCode = containsCode
         self.isKept = isKept
+        self.contentHash = contentHash
     }
 }
 
