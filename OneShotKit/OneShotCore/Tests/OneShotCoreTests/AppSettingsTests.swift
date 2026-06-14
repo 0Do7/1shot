@@ -8,6 +8,10 @@ import Testing
     #expect(settings.chipEnabled)
     #expect(settings.chipKeyboardContractEnabled)
     #expect(settings.chipKeyboardArmSeconds == 8) // design D7 documented default
+    // Spec (post-capture-chip "Chip persistence and timeout"): persistent by
+    // default — 0 means no auto-dismiss. Timeout is opt-in.
+    #expect(settings.chipTimeoutSeconds == 0)
+    #expect(settings.chipCorner == .bottomTrailing)
     #expect(settings.libraryEnabled)
     #expect(settings.windowCaptureShadow)
     #expect(settings.historyTrayCount == 10) // the documented last-N default

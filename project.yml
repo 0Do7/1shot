@@ -52,11 +52,23 @@ targets:
         ENABLE_HARDENED_RUNTIME: YES
         CODE_SIGN_STYLE: Automatic
         CODE_SIGN_IDENTITY: "-"
-        GENERATE_INFOPLIST_FILE: YES
+        # GENERATE_INFOPLIST_FILE intentionally dropped for this target: the
+        # explicit `info:` block below owns the plist so the `oneshot://`
+        # URL-scheme registration (§13.5, CFBundleURLTypes) can be declared.
+        # Declaring the scheme is harmless when the API is OFF (the default) — the
+        # runtime gate ignores incoming calls until the user explicitly enables it.
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    info:
+      path: OneShot/Resources/Info.plist
+      properties:
         # Menu-bar app: no Dock icon, no main window (PRD E13).
-        INFOPLIST_KEY_LSUIElement: YES
-        INFOPLIST_KEY_NSPrincipalClass: NSApplication
+        LSUIElement: true
+        NSPrincipalClass: NSApplication
+        CFBundleURLTypes:
+          - CFBundleURLName: com.sidequests.oneshot.automation
+            CFBundleTypeRole: Viewer
+            CFBundleURLSchemes:
+              - oneshot
 
   OneShotAppTests:
     type: bundle.unit-test
@@ -70,6 +82,9 @@ targets:
       base:
         TEST_HOST: "$(BUILT_PRODUCTS_DIR)/1shot.app/Contents/MacOS/1shot"
         BUNDLE_LOADER: "$(TEST_HOST)"
+        # Generate the test bundle's Info.plist so `xcodebuild test` can sign and
+        # run it on the self-hosted runner / locally (hosted CI runs build-only).
+        GENERATE_INFOPLIST_FILE: YES
 
   OneShotUITests:
     type: bundle.ui-testing
@@ -80,6 +95,8 @@ targets:
       - target: OneShot
     settings:
       groups: [swift6]
+      base:
+        GENERATE_INFOPLIST_FILE: YES
 
 schemes:
   OneShot:
