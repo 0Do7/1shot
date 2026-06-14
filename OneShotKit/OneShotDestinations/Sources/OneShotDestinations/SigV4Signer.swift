@@ -150,7 +150,19 @@ public struct SigV4Signer: Sendable {
     /// path; each segment is encoded once, `/` preserved as the separator).
     static func canonicalURIPath(_ url: URL) -> String {
         let path = url.path.isEmpty ? "/" : url.path
-        let segments = path.split(separator: "/", omittingEmptySubsequences: false)
+        return canonicalEncode(path: path)
+    }
+
+    /// Encode an *already-decoded* path string (e.g. an object key joined with a
+    /// base path) the same way `canonicalURIPath` encodes a URL's path: each
+    /// `/`-separated segment is percent-encoded with the AWS unreserved set, and
+    /// the separators are preserved. Exposed so the request builder can construct
+    /// the wire URL with byte-identical encoding to what gets signed — otherwise
+    /// sub-delimiters (`+ & = , ; @` …) that survive `URL.path` but are encoded by
+    /// the signer would produce a `SignatureDoesNotMatch` 403.
+    static func canonicalEncode(path: String) -> String {
+        let normalized = path.isEmpty ? "/" : path
+        let segments = normalized.split(separator: "/", omittingEmptySubsequences: false)
         let encoded = segments.map { uriEncode(String($0), encodeSlash: true) }
         let joined = encoded.joined(separator: "/")
         return joined.isEmpty ? "/" : joined

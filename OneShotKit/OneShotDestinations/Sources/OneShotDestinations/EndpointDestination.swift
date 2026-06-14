@@ -110,24 +110,62 @@ public struct EndpointDestination: CaptureDestination {
             throw failure(for: response, config: config)
         }
 
-        let publicURL = config.renderedPublicURL(objectKey: object.key)
-        return DeliveryReceipt(shareableURL: publicURL)
+        let shareableURL = shareableURL(after: response, config: config, object: object)
+        return DeliveryReceipt(shareableURL: shareableURL)
+    }
+
+    /// The URL to copy after a successful upload (spec: "copy the resulting object
+    /// URL"). Priority:
+    /// 1. The user's public-URL pattern, if configured — this is authoritative.
+    /// 2. For a custom-HTTP POST (where the server, not us, chooses the object
+    ///    location), the `Location` / `Content-Location` response header.
+    /// 3. The deterministic `endpoint/key` for PUT-style uploads (the object lands
+    ///    exactly where we PUT it).
+    /// We never fabricate an `endpoint/key` URL for a POST without a pattern — that
+    /// is almost never where the object actually lands — returning `nil` instead so
+    /// the generic machinery copies nothing rather than a wrong URL.
+    private func shareableURL(
+        after response: HTTPUploadResponse,
+        config: EndpointConfig,
+        object: UploadObject
+    ) -> URL? {
+        if let pattern = config.publicURLPattern, !pattern.isEmpty {
+            return config.renderedPublicURL(objectKey: object.key)
+        }
+        if config.mode == .customHTTP, config.httpMethod == .post {
+            return Self.locationURL(in: response, relativeTo: config.endpointURL)
+        }
+        return config.renderedPublicURL(objectKey: object.key)
+    }
+
+    /// Resolve the object location a POST upload reports via its response headers.
+    /// `Location` / `Content-Location` may be absolute or relative to the request
+    /// URL (RFC 7231); we resolve relative values against the endpoint.
+    static func locationURL(in response: HTTPUploadResponse, relativeTo base: URL) -> URL? {
+        let header = response.headers.first {
+            let key = $0.key.lowercased()
+            return key == "location" || key == "content-location"
+        }
+        guard let value = header?.value, !value.isEmpty else { return nil }
+        return URL(string: value, relativeTo: base)?.absoluteURL
     }
 
     // MARK: Connection test
 
     /// Minimal authenticated request against the endpoint (spec: "Configure and
-    /// test connection"). For S3 this is a signed `HEAD` on the bucket; for a
-    /// custom endpoint it is a `HEAD`/`GET` on the configured URL. Returns the
-    /// specific failure (DNS, auth, bucket access, TLS) — never a stored
-    /// "working" state on an unverified endpoint.
+    /// test connection"). For S3 this is a signed `HEAD` on the bucket (the bucket
+    /// segment is appended for path-style endpoints, baked into the host for
+    /// virtual-hosted style); for a custom endpoint it is a `HEAD`/`GET` on the
+    /// configured URL. Returns the specific failure (DNS, auth, bucket access,
+    /// TLS) — never a stored "working" state on an unverified endpoint.
     public func testConnection(configuration: DestinationConfiguration) async throws {
         let config = try EndpointConfig(configuration)
         let probe: HTTPUploadRequest
         switch config.mode {
         case .s3:
-            // HEAD the bucket root — a minimal authenticated request.
-            let url = config.endpointURL
+            // HEAD the bucket — a minimal authenticated request that surfaces the
+            // spec-required "bucket access" failure for path-style endpoints too.
+            let url = config.s3BucketURL
             var headers: [String: String] = [:]
             let credentials = try resolveCredentials()
             if case let .staticKey(accessKeyID, secretAccessKey) = credentials {
@@ -172,9 +210,12 @@ public struct EndpointDestination: CaptureDestination {
                 reason: "S3 mode requires an access-key / secret-key credential"
             )
         }
-        // Object URL = endpoint + "/" + key (the endpoint already encodes the
-        // bucket for virtual-hosted style, or the path for path style).
-        let objectURL = config.endpointURL.appendingPathComponent(object.key)
+        // Build the object URL with the SAME canonical encoding the signer uses,
+        // and with the bucket prepended for path-style endpoints — so the wire
+        // path is byte-identical to the signed canonical URI (otherwise sub-delim
+        // chars in the key yield a SignatureDoesNotMatch 403). See
+        // `EndpointConfig.s3ObjectURL`.
+        let objectURL = config.s3ObjectURL(forKey: object.key)
         let signer = SigV4Signer(
             accessKeyID: accessKeyID,
             secretAccessKey: secretAccessKey,
@@ -367,97 +408,6 @@ public struct EndpointDestination: CaptureDestination {
         case "heic", "heif": return "image/heic"
         case "webp": return "image/webp"
         default: return "application/octet-stream"
-        }
-    }
-}
-
-// MARK: - Resolved configuration
-
-/// The non-secret config parsed and validated once per delivery. Parsing here
-/// (not in `deliver`) keeps the typed-error surface centralized.
-struct EndpointConfig {
-    let mode: EndpointDestination.Mode
-    let endpointURL: URL
-    let region: String?
-    let bucket: String?
-    let pathPrefix: String?
-    let publicURLPattern: String?
-    let httpMethod: HTTPUploadRequest.Method
-    let authHeaderName: String?
-    let authHeaderPrefix: String
-
-    init(_ configuration: DestinationConfiguration) throws {
-        guard let modeRaw = configuration[EndpointDestination.configMode],
-              let mode = EndpointDestination.Mode(rawValue: modeRaw)
-        else {
-            throw DestinationError(
-                code: .invalidConfiguration,
-                destinationName: "Upload to Endpoint",
-                reason: "missing or unknown upload mode"
-            )
-        }
-        guard let urlString = configuration[EndpointDestination.configEndpointURL],
-              !urlString.isEmpty,
-              let url = URL(string: urlString),
-              let scheme = url.scheme?.lowercased(),
-              scheme == "https" || scheme == "http",
-              url.host != nil
-        else {
-            throw DestinationError(
-                code: .invalidConfiguration,
-                destinationName: "Upload to Endpoint",
-                reason: "endpoint URL is missing or not a valid http(s) URL"
-            )
-        }
-        self.mode = mode
-        endpointURL = url
-        region = configuration[EndpointDestination.configRegion]
-        bucket = configuration[EndpointDestination.configBucket]
-        pathPrefix = configuration[EndpointDestination.configPathPrefix]
-        publicURLPattern = configuration[EndpointDestination.configPublicURLPattern]
-        httpMethod = HTTPUploadRequest.Method(
-            rawValue: (configuration[EndpointDestination.configHTTPMethod] ?? "PUT").uppercased()
-        ) ?? .put
-        authHeaderName = configuration[EndpointDestination.configAuthHeaderName]
-        authHeaderPrefix = configuration[EndpointDestination.configAuthHeaderPrefix] ?? ""
-    }
-
-    /// Render the object's public URL from the user's pattern. Tokens:
-    /// `{endpoint}`, `{bucket}`, `{region}`, `{key}`. When no pattern is set,
-    /// fall back to `endpoint/key`.
-    func renderedPublicURL(objectKey: String) -> URL? {
-        guard let pattern = publicURLPattern, !pattern.isEmpty else {
-            return endpointURL.appendingPathComponent(objectKey)
-        }
-        var rendered = pattern
-        rendered = rendered.replacingOccurrences(of: "{endpoint}", with: endpointURL.absoluteString)
-        rendered = rendered.replacingOccurrences(of: "{bucket}", with: bucket ?? "")
-        rendered = rendered.replacingOccurrences(of: "{region}", with: region ?? "")
-        rendered = rendered.replacingOccurrences(of: "{key}", with: objectKey)
-        return URL(string: rendered)
-    }
-}
-
-// MARK: - Upload object
-
-/// The bytes + derived object key for one upload.
-struct UploadObject {
-    let data: Data
-    let contentType: String
-    /// The object key (prefix + filename), used to build the request URL and
-    /// render the public URL. Always slash-joined, prefix sanitized of a
-    /// leading/trailing slash so we don't emit `//`.
-    let key: String
-
-    init(data: Data, fileName: String, contentType: String, prefix: String?) {
-        self.data = data
-        self.contentType = contentType
-        let cleanedPrefix = (prefix ?? "")
-            .trimmingCharacters(in: CharacterSet(charactersIn: "/ "))
-        if cleanedPrefix.isEmpty {
-            key = fileName
-        } else {
-            key = "\(cleanedPrefix)/\(fileName)"
         }
     }
 }

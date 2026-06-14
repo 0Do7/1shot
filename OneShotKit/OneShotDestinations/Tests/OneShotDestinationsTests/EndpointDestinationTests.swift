@@ -82,6 +82,99 @@ private func s3Config(prefix: String? = "shots", pattern: String? = nil) -> Dest
     #expect(receipt.shareableURL?.absoluteString == "https://cdn.example.com/shots/stripe-webhook-error.png")
 }
 
+@Test func endpoint_s3Upload_keyWithSubDelimiters_wirePathMatchesSignedCanonicalPath() async throws {
+    // A filename templated from a window title can contain RFC 3986 sub-delims
+    // (`+ & = , ; @` …). SigV4 signs `canonicalURIPath`, which percent-encodes
+    // exactly those characters — so the wire path MUST be byte-identical to the
+    // signed canonical path, or AWS returns 403 SignatureDoesNotMatch.
+    let client = MockUploadClient(response: HTTPUploadResponse(statusCode: 200))
+    let store = InMemoryCredentialStore([
+        EndpointDestination.identifier: .staticKey(accessKeyID: "AKID", secretAccessKey: "s"),
+    ])
+    let destination = EndpointDestination(client: client, credentialStore: store, now: { fixedDate })
+
+    let payload = DestinationPayload.image(
+        data: Data([0x89, 0x50, 0x4E, 0x47]),
+        utType: "public.png",
+        suggestedFileName: "a+b&c=d.png"
+    )
+    _ = try await destination.deliver(payload, configuration: s3Config())
+
+    let request = try #require(client.lastRequest)
+    // The sub-delims are percent-encoded on the wire (not left raw).
+    #expect(request.url.absoluteString
+        == "https://bucket.s3.us-east-1.amazonaws.com/shots/a%2Bb%26c%3Dd.png")
+    // The invariant that makes the signature validate: the wire-encoded path is
+    // exactly what the signer canonicalizes (no re-encoding, no mismatch).
+    let wirePath = URLComponents(url: request.url, resolvingAgainstBaseURL: false)?.percentEncodedPath
+    #expect(wirePath == SigV4Signer.canonicalURIPath(request.url))
+    #expect(wirePath == "/shots/a%2Bb%26c%3Dd.png")
+}
+
+@Test func endpoint_s3PathStyle_prependsBucketToPath_andSignaturePathMatches() async throws {
+    // Path-style endpoint: endpoint addresses the service, bucket is a config
+    // field that must become the first path segment.
+    let client = MockUploadClient(response: HTTPUploadResponse(statusCode: 200))
+    let store = InMemoryCredentialStore([
+        EndpointDestination.identifier: .staticKey(accessKeyID: "AKID", secretAccessKey: "s"),
+    ])
+    let destination = EndpointDestination(client: client, credentialStore: store, now: { fixedDate })
+
+    let config: DestinationConfiguration = [
+        EndpointDestination.configMode: "s3",
+        EndpointDestination.configEndpointURL: "https://s3.us-east-1.amazonaws.com",
+        EndpointDestination.configRegion: "us-east-1",
+        EndpointDestination.configBucket: "mybucket",
+        EndpointDestination.configPathPrefix: "shots",
+    ]
+    _ = try await destination.deliver(pngPayload, configuration: config)
+
+    let request = try #require(client.lastRequest)
+    // Bucket is inserted into the path (was previously dropped → upload to wrong key).
+    #expect(request.url.absoluteString
+        == "https://s3.us-east-1.amazonaws.com/mybucket/shots/stripe-webhook-error.png")
+    let wirePath = URLComponents(url: request.url, resolvingAgainstBaseURL: false)?.percentEncodedPath
+    #expect(wirePath == SigV4Signer.canonicalURIPath(request.url))
+}
+
+@Test func endpoint_s3VirtualHosted_doesNotDuplicateBucketInPath() async throws {
+    // Virtual-hosted style (bucket baked into host): the bucket must NOT also be
+    // prepended to the path.
+    let client = MockUploadClient(response: HTTPUploadResponse(statusCode: 200))
+    let store = InMemoryCredentialStore([
+        EndpointDestination.identifier: .staticKey(accessKeyID: "AKID", secretAccessKey: "s"),
+    ])
+    let destination = EndpointDestination(client: client, credentialStore: store, now: { fixedDate })
+
+    _ = try await destination.deliver(pngPayload, configuration: s3Config())
+
+    let request = try #require(client.lastRequest)
+    #expect(request.url.absoluteString
+        == "https://bucket.s3.us-east-1.amazonaws.com/shots/stripe-webhook-error.png")
+}
+
+@Test func endpoint_connectionTest_pathStyle_HEADsEndpointSlashBucket() async throws {
+    let client = MockUploadClient(response: HTTPUploadResponse(statusCode: 200))
+    let store = InMemoryCredentialStore([
+        EndpointDestination.identifier: .staticKey(accessKeyID: "AKID", secretAccessKey: "s"),
+    ])
+    let destination = EndpointDestination(client: client, credentialStore: store, now: { fixedDate })
+
+    let config: DestinationConfiguration = [
+        EndpointDestination.configMode: "s3",
+        EndpointDestination.configEndpointURL: "https://s3.us-east-1.amazonaws.com",
+        EndpointDestination.configRegion: "us-east-1",
+        EndpointDestination.configBucket: "mybucket",
+    ]
+    try await destination.testConnection(configuration: config)
+
+    let probe = try #require(client.lastRequest)
+    #expect(probe.method == .head)
+    // Probes the bucket — not the bare service root — so it can surface a
+    // path-style "bucket access" failure (spec).
+    #expect(probe.url.absoluteString == "https://s3.us-east-1.amazonaws.com/mybucket")
+}
+
 @Test func endpoint_publicURLDefaultsToEndpointSlashKey_whenNoPattern() async throws {
     let client = MockUploadClient()
     let store = InMemoryCredentialStore([
@@ -267,7 +360,12 @@ private func s3Config(prefix: String? = "shots", pattern: String? = nil) -> Dest
 }
 
 @Test func endpoint_customHTTP_injectsBearerTokenIntoConfiguredHeader() async throws {
-    let client = MockUploadClient(response: HTTPUploadResponse(statusCode: 201))
+    // The server reports the stored object location in the response Location
+    // header (RFC 7231) — that, not a fabricated endpoint/key, is the URL we copy.
+    let client = MockUploadClient(response: HTTPUploadResponse(
+        statusCode: 201,
+        headers: ["Location": "https://cdn.example.com/o/abc123.png"]
+    ))
     let store = InMemoryCredentialStore([
         EndpointDestination.identifier: .bearerToken("tok-123"),
     ])
@@ -280,13 +378,15 @@ private func s3Config(prefix: String? = "shots", pattern: String? = nil) -> Dest
         EndpointDestination.configAuthHeaderName: "Authorization",
         EndpointDestination.configAuthHeaderPrefix: "Bearer ",
     ]
-    _ = try await destination.deliver(pngPayload, configuration: config)
+    let receipt = try await destination.deliver(pngPayload, configuration: config)
 
     let request = try #require(client.lastRequest)
     #expect(request.method == .post)
     #expect(request.headers["Authorization"] == "Bearer tok-123")
     // POST goes to the bare configured URL (no key appended).
     #expect(request.url.absoluteString == "https://uploads.example.com/api/files")
+    // The shareable URL is the server-reported Location, NOT endpoint/key.
+    #expect(receipt.shareableURL?.absoluteString == "https://cdn.example.com/o/abc123.png")
 }
 
 // MARK: - Invalid configuration
