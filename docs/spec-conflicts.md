@@ -35,6 +35,49 @@ CIFilters, zero inpaint/heal/reconstruct candidates. Resolution per S1 findings
 (beats blur-fill baseline 2–4×); custom patch-match kernel deferred post-MVP.
 Spec requirement text unchanged (already mandates honest-failure messaging).
 
+## 2026-06-14 · spec:output-destinations · S3/custom-endpoint destination (11.2) design decisions
+No spec text changed; recording the design choices made implementing the upload
+destination (package: OneShotDestinations).
+- **Two-mode design, not one.** The spec describes an S3-style destination
+  (endpoint/region/bucket/key/secret/prefix/URL-pattern). I implemented it as
+  `EndpointDestination` with two modes behind the non-secret `mode` config field:
+  `.s3` (local SigV4-signed `PUT object`) and `.customHTTP` (generic `PUT`/`POST`
+  with configurable headers). This satisfies the spec's S3 requirement *and* the
+  lane brief's "generic custom HTTP endpoint" ask without a second destination
+  type. The "simplest correct path" (a presigned-URL `PUT` minted out-of-band) is
+  just `.customHTTP` `PUT` with no stored credential — covered and tested.
+- **SigV4 implemented (not only presigned).** The brief allowed presigned-URL PUT
+  as the minimum; I also implemented full SigV4 so a user with raw access/secret
+  keys can upload directly with zero external presigning service (spec: "zero
+  hosting cost"). The security-critical canonical-request construction is asserted
+  against AWS's published worked example (`GET iam ListUsers`, date 20150830):
+  canonical request string + its SHA-256 (`f536975d…`) match the docs exactly;
+  signing-key derivation and the end-to-end HMAC signature are verified against the
+  values that canonical-request hash produces. The production S3 path additionally
+  signs `x-amz-content-sha256` (S3 requires it), so its SignedHeaders list differs
+  from the bare IAM vector — covered by a separate test.
+- **Injectable seams (mirrors the licensing lane).** Network is behind
+  `HTTPUploadClient` (`URLSessionUploadClient` in prod, `MockUploadClient` in
+  tests — no real socket in any test, honoring spec "Network surface is limited to
+  configured uploads"). Credentials are behind `EndpointCredentialStore`
+  (`InMemoryCredentialStore` in tests; the real `SecItem` Keychain store lives in
+  the app layer, exactly as `TrialOriginStore`'s Keychain impl does). The clock is
+  injectable so SigV4 signatures are deterministic in tests.
+- **Secrets-in-Keychain-only is by construction.** `EndpointCredentials` (the
+  access/secret pair or a bearer token) is never part of `AppSettings`, only the
+  injected store. The non-secret config (endpoint/region/bucket/prefix/URL-pattern)
+  IS exported; the descriptor declares the credential field as `kind: .secret` so
+  the settings exporter omits it and the UI routes it to the Keychain. Coordinates
+  with Core 2.6's documented "destination secrets: Keychain only."
+- **Honest failure surface.** HTTP 401/403 → `.unauthorized`, 404 → `.targetMissing`,
+  other non-2xx → `.io` (folding the S3 `<Code>` element into the reason); transport
+  errors classified into `.network` with DNS/TLS/connection causes. No public URL is
+  rendered/copied unless the response is 2xx (spec: "no partial-success URL is
+  copied"); the payload is never mutated, so the capture stays re-sendable.
+- **App-layer remainder (deferred, NOT in this package):** the concrete
+  `SecItem`-backed Keychain `EndpointCredentialStore`, the configuration/connection-
+  test UI, and registry wiring belong to the §13 settings/platform lane. The domain
+  logic here is fully headless-tested (32 tests, swiftlint --strict clean).
 ## 2026-06-13 · spec:ocr-capture · automatic-language surfacing is approximate
 `VNRecognizeTextRequest` does not report the per-run *detected* language. In
 `.automatic` mode `RecognizedText.languages` is populated with the recognizer's

@@ -101,6 +101,8 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 ## 11. Destinations & output (lane: destinations; needs 2.5)
 
 - [ ] 11.1 App hand-off destination (open-with / share to running app)
+- [x] 11.2 S3/custom-endpoint destination: direct device→endpoint upload, Keychain-only credentials, excluded from settings export (spec:output-destinations) [demote-able] — EndpointDestination conforms to Core's CaptureDestination; injectable HTTPUploadClient (mock in tests, URLSessionUploadClient in prod) + injectable EndpointCredentialStore (in-memory fake in tests, Keychain in app layer). S3 SigV4-signed PUT (canonical request asserted against AWS worked example) + generic custom-HTTP PUT/POST (presigned-URL = no-credential PUT; bearer-token header injection). Connection test (signed HEAD), typed DestinationError surface (network/unauthorized/targetMissing/io with S3 `<Code>` detail), no partial-success URL on failure, shareableURL rendered from user URL pattern. Secrets live ONLY in the store → never in AppSettings/export. 32 destinations tests green, swiftlint --strict clean. App-layer wiring (real Keychain SecItem store + config/test UI) deferred to §13 settings/platform lane.
+- [ ] 11.3 Format encoders: PNG/JPEG/WebP/HEIC with file-size-conscious defaults; size-comparison tests (spec:output-destinations)
 - [ ] 11.2 S3/custom-endpoint destination: direct device→endpoint upload, Keychain-only credentials, excluded from settings export (spec:output-destinations) [demote-able]
 - [x] 11.3 Format encoders: PNG/JPEG/WebP/HEIC with file-size-conscious defaults; size-comparison tests (spec:output-destinations)
 
