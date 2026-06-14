@@ -116,8 +116,8 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 - [ ] 13.1 Hide desktop icons + widgets toggle (spec:utilities-settings)
 - [ ] 13.2 History tray: transient last-N strip, age-out discard, explicit funnel-into-Library action (spec:utilities-settings)
 - [ ] 13.3 Settings UI: progressive disclosure, launch-at-login, hideable menu-bar icon
-- [ ] 13.4 AppIntents: capture/OCR/pin/search actions for Shortcuts + Spotlight (spec:automation)
-- [ ] 13.5 URL-scheme API (off by default) + docs page; trial-expiry error behavior (spec:automation)
+- [x] 13.4 AppIntents: capture/OCR/pin/search actions for Shortcuts + Spotlight (spec:automation) — full intent catalog (capture modes, region/file OCR, pin, hide/show pins, Library search entity) + AppShortcuts (Spotlight) built in `OneShot/Sources/Automation`, all funneling through one shared `AutomationDispatcher`+gate; pin is surface-only/stubbed (§10.5), region OCR pending the in-app flow (§8.3). AppIntents runtime is runner-only; dispatch/gate/parse are unit-tested (57 swift-testing cases). See spec-conflicts 2026-06-14.
+- [x] 13.5 URL-scheme API (off by default) + docs page; trial-expiry error behavior (spec:automation) — `oneshot://` scheme registered in Info.plist; OFF by default behind `AppSettings.urlSchemeEnabled` with single disabled-notice + per-action confirm; pure parser/round-trip + x-callback-url + gate (expired-trial → contracted `capture-requires-license` error, search still works) fully unit-tested; `docs/automation.md` published. Apple-Event handler is runner-only.
 - [ ] 13.6 Raycast + Alfred extensions (thin wrappers over 13.4/13.5) [demote-able]
 
 ## 14. Licensing, updates & distribution (lane: commerce; mock-first, real Paddle in beta)
