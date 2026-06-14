@@ -56,8 +56,8 @@ Flagged `[demote-able]` = may slip to fast-follow if the beta date is at risk (P
 
 - [x] 6.1 Blur + pixelate + black-out annotation types; OCR-defeat strength floor test (blur must defeat Vision OCR on 11–14pt text) (spec:redaction)
 - [x] 6.2 Hardened export: redactions rasterized destructively on export across all formats + pasteboard types; metadata stripped; test that no pixel data survives
-- [ ] 6.3 Text-aware blur/erase: Vision text boxes → per-instance toggleable redaction annotations; all-text one-click (spec:redaction)
-- [ ] 6.4 Content-aware removal per S1 decision (inpaint or blend-fill fallback) [demote-able to fast-follow]
+- [x] 6.3 Text-aware blur/erase: Vision text boxes → per-instance toggleable redaction annotations; all-text one-click (spec:redaction) — erase branch now complete: new `RedactionAnnotation.Style.erase` = background-matching fill (no legible residue), rendered destructively at export; `TextAwareRedaction` produces erase redactions per box. (Per-instance toggle / one-click UI itself remains app-layer.)
+- [x] 6.4 Content-aware removal per S1 decision (inpaint or blend-fill fallback) [demote-able to fast-follow] — implemented the S1 diffusion-fill fallback (CI-only, no built-in inpaint on macOS 26.3) as the `.erase` renderer: ring-seed + shrinking-sigma blur-and-reblend, synthesizing the fill from surrounding pixels only. OCR-defeat floor + background-continuity tested with real Vision.
 
 ## 7. Scrolling capture (lane: scroll; needs 3.1; the reliability crown — protect this lane's time)
 

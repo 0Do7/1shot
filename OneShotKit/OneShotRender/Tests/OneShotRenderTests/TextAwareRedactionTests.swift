@@ -73,15 +73,13 @@ private enum TextAwareSupport {
 
 // MARK: - spec: Text-aware blur and erase
 
-// NOTE: spec scenario "Text-aware erase blends" ("the text regions are filled to
-// match the surrounding background with no legible residue") is NOT covered by
-// this package / task 6.3. A background-blending erase needs a fill style that
-// matches surrounding pixels; `RedactionAnnotation.Style` (OneShotCore) offers
-// only blur / pixelate / blackout — none blends — so the model layer cannot
-// represent erase. Blended/synthesized fill belongs to the separate
-// "Content-aware object removal" requirement (inpainting), tracked elsewhere.
-// `redactionStylePassesThrough` below ONLY verifies style pass-through (e.g.
-// blackout), and deliberately does not assert any blending.
+// NOTE: spec scenario "Text-aware erase blends" is now covered end-to-end. The
+// model layer here produces one `.erase` redaction per detected instance (see
+// `oneClickErasesAllText`); the actual background-matching fill (spike S1 diffusion
+// fill, no legible residue) is rendered in `RedactionRenderer` and asserted by
+// `textAwareEraseBlends` in RedactionTests over a real Vision OCR-defeat + a
+// background-continuity check. `redactionStylePassesThrough` below verifies style
+// pass-through for the obscuring styles.
 
 /// #### Scenario: One click redacts all text
 @Test func oneClickRedactsAllText() {
@@ -103,9 +101,25 @@ private enum TextAwareSupport {
     #expect(result.redactions.map(\.id) == boxes.map(\.id))
 }
 
-/// Style pass-through ONLY: the helper emits exactly the chosen style for every
-/// instance. This does NOT cover the spec scenario "Text-aware erase blends" — see
-/// the note above; a background-blending erase has no model representation here.
+/// #### Scenario: Text-aware erase blends (model half)
+/// One-click text-aware ERASE produces one `.erase` redaction per detected instance.
+/// The fill/blend itself is asserted in RedactionTests.textAwareEraseBlends.
+@Test func oneClickErasesAllText() {
+    let boxes = TextAwareSupport.fixtureLineBoxes()
+    let result = TextAwareRedaction.allText(
+        in: boxes,
+        imageSize: TextAwareSupport.imageSize(),
+        style: .erase
+    )
+    #expect(result.redactions.count == boxes.count)
+    #expect(!result.foundNoText)
+    #expect(result.redactions.allSatisfy { $0.style == .erase })
+    let allDetected = result.redactions.allSatisfy(\.detectedText)
+    #expect(allDetected)
+    #expect(result.redactions.map(\.id) == boxes.map(\.id))
+}
+
+/// Style pass-through: the helper emits exactly the chosen style for every instance.
 @Test func redactionStylePassesThrough() {
     let boxes = TextAwareSupport.fixtureLineBoxes()
     let result = TextAwareRedaction.allText(

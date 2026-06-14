@@ -72,6 +72,61 @@ enum RedactionFixtures {
         ImageProvider(images: [captureName: capturePNG(pointSize: pointSize)])
     }
 
+    // MARK: Flat-background fixture (for erase background-continuity)
+
+    static let flatName = "flat-bg.png"
+    /// The exact solid background colour of the flat fixture (sRGB 0–1). An erase
+    /// over text on this background must fill back to (approximately) this colour.
+    static let flatBackground = DocColor(red: 0.20, green: 0.45, blue: 0.70)
+    /// Where one line of dark text sits on the flat background (the erase target).
+    static let flatTextRegion = DocRect(x: 24, y: 70, width: 320, height: 40)
+
+    /// A solid-colour capture with one line of dark text — the spec's "text over a
+    /// flat background" case for "Text-aware erase blends". After erasing the text
+    /// region the fill must (a) defeat OCR and (b) match the flat background colour.
+    static func flatCapturePNG(pointSize: CGFloat = 14) -> Data {
+        let space = CGColorSpace(name: CGColorSpace.sRGB) ?? CGColorSpaceCreateDeviceRGB()
+        let ctx = CGContext(
+            data: nil, width: width, height: height,
+            bitsPerComponent: 8, bytesPerRow: 0, space: space,
+            bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue
+        )!
+        ctx.setFillColor(
+            red: CGFloat(flatBackground.red),
+            green: CGFloat(flatBackground.green),
+            blue: CGFloat(flatBackground.blue),
+            alpha: 1
+        )
+        ctx.fill(CGRect(x: 0, y: 0, width: width, height: height))
+
+        let font = CTFontCreateUIFontForLanguage(.system, pointSize, nil)
+            ?? CTFontCreateWithName("Helvetica" as CFString, pointSize, nil)
+        let dark = CGColor(colorSpace: space, components: [0.02, 0.02, 0.05, 1])!
+        // One distinctive line, centred in flatTextRegion (CG bottom-left origin:
+        // docY 70..110 → cgY (height-110)..(height-70)).
+        let attrs: [CFString: Any] = [kCTFontAttributeName: font, kCTForegroundColorAttributeName: dark]
+        let str = strings[1] // "secret-token-ZQW9"
+        let attributed = CFAttributedStringCreate(kCFAllocatorDefault, str as CFString, attrs as CFDictionary)!
+        let line = CTLineCreateWithAttributedString(attributed)
+        ctx.textPosition = CGPoint(x: 30, y: CGFloat(height) - 100)
+        CTLineDraw(line, ctx)
+
+        let image = ctx.makeImage()!
+        let out = NSMutableData()
+        let dest = CGImageDestinationCreateWithData(out, UTType.png.identifier as CFString, 1, nil)!
+        CGImageDestinationAddImage(dest, image, nil)
+        _ = CGImageDestinationFinalize(dest)
+        return out as Data
+    }
+
+    static func flatProvider() -> ImageProvider {
+        ImageProvider(images: [flatName: flatCapturePNG()])
+    }
+
+    static func flatBaseRef() -> ImageReference {
+        ImageReference(fileName: flatName, pixelWidth: width, pixelHeight: height, scale: 1)
+    }
+
     static func baseRef() -> ImageReference {
         ImageReference(fileName: captureName, pixelWidth: width, pixelHeight: height, scale: 1)
     }

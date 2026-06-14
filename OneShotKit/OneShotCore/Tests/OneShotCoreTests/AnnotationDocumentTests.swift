@@ -188,3 +188,40 @@ private func sampleDocument() -> AnnotationDocument {
     )
     #expect(magnifier.magnification == 3)
 }
+
+/// Spec: Redactions survive serialization — the new `.erase` style (background-
+/// matching fill / content-aware removal) round-trips like the obscuring styles.
+@Test func eraseRedactionStyle_roundTrips() throws {
+    let id = try #require(UUID(uuidString: "00000000-0000-0000-0000-000000000661"))
+    let original = AnnotationDocument(
+        baseImage: ImageReference(fileName: "base.png", pixelWidth: 200, pixelHeight: 120, scale: 1),
+        annotations: [
+            .redaction(RedactionAnnotation(
+                id: id,
+                rect: DocRect(x: 10, y: 10, width: 90, height: 20),
+                style: .erase,
+                detectedText: true
+            )),
+        ]
+    )
+    let decoded = try DocumentCodec.decode(DocumentCodec.encode(original))
+    #expect(decoded == original)
+    guard case let .redaction(redaction) = decoded.annotations.first else {
+        Issue.record("expected a redaction")
+        return
+    }
+    #expect(redaction.style == .erase)
+    #expect(redaction.detectedText)
+}
+
+/// The `.erase` raw value is the stable wire token "erase" (the JSON format is the
+/// cross-platform contract — pin it so a rename can't silently break old documents).
+@Test func eraseStyle_wireTokenIsStable() throws {
+    let data = try DocumentCodec.encode(AnnotationDocument(
+        baseImage: ImageReference(fileName: "b.png", pixelWidth: 10, pixelHeight: 10, scale: 1),
+        annotations: [.redaction(RedactionAnnotation(rect: DocRect(x: 0, y: 0, width: 5, height: 5), style: .erase))]
+    ))
+    let json = try #require(String(bytes: data, encoding: .utf8))
+    #expect(json.contains("\"style\":\"erase\"") || json.contains("\"style\" : \"erase\""))
+    #expect(RedactionAnnotation.Style.erase.rawValue == "erase")
+}
